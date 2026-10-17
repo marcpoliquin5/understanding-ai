@@ -1,0 +1,306 @@
+# References
+
+Every source cited in Understanding AI, grouped by section. Each entry links to the arXiv abstract page, the DOI, or the official publisher page. All arXiv titles and DOIs in this list were checked against arXiv and Crossref when they were added.
+
+> If you find an error in an entry, please open an issue or pull request (see [CONTRIBUTING](CONTRIBUTING.md)).
+
+## Contents
+
+- [Textbooks](#textbooks)
+- [Foundations and history](#foundations-and-history)
+- [Optimization and learning theory](#optimization-and-learning-theory)
+- [Classical machine learning](#classical-machine-learning)
+- [Reinforcement learning](#reinforcement-learning)
+- [Deep learning architectures](#deep-learning-architectures)
+- [Transformers and language models](#transformers-and-language-models)
+- [Generative and multimodal models](#generative-and-multimodal-models)
+- [Retrieval, tools and agents](#retrieval-tools-and-agents)
+- [Systems](#systems)
+- [Alignment, safety and interpretability](#alignment-safety-and-interpretability)
+- [Frontiers: recursion and self-improvement](#frontiers-recursion-and-self-improvement)
+- [Frontiers: fractal and self-similar structure](#frontiers-fractal-and-self-similar-structure)
+- [Frontiers: non-linearity and dynamical systems](#frontiers-non-linearity-and-dynamical-systems)
+- [Frontiers: photonic and optical computing](#frontiers-photonic-and-optical-computing)
+- [Frontiers: neuromorphic computing](#frontiers-neuromorphic-computing)
+- [Frontiers: quantum machine learning](#frontiers-quantum-machine-learning)
+- [Frontiers: world models](#frontiers-world-models)
+
+## Textbooks
+
+- Bishop, C. M. (2006). *Pattern Recognition and Machine Learning*. Springer.
+- Goodfellow, I., Bengio, Y., Courville, A. (2016). *Deep Learning*. MIT Press. [Link](https://www.deeplearningbook.org/)
+- Hastie, T., Tibshirani, R., Friedman, J. (2009). *The Elements of Statistical Learning (2nd ed.)*. Springer. [Link](https://hastie.su.domains/ElemStatLearn/)
+- Mandelbrot, B. B. (1982). *The Fractal Geometry of Nature*. W. H. Freeman.
+- Russell, S., Norvig, P. (2020). *Artificial Intelligence: A Modern Approach (4th ed.)*. Pearson.
+- Strogatz, S. H. (2015). *Nonlinear Dynamics and Chaos (2nd ed.)*. CRC Press.
+- Sutton, R. S., Barto, A. G. (2018). *Reinforcement Learning: An Introduction (2nd ed.)*. MIT Press. [Link](http://incompleteideas.net/book/the-book-2nd.html)
+
+## Foundations and history
+
+- Bommasani, R., et al. (2021). *On the opportunities and risks of foundation models*. arXiv. [arXiv:2108.07258](https://arxiv.org/abs/2108.07258)
+- Cybenko, G. (1989). *Approximation by superpositions of a sigmoidal function*. Mathematics of Control, Signals and Systems. [doi:10.1007/BF02551274](https://doi.org/10.1007/BF02551274)
+- Hinton, G. E., Osindero, S., Teh, Y.-W. (2006). *A fast learning algorithm for deep belief nets*. Neural Computation. [doi:10.1162/neco.2006.18.7.1527](https://doi.org/10.1162/neco.2006.18.7.1527)
+- Hornik, K., Stinchcombe, M., White, H. (1989). *Multilayer feedforward networks are universal approximators*. Neural Networks. [doi:10.1016/0893-6080(89)90020-8](https://doi.org/10.1016/0893-6080(89)90020-8)
+- Kullback, S., Leibler, R. A. (1951). *On information and sufficiency*. Annals of Mathematical Statistics. [doi:10.1214/aoms/1177729694](https://doi.org/10.1214/aoms/1177729694)
+- McCarthy, J., Minsky, M. L., Rochester, N., Shannon, C. E. (2006). *A proposal for the Dartmouth Summer Research Project on Artificial Intelligence, August 31, 1955*. AI Magazine (reprint). [doi:10.1609/aimag.v27i4.1904](https://doi.org/10.1609/aimag.v27i4.1904)
+- McCulloch, W. S., Pitts, W. (1943). *A logical calculus of the ideas immanent in nervous activity*. Bulletin of Mathematical Biophysics. [doi:10.1007/BF02478259](https://doi.org/10.1007/BF02478259)
+- Robbins, H., Monro, S. (1951). *A stochastic approximation method*. Annals of Mathematical Statistics. [doi:10.1214/aoms/1177729586](https://doi.org/10.1214/aoms/1177729586)
+- Rosenblatt, F. (1958). *The perceptron: a probabilistic model for information storage and organization in the brain*. Psychological Review. [doi:10.1037/h0042519](https://doi.org/10.1037/h0042519)
+- Rumelhart, D. E., Hinton, G. E., Williams, R. J. (1986). *Learning representations by back-propagating errors*. Nature. [doi:10.1038/323533a0](https://doi.org/10.1038/323533a0)
+- Shannon, C. E. (1948). *A mathematical theory of communication*. Bell System Technical Journal. [doi:10.1002/j.1538-7305.1948.tb01338.x](https://doi.org/10.1002/j.1538-7305.1948.tb01338.x)
+- Turing, A. M. (1950). *Computing machinery and intelligence*. Mind. [doi:10.1093/mind/LIX.236.433](https://doi.org/10.1093/mind/LIX.236.433)
+- Valiant, L. G. (1984). *A theory of the learnable*. Communications of the ACM. [doi:10.1145/1968.1972](https://doi.org/10.1145/1968.1972)
+- Wolpert, D. H., Macready, W. G. (1997). *No free lunch theorems for optimization*. IEEE Transactions on Evolutionary Computation. [doi:10.1109/4235.585893](https://doi.org/10.1109/4235.585893)
+
+## Optimization and learning theory
+
+- Belkin, M., Hsu, D., Ma, S., Mandal, S. (2019). *Reconciling modern machine-learning practice and the classical bias–variance trade-off*. PNAS. [arXiv:1812.11118](https://arxiv.org/abs/1812.11118)
+- Cohen, J. M., Kaur, S., Li, Y., Kolter, J. Z., Talwalkar, A. (2021). *Gradient descent on neural networks typically occurs at the edge of stability*. ICLR. [arXiv:2103.00065](https://arxiv.org/abs/2103.00065)
+- Glorot, X., Bengio, Y. (2010). *Understanding the difficulty of training deep feedforward neural networks*. AISTATS. [Link](https://proceedings.mlr.press/v9/glorot10a.html)
+- He, K., Zhang, X., Ren, S., Sun, J. (2015). *Delving deep into rectifiers: Surpassing human-level performance on ImageNet classification*. ICCV. [arXiv:1502.01852](https://arxiv.org/abs/1502.01852)
+- Jacot, A., Gabriel, F., Hongler, C. (2018). *Neural tangent kernel: Convergence and generalization in neural networks*. NeurIPS. [arXiv:1806.07572](https://arxiv.org/abs/1806.07572)
+- Kingma, D. P., Ba, J. (2014). *Adam: A method for stochastic optimization*. ICLR 2015. [arXiv:1412.6980](https://arxiv.org/abs/1412.6980)
+- Li, H., Xu, Z., Taylor, G., Studer, C., Goldstein, T. (2018). *Visualizing the loss landscape of neural nets*. NeurIPS. [arXiv:1712.09913](https://arxiv.org/abs/1712.09913)
+- Loshchilov, I., Hutter, F. (2017). *Decoupled weight decay regularization*. ICLR 2019. [arXiv:1711.05101](https://arxiv.org/abs/1711.05101)
+- Nakkiran, P., et al. (2019). *Deep double descent: Where bigger models and more data hurt*. ICLR 2020. [arXiv:1912.02292](https://arxiv.org/abs/1912.02292)
+- Power, A., Burda, Y., Edwards, H., Babuschkin, I., Misra, V. (2022). *Grokking: Generalization beyond overfitting on small algorithmic datasets*. arXiv. [arXiv:2201.02177](https://arxiv.org/abs/2201.02177)
+- Saxe, A. M., McClelland, J. L., Ganguli, S. (2013). *Exact solutions to the nonlinear dynamics of learning in deep linear neural networks*. ICLR 2014. [arXiv:1312.6120](https://arxiv.org/abs/1312.6120)
+- Zhang, C., Bengio, S., Hardt, M., Recht, B., Vinyals, O. (2016). *Understanding deep learning requires rethinking generalization*. ICLR 2017. [arXiv:1611.03530](https://arxiv.org/abs/1611.03530)
+
+## Classical machine learning
+
+- Breiman, L. (2001). *Random forests*. Machine Learning. [doi:10.1023/A:1010933404324](https://doi.org/10.1023/A:1010933404324)
+- Chen, T., Guestrin, C. (2016). *XGBoost: A scalable tree boosting system*. KDD. [arXiv:1603.02754](https://arxiv.org/abs/1603.02754)
+- Chen, T., Kornblith, S., Norouzi, M., Hinton, G. (2020). *A simple framework for contrastive learning of visual representations*. ICML. [arXiv:2002.05709](https://arxiv.org/abs/2002.05709)
+- Cortes, C., Vapnik, V. (1995). *Support-vector networks*. Machine Learning. [doi:10.1007/BF00994018](https://doi.org/10.1007/BF00994018)
+- Dempster, A. P., Laird, N. M., Rubin, D. B. (1977). *Maximum likelihood from incomplete data via the EM algorithm*. Journal of the Royal Statistical Society, Series B. [doi:10.1111/j.2517-6161.1977.tb01600.x](https://doi.org/10.1111/j.2517-6161.1977.tb01600.x)
+- Friedman, J. H. (2001). *Greedy function approximation: A gradient boosting machine*. Annals of Statistics. [doi:10.1214/aos/1013203451](https://doi.org/10.1214/aos/1013203451)
+- Lloyd, S. P. (1982). *Least squares quantization in PCM*. IEEE Transactions on Information Theory. [doi:10.1109/TIT.1982.1056489](https://doi.org/10.1109/TIT.1982.1056489)
+- McInnes, L., Healy, J., Melville, J. (2018). *UMAP: Uniform manifold approximation and projection for dimension reduction*. arXiv. [arXiv:1802.03426](https://arxiv.org/abs/1802.03426)
+- Pearson, K. (1901). *On lines and planes of closest fit to systems of points in space*. Philosophical Magazine. [doi:10.1080/14786440109462720](https://doi.org/10.1080/14786440109462720)
+- Tibshirani, R. (1996). *Regression shrinkage and selection via the lasso*. Journal of the Royal Statistical Society, Series B. [doi:10.1111/j.2517-6161.1996.tb02080.x](https://doi.org/10.1111/j.2517-6161.1996.tb02080.x)
+- van der Maaten, L., Hinton, G. (2008). *Visualizing data using t-SNE*. JMLR. [Link](https://jmlr.org/papers/v9/vandermaaten08a.html)
+
+## Reinforcement learning
+
+- Mnih, V., et al. (2015). *Human-level control through deep reinforcement learning*. Nature. [doi:10.1038/nature14236](https://doi.org/10.1038/nature14236)
+- Schrittwieser, J., et al. (2020). *Mastering Atari, Go, chess and shogi by planning with a learned model*. Nature. [doi:10.1038/s41586-020-03051-4](https://doi.org/10.1038/s41586-020-03051-4)
+- Schulman, J., Wolski, F., Dhariwal, P., Radford, A., Klimov, O. (2017). *Proximal policy optimization algorithms*. arXiv. [arXiv:1707.06347](https://arxiv.org/abs/1707.06347)
+- Silver, D., et al. (2016). *Mastering the game of Go with deep neural networks and tree search*. Nature. [doi:10.1038/nature16961](https://doi.org/10.1038/nature16961)
+- Silver, D., et al. (2017). *Mastering the game of Go without human knowledge*. Nature. [doi:10.1038/nature24270](https://doi.org/10.1038/nature24270)
+- Silver, D., et al. (2018). *A general reinforcement learning algorithm that masters chess, shogi, and Go through self-play*. Science. [doi:10.1126/science.aar6404](https://doi.org/10.1126/science.aar6404)
+- Sutton, R. S. (1991). *Dyna, an integrated architecture for learning, planning, and reacting*. ACM SIGART Bulletin. [doi:10.1145/122344.122377](https://doi.org/10.1145/122344.122377)
+
+## Deep learning architectures
+
+- Ba, J. L., Kiros, J. R., Hinton, G. E. (2016). *Layer normalization*. arXiv. [arXiv:1607.06450](https://arxiv.org/abs/1607.06450)
+- Bahdanau, D., Cho, K., Bengio, Y. (2014). *Neural machine translation by jointly learning to align and translate*. ICLR 2015. [arXiv:1409.0473](https://arxiv.org/abs/1409.0473)
+- Gu, A., Dao, T. (2023). *Mamba: Linear-time sequence modeling with selective state spaces*. arXiv. [arXiv:2312.00752](https://arxiv.org/abs/2312.00752)
+- Gu, A., Goel, K., Ré, C. (2021). *Efficiently modeling long sequences with structured state spaces*. ICLR 2022. [arXiv:2111.00396](https://arxiv.org/abs/2111.00396)
+- He, K., Zhang, X., Ren, S., Sun, J. (2016). *Deep residual learning for image recognition*. CVPR. [arXiv:1512.03385](https://arxiv.org/abs/1512.03385)
+- Hendrycks, D., Gimpel, K. (2016). *Gaussian error linear units (GELUs)*. arXiv. [arXiv:1606.08415](https://arxiv.org/abs/1606.08415)
+- Hochreiter, S., Schmidhuber, J. (1997). *Long short-term memory*. Neural Computation. [doi:10.1162/neco.1997.9.8.1735](https://doi.org/10.1162/neco.1997.9.8.1735)
+- Ioffe, S., Szegedy, C. (2015). *Batch normalization: Accelerating deep network training by reducing internal covariate shift*. ICML. [arXiv:1502.03167](https://arxiv.org/abs/1502.03167)
+- Krizhevsky, A., Sutskever, I., Hinton, G. E. (2012). *ImageNet classification with deep convolutional neural networks*. NeurIPS 2012; CACM 2017. [doi:10.1145/3065386](https://doi.org/10.1145/3065386)
+- LeCun, Y., Bottou, L., Bengio, Y., Haffner, P. (1998). *Gradient-based learning applied to document recognition*. Proceedings of the IEEE. [doi:10.1109/5.726791](https://doi.org/10.1109/5.726791)
+- Mikolov, T., Chen, K., Corrado, G., Dean, J. (2013). *Efficient estimation of word representations in vector space*. arXiv. [arXiv:1301.3781](https://arxiv.org/abs/1301.3781)
+- Pascanu, R., Mikolov, T., Bengio, Y. (2013). *On the difficulty of training recurrent neural networks*. ICML. [arXiv:1211.5063](https://arxiv.org/abs/1211.5063)
+- Shazeer, N. (2020). *GLU variants improve transformer*. arXiv. [arXiv:2002.05202](https://arxiv.org/abs/2002.05202)
+- Srivastava, N., Hinton, G., Krizhevsky, A., Sutskever, I., Salakhutdinov, R. (2014). *Dropout: A simple way to prevent neural networks from overfitting*. JMLR. [Link](https://jmlr.org/papers/v15/srivastava14a.html)
+- Sutskever, I., Vinyals, O., Le, Q. V. (2014). *Sequence to sequence learning with neural networks*. NeurIPS. [arXiv:1409.3215](https://arxiv.org/abs/1409.3215)
+- Zhang, B., Sennrich, R. (2019). *Root mean square layer normalization*. NeurIPS. [arXiv:1910.07467](https://arxiv.org/abs/1910.07467)
+
+## Transformers and language models
+
+- Bai, Y., et al. (2022). *Constitutional AI: Harmlessness from AI feedback*. arXiv. [arXiv:2212.08073](https://arxiv.org/abs/2212.08073)
+- Brown, T. B., et al. (2020). *Language models are few-shot learners*. NeurIPS. [arXiv:2005.14165](https://arxiv.org/abs/2005.14165)
+- Christiano, P., et al. (2017). *Deep reinforcement learning from human preferences*. NeurIPS. [arXiv:1706.03741](https://arxiv.org/abs/1706.03741)
+- DeepSeek-AI (2025). *DeepSeek-R1: Incentivizing reasoning capability in LLMs via reinforcement learning*. arXiv. [arXiv:2501.12948](https://arxiv.org/abs/2501.12948)
+- Dettmers, T., Pagnoni, A., Holtzman, A., Zettlemoyer, L. (2023). *QLoRA: Efficient finetuning of quantized LLMs*. NeurIPS. [arXiv:2305.14314](https://arxiv.org/abs/2305.14314)
+- Devlin, J., Chang, M.-W., Lee, K., Toutanova, K. (2018). *BERT: Pre-training of deep bidirectional transformers for language understanding*. NAACL 2019. [arXiv:1810.04805](https://arxiv.org/abs/1810.04805)
+- Hestness, J., et al. (2017). *Deep learning scaling is predictable, empirically*. arXiv. [arXiv:1712.00409](https://arxiv.org/abs/1712.00409)
+- Hoffmann, J., et al. (2022). *Training compute-optimal large language models*. NeurIPS. [arXiv:2203.15556](https://arxiv.org/abs/2203.15556)
+- Holtzman, A., Buys, J., Du, L., Forbes, M., Choi, Y. (2019). *The curious case of neural text degeneration*. ICLR 2020. [arXiv:1904.09751](https://arxiv.org/abs/1904.09751)
+- Hu, E. J., et al. (2021). *LoRA: Low-rank adaptation of large language models*. ICLR 2022. [arXiv:2106.09685](https://arxiv.org/abs/2106.09685)
+- Ji, Z., et al. (2023). *Survey of hallucination in natural language generation*. ACM Computing Surveys. [arXiv:2202.03629](https://arxiv.org/abs/2202.03629)
+- Kaplan, J., et al. (2020). *Scaling laws for neural language models*. arXiv. [arXiv:2001.08361](https://arxiv.org/abs/2001.08361)
+- Kojima, T., Gu, S. S., Reid, M., Matsuo, Y., Iwasawa, Y. (2022). *Large language models are zero-shot reasoners*. NeurIPS. [arXiv:2205.11916](https://arxiv.org/abs/2205.11916)
+- Lightman, H., et al. (2023). *Let's verify step by step*. ICLR 2024. [arXiv:2305.20050](https://arxiv.org/abs/2305.20050)
+- Ouyang, L., et al. (2022). *Training language models to follow instructions with human feedback*. NeurIPS. [arXiv:2203.02155](https://arxiv.org/abs/2203.02155)
+- Rafailov, R., et al. (2023). *Direct preference optimization: Your language model is secretly a reward model*. NeurIPS. [arXiv:2305.18290](https://arxiv.org/abs/2305.18290)
+- Raffel, C., et al. (2019). *Exploring the limits of transfer learning with a unified text-to-text transformer*. JMLR 2020. [arXiv:1910.10683](https://arxiv.org/abs/1910.10683)
+- Schaeffer, R., Miranda, B., Koyejo, S. (2023). *Are emergent abilities of large language models a mirage?*. NeurIPS. [arXiv:2304.15004](https://arxiv.org/abs/2304.15004)
+- Sennrich, R., Haddow, B., Birch, A. (2015). *Neural machine translation of rare words with subword units*. ACL 2016. [arXiv:1508.07909](https://arxiv.org/abs/1508.07909)
+- Snell, C., Lee, J., Xu, K., Kumar, A. (2024). *Scaling LLM test-time compute optimally can be more effective than scaling model parameters*. arXiv. [arXiv:2408.03314](https://arxiv.org/abs/2408.03314)
+- Su, J., et al. (2021). *RoFormer: Enhanced transformer with rotary position embedding*. arXiv. [arXiv:2104.09864](https://arxiv.org/abs/2104.09864)
+- Touvron, H., et al. (2023). *LLaMA: Open and efficient foundation language models*. arXiv. [arXiv:2302.13971](https://arxiv.org/abs/2302.13971)
+- Vaswani, A., et al. (2017). *Attention is all you need*. NeurIPS. [arXiv:1706.03762](https://arxiv.org/abs/1706.03762)
+- Wang, X., et al. (2022). *Self-consistency improves chain of thought reasoning in language models*. ICLR 2023. [arXiv:2203.11171](https://arxiv.org/abs/2203.11171)
+- Wei, J., et al. (2022). *Emergent abilities of large language models*. TMLR. [arXiv:2206.07682](https://arxiv.org/abs/2206.07682)
+- Wei, J., et al. (2022). *Chain-of-thought prompting elicits reasoning in large language models*. NeurIPS. [arXiv:2201.11903](https://arxiv.org/abs/2201.11903)
+- Yao, S., et al. (2023). *Tree of thoughts: Deliberate problem solving with large language models*. NeurIPS. [arXiv:2305.10601](https://arxiv.org/abs/2305.10601)
+
+## Generative and multimodal models
+
+- Alayrac, J.-B., et al. (2022). *Flamingo: A visual language model for few-shot learning*. NeurIPS. [arXiv:2204.14198](https://arxiv.org/abs/2204.14198)
+- Dosovitskiy, A., et al. (2020). *An image is worth 16x16 words: Transformers for image recognition at scale*. ICLR 2021. [arXiv:2010.11929](https://arxiv.org/abs/2010.11929)
+- Goodfellow, I., et al. (2014). *Generative adversarial nets*. NeurIPS. [arXiv:1406.2661](https://arxiv.org/abs/1406.2661)
+- Ho, J., Jain, A., Abbeel, P. (2020). *Denoising diffusion probabilistic models*. NeurIPS. [arXiv:2006.11239](https://arxiv.org/abs/2006.11239)
+- Ho, J., Salimans, T. (2022). *Classifier-free diffusion guidance*. arXiv. [arXiv:2207.12598](https://arxiv.org/abs/2207.12598)
+- Jumper, J., et al. (2021). *Highly accurate protein structure prediction with AlphaFold*. Nature. [doi:10.1038/s41586-021-03819-2](https://doi.org/10.1038/s41586-021-03819-2)
+- Kingma, D. P., Welling, M. (2013). *Auto-encoding variational Bayes*. ICLR 2014. [arXiv:1312.6114](https://arxiv.org/abs/1312.6114)
+- Lipman, Y., Chen, R. T. Q., Ben-Hamu, H., Nickel, M., Le, M. (2022). *Flow matching for generative modeling*. ICLR 2023. [arXiv:2210.02747](https://arxiv.org/abs/2210.02747)
+- Liu, H., Li, C., Wu, Q., Lee, Y. J. (2023). *Visual instruction tuning*. NeurIPS. [arXiv:2304.08485](https://arxiv.org/abs/2304.08485)
+- Peebles, W., Xie, S. (2022). *Scalable diffusion models with transformers*. ICCV 2023. [arXiv:2212.09748](https://arxiv.org/abs/2212.09748)
+- Radford, A., et al. (2021). *Learning transferable visual models from natural language supervision*. ICML. [arXiv:2103.00020](https://arxiv.org/abs/2103.00020)
+- Radford, A., et al. (2022). *Robust speech recognition via large-scale weak supervision*. ICML 2023. [arXiv:2212.04356](https://arxiv.org/abs/2212.04356)
+- Ramesh, A., et al. (2022). *Hierarchical text-conditional image generation with CLIP latents*. arXiv. [arXiv:2204.06125](https://arxiv.org/abs/2204.06125)
+- Rombach, R., Blattmann, A., Lorenz, D., Esser, P., Ommer, B. (2022). *High-resolution image synthesis with latent diffusion models*. CVPR. [arXiv:2112.10752](https://arxiv.org/abs/2112.10752)
+- Sohl-Dickstein, J., Weiss, E., Maheswaranathan, N., Ganguli, S. (2015). *Deep unsupervised learning using nonequilibrium thermodynamics*. ICML. [arXiv:1503.03585](https://arxiv.org/abs/1503.03585)
+- Song, Y., et al. (2021). *Score-based generative modeling through stochastic differential equations*. ICLR. [arXiv:2011.13456](https://arxiv.org/abs/2011.13456)
+
+## Retrieval, tools and agents
+
+- Lewis, P., et al. (2020). *Retrieval-augmented generation for knowledge-intensive NLP tasks*. NeurIPS. [arXiv:2005.11401](https://arxiv.org/abs/2005.11401)
+- Model Context Protocol (2024). *Model Context Protocol specification and documentation*. Website. [Link](https://modelcontextprotocol.io/)
+- Park, J. S., et al. (2023). *Generative agents: Interactive simulacra of human behavior*. UIST. [arXiv:2304.03442](https://arxiv.org/abs/2304.03442)
+- Schick, T., et al. (2023). *Toolformer: Language models can teach themselves to use tools*. NeurIPS. [arXiv:2302.04761](https://arxiv.org/abs/2302.04761)
+- Shinn, N., et al. (2023). *Reflexion: Language agents with verbal reinforcement learning*. NeurIPS. [arXiv:2303.11366](https://arxiv.org/abs/2303.11366)
+- Wang, G., et al. (2023). *Voyager: An open-ended embodied agent with large language models*. arXiv. [arXiv:2305.16291](https://arxiv.org/abs/2305.16291)
+- Yao, S., et al. (2022). *ReAct: Synergizing reasoning and acting in language models*. ICLR 2023. [arXiv:2210.03629](https://arxiv.org/abs/2210.03629)
+
+## Systems
+
+- Dao, T., Fu, D. Y., Ermon, S., Rudra, A., Ré, C. (2022). *FlashAttention: Fast and memory-efficient exact attention with IO-awareness*. NeurIPS. [arXiv:2205.14135](https://arxiv.org/abs/2205.14135)
+- Dettmers, T., Lewis, M., Belkada, Y., Zettlemoyer, L. (2022). *LLM.int8(): 8-bit matrix multiplication for transformers at scale*. NeurIPS. [arXiv:2208.07339](https://arxiv.org/abs/2208.07339)
+- Fedus, W., Zoph, B., Shazeer, N. (2021). *Switch transformers: Scaling to trillion parameter models with simple and efficient sparsity*. JMLR 2022. [arXiv:2101.03961](https://arxiv.org/abs/2101.03961)
+- Frantar, E., Ashkboos, S., Hoefler, T., Alistarh, D. (2022). *GPTQ: Accurate post-training quantization for generative pre-trained transformers*. ICLR 2023. [arXiv:2210.17323](https://arxiv.org/abs/2210.17323)
+- Hinton, G., Vinyals, O., Dean, J. (2015). *Distilling the knowledge in a neural network*. arXiv. [arXiv:1503.02531](https://arxiv.org/abs/1503.02531)
+- Hooker, S. (2020). *The hardware lottery*. Communications of the ACM 2021. [arXiv:2009.06489](https://arxiv.org/abs/2009.06489)
+- Huang, Y., et al. (2019). *GPipe: Efficient training of giant neural networks using pipeline parallelism*. NeurIPS. [arXiv:1811.06965](https://arxiv.org/abs/1811.06965)
+- Jouppi, N. P., et al. (2017). *In-datacenter performance analysis of a tensor processing unit*. ISCA. [arXiv:1704.04760](https://arxiv.org/abs/1704.04760)
+- Kwon, W., et al. (2023). *Efficient memory management for large language model serving with PagedAttention*. SOSP. [arXiv:2309.06180](https://arxiv.org/abs/2309.06180)
+- Leviathan, Y., Kalman, M., Matias, Y. (2023). *Fast inference from transformers via speculative decoding*. ICML. [arXiv:2211.17192](https://arxiv.org/abs/2211.17192)
+- Micikevicius, P., et al. (2017). *Mixed precision training*. ICLR 2018. [arXiv:1710.03740](https://arxiv.org/abs/1710.03740)
+- Patterson, D., et al. (2021). *Carbon emissions and large neural network training*. arXiv. [arXiv:2104.10350](https://arxiv.org/abs/2104.10350)
+- Rajbhandari, S., Rasley, J., Ruwase, O., He, Y. (2020). *ZeRO: Memory optimizations toward training trillion parameter models*. SC20. [arXiv:1910.02054](https://arxiv.org/abs/1910.02054)
+- Shazeer, N., et al. (2017). *Outrageously large neural networks: The sparsely-gated mixture-of-experts layer*. ICLR. [arXiv:1701.06538](https://arxiv.org/abs/1701.06538)
+- Shoeybi, M., et al. (2019). *Megatron-LM: Training multi-billion parameter language models using model parallelism*. arXiv. [arXiv:1909.08053](https://arxiv.org/abs/1909.08053)
+- Strubell, E., Ganesh, A., McCallum, A. (2019). *Energy and policy considerations for deep learning in NLP*. ACL. [arXiv:1906.02243](https://arxiv.org/abs/1906.02243)
+- Williams, S., Waterman, A., Patterson, D. (2009). *Roofline: An insightful visual performance model for multicore architectures*. Communications of the ACM. [doi:10.1145/1498765.1498785](https://doi.org/10.1145/1498765.1498785)
+
+## Alignment, safety and interpretability
+
+- Amodei, D., et al. (2016). *Concrete problems in AI safety*. arXiv. [arXiv:1606.06565](https://arxiv.org/abs/1606.06565)
+- Bricken, T., et al. (2023). *Towards monosemanticity: Decomposing language models with dictionary learning*. Transformer Circuits Thread. [Link](https://transformer-circuits.pub/2023/monosemantic-features/index.html)
+- Burns, C., et al. (2023). *Weak-to-strong generalization: Eliciting strong capabilities with weak supervision*. ICML 2024. [arXiv:2312.09390](https://arxiv.org/abs/2312.09390)
+- Elhage, N., et al. (2021). *A mathematical framework for transformer circuits*. Transformer Circuits Thread. [Link](https://transformer-circuits.pub/2021/framework/index.html)
+- Elhage, N., et al. (2022). *Toy models of superposition*. Transformer Circuits Thread. [arXiv:2209.10652](https://arxiv.org/abs/2209.10652)
+- Goodfellow, I. J., Shlens, J., Szegedy, C. (2014). *Explaining and harnessing adversarial examples*. ICLR 2015. [arXiv:1412.6572](https://arxiv.org/abs/1412.6572)
+- Greenblatt, R., Shlegeris, B., Sachan, K., Roger, F. (2024). *AI control: Improving safety despite intentional subversion*. ICML. [arXiv:2312.06942](https://arxiv.org/abs/2312.06942)
+- Hubinger, E., et al. (2019). *Risks from learned optimization in advanced machine learning systems*. arXiv. [arXiv:1906.01820](https://arxiv.org/abs/1906.01820)
+- Hubinger, E., et al. (2024). *Sleeper agents: Training deceptive LLMs that persist through safety training*. arXiv. [arXiv:2401.05566](https://arxiv.org/abs/2401.05566)
+- Irving, G., Christiano, P., Amodei, D. (2018). *AI safety via debate*. arXiv. [arXiv:1805.00899](https://arxiv.org/abs/1805.00899)
+- Li, K., et al. (2023). *Emergent world representations: Exploring a sequence model trained on a synthetic task*. ICLR. [arXiv:2210.13382](https://arxiv.org/abs/2210.13382)
+- Meng, K., Bau, D., Andonian, A., Belinkov, Y. (2022). *Locating and editing factual associations in GPT*. NeurIPS. [arXiv:2202.05262](https://arxiv.org/abs/2202.05262)
+- Nanda, N., Chan, L., Lieberum, T., Smith, J., Steinhardt, J. (2023). *Progress measures for grokking via mechanistic interpretability*. ICLR. [arXiv:2301.05217](https://arxiv.org/abs/2301.05217)
+- Ngo, R., Chan, L., Mindermann, S. (2022). *The alignment problem from a deep learning perspective*. ICLR 2024. [arXiv:2209.00626](https://arxiv.org/abs/2209.00626)
+- Olah, C., et al. (2020). *Zoom in: An introduction to circuits*. Distill. [doi:10.23915/distill.00024.001](https://doi.org/10.23915/distill.00024.001)
+- Olsson, C., et al. (2022). *In-context learning and induction heads*. Transformer Circuits Thread. [arXiv:2209.11895](https://arxiv.org/abs/2209.11895)
+- Perez, E., et al. (2022). *Red teaming language models with language models*. EMNLP. [arXiv:2202.03286](https://arxiv.org/abs/2202.03286)
+- Sundararajan, M., Taly, A., Yan, Q. (2017). *Axiomatic attribution for deep networks*. ICML. [arXiv:1703.01365](https://arxiv.org/abs/1703.01365)
+- Szegedy, C., et al. (2013). *Intriguing properties of neural networks*. ICLR 2014. [arXiv:1312.6199](https://arxiv.org/abs/1312.6199)
+- Zou, A., Wang, Z., Kolter, J. Z., Fredrikson, M. (2023). *Universal and transferable adversarial attacks on aligned language models*. arXiv. [arXiv:2307.15043](https://arxiv.org/abs/2307.15043)
+
+## Frontiers: recursion and self-improvement
+
+- Andrychowicz, M., et al. (2016). *Learning to learn by gradient descent by gradient descent*. NeurIPS. [arXiv:1606.04474](https://arxiv.org/abs/1606.04474)
+- Dehghani, M., Gouws, S., Vinyals, O., Uszkoreit, J., Kaiser, Ł. (2018). *Universal transformers*. ICLR 2019. [arXiv:1807.03819](https://arxiv.org/abs/1807.03819)
+- Finn, C., Abbeel, P., Levine, S. (2017). *Model-agnostic meta-learning for fast adaptation of deep networks*. ICML. [arXiv:1703.03400](https://arxiv.org/abs/1703.03400)
+- Good, I. J. (1965). *Speculations concerning the first ultraintelligent machine*. Advances in Computers, vol. 6. [doi:10.1016/S0065-2458(08)60418-0](https://doi.org/10.1016/S0065-2458(08)60418-0)
+- Graves, A. (2016). *Adaptive computation time for recurrent neural networks*. arXiv. [arXiv:1603.08983](https://arxiv.org/abs/1603.08983)
+- Huang, J., et al. (2022). *Large language models can self-improve*. EMNLP 2023. [arXiv:2210.11610](https://arxiv.org/abs/2210.11610)
+- Lu, C., et al. (2024). *The AI Scientist: Towards fully automated open-ended scientific discovery*. arXiv. [arXiv:2408.06292](https://arxiv.org/abs/2408.06292)
+- Madaan, A., et al. (2023). *Self-Refine: Iterative refinement with self-feedback*. NeurIPS. [arXiv:2303.17651](https://arxiv.org/abs/2303.17651)
+- Romera-Paredes, B., et al. (2024). *Mathematical discoveries from program search with large language models*. Nature. [doi:10.1038/s41586-023-06924-6](https://doi.org/10.1038/s41586-023-06924-6)
+- Schmidhuber, J. (2003). *Gödel machines: Self-referential universal problem solvers making provably optimal self-improvements*. arXiv. [arXiv:cs/0309048](https://arxiv.org/abs/cs/0309048)
+- Shumailov, I., et al. (2024). *AI models collapse when trained on recursively generated data*. Nature. [doi:10.1038/s41586-024-07566-y](https://doi.org/10.1038/s41586-024-07566-y)
+- Socher, R., et al. (2013). *Recursive deep models for semantic compositionality over a sentiment treebank*. EMNLP. [Link](https://aclanthology.org/D13-1170/)
+- Yuan, W., et al. (2024). *Self-rewarding language models*. ICML. [arXiv:2401.10020](https://arxiv.org/abs/2401.10020)
+- Zelikman, E., Wu, Y., Mu, J., Goodman, N. D. (2022). *STaR: Bootstrapping reasoning with reasoning*. NeurIPS. [arXiv:2203.14465](https://arxiv.org/abs/2203.14465)
+- Zoph, B., Le, Q. V. (2016). *Neural architecture search with reinforcement learning*. ICLR 2017. [arXiv:1611.01578](https://arxiv.org/abs/1611.01578)
+
+## Frontiers: fractal and self-similar structure
+
+- Bahri, Y., Dyer, E., Kaplan, J., Lee, J., Sharma, U. (2021). *Explaining neural scaling laws*. arXiv (PNAS 2024). [arXiv:2102.06701](https://arxiv.org/abs/2102.06701)
+- Larsson, G., Maire, M., Shakhnarovich, G. (2016). *FractalNet: Ultra-deep neural networks without residuals*. ICLR 2017. [arXiv:1605.07648](https://arxiv.org/abs/1605.07648)
+- Lin, H. W., Tegmark, M., Rolnick, D. (2017). *Why does deep and cheap learning work so well?*. Journal of Statistical Physics. [arXiv:1608.08225](https://arxiv.org/abs/1608.08225)
+- Mandelbrot, B. (1967). *How long is the coast of Britain? Statistical self-similarity and fractional dimension*. Science. [doi:10.1126/science.156.3775.636](https://doi.org/10.1126/science.156.3775.636)
+- Mehta, P., Schwab, D. J. (2014). *An exact mapping between the variational renormalization group and deep learning*. arXiv. [arXiv:1410.3831](https://arxiv.org/abs/1410.3831)
+- Sharma, U., Kaplan, J. (2020). *A neural scaling law from the dimension of the data manifold*. arXiv (JMLR 2022). [arXiv:2004.10802](https://arxiv.org/abs/2004.10802)
+- Sohl-Dickstein, J. (2024). *The boundary of neural network trainability is fractal*. arXiv. [arXiv:2402.06184](https://arxiv.org/abs/2402.06184)
+
+## Frontiers: non-linearity and dynamical systems
+
+- Brunton, S. L., Proctor, J. L., Kutz, J. N. (2016). *Discovering governing equations from data by sparse identification of nonlinear dynamical systems*. PNAS. [doi:10.1073/pnas.1517384113](https://doi.org/10.1073/pnas.1517384113)
+- Chen, R. T. Q., Rubanova, Y., Bettencourt, J., Duvenaud, D. (2018). *Neural ordinary differential equations*. NeurIPS. [arXiv:1806.07366](https://arxiv.org/abs/1806.07366)
+- Hasani, R., et al. (2021). *Liquid time-constant networks*. AAAI. [arXiv:2006.04439](https://arxiv.org/abs/2006.04439)
+- Hopfield, J. J. (1982). *Neural networks and physical systems with emergent collective computational abilities*. PNAS. [doi:10.1073/pnas.79.8.2554](https://doi.org/10.1073/pnas.79.8.2554)
+- Jaeger, H., Haas, H. (2004). *Harnessing nonlinearity: Predicting chaotic systems and saving energy in wireless communication*. Science. [doi:10.1126/science.1091277](https://doi.org/10.1126/science.1091277)
+- Koopman, B. O. (1931). *Hamiltonian systems and transformation in Hilbert space*. PNAS. [doi:10.1073/pnas.17.5.315](https://doi.org/10.1073/pnas.17.5.315)
+- Lorenz, E. N. (1963). *Deterministic nonperiodic flow*. Journal of the Atmospheric Sciences. [doi:10.1175/1520-0469(1963)020<0130:DNF>2.0.CO;2](https://doi.org/10.1175/1520-0469(1963)020%3C0130:DNF%3E2.0.CO;2)
+- Lusch, B., Kutz, J. N., Brunton, S. L. (2018). *Deep learning for universal linear embeddings of nonlinear dynamics*. Nature Communications. [doi:10.1038/s41467-018-07210-0](https://doi.org/10.1038/s41467-018-07210-0)
+- Maass, W., Natschläger, T., Markram, H. (2002). *Real-time computing without stable states: A new framework for neural computation based on perturbations*. Neural Computation. [doi:10.1162/089976602760407955](https://doi.org/10.1162/089976602760407955)
+- Pathak, J., Hunt, B., Girvan, M., Lu, Z., Ott, E. (2018). *Model-free prediction of large spatiotemporally chaotic systems from data: A reservoir computing approach*. Physical Review Letters. [doi:10.1103/PhysRevLett.120.024102](https://doi.org/10.1103/PhysRevLett.120.024102)
+- Poole, B., et al. (2016). *Exponential expressivity in deep neural networks through transient chaos*. NeurIPS. [arXiv:1606.05340](https://arxiv.org/abs/1606.05340)
+- Raissi, M., Perdikaris, P., Karniadakis, G. E. (2019). *Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations*. Journal of Computational Physics. [doi:10.1016/j.jcp.2018.10.045](https://doi.org/10.1016/j.jcp.2018.10.045)
+- Ramsauer, H., et al. (2020). *Hopfield networks is all you need*. ICLR 2021. [arXiv:2008.02217](https://arxiv.org/abs/2008.02217)
+- Schoenholz, S. S., Gilmer, J., Ganguli, S., Sohl-Dickstein, J. (2016). *Deep information propagation*. ICLR 2017. [arXiv:1611.01232](https://arxiv.org/abs/1611.01232)
+- Sompolinsky, H., Crisanti, A., Sommers, H. J. (1988). *Chaos in random neural networks*. Physical Review Letters. [doi:10.1103/PhysRevLett.61.259](https://doi.org/10.1103/PhysRevLett.61.259)
+
+## Frontiers: photonic and optical computing
+
+- Ashtiani, F., Geers, A. J., Aflatouni, F. (2022). *An on-chip photonic deep neural network for image classification*. Nature. [doi:10.1038/s41586-022-04714-0](https://doi.org/10.1038/s41586-022-04714-0)
+- Brunner, D., Soriano, M. C., Mirasso, C. R., Fischer, I. (2013). *Parallel photonic information processing at gigabyte per second data rates using transient states*. Nature Communications. [doi:10.1038/ncomms2368](https://doi.org/10.1038/ncomms2368)
+- Clements, W. R., et al. (2016). *Optimal design for universal multiport interferometers*. Optica. [doi:10.1364/OPTICA.3.001460](https://doi.org/10.1364/OPTICA.3.001460)
+- Feldmann, J., et al. (2021). *Parallel convolutional processing using an integrated photonic tensor core*. Nature. [doi:10.1038/s41586-020-03070-1](https://doi.org/10.1038/s41586-020-03070-1)
+- Hughes, T. W., Minkov, M., Shi, Y., Fan, S. (2018). *Training of photonic neural networks through in situ backpropagation and gradient measurement*. Optica. [doi:10.1364/OPTICA.5.000864](https://doi.org/10.1364/OPTICA.5.000864)
+- Lin, X., et al. (2018). *All-optical machine learning using diffractive deep neural networks*. Science. [doi:10.1126/science.aat8084](https://doi.org/10.1126/science.aat8084)
+- Pai, S., et al. (2023). *Experimentally realized in situ backpropagation for deep learning in photonic neural networks*. Science. [doi:10.1126/science.ade8450](https://doi.org/10.1126/science.ade8450)
+- Reck, M., Zeilinger, A., Bernstein, H. J., Bertani, P. (1994). *Experimental realization of any discrete unitary operator*. Physical Review Letters. [doi:10.1103/PhysRevLett.73.58](https://doi.org/10.1103/PhysRevLett.73.58)
+- Shastri, B. J., et al. (2021). *Photonics for artificial intelligence and neuromorphic computing*. Nature Photonics. [doi:10.1038/s41566-020-00754-y](https://doi.org/10.1038/s41566-020-00754-y)
+- Shen, Y., et al. (2017). *Deep learning with coherent nanophotonic circuits*. Nature Photonics. [doi:10.1038/nphoton.2017.93](https://doi.org/10.1038/nphoton.2017.93)
+- Tait, A. N., et al. (2017). *Neuromorphic photonic networks using silicon photonic weight banks*. Scientific Reports. [doi:10.1038/s41598-017-07754-z](https://doi.org/10.1038/s41598-017-07754-z)
+- Wetzstein, G., et al. (2020). *Inference in artificial intelligence with deep optics and photonics*. Nature. [doi:10.1038/s41586-020-2973-6](https://doi.org/10.1038/s41586-020-2973-6)
+- Wright, L. G., et al. (2022). *Deep physical neural networks trained with backpropagation*. Nature. [doi:10.1038/s41586-021-04223-6](https://doi.org/10.1038/s41586-021-04223-6)
+- Xu, X., et al. (2021). *11 TOPS photonic convolutional accelerator for optical neural networks*. Nature. [doi:10.1038/s41586-020-03063-0](https://doi.org/10.1038/s41586-020-03063-0)
+
+## Frontiers: neuromorphic computing
+
+- Davies, M., et al. (2018). *Loihi: A neuromorphic manycore processor with on-chip learning*. IEEE Micro. [doi:10.1109/MM.2018.112130359](https://doi.org/10.1109/MM.2018.112130359)
+- Maass, W. (1997). *Networks of spiking neurons: The third generation of neural network models*. Neural Networks. [doi:10.1016/S0893-6080(97)00011-7](https://doi.org/10.1016/S0893-6080(97)00011-7)
+- Mead, C. (1990). *Neuromorphic electronic systems*. Proceedings of the IEEE. [doi:10.1109/5.58356](https://doi.org/10.1109/5.58356)
+- Merolla, P. A., et al. (2014). *A million spiking-neuron integrated circuit with a scalable communication network and interface*. Science. [doi:10.1126/science.1254642](https://doi.org/10.1126/science.1254642)
+- Neftci, E. O., Mostafa, H., Zenke, F. (2019). *Surrogate gradient learning in spiking neural networks*. IEEE Signal Processing Magazine. [arXiv:1901.09948](https://arxiv.org/abs/1901.09948)
+- Roy, K., Jaiswal, A., Panda, P. (2019). *Towards spike-based machine intelligence with neuromorphic computing*. Nature. [doi:10.1038/s41586-019-1677-2](https://doi.org/10.1038/s41586-019-1677-2)
+
+## Frontiers: quantum machine learning
+
+- Biamonte, J., et al. (2017). *Quantum machine learning*. Nature. [doi:10.1038/nature23474](https://doi.org/10.1038/nature23474)
+- Cerezo, M., et al. (2021). *Variational quantum algorithms*. Nature Reviews Physics. [doi:10.1038/s42254-021-00348-9](https://doi.org/10.1038/s42254-021-00348-9)
+- Feynman, R. P. (1982). *Simulating physics with computers*. International Journal of Theoretical Physics. [doi:10.1007/BF02650179](https://doi.org/10.1007/BF02650179)
+- Harrow, A. W., Hassidim, A., Lloyd, S. (2009). *Quantum algorithm for linear systems of equations*. Physical Review Letters. [doi:10.1103/PhysRevLett.103.150502](https://doi.org/10.1103/PhysRevLett.103.150502)
+- Havlíček, V., et al. (2019). *Supervised learning with quantum-enhanced feature spaces*. Nature. [doi:10.1038/s41586-019-0980-2](https://doi.org/10.1038/s41586-019-0980-2)
+- McClean, J. R., et al. (2018). *Barren plateaus in quantum neural network training landscapes*. Nature Communications. [doi:10.1038/s41467-018-07090-4](https://doi.org/10.1038/s41467-018-07090-4)
+- Peruzzo, A., et al. (2014). *A variational eigenvalue solver on a photonic quantum processor*. Nature Communications. [doi:10.1038/ncomms5213](https://doi.org/10.1038/ncomms5213)
+- Preskill, J. (2018). *Quantum computing in the NISQ era and beyond*. Quantum. [doi:10.22331/q-2018-08-06-79](https://doi.org/10.22331/q-2018-08-06-79)
+- Schuld, M., Killoran, N. (2019). *Quantum machine learning in feature Hilbert spaces*. Physical Review Letters. [doi:10.1103/PhysRevLett.122.040504](https://doi.org/10.1103/PhysRevLett.122.040504)
+- Tang, E. (2019). *A quantum-inspired classical algorithm for recommendation systems*. STOC. [arXiv:1807.04271](https://arxiv.org/abs/1807.04271)
+
+## Frontiers: world models
+
+- Assran, M., et al. (2023). *Self-supervised learning from images with a joint-embedding predictive architecture*. CVPR. [arXiv:2301.08243](https://arxiv.org/abs/2301.08243)
+- Bruce, J., et al. (2024). *Genie: Generative interactive environments*. ICML. [arXiv:2402.15391](https://arxiv.org/abs/2402.15391)
+- Ha, D., Schmidhuber, J. (2018). *World models*. arXiv. [arXiv:1803.10122](https://arxiv.org/abs/1803.10122)
+- Hafner, D., Pasukonis, J., Ba, J., Lillicrap, T. (2023). *Mastering diverse domains through world models*. arXiv. [arXiv:2301.04104](https://arxiv.org/abs/2301.04104)
+- LeCun, Y. (2022). *A path towards autonomous machine intelligence*. OpenReview. [Link](https://openreview.net/forum?id=BZ5a1r-kVsf)
