@@ -67,8 +67,6 @@ Agents act in the world, so errors cost more than a wrong sentence. Engineering 
 | Observability | Logs and receipts of every action for audit |
 | Evaluation | Task suites with checkable outcomes rather than impressions |
 
-> **Case study in this account:** [FINITE / Agent Physics](https://github.com/marcpoliquin5/finite-agent-physics) is an experimental runtime that compiles such promises (deadlines, token and cost ceilings, capacity, and declared side effects) into typed contracts, checks them before work is dispatched, and records durable, reviewable intents for consequential writes.
-
 ## Key takeaways
 
 - Retrieval supplies knowledge; tools supply capabilities; loops supply autonomy.

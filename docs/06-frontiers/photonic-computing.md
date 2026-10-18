@@ -63,8 +63,6 @@ Hardware alone is not enough. A usable photonic accelerator needs a compiler and
 4. **Track calibration**: phase settings drift with temperature; the compiler must know which calibration is valid and remap around faulty cells.
 5. **Simulate and verify**: compare against a CPU reference with seeded noise models before trusting results.
 
-> **Real-world example in this account:** [AWEN](https://github.com/marcpoliquin5/awen) is an experimental open-source compiler and runtime for *programmable physical linear algebra*. It implements a typed tensor-to-photonic compiler slice in Rust, MLIR dialects that lower StableHLO matrix multiplications (`dot_general`) to a photonic device IR, calibration-aware tiling and fault remapping, a seeded analog-noise simulator with CPU comparison, and a PyTorch `torch.compile` backend for linear regions. As its own [implementation status](https://github.com/marcpoliquin5/awen/blob/main/docs/IMPLEMENTATION-STATUS.md) states, physical accelerator performance is **not yet established**: no verified hardware-in-the-loop results are published, and simulator cost estimates are not measured performance.
-
 ## Open challenges (active research)
 
 - **Nonlinearity**: all-optical activations remain weak or power-hungry; most systems return to electronics between layers.

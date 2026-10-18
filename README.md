@@ -88,7 +88,7 @@ Pick the route that fits you.
 - **[Recursion & self-improvement](docs/06-frontiers/recursion-and-self-improvement.md):** from the Bellman equation to models that refine their own outputs, generate their own training data, and search for new algorithms, plus why recursion without grounding leads to *model collapse*.
 - **[Fractal & self-similar structure](docs/06-frontiers/fractal-and-self-similar-structure.md):** power laws, scale invariance, the renormalization-group view of depth, and the discovery that the boundary of trainability is fractal.
 - **[Non-linearity & dynamical systems](docs/06-frontiers/nonlinearity-and-dynamical-systems.md):** the edge of chaos, neural ODEs, reservoir computing, attention as associative memory, and learning the equations of nature.
-- **[Photonic computing](docs/06-frontiers/photonic-computing.md):** how interferometer meshes multiply matrices with light, the landmark experiments, and the compiler problem, with [AWEN](https://github.com/marcpoliquin5/awen) as an open-source example.
+- **[Photonic computing](docs/06-frontiers/photonic-computing.md):** how interferometer meshes multiply matrices with light, the landmark experiments, and the compiler problem.
 - **[Neuromorphic](docs/06-frontiers/neuromorphic-computing.md), [quantum ML](docs/06-frontiers/quantum-machine-learning.md), and [world models](docs/06-frontiers/world-models.md):** alternative substrates and the quest for agents that simulate before they act.
 
 ## What's new
@@ -98,11 +98,6 @@ Pick the route that fits you.
 | 2026-10-17 | **First edition**: 27 topic pages across seven sections, a glossary, and 220+ checked references. |
 
 Full history in the [changelog](CHANGELOG.md). How updates work: [docs/DAILY_UPDATES.md](docs/DAILY_UPDATES.md).
-
-## Related projects
-
-- [**AWEN**](https://github.com/marcpoliquin5/awen): experimental compiler and runtime for programmable photonic linear algebra.
-- [**FINITE / Agent Physics**](https://github.com/marcpoliquin5/finite-agent-physics): an experimental runtime that enforces deadlines, budgets and side-effect contracts for AI agents.
 
 ## Contributing and license
 
