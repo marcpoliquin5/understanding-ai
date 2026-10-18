@@ -63,6 +63,8 @@ Hardware alone is not enough. A usable photonic accelerator needs a compiler and
 4. **Track calibration**: phase settings drift with temperature; the compiler must know which calibration is valid and remap around faulty cells.
 5. **Simulate and verify**: compare against a CPU reference with seeded noise models before trusting results.
 
+How digital ML compilers already solve the partitioning, tiling, and code-generation parts of this problem is covered in [Compilers for machine learning](../04-systems/ml-compilers.md#compiling-for-unconventional-hardware).
+
 ## Open challenges (active research)
 
 - **Nonlinearity**: all-optical activations remain weak or power-hungry; most systems return to electronics between layers.

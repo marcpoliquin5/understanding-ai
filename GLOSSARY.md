@@ -25,6 +25,7 @@ Short definitions of terms used across Understanding AI, with a link to where ea
 | **Hallucination** | Fluent output not supported by inputs or facts | [LLMs](docs/03-modern-ai/large-language-models.md#known-failure-modes) |
 | **In-context learning** | Performing a new task from examples in the prompt without weight updates | [LLMs](docs/03-modern-ai/large-language-models.md#in-context-learning) |
 | **Induction head** | Attention circuit that completes repeated patterns (`A B … A → B`) | [Interpretability](docs/05-alignment-safety-interpretability/interpretability.md) |
+| **Intermediate representation (IR)** | A compiler's internal description of a program; ML compilers lower from tensor-level to loop-level IRs | [ML compilers](docs/04-systems/ml-compilers.md#the-anatomy-of-an-ml-compiler) |
 | **KL divergence** | Asymmetric measure of how one distribution differs from another | [Probability](docs/00-foundations/probability-and-information.md) |
 | **KV cache** | Stored keys and values of past tokens reused during generation | [Inference](docs/04-systems/inference-and-efficiency.md) |
 | **LoRA** | Fine-tuning by learning a low-rank update to frozen weights | [LLMs](docs/03-modern-ai/large-language-models.md#efficient-adaptation) |
@@ -33,6 +34,7 @@ Short definitions of terms used across Understanding AI, with a link to where ea
 | **Model collapse** | Degradation from training recursively on model-generated data | [Recursion](docs/06-frontiers/recursion-and-self-improvement.md#model-collapse) |
 | **Neural ODE** | Network whose hidden state evolves by a learned differential equation | [Dynamics](docs/06-frontiers/nonlinearity-and-dynamical-systems.md) |
 | **NISQ** | Noisy intermediate-scale quantum: today's uncorrected quantum devices | [Quantum ML](docs/06-frontiers/quantum-machine-learning.md) |
+| **Operator fusion** | Merging several operations into one kernel so intermediates stay in fast memory instead of off-chip memory | [ML compilers](docs/04-systems/ml-compilers.md#fusion-quantified) |
 | **Perplexity** | Exponentiated per-token cross-entropy; effective branching factor of a language model | [Probability](docs/00-foundations/probability-and-information.md) |
 | **Quantization** | Representing weights or activations with fewer bits | [Inference](docs/04-systems/inference-and-efficiency.md#quantization) |
 | **RAG** | Retrieval-augmented generation: retrieve documents and condition the answer on them | [Agents](docs/03-modern-ai/retrieval-tools-and-agents.md) |
@@ -46,4 +48,5 @@ Short definitions of terms used across Understanding AI, with a link to where ea
 | **SVD** | Factorization $W = U\Sigma V^\top$ into rotations and scalings | [Linear algebra](docs/00-foundations/linear-algebra.md) |
 | **Token** | Unit of text (often a sub-word) processed by a language model | [Transformers](docs/02-deep-learning/transformers.md) |
 | **Transformer** | Architecture built from attention and MLP blocks with residual connections | [Transformers](docs/02-deep-learning/transformers.md) |
+| **Triton** | A language and compiler for writing GPU kernels in terms of tiles of data | [ML compilers](docs/04-systems/ml-compilers.md#triton-tiles-as-the-unit-of-thought) |
 | **World model** | Learned model of environment dynamics used for prediction and planning | [World models](docs/06-frontiers/world-models.md) |

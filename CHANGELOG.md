@@ -2,6 +2,12 @@
 
 Understanding AI grows daily. Each entry records what was added or changed, newest first. See [docs/DAILY_UPDATES.md](docs/DAILY_UPDATES.md) for how updates work.
 
+## 2026-10-18: Compilers for machine learning
+
+- **Systems**: new page [Compilers for machine learning](docs/04-systems/ml-compilers.md): fusion and tiling with worked memory-traffic arithmetic, IRs and progressive lowering, a timeline of landmark systems (Halide, TVM, AutoTVM, Relay, TASO, Triton, MLIR, Ansor, PyTorch 2), XLA/OpenXLA, a Triton kernel example, learned schedule search, recent work on hand-tuned and LLM-written kernels, and a clearly labelled speculative section on compiling for analog and optical hardware.
+- **References**: 14 new Systems entries, each checked against arXiv, Crossref, or the official project page.
+- **Glossary**: added *Operator fusion*, *Intermediate representation (IR)*, and *Triton*.
+
 ## 2026-10-17: First edition
 
 - **Foundations**: history of AI, linear algebra, probability and information theory, optimization, learning theory.
@@ -24,7 +30,7 @@ Planned topics, roughly in rotation order:
 - [ ] Modern AI: evaluation and benchmarks, and their pitfalls
 - [ ] Modern AI: code generation and program synthesis
 - [ ] Modern AI: AI for science (protein design, materials, weather)
-- [ ] Systems: compilers for ML (XLA, MLIR, Triton)
+- [x] Systems: compilers for ML (XLA, MLIR, Triton) (2026-10-18)
 - [ ] Alignment: reward modelling failure modes in depth
 - [ ] Frontiers / recursion: fast-weight programmers and self-referential networks
 - [ ] Frontiers / fractals: heavy-tailed weight spectra and generalization

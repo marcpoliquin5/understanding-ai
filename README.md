@@ -42,7 +42,7 @@ flowchart TB
         M1[LLMs] --- M2[Generative models] --- M3[Agents & RAG] --- M4[Multimodal]
     end
     subgraph S[04 · Systems]
-        S1[Hardware & training] --- S2[Inference & efficiency]
+        S1[Hardware & training] --- S2[Inference & efficiency] --- S3[ML compilers]
     end
     subgraph A[05 · Alignment & interpretability]
         A1[Alignment & safety] --- A2[Interpretability]
@@ -67,7 +67,7 @@ flowchart TB
 | [**01 · Classical ML**](docs/01-classical-ml/README.md) | [Supervised](docs/01-classical-ml/supervised-learning.md) · [Unsupervised](docs/01-classical-ml/unsupervised-learning.md) · [Reinforcement learning](docs/01-classical-ml/reinforcement-learning.md) |
 | [**02 · Deep learning**](docs/02-deep-learning/README.md) | [Backpropagation](docs/02-deep-learning/neural-networks-and-backprop.md) · [Architectures](docs/02-deep-learning/architectures.md) · [Transformers](docs/02-deep-learning/transformers.md) · [Scaling laws](docs/02-deep-learning/scaling-laws.md) |
 | [**03 · Modern AI**](docs/03-modern-ai/README.md) | [Large language models](docs/03-modern-ai/large-language-models.md) · [Generative models](docs/03-modern-ai/generative-models.md) · [Retrieval, tools & agents](docs/03-modern-ai/retrieval-tools-and-agents.md) · [Multimodal](docs/03-modern-ai/multimodal-models.md) |
-| [**04 · Systems**](docs/04-systems/README.md) | [Hardware & training](docs/04-systems/hardware-and-training.md) · [Inference & efficiency](docs/04-systems/inference-and-efficiency.md) |
+| [**04 · Systems**](docs/04-systems/README.md) | [Hardware & training](docs/04-systems/hardware-and-training.md) · [Inference & efficiency](docs/04-systems/inference-and-efficiency.md) · [ML compilers](docs/04-systems/ml-compilers.md) |
 | [**05 · Alignment, safety & interpretability**](docs/05-alignment-safety-interpretability/README.md) | [Alignment & safety](docs/05-alignment-safety-interpretability/alignment.md) · [Interpretability](docs/05-alignment-safety-interpretability/interpretability.md) |
 | [**06 · Frontiers**](docs/06-frontiers/README.md) | [Recursion & self-improvement](docs/06-frontiers/recursion-and-self-improvement.md) · [Fractal & self-similar structure](docs/06-frontiers/fractal-and-self-similar-structure.md) · [Non-linearity & dynamical systems](docs/06-frontiers/nonlinearity-and-dynamical-systems.md) · [Photonic computing](docs/06-frontiers/photonic-computing.md) · [Neuromorphic computing](docs/06-frontiers/neuromorphic-computing.md) · [Quantum ML](docs/06-frontiers/quantum-machine-learning.md) · [World models](docs/06-frontiers/world-models.md) |
 
@@ -78,7 +78,7 @@ Pick the route that fits you.
 | If you are… | Start here | Then |
 |---|---|---|
 | **New to AI** | [History](docs/00-foundations/history.md) → [Supervised learning](docs/01-classical-ml/supervised-learning.md) | [Backpropagation](docs/02-deep-learning/neural-networks-and-backprop.md) → [Transformers](docs/02-deep-learning/transformers.md) → [LLMs](docs/03-modern-ai/large-language-models.md) |
-| **A software engineer** | [Transformers](docs/02-deep-learning/transformers.md) → [LLMs](docs/03-modern-ai/large-language-models.md) | [Agents & RAG](docs/03-modern-ai/retrieval-tools-and-agents.md) → [Inference & efficiency](docs/04-systems/inference-and-efficiency.md) |
+| **A software engineer** | [Transformers](docs/02-deep-learning/transformers.md) → [LLMs](docs/03-modern-ai/large-language-models.md) | [Agents & RAG](docs/03-modern-ai/retrieval-tools-and-agents.md) → [Inference & efficiency](docs/04-systems/inference-and-efficiency.md) · [ML compilers](docs/04-systems/ml-compilers.md) |
 | **Mathematically minded** | [Probability & information](docs/00-foundations/probability-and-information.md) → [Learning theory](docs/00-foundations/learning-theory.md) | [Scaling laws](docs/02-deep-learning/scaling-laws.md) → [Fractal structure](docs/06-frontiers/fractal-and-self-similar-structure.md) → [Nonlinear dynamics](docs/06-frontiers/nonlinearity-and-dynamical-systems.md) |
 | **A physicist or hardware engineer** | [Linear algebra](docs/00-foundations/linear-algebra.md) → [Hardware & training](docs/04-systems/hardware-and-training.md) | [Photonic computing](docs/06-frontiers/photonic-computing.md) → [Neuromorphic](docs/06-frontiers/neuromorphic-computing.md) → [Quantum ML](docs/06-frontiers/quantum-machine-learning.md) |
 | **Focused on safety** | [LLMs](docs/03-modern-ai/large-language-models.md) → [Alignment & safety](docs/05-alignment-safety-interpretability/alignment.md) | [Interpretability](docs/05-alignment-safety-interpretability/interpretability.md) → [Recursion & self-improvement](docs/06-frontiers/recursion-and-self-improvement.md) |
@@ -95,6 +95,7 @@ Pick the route that fits you.
 
 | Date | Update |
 |---|---|
+| 2026-10-18 | **[Compilers for machine learning](docs/04-systems/ml-compilers.md)**: how fusion and tiling cut memory traffic (with the arithmetic), the anatomy of an ML compiler, Halide to PyTorch 2, learned schedule search, LLM-written kernels (KernelBench 2025), and what analog and optical hardware asks of compilers. 14 new checked references. |
 | 2026-10-17 | **First edition**: 27 topic pages across seven sections, a glossary, and 220+ checked references. |
 
 Full history in the [changelog](CHANGELOG.md). How updates work: [docs/DAILY_UPDATES.md](docs/DAILY_UPDATES.md).

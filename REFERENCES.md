@@ -171,6 +171,9 @@ Every source cited in Understanding AI, grouped by section. Each entry links to 
 
 ## Systems
 
+- Ansel, J., Yang, E., He, H., Gimelshein, N., Jain, A., Voznesensky, M., et al. (2024). *PyTorch 2: Faster machine learning through dynamic Python bytecode transformation and graph compilation*. ASPLOS. [doi:10.1145/3620665.3640366](https://doi.org/10.1145/3620665.3640366)
+- Chen, T., Moreau, T., Jiang, Z., Zheng, L., Yan, E., Cowan, M., et al. (2018). *TVM: An automated end-to-end optimizing compiler for deep learning*. OSDI. [arXiv:1802.04799](https://arxiv.org/abs/1802.04799)
+- Chen, T., Zheng, L., Yan, E., Jiang, Z., Moreau, T., Ceze, L., et al. (2018b). *Learning to optimize tensor programs*. NeurIPS. [arXiv:1805.08166](https://arxiv.org/abs/1805.08166)
 - Dao, T., Fu, D. Y., Ermon, S., Rudra, A., Ré, C. (2022). *FlashAttention: Fast and memory-efficient exact attention with IO-awareness*. NeurIPS. [arXiv:2205.14135](https://arxiv.org/abs/2205.14135)
 - Dettmers, T., Lewis, M., Belkada, Y., Zettlemoyer, L. (2022). *LLM.int8(): 8-bit matrix multiplication for transformers at scale*. NeurIPS. [arXiv:2208.07339](https://arxiv.org/abs/2208.07339)
 - Fedus, W., Zoph, B., Shazeer, N. (2021). *Switch transformers: Scaling to trillion parameter models with simple and efficient sparsity*. JMLR 2022. [arXiv:2101.03961](https://arxiv.org/abs/2101.03961)
@@ -178,16 +181,27 @@ Every source cited in Understanding AI, grouped by section. Each entry links to 
 - Hinton, G., Vinyals, O., Dean, J. (2015). *Distilling the knowledge in a neural network*. arXiv. [arXiv:1503.02531](https://arxiv.org/abs/1503.02531)
 - Hooker, S. (2020). *The hardware lottery*. Communications of the ACM 2021. [arXiv:2009.06489](https://arxiv.org/abs/2009.06489)
 - Huang, Y., et al. (2019). *GPipe: Efficient training of giant neural networks using pipeline parallelism*. NeurIPS. [arXiv:1811.06965](https://arxiv.org/abs/1811.06965)
+- Jia, Z., Padon, O., Thomas, J., Warszawski, T., Zaharia, M., Aiken, A. (2019). *TASO: Optimizing deep learning computation with automatic generation of graph substitutions*. SOSP. [doi:10.1145/3341301.3359630](https://doi.org/10.1145/3341301.3359630)
 - Jouppi, N. P., et al. (2017). *In-datacenter performance analysis of a tensor processing unit*. ISCA. [arXiv:1704.04760](https://arxiv.org/abs/1704.04760)
 - Kwon, W., et al. (2023). *Efficient memory management for large language model serving with PagedAttention*. SOSP. [arXiv:2309.06180](https://arxiv.org/abs/2309.06180)
+- Lattner, C., Amini, M., Bondhugula, U., Cohen, A., Davis, A., Pienaar, J., et al. (2020). *MLIR: A compiler infrastructure for the end of Moore's law*. arXiv. [arXiv:2002.11054](https://arxiv.org/abs/2002.11054)
 - Leviathan, Y., Kalman, M., Matias, Y. (2023). *Fast inference from transformers via speculative decoding*. ICML. [arXiv:2211.17192](https://arxiv.org/abs/2211.17192)
+- Li, M., Liu, Y., Liu, X., Sun, Q., You, X., Yang, H., et al. (2020). *The deep learning compiler: A comprehensive survey*. IEEE TPDS 2021. [arXiv:2002.03794](https://arxiv.org/abs/2002.03794)
 - Micikevicius, P., et al. (2017). *Mixed precision training*. ICLR 2018. [arXiv:1710.03740](https://arxiv.org/abs/1710.03740)
+- OpenXLA Project. *XLA: An open-source machine learning compiler*. Official documentation. [openxla.org/xla](https://openxla.org/xla)
+- Ouyang, A., Guo, S., Arora, S., Zhang, A. L., Hu, W., Ré, C., et al. (2025). *KernelBench: Can LLMs write efficient GPU kernels?* arXiv. [arXiv:2502.10517](https://arxiv.org/abs/2502.10517)
 - Patterson, D., et al. (2021). *Carbon emissions and large neural network training*. arXiv. [arXiv:2104.10350](https://arxiv.org/abs/2104.10350)
+- Ragan-Kelley, J., Barnes, C., Adams, A., Paris, S., Durand, F., Amarasinghe, S. (2013). *Halide: A language and compiler for optimizing parallelism, locality, and recomputation in image processing pipelines*. PLDI. [doi:10.1145/2491956.2462176](https://doi.org/10.1145/2491956.2462176)
 - Rajbhandari, S., Rasley, J., Ruwase, O., He, Y. (2020). *ZeRO: Memory optimizations toward training trillion parameter models*. SC20. [arXiv:1910.02054](https://arxiv.org/abs/1910.02054)
+- Roesch, J., Lyubomirsky, S., Kirisame, M., Weber, L., Pollock, J., Vega, L., et al. (2019). *Relay: A high-level compiler for deep learning*. arXiv. [arXiv:1904.08368](https://arxiv.org/abs/1904.08368)
+- Shah, J., Bikshandi, G., Zhang, Y., Thakkar, V., Ramani, P., Dao, T. (2024). *FlashAttention-3: Fast and accurate attention with asynchrony and low-precision*. NeurIPS. [arXiv:2407.08608](https://arxiv.org/abs/2407.08608)
 - Shazeer, N., et al. (2017). *Outrageously large neural networks: The sparsely-gated mixture-of-experts layer*. ICLR. [arXiv:1701.06538](https://arxiv.org/abs/1701.06538)
 - Shoeybi, M., et al. (2019). *Megatron-LM: Training multi-billion parameter language models using model parallelism*. arXiv. [arXiv:1909.08053](https://arxiv.org/abs/1909.08053)
+- Spector, B. F., Arora, S., Singhal, A., Fu, D. Y., Ré, C. (2024). *ThunderKittens: Simple, fast, and adorable AI kernels*. arXiv. [arXiv:2410.20399](https://arxiv.org/abs/2410.20399)
 - Strubell, E., Ganesh, A., McCallum, A. (2019). *Energy and policy considerations for deep learning in NLP*. ACL. [arXiv:1906.02243](https://arxiv.org/abs/1906.02243)
+- Tillet, P., Kung, H. T., Cox, D. (2019). *Triton: An intermediate language and compiler for tiled neural network computations*. MAPL. [doi:10.1145/3315508.3329973](https://doi.org/10.1145/3315508.3329973)
 - Williams, S., Waterman, A., Patterson, D. (2009). *Roofline: An insightful visual performance model for multicore architectures*. Communications of the ACM. [doi:10.1145/1498765.1498785](https://doi.org/10.1145/1498765.1498785)
+- Zheng, L., Jia, C., Sun, M., Wu, Z., Yu, C. H., Haj-Ali, A., et al. (2020). *Ansor: Generating high-performance tensor programs for deep learning*. OSDI. [arXiv:2006.06762](https://arxiv.org/abs/2006.06762)
 
 ## Alignment, safety and interpretability
 
