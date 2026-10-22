@@ -58,6 +58,8 @@ Sutskever, Vinyals & Le (2014) used one LSTM to encode a sentence into a vector 
 | LayerNorm (Ba, Kiros & Hinton 2016) | The features of each example | Transformers, RNNs |
 | RMSNorm (Zhang & Sennrich 2019) | Root-mean-square of features, no mean subtraction | Many recent LLMs |
 
+Where the norm sits, how it interacts with initialization, and how to keep training stable as models grow are covered in [Normalization, initialization and μP](normalization-initialization-mup.md).
+
 ## Graph neural networks
 
 Many datasets are graphs: molecules, social networks, road maps. A **message-passing** GNN updates each node from its neighbours:

@@ -95,6 +95,10 @@ Every source cited in Understanding AI, grouped by section. Each entry links to 
 
 - Ba, J. L., Kiros, J. R., Hinton, G. E. (2016). *Layer normalization*. arXiv. [arXiv:1607.06450](https://arxiv.org/abs/1607.06450)
 - Bahdanau, D., Cho, K., Bengio, Y. (2014). *Neural machine translation by jointly learning to align and translate*. ICLR 2015. [arXiv:1409.0473](https://arxiv.org/abs/1409.0473)
+- Blake, C., Eichenberg, C., Dean, J., Balles, L., Prince, L. Y., Deiseroth, B., et al. (2024). *u-μP: The unit-scaled maximal update parametrization*. arXiv. [arXiv:2407.17465](https://arxiv.org/abs/2407.17465)
+- Bordelon, B., Noci, L., Li, M. B., Hanin, B., Pehlevan, C. (2023). *Depthwise hyperparameter transfer in residual networks: Dynamics and scaling limit*. ICLR 2024. [arXiv:2309.16620](https://arxiv.org/abs/2309.16620)
+- Dehghani, M., Djolonga, J., Mustafa, B., Padlewski, P., Heek, J., et al. (2023). *Scaling vision transformers to 22 billion parameters*. ICML. [arXiv:2302.05442](https://arxiv.org/abs/2302.05442)
+- Everett, K., Xiao, L., Wortsman, M., Alemi, A. A., Novak, R., et al. (2024). *Scaling exponents across parameterizations and optimizers*. ICML. [arXiv:2407.05872](https://arxiv.org/abs/2407.05872)
 - Gu, A., Dao, T. (2023). *Mamba: Linear-time sequence modeling with selective state spaces*. arXiv. [arXiv:2312.00752](https://arxiv.org/abs/2312.00752)
 - Gu, A., Goel, K., Ré, C. (2021). *Efficiently modeling long sequences with structured state spaces*. ICLR 2022. [arXiv:2111.00396](https://arxiv.org/abs/2111.00396)
 - He, K., Zhang, X., Ren, S., Sun, J. (2016). *Deep residual learning for image recognition*. CVPR. [arXiv:1512.03385](https://arxiv.org/abs/1512.03385)
@@ -103,12 +107,21 @@ Every source cited in Understanding AI, grouped by section. Each entry links to 
 - Ioffe, S., Szegedy, C. (2015). *Batch normalization: Accelerating deep network training by reducing internal covariate shift*. ICML. [arXiv:1502.03167](https://arxiv.org/abs/1502.03167)
 - Krizhevsky, A., Sutskever, I., Hinton, G. E. (2012). *ImageNet classification with deep convolutional neural networks*. NeurIPS 2012; CACM 2017. [doi:10.1145/3065386](https://doi.org/10.1145/3065386)
 - LeCun, Y., Bottou, L., Bengio, Y., Haffner, P. (1998). *Gradient-based learning applied to document recognition*. Proceedings of the IEEE. [doi:10.1109/5.726791](https://doi.org/10.1109/5.726791)
+- Loshchilov, I., Hsieh, C.-P., Sun, S., Ginsburg, B. (2024). *nGPT: Normalized Transformer with representation learning on the hypersphere*. arXiv. [arXiv:2410.01131](https://arxiv.org/abs/2410.01131)
 - Mikolov, T., Chen, K., Corrado, G., Dean, J. (2013). *Efficient estimation of word representations in vector space*. arXiv. [arXiv:1301.3781](https://arxiv.org/abs/1301.3781)
 - Pascanu, R., Mikolov, T., Bengio, Y. (2013). *On the difficulty of training recurrent neural networks*. ICML. [arXiv:1211.5063](https://arxiv.org/abs/1211.5063)
 - Shazeer, N. (2020). *GLU variants improve transformer*. arXiv. [arXiv:2002.05202](https://arxiv.org/abs/2002.05202)
 - Srivastava, N., Hinton, G., Krizhevsky, A., Sutskever, I., Salakhutdinov, R. (2014). *Dropout: A simple way to prevent neural networks from overfitting*. JMLR. [Link](https://jmlr.org/papers/v15/srivastava14a.html)
 - Sutskever, I., Vinyals, O., Le, Q. V. (2014). *Sequence to sequence learning with neural networks*. NeurIPS. [arXiv:1409.3215](https://arxiv.org/abs/1409.3215)
+- Wang, H., Ma, S., Dong, L., Huang, S., Zhang, D., Wei, F. (2022). *DeepNet: Scaling Transformers to 1,000 layers*. arXiv. [arXiv:2203.00555](https://arxiv.org/abs/2203.00555)
+- Wortsman, M., Liu, P. J., Xiao, L., Everett, K., Alemi, A., et al. (2023). *Small-scale proxies for large-scale Transformer training instabilities*. arXiv. [arXiv:2309.14322](https://arxiv.org/abs/2309.14322)
+- Xiong, R., Yang, Y., He, D., Zheng, K., Zheng, S., et al. (2020). *On layer normalization in the Transformer architecture*. ICML. [arXiv:2002.04745](https://arxiv.org/abs/2002.04745)
+- Yang, G., Hu, E. J. (2020). *Feature learning in infinite-width neural networks* (Tensor Programs IV). ICML 2021. [arXiv:2011.14522](https://arxiv.org/abs/2011.14522)
+- Yang, G., Hu, E. J., Babuschkin, I., Sidor, S., Liu, X., et al. (2022). *Tensor Programs V: Tuning large neural networks via zero-shot hyperparameter transfer*. NeurIPS 2021. [arXiv:2203.03466](https://arxiv.org/abs/2203.03466)
+- Yang, G., Yu, D., Zhu, C., Hayou, S. (2023). *Tensor Programs VI: Feature learning in infinite-depth neural networks*. ICLR 2024. [arXiv:2310.02244](https://arxiv.org/abs/2310.02244)
 - Zhang, B., Sennrich, R. (2019). *Root mean square layer normalization*. NeurIPS. [arXiv:1910.07467](https://arxiv.org/abs/1910.07467)
+- Zhang, H., Dauphin, Y. N., Ma, T. (2019). *Fixup initialization: Residual learning without normalization*. ICLR. [arXiv:1901.09321](https://arxiv.org/abs/1901.09321)
+- Zhu, J., Chen, X., He, K., LeCun, Y., Liu, Z. (2025). *Transformers without normalization*. arXiv. [arXiv:2503.10622](https://arxiv.org/abs/2503.10622)
 
 ## Transformers and language models
 

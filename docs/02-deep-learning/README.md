@@ -7,6 +7,7 @@ Deep learning stacks many simple, differentiable layers and trains them end to e
 | [Neural networks and backpropagation](neural-networks-and-backprop.md) | Neurons, activations, universal approximation, computational graphs, the backprop algorithm |
 | [Architectures](architectures.md) | CNNs, RNNs and LSTMs, residual networks, normalization, graph neural networks |
 | [Transformers](transformers.md) | Attention from first principles, multi-head attention, positional encoding, the full block |
+| [Normalization, initialization and μP](normalization-initialization-mup.md) | Variance-preserving init, the edge of chaos, Pre-LN vs Post-LN, QK-norm, normalization-free transformers, and μP hyperparameter transfer |
 | [Scaling laws](scaling-laws.md) | How loss falls with compute, data and parameters, and what that implies |
 
 ```mermaid

@@ -95,6 +95,7 @@ Pick the route that fits you.
 
 | Date | Update |
 |---|---|
+| 2026-10-22 | **[Normalization, initialization and μP](docs/02-deep-learning/normalization-initialization-mup.md)**: why signals explode or vanish with depth, where the LayerNorm goes and why it matters, transformers with no normalization (2025) and with normalization everywhere (2024), and how μP lets hyperparameters tuned on a 40M-parameter model carry over to a 6.7B one. 13 new checked references. |
 | 2026-10-18 | **[Compilers for machine learning](docs/04-systems/ml-compilers.md)**: how fusion and tiling cut memory traffic (with the arithmetic), the anatomy of an ML compiler, Halide to PyTorch 2, learned schedule search, LLM-written kernels (KernelBench 2025), and what analog and optical hardware asks of compilers. 14 new checked references. |
 | 2026-10-17 | **First edition**: 27 topic pages across seven sections, a glossary, and 220+ checked references. |
 

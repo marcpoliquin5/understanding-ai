@@ -16,6 +16,7 @@ Short definitions of terms used across Understanding AI, with a link to where ea
 | **Diffusion model** | Generative model that learns to reverse a gradual noising process | [Generative](docs/03-modern-ai/generative-models.md#diffusion-models) |
 | **Double descent** | Test error falling, rising, then falling again as capacity grows past the interpolation threshold | [Learning theory](docs/00-foundations/learning-theory.md#double-descent) |
 | **DPO** | Direct preference optimization: fit preferences with a classification-style loss instead of RL | [LLMs](docs/03-modern-ai/large-language-models.md#direct-preference-optimization-dpo) |
+| **Dynamical isometry** | Initialization under which all singular values of a deep network's input–output Jacobian are near one, so signals survive depth | [Normalization and μP](docs/02-deep-learning/normalization-initialization-mup.md#1-initialization-keeping-the-forward-pass-alive-established) |
 | **Edge of chaos** | Boundary between ordered and chaotic dynamics where deep signal propagation is possible | [Dynamics](docs/06-frontiers/nonlinearity-and-dynamical-systems.md) |
 | **Edge of stability** | Regime where the loss curvature hovers near $2/\eta$ during gradient descent | [Optimization](docs/00-foundations/optimization.md#second-order-ideas) |
 | **Embedding** | A learned vector representing a token, image patch, or other item | [Linear algebra](docs/00-foundations/linear-algebra.md) |
@@ -30,12 +31,14 @@ Short definitions of terms used across Understanding AI, with a link to where ea
 | **KV cache** | Stored keys and values of past tokens reused during generation | [Inference](docs/04-systems/inference-and-efficiency.md) |
 | **LoRA** | Fine-tuning by learning a low-rank update to frozen weights | [LLMs](docs/03-modern-ai/large-language-models.md#efficient-adaptation) |
 | **Mach–Zehnder interferometer (MZI)** | Programmable 2×2 optical element; meshes of MZIs implement matrices in photonic chips | [Photonics](docs/06-frontiers/photonic-computing.md) |
+| **Maximal Update Parametrization (μP)** | Per-layer scaling of initialization and learning rates with width so features keep learning at every size and hyperparameters transfer from small to large models | [Normalization and μP](docs/02-deep-learning/normalization-initialization-mup.md#3-μp-making-hyperparameters-survive-scale-established-with-active-refinements) |
 | **Mixture of experts (MoE)** | Layer that routes each token to a few of many expert sub-networks | [Inference](docs/04-systems/inference-and-efficiency.md#mixture-of-experts) |
 | **Model collapse** | Degradation from training recursively on model-generated data | [Recursion](docs/06-frontiers/recursion-and-self-improvement.md#model-collapse) |
 | **Neural ODE** | Network whose hidden state evolves by a learned differential equation | [Dynamics](docs/06-frontiers/nonlinearity-and-dynamical-systems.md) |
 | **NISQ** | Noisy intermediate-scale quantum: today's uncorrected quantum devices | [Quantum ML](docs/06-frontiers/quantum-machine-learning.md) |
 | **Operator fusion** | Merging several operations into one kernel so intermediates stay in fast memory instead of off-chip memory | [ML compilers](docs/04-systems/ml-compilers.md#fusion-quantified) |
 | **Perplexity** | Exponentiated per-token cross-entropy; effective branching factor of a language model | [Probability](docs/00-foundations/probability-and-information.md) |
+| **Pre-LN / Post-LN** | Placing layer normalization inside each residual branch (Pre-LN) or after the residual addition (Post-LN) in a transformer | [Normalization and μP](docs/02-deep-learning/normalization-initialization-mup.md#where-the-norm-goes-matters) |
 | **Quantization** | Representing weights or activations with fewer bits | [Inference](docs/04-systems/inference-and-efficiency.md#quantization) |
 | **RAG** | Retrieval-augmented generation: retrieve documents and condition the answer on them | [Agents](docs/03-modern-ai/retrieval-tools-and-agents.md) |
 | **Reservoir computing** | Using a fixed nonlinear dynamical system plus a trained linear readout | [Dynamics](docs/06-frontiers/nonlinearity-and-dynamical-systems.md) |
