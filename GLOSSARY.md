@@ -10,6 +10,7 @@ Short definitions of terms used across Understanding AI, with a link to where ea
 | **Attention** | Weighted averaging of value vectors, with weights from query–key similarity | [Transformers](docs/02-deep-learning/transformers.md) |
 | **Backpropagation** | Reverse-mode application of the chain rule to compute all gradients efficiently | [Backprop](docs/02-deep-learning/neural-networks-and-backprop.md#backpropagation) |
 | **Barren plateau** | Exponentially vanishing gradients in large random quantum circuits | [Quantum ML](docs/06-frontiers/quantum-machine-learning.md) |
+| **Benchmark contamination** | Test items, or close copies, appearing in a model's training data, so a score partly measures memory | [Evaluation](docs/03-modern-ai/evaluation-and-benchmarks.md#31-contamination-established) |
 | **Bellman equation** | Recursive relation defining the value of a state through the value of successor states | [RL](docs/01-classical-ml/reinforcement-learning.md) |
 | **Chain of thought** | Prompting or training a model to write intermediate reasoning steps | [LLMs](docs/03-modern-ai/large-language-models.md#prompting-for-reasoning) |
 | **Cross-entropy** | Expected negative log-probability a model assigns to the true outcomes; the standard classification and language-model loss | [Probability](docs/00-foundations/probability-and-information.md) |
@@ -31,6 +32,7 @@ Short definitions of terms used across Understanding AI, with a link to where ea
 | **Intermediate representation (IR)** | A compiler's internal description of a program; ML compilers lower from tensor-level to loop-level IRs | [ML compilers](docs/04-systems/ml-compilers.md#the-anatomy-of-an-ml-compiler) |
 | **KL divergence** | Asymmetric measure of how one distribution differs from another | [Probability](docs/00-foundations/probability-and-information.md) |
 | **KV cache** | Stored keys and values of past tokens reused during generation | [Inference](docs/04-systems/inference-and-efficiency.md) |
+| **LLM-as-a-judge** | Using a strong language model to grade or compare other models' open-ended answers; fast but prone to position and verbosity biases | [Evaluation](docs/03-modern-ai/evaluation-and-benchmarks.md#35-judges-have-biases-established) |
 | **LoRA** | Fine-tuning by learning a low-rank update to frozen weights | [LLMs](docs/03-modern-ai/large-language-models.md#efficient-adaptation) |
 | **Mach–Zehnder interferometer (MZI)** | Programmable 2×2 optical element; meshes of MZIs implement matrices in photonic chips | [Photonics](docs/06-frontiers/photonic-computing.md) |
 | **Marchenko–Pastur law** | Limiting eigenvalue distribution of a large random matrix's correlation matrix, with bounded support; the null model for weight spectra | [Heavy-tailed spectra](docs/06-frontiers/heavy-tailed-weight-spectra.md#1-the-random-baseline-marchenkopastur-established) |
@@ -40,6 +42,7 @@ Short definitions of terms used across Understanding AI, with a link to where ea
 | **Neural ODE** | Network whose hidden state evolves by a learned differential equation | [Dynamics](docs/06-frontiers/nonlinearity-and-dynamical-systems.md) |
 | **NISQ** | Noisy intermediate-scale quantum: today's uncorrected quantum devices | [Quantum ML](docs/06-frontiers/quantum-machine-learning.md) |
 | **Operator fusion** | Merging several operations into one kernel so intermediates stay in fast memory instead of off-chip memory | [ML compilers](docs/04-systems/ml-compilers.md#fusion-quantified) |
+| **pass@k** | Probability that at least one of $k$ sampled solutions passes the tests, estimated without bias from $n \ge k$ samples | [Evaluation](docs/03-modern-ai/evaluation-and-benchmarks.md#passk) |
 | **Perplexity** | Exponentiated per-token cross-entropy; effective branching factor of a language model | [Probability](docs/00-foundations/probability-and-information.md) |
 | **Pre-LN / Post-LN** | Placing layer normalization inside each residual branch (Pre-LN) or after the residual addition (Post-LN) in a transformer | [Normalization and μP](docs/02-deep-learning/normalization-initialization-mup.md#where-the-norm-goes-matters) |
 | **Quantization** | Representing weights or activations with fewer bits | [Inference](docs/04-systems/inference-and-efficiency.md#quantization) |

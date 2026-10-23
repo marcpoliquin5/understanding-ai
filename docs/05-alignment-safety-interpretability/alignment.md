@@ -53,6 +53,8 @@ Capabilities and risks are measured with benchmark suites, red-team exercises, a
 - **Uncontaminated**: test items are not in the training data;
 - **Elicitation-aware**: they try hard to bring out the model's best performance, since under-elicitation underestimates risk.
 
+For the statistics of benchmark comparisons and the common ways scores mislead, see [Evaluation and benchmarks](../03-modern-ai/evaluation-and-benchmarks.md).
+
 ## AI control
 
 **Greenblatt et al. (2024)** proposed *AI control*: designing deployment protocols (monitoring, trusted editing, restricted permissions) that remain safe even if the model is trying to subvert them, and evaluating those protocols against a deliberately adversarial red team. Control complements alignment: one aims to make the model want the right thing; the other limits the damage if it does not.

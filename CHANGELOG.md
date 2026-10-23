@@ -2,6 +2,13 @@
 
 Understanding AI grows daily. Each entry records what was added or changed, newest first. See [docs/DAILY_UPDATES.md](docs/DAILY_UPDATES.md) for how updates work.
 
+## 2026-10-23 (evening): Evaluation and benchmarks, and their pitfalls
+
+- **Modern AI**: new page [Evaluation and benchmarks, and their pitfalls](docs/03-modern-ai/evaluation-and-benchmarks.md): evaluations as experiments on a super-population of questions, four families of benchmarks, standard errors and paired differences, the unbiased pass@k estimator with a tested NumPy sketch, and six ways scores mislead (contamination and the GSM1k replication, saturation from MMLU to Humanity's Last Exam, MMLU label errors, metric-driven "emergence", LLM-judge biases, and the 2025 *Leaderboard Illusion* findings on Chatbot Arena), all tied to the four variants of Goodhart's law. Also covers SWE-bench and METR's 50% task-completion time horizon, a reader's checklist, and a clearly labelled speculative section on evaluating models on noisy analog and optical hardware.
+- **References**: new *Evaluation and benchmarks* section with 22 entries, each checked against its arXiv abstract page or Crossref.
+- **Glossary**: added *Benchmark contamination*, *LLM-as-a-judge*, and *pass@k*.
+- **Linked** from the Modern AI index, the README field map, and the evaluation section of the alignment page.
+
 ## 2026-10-23: Heavy-tailed weight spectra and generalization
 
 - **Frontiers**: new page [Heavy-tailed weight spectra and generalization](docs/06-frontiers/heavy-tailed-weight-spectra.md): the Marchenko–Pastur baseline, the 5+1 phases of training and Heavy-Tailed Self-Regularization, maximum-likelihood power-law fitting with a tested NumPy sketch, α-based quality metrics and the large correlational studies behind them (with the caveats from controlled studies of generalization measures), competing explanations for where heavy tails come from (α-stable gradient noise, multiplicative noise, large learning rates without noise), the Hausdorff-dimension generalization bound, recent tools that use layer spectra (TempBalance, AlphaPruning, model balancing) and the 2025 SETOL theory, and a clearly labelled speculative section on using spectra to budget precision on analog and optical hardware.
@@ -40,7 +47,7 @@ Planned topics, roughly in rotation order:
 - [ ] Classical ML: Gaussian processes and Bayesian optimization
 - [ ] Deep learning: worked derivation of attention gradients
 - [x] Deep learning: normalization, initialization and μP (hyperparameter transfer) (2026-10-22)
-- [ ] Modern AI: evaluation and benchmarks, and their pitfalls
+- [x] Modern AI: evaluation and benchmarks, and their pitfalls (2026-10-23)
 - [ ] Modern AI: code generation and program synthesis
 - [ ] Modern AI: AI for science (protein design, materials, weather)
 - [x] Systems: compilers for ML (XLA, MLIR, Triton) (2026-10-18)

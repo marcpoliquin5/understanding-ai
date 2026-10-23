@@ -15,6 +15,7 @@ Every source cited in Understanding AI, grouped by section. Each entry links to 
 - [Transformers and language models](#transformers-and-language-models)
 - [Generative and multimodal models](#generative-and-multimodal-models)
 - [Retrieval, tools and agents](#retrieval-tools-and-agents)
+- [Evaluation and benchmarks](#evaluation-and-benchmarks)
 - [Systems](#systems)
 - [Alignment, safety and interpretability](#alignment-safety-and-interpretability)
 - [Frontiers: recursion and self-improvement](#frontiers-recursion-and-self-improvement)
@@ -182,6 +183,31 @@ Every source cited in Understanding AI, grouped by section. Each entry links to 
 - Shinn, N., et al. (2023). *Reflexion: Language agents with verbal reinforcement learning*. NeurIPS. [arXiv:2303.11366](https://arxiv.org/abs/2303.11366)
 - Wang, G., et al. (2023). *Voyager: An open-ended embodied agent with large language models*. arXiv. [arXiv:2305.16291](https://arxiv.org/abs/2305.16291)
 - Yao, S., et al. (2022). *ReAct: Synergizing reasoning and acting in language models*. ICLR 2023. [arXiv:2210.03629](https://arxiv.org/abs/2210.03629)
+
+## Evaluation and benchmarks
+
+- Hendrycks, D., Burns, C., Basart, S., et al. (2020). *Measuring massive multitask language understanding*. [arXiv:2009.03300](https://arxiv.org/abs/2009.03300)
+- Chen, M., Tworek, J., Jun, H., et al. (2021). *Evaluating large language models trained on code*. [arXiv:2107.03374](https://arxiv.org/abs/2107.03374)
+- Kiela, D., Bartolo, M., Nie, Y., et al. (2021). *Dynabench: Rethinking benchmarking in NLP*. [arXiv:2104.14337](https://arxiv.org/abs/2104.14337)
+- Srivastava, A., Rastogi, A., Rao, A., et al. (2022). *Beyond the imitation game: Quantifying and extrapolating the capabilities of language models*. [arXiv:2206.04615](https://arxiv.org/abs/2206.04615)
+- Liang, P., Bommasani, R., Lee, T., et al. (2022). *Holistic evaluation of language models*. [arXiv:2211.09110](https://arxiv.org/abs/2211.09110)
+- Schaeffer, R., Miranda, B., Koyejo, S. (2023). *Are emergent abilities of large language models a mirage?* [arXiv:2304.15004](https://arxiv.org/abs/2304.15004)
+- Wang, P., Li, L., Chen, L., et al. (2023). *Large language models are not fair evaluators*. [arXiv:2305.17926](https://arxiv.org/abs/2305.17926)
+- Zheng, L., Chiang, W.-L., Sheng, Y., et al. (2023). *Judging LLM-as-a-judge with MT-Bench and Chatbot Arena*. [arXiv:2306.05685](https://arxiv.org/abs/2306.05685)
+- Golchin, S., Surdeanu, M. (2023). *Time travel in LLMs: Tracing data contamination in large language models*. [arXiv:2308.08493](https://arxiv.org/abs/2308.08493)
+- Jimenez, C. E., Yang, J., Wettig, A., et al. (2023). *SWE-bench: Can language models resolve real-world GitHub issues?* [arXiv:2310.06770](https://arxiv.org/abs/2310.06770)
+- Rein, D., Hou, B. L., Stickland, A. C., et al. (2023). *GPQA: A graduate-level Google-proof Q&A benchmark*. [arXiv:2311.12022](https://arxiv.org/abs/2311.12022)
+- Chiang, W.-L., Zheng, L., Sheng, Y., et al. (2024). *Chatbot Arena: An open platform for evaluating LLMs by human preference*. [arXiv:2403.04132](https://arxiv.org/abs/2403.04132)
+- Zhang, H., Da, J., Lee, D., et al. (2024). *A careful examination of large language model performance on grade school arithmetic*. [arXiv:2405.00332](https://arxiv.org/abs/2405.00332)
+- Gema, A. P., Leang, J. O. J., Hong, G., et al. (2024). *Are we done with MMLU?* [arXiv:2406.04127](https://arxiv.org/abs/2406.04127)
+- Madaan, L., Singh, A. K., Schaeffer, R., et al. (2024). *Quantifying variance in evaluation benchmarks*. [arXiv:2406.10229](https://arxiv.org/abs/2406.10229)
+- White, C., Dooley, S., Roberts, M., et al. (2024). *LiveBench: A challenging, contamination-limited LLM benchmark*. [arXiv:2406.19314](https://arxiv.org/abs/2406.19314)
+- Miller, E. (2024). *Adding error bars to evals: A statistical approach to language model evaluations*. [arXiv:2411.00640](https://arxiv.org/abs/2411.00640)
+- Phan, L., Gatti, A., Han, Z., et al. (2025). *Humanity's Last Exam*. [arXiv:2501.14249](https://arxiv.org/abs/2501.14249)
+- Kwa, T., West, B., Becker, J., et al. (2025). *Measuring AI ability to complete long software tasks*. [arXiv:2503.14499](https://arxiv.org/abs/2503.14499)
+- Singh, S., Nan, Y., Wang, A., et al. (2025). *The leaderboard illusion*. [arXiv:2504.20879](https://arxiv.org/abs/2504.20879)
+- Manheim, D., Garrabrant, S. (2018). *Categorizing variants of Goodhart's law*. [arXiv:1803.04585](https://arxiv.org/abs/1803.04585)
+- Bradley, R. A., Terry, M. E. (1952). *Rank analysis of incomplete block designs: I. The method of paired comparisons*. Biometrika 39(3/4). [doi:10.2307/2334029](https://doi.org/10.2307/2334029)
 
 ## Systems
 

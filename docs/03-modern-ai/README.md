@@ -8,6 +8,7 @@ Modern AI is built around **foundation models**: large networks pretrained on br
 | [Generative models](generative-models.md) | VAEs, GANs, diffusion and flow matching, latent diffusion |
 | [Retrieval, tools and agents](retrieval-tools-and-agents.md) | RAG, tool use, ReAct, planning loops, multi-agent systems, agent runtimes |
 | [Multimodal models](multimodal-models.md) | Vision–language models, CLIP, image and video generation, speech |
+| [Evaluation and benchmarks](evaluation-and-benchmarks.md) | Error bars and paired comparisons, pass@k, contamination, saturation, label errors, LLM judges, leaderboard gaming, agent time horizons |
 
 ```mermaid
 flowchart LR
