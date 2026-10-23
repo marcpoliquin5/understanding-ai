@@ -70,8 +70,11 @@ The expansion rule is $f_{C+1}(x) = \big(f_C \circ f_C\big)(x) \oplus \mathrm{co
 - **Fractal memory.** Hierarchical, multi-resolution memory (fine detail for recent context, coarser summaries further back) could manage very long contexts in a self-similar way.
 - **Predicting capabilities.** If scaling exponents reflect the intrinsic dimension of tasks, measuring task dimension might predict how much scale a capability needs. This is untested at scale.
 
+## Related page
+
+- [Heavy-tailed weight spectra and generalization](heavy-tailed-weight-spectra.md): power-law eigenvalue spectra in trained weights, and a generalization bound in terms of the Hausdorff dimension of SGD trajectories.
+
 ## Next topics for this page
 
 - Multifractal analysis of language and attention patterns
-- Heavy-tailed weight spectra and their correlation with generalization
 - Iterated function systems as generative models

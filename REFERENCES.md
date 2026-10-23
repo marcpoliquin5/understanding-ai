@@ -19,6 +19,7 @@ Every source cited in Understanding AI, grouped by section. Each entry links to 
 - [Alignment, safety and interpretability](#alignment-safety-and-interpretability)
 - [Frontiers: recursion and self-improvement](#frontiers-recursion-and-self-improvement)
 - [Frontiers: fractal and self-similar structure](#frontiers-fractal-and-self-similar-structure)
+- [Frontiers: heavy-tailed weight spectra](#frontiers-heavy-tailed-weight-spectra)
 - [Frontiers: non-linearity and dynamical systems](#frontiers-non-linearity-and-dynamical-systems)
 - [Frontiers: photonic and optical computing](#frontiers-photonic-and-optical-computing)
 - [Frontiers: neuromorphic computing](#frontiers-neuromorphic-computing)
@@ -266,6 +267,29 @@ Every source cited in Understanding AI, grouped by section. Each entry links to 
 - Mehta, P., Schwab, D. J. (2014). *An exact mapping between the variational renormalization group and deep learning*. arXiv. [arXiv:1410.3831](https://arxiv.org/abs/1410.3831)
 - Sharma, U., Kaplan, J. (2020). *A neural scaling law from the dimension of the data manifold*. arXiv (JMLR 2022). [arXiv:2004.10802](https://arxiv.org/abs/2004.10802)
 - Sohl-Dickstein, J. (2024). *The boundary of neural network trainability is fractal*. arXiv. [arXiv:2402.06184](https://arxiv.org/abs/2402.06184)
+
+## Frontiers: heavy-tailed weight spectra
+
+- Clauset, A., Shalizi, C. R., Newman, M. E. J. (2009). *Power-law distributions in empirical data*. SIAM Review. [arXiv:0706.1062](https://arxiv.org/abs/0706.1062)
+- Gürbüzbalaban, M., Şimşekli, U., Zhu, L. (2020). *The heavy-tail phenomenon in SGD*. ICML 2021. [arXiv:2006.04740](https://arxiv.org/abs/2006.04740)
+- Hodgkinson, L., Mahoney, M. W. (2020). *Multiplicative noise and heavy tails in stochastic optimization*. ICML 2021. [arXiv:2006.06293](https://arxiv.org/abs/2006.06293)
+- Jiang, Y., Neyshabur, B., Mobahi, H., Krishnan, D., Bengio, S. (2019). *Fantastic generalization measures and where to find them*. ICLR 2020. [arXiv:1912.02178](https://arxiv.org/abs/1912.02178)
+- Kothapalli, V., Pang, T., Deng, S., Liu, Z., Yang, Y. (2024). *From spikes to heavy tails: Unveiling the spectral evolution of neural networks*. [arXiv:2406.04657](https://arxiv.org/abs/2406.04657)
+- Liu, Z., Hu, Y., Pang, T., Zhou, Y., Ren, P., Yang, Y. (2024). *Model balancing helps low-data training and fine-tuning*. EMNLP. [arXiv:2410.12178](https://arxiv.org/abs/2410.12178)
+- Lu, H., Zhou, Y., Liu, S., Wang, Z., Mahoney, M. W., Yang, Y. (2024). *AlphaPruning: Using heavy-tailed self regularization theory for improved layer-wise pruning of large language models*. NeurIPS. [arXiv:2410.10912](https://arxiv.org/abs/2410.10912)
+- Martin, C. H., Hinrichs, C. (2025). *SETOL: A semi-empirical theory of (deep) learning*. [arXiv:2507.17912](https://arxiv.org/abs/2507.17912)
+- Martin, C. H., Mahoney, M. W. (2018). *Implicit self-regularization in deep neural networks: Evidence from random matrix theory and implications for learning*. JMLR 2021. [arXiv:1810.01075](https://arxiv.org/abs/1810.01075)
+- Martin, C. H., Mahoney, M. W. (2019). *Heavy-tailed universality predicts trends in test accuracies for very large pre-trained deep neural networks*. SDM 2020. [arXiv:1901.08278](https://arxiv.org/abs/1901.08278)
+- Martin, C. H., Mahoney, M. W. (2019). *Traditional and heavy-tailed self regularization in neural network models*. ICML. [arXiv:1901.08276](https://arxiv.org/abs/1901.08276)
+- Martin, C. H., Peng, T., Mahoney, M. W. (2021). *Predicting trends in the quality of state-of-the-art neural networks without access to training or testing data*. Nature Communications 12, 4122. [doi:10.1038/s41467-021-24025-8](https://doi.org/10.1038/s41467-021-24025-8)
+- Marčenko, V. A., Pastur, L. A. (1967). *Distribution of eigenvalues for some sets of random matrices*. Mathematics of the USSR-Sbornik 1(4). [doi:10.1070/SM1967v001n04ABEH001994](https://doi.org/10.1070/SM1967v001n04ABEH001994)
+- Panigrahi, A., Somani, R., Goyal, N., Netrapalli, P. (2019). *Non-Gaussianity of stochastic gradient noise*. [arXiv:1910.09626](https://arxiv.org/abs/1910.09626)
+- Şimşekli, U., Sagun, L., Gürbüzbalaban, M. (2019). *A tail-index analysis of stochastic gradient noise in deep neural networks*. ICML. [arXiv:1901.06053](https://arxiv.org/abs/1901.06053)
+- Şimşekli, U., Sener, O., Deligiannidis, G., Erdogdu, M. A. (2020). *Hausdorff dimension, heavy tails, and generalization in neural networks*. NeurIPS. [arXiv:2006.09313](https://arxiv.org/abs/2006.09313)
+- WeightWatcher (open-source tool for layer-wise spectral analysis). [GitHub](https://github.com/CalculatedContent/WeightWatcher)
+- Xie, Z., Sato, I., Sugiyama, M. (2020). *A diffusion theory for deep learning dynamics: Stochastic gradient descent exponentially favors flat minima*. ICLR 2021. [arXiv:2002.03495](https://arxiv.org/abs/2002.03495)
+- Yang, Y., Theisen, R., Hodgkinson, L., Gonzalez, J. E., Ramchandran, K., Martin, C. H., Mahoney, M. W. (2022). *Evaluating natural language processing models with generalization metrics that do not need access to any training or testing data*. KDD 2023. [arXiv:2202.02842](https://arxiv.org/abs/2202.02842)
+- Zhou, Y., Pang, T., Liu, K., Martin, C. H., Mahoney, M. W., Yang, Y. (2023). *Temperature balancing, layer-wise weight analysis, and neural network training*. NeurIPS. [arXiv:2312.00359](https://arxiv.org/abs/2312.00359)
 
 ## Frontiers: non-linearity and dynamical systems
 

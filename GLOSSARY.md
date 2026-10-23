@@ -17,12 +17,14 @@ Short definitions of terms used across Understanding AI, with a link to where ea
 | **Double descent** | Test error falling, rising, then falling again as capacity grows past the interpolation threshold | [Learning theory](docs/00-foundations/learning-theory.md#double-descent) |
 | **DPO** | Direct preference optimization: fit preferences with a classification-style loss instead of RL | [LLMs](docs/03-modern-ai/large-language-models.md#direct-preference-optimization-dpo) |
 | **Dynamical isometry** | Initialization under which all singular values of a deep network's input–output Jacobian are near one, so signals survive depth | [Normalization and μP](docs/02-deep-learning/normalization-initialization-mup.md#1-initialization-keeping-the-forward-pass-alive-established) |
+| **Empirical spectral density (ESD)** | Histogram of the eigenvalues of a layer's weight correlation matrix $W^\top W/N$ | [Heavy-tailed spectra](docs/06-frontiers/heavy-tailed-weight-spectra.md#1-the-random-baseline-marchenkopastur-established) |
 | **Edge of chaos** | Boundary between ordered and chaotic dynamics where deep signal propagation is possible | [Dynamics](docs/06-frontiers/nonlinearity-and-dynamical-systems.md) |
 | **Edge of stability** | Regime where the loss curvature hovers near $2/\eta$ during gradient descent | [Optimization](docs/00-foundations/optimization.md#second-order-ideas) |
 | **Embedding** | A learned vector representing a token, image patch, or other item | [Linear algebra](docs/00-foundations/linear-algebra.md) |
 | **Foundation model** | Large model pretrained on broad data and adapted to many tasks | [Modern AI](docs/03-modern-ai/README.md) |
 | **Fractal dimension** | Non-integer measure of how detail scales with resolution | [Fractals](docs/06-frontiers/fractal-and-self-similar-structure.md) |
 | **Grokking** | Delayed, abrupt generalization long after the training set is memorized | [Learning theory](docs/00-foundations/learning-theory.md#grokking) |
+| **Heavy-Tailed Self-Regularization (HT-SR)** | The observation and theory that well-trained layers have power-law-tailed eigenvalue spectra whose exponent tracks model quality | [Heavy-tailed spectra](docs/06-frontiers/heavy-tailed-weight-spectra.md) |
 | **Hallucination** | Fluent output not supported by inputs or facts | [LLMs](docs/03-modern-ai/large-language-models.md#known-failure-modes) |
 | **In-context learning** | Performing a new task from examples in the prompt without weight updates | [LLMs](docs/03-modern-ai/large-language-models.md#in-context-learning) |
 | **Induction head** | Attention circuit that completes repeated patterns (`A B … A → B`) | [Interpretability](docs/05-alignment-safety-interpretability/interpretability.md) |
@@ -31,6 +33,7 @@ Short definitions of terms used across Understanding AI, with a link to where ea
 | **KV cache** | Stored keys and values of past tokens reused during generation | [Inference](docs/04-systems/inference-and-efficiency.md) |
 | **LoRA** | Fine-tuning by learning a low-rank update to frozen weights | [LLMs](docs/03-modern-ai/large-language-models.md#efficient-adaptation) |
 | **Mach–Zehnder interferometer (MZI)** | Programmable 2×2 optical element; meshes of MZIs implement matrices in photonic chips | [Photonics](docs/06-frontiers/photonic-computing.md) |
+| **Marchenko–Pastur law** | Limiting eigenvalue distribution of a large random matrix's correlation matrix, with bounded support; the null model for weight spectra | [Heavy-tailed spectra](docs/06-frontiers/heavy-tailed-weight-spectra.md#1-the-random-baseline-marchenkopastur-established) |
 | **Maximal Update Parametrization (μP)** | Per-layer scaling of initialization and learning rates with width so features keep learning at every size and hyperparameters transfer from small to large models | [Normalization and μP](docs/02-deep-learning/normalization-initialization-mup.md#3-μp-making-hyperparameters-survive-scale-established-with-active-refinements) |
 | **Mixture of experts (MoE)** | Layer that routes each token to a few of many expert sub-networks | [Inference](docs/04-systems/inference-and-efficiency.md#mixture-of-experts) |
 | **Model collapse** | Degradation from training recursively on model-generated data | [Recursion](docs/06-frontiers/recursion-and-self-improvement.md#model-collapse) |
