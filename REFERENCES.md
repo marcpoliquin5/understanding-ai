@@ -23,6 +23,7 @@ Every source cited in Understanding AI, grouped by section. Each entry links to 
 - [Frontiers: heavy-tailed weight spectra](#frontiers-heavy-tailed-weight-spectra)
 - [Frontiers: non-linearity and dynamical systems](#frontiers-non-linearity-and-dynamical-systems)
 - [Frontiers: photonic and optical computing](#frontiers-photonic-and-optical-computing)
+- [Frontiers: optical energy accounting and nonlinearity](#frontiers-optical-energy-accounting-and-nonlinearity)
 - [Frontiers: neuromorphic computing](#frontiers-neuromorphic-computing)
 - [Frontiers: quantum machine learning](#frontiers-quantum-machine-learning)
 - [Frontiers: world models](#frontiers-world-models)
@@ -351,6 +352,24 @@ Every source cited in Understanding AI, grouped by section. Each entry links to 
 - Wetzstein, G., et al. (2020). *Inference in artificial intelligence with deep optics and photonics*. Nature. [doi:10.1038/s41586-020-2973-6](https://doi.org/10.1038/s41586-020-2973-6)
 - Wright, L. G., et al. (2022). *Deep physical neural networks trained with backpropagation*. Nature. [doi:10.1038/s41586-021-04223-6](https://doi.org/10.1038/s41586-021-04223-6)
 - Xu, X., et al. (2021). *11 TOPS photonic convolutional accelerator for optical neural networks*. Nature. [doi:10.1038/s41586-020-03063-0](https://doi.org/10.1038/s41586-020-03063-0)
+
+## Frontiers: optical energy accounting and nonlinearity
+
+- Ahmed, S. R., et al. (2025). *Universal photonic artificial intelligence acceleration*. Nature 640, 368–374. [doi:10.1038/s41586-025-08854-x](https://doi.org/10.1038/s41586-025-08854-x)
+- Anderson, M. G., Ma, S.-Y., Wang, T., Wright, L. G., McMahon, P. L. (2023). *Optical transformers*. [arXiv:2302.10360](https://arxiv.org/abs/2302.10360)
+- Bandyopadhyay, S., et al. (2024). *Single-chip photonic deep neural network with forward-only training*. Nature Photonics 18, 1335–1343. [doi:10.1038/s41566-024-01567-z](https://doi.org/10.1038/s41566-024-01567-z) ([arXiv:2208.01623](https://arxiv.org/abs/2208.01623))
+- Hamerly, R., Bernstein, L., Sludds, A., Soljačić, M., Englund, D. (2019). *Large-scale optical neural networks based on photoelectric multiplication*. Physical Review X 9, 021032. [doi:10.1103/PhysRevX.9.021032](https://doi.org/10.1103/PhysRevX.9.021032)
+- Horowitz, M. (2014). *1.1 Computing's energy problem (and what we can do about it)*. ISSCC, 10–14. [doi:10.1109/ISSCC.2014.6757323](https://doi.org/10.1109/ISSCC.2014.6757323)
+- Hua, S., et al. (2025). *An integrated large-scale photonic accelerator with ultralow latency*. Nature 640, 361–367. [doi:10.1038/s41586-025-08786-6](https://doi.org/10.1038/s41586-025-08786-6)
+- Li, G. H. Y., Sekine, R., Nehra, R., Gray, R. M., Ledezma, L., Guo, Q., Marandi, A. (2023). *All-optical ultrafast ReLU function for energy-efficient nanophotonic deep learning*. Nanophotonics 12, 847–855. [doi:10.1515/nanoph-2022-0137](https://doi.org/10.1515/nanoph-2022-0137) ([arXiv:2201.03787](https://arxiv.org/abs/2201.03787))
+- McMahon, P. L. (2023). *The physics of optical computing*. Nature Reviews Physics 5, 717–734. [doi:10.1038/s42254-023-00645-5](https://doi.org/10.1038/s42254-023-00645-5) ([arXiv:2308.00088](https://arxiv.org/abs/2308.00088))
+- Miller, D. A. B. (2017). *Attojoule optoelectronics for low-energy information processing and communications*. Journal of Lightwave Technology 35(3), 346–396. [doi:10.1109/JLT.2017.2647779](https://doi.org/10.1109/JLT.2017.2647779)
+- Nahmias, M. A., de Lima, T. F., Tait, A. N., Peng, H.-T., Shastri, B. J., Prucnal, P. R. (2020). *Photonic multiply-accumulate operations for neural networks*. IEEE Journal of Selected Topics in Quantum Electronics 26(1). [doi:10.1109/JSTQE.2019.2941485](https://doi.org/10.1109/JSTQE.2019.2941485)
+- Sludds, A., et al. (2022). *Delocalized photonic deep learning on the internet's edge*. Science 378, 270–276. [doi:10.1126/science.abq8271](https://doi.org/10.1126/science.abq8271) ([arXiv:2203.05466](https://arxiv.org/abs/2203.05466))
+- Wang, T., Ma, S.-Y., Wright, L. G., Onodera, T., Richard, B. C., McMahon, P. L. (2022). *An optical neural network using less than 1 photon per multiplication*. Nature Communications 13, 123. [doi:10.1038/s41467-021-27774-8](https://doi.org/10.1038/s41467-021-27774-8)
+- Wang, T., et al. (2023). *Image sensing with multilayer nonlinear optical neural networks*. Nature Photonics 17, 408–415. [doi:10.1038/s41566-023-01170-8](https://doi.org/10.1038/s41566-023-01170-8)
+- Williamson, I. A. D., Hughes, T. W., Minkov, M., Bartlett, B., Pai, S., Fan, S. (2020). *Reprogrammable electro-optic nonlinear activation functions for optical neural networks*. IEEE Journal of Selected Topics in Quantum Electronics 26(1). [doi:10.1109/JSTQE.2019.2930455](https://doi.org/10.1109/JSTQE.2019.2930455) ([arXiv:1903.04579](https://arxiv.org/abs/1903.04579))
+- Zuo, Y., et al. (2019). *All-optical neural network with nonlinear activation functions*. Optica 6(9), 1132. [doi:10.1364/OPTICA.6.001132](https://doi.org/10.1364/OPTICA.6.001132)
 
 ## Frontiers: neuromorphic computing
 

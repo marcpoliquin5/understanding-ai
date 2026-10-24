@@ -22,6 +22,7 @@ Short definitions of terms used across Understanding AI, with a link to where ea
 | **Edge of chaos** | Boundary between ordered and chaotic dynamics where deep signal propagation is possible | [Dynamics](docs/06-frontiers/nonlinearity-and-dynamical-systems.md) |
 | **Edge of stability** | Regime where the loss curvature hovers near $2/\eta$ during gradient descent | [Optimization](docs/00-foundations/optimization.md#second-order-ideas) |
 | **Embedding** | A learned vector representing a token, image patch, or other item | [Linear algebra](docs/00-foundations/linear-algebra.md) |
+| **Energy per MAC** | Energy spent per multiply-accumulate; for optical hardware it may count only detected light, laser power, or the whole system, which differ by orders of magnitude | [Optical energy](docs/06-frontiers/optical-energy-and-nonlinearity.md) |
 | **Foundation model** | Large model pretrained on broad data and adapted to many tasks | [Modern AI](docs/03-modern-ai/README.md) |
 | **Fractal dimension** | Non-integer measure of how detail scales with resolution | [Fractals](docs/06-frontiers/fractal-and-self-similar-structure.md) |
 | **Grokking** | Delayed, abrupt generalization long after the training set is memorized | [Learning theory](docs/00-foundations/learning-theory.md#grokking) |
@@ -52,7 +53,9 @@ Short definitions of terms used across Understanding AI, with a link to where ea
 | **RLHF** | Reinforcement learning from human feedback via a learned reward model | [LLMs](docs/03-modern-ai/large-language-models.md) |
 | **Scaling law** | Power-law relation between loss and parameters, data, or compute | [Scaling laws](docs/02-deep-learning/scaling-laws.md) |
 | **Self-supervised learning** | Learning from targets constructed from the data itself | [Unsupervised](docs/01-classical-ml/unsupervised-learning.md) |
+| **Shot noise** | Fluctuation in photon counts; with $n$ detected photons the signal-to-noise ratio is $\sqrt{n}$, which sets the optical energy floor for analog optical computing | [Optical energy](docs/06-frontiers/optical-energy-and-nonlinearity.md#4-the-physical-floor-shot-noise-established) |
 | **Spiking neural network** | Network of neurons that communicate with discrete spikes in time | [Neuromorphic](docs/06-frontiers/neuromorphic-computing.md) |
+| **Standard quantum limit (optical neural networks)** | Minimum optical energy per MAC set by photodetector shot noise; can fall below one photon per MAC for wide matrices | [Optical energy](docs/06-frontiers/optical-energy-and-nonlinearity.md#4-the-physical-floor-shot-noise-established) |
 | **Superposition** | Representing more features than dimensions using nearly orthogonal directions | [Interpretability](docs/05-alignment-safety-interpretability/interpretability.md#superposition-and-sparse-features) |
 | **SVD** | Factorization $W = U\Sigma V^\top$ into rotations and scalings | [Linear algebra](docs/00-foundations/linear-algebra.md) |
 | **Token** | Unit of text (often a sub-word) processed by a language model | [Transformers](docs/02-deep-learning/transformers.md) |

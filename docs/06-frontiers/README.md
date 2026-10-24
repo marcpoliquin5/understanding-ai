@@ -13,6 +13,7 @@ This is where the map runs out and the territory is still being surveyed. Each p
 | [Heavy-tailed weight spectra](heavy-tailed-weight-spectra.md) | Why do trained weight matrices develop power-law eigenvalue spectra, and can that predict how well a model generalizes without any data? |
 | [Non-linearity and dynamical systems](nonlinearity-and-dynamical-systems.md) | What can chaos theory, the edge of chaos, and differential equations tell us about networks? |
 | [Photonic and optical computing](photonic-computing.md) | Can light do the matrix multiplications of AI faster and with less energy? |
+| [Optical energy and nonlinearity](optical-energy-and-nonlinearity.md) | Where does the energy of an optical neural network actually go, what physics sets the floor, and why is the nonlinearity the hard part? |
 | [Neuromorphic computing](neuromorphic-computing.md) | What happens when hardware computes with spikes and local memory, like brains? |
 | [Quantum machine learning](quantum-machine-learning.md) | Where, if anywhere, do quantum computers offer real advantages for learning? |
 | [World models](world-models.md) | Can systems learn internal simulators of their environment and plan with them? |
@@ -29,6 +30,7 @@ mindmap
       Nonlinear dynamics
     Physical substrates
       Photonic computing
+      Optical energy accounting
       Neuromorphic computing
       Quantum ML
 ```

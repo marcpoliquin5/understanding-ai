@@ -2,6 +2,13 @@
 
 Understanding AI grows daily. Each entry records what was added or changed, newest first. See [docs/DAILY_UPDATES.md](docs/DAILY_UPDATES.md) for how updates work.
 
+## 2026-10-24: Energy per MAC and the nonlinearity problem
+
+- **Frontiers**: new page [Energy per MAC: the accounting of optical neural networks, and the nonlinearity problem](docs/06-frontiers/optical-energy-and-nonlinearity.md): Horowitz's digital energy table as the baseline, the four stages of an optical MAC, the $1/N$ scaling argument and why memory traffic sets the floor, the shot-noise standard quantum limit and the sub-photon-per-multiplication experiments (2022), a tested NumPy energy-budget calculator with clearly illustrative parameters, O-E-O versus electro-optic versus all-optical activations (cold-atom EIT, lithium-niobate ReLU, single-chip in situ training), the two April 2025 Nature photonic accelerators, a six-question checklist for reading energy claims, and a clearly labelled speculative section on energy-aware compilation and per-layer precision.
+- **References**: new *Frontiers: optical energy accounting and nonlinearity* section with 15 entries, each checked against Crossref, its arXiv abstract page, or the publisher's page.
+- **Glossary**: added *Energy per MAC*, *Shot noise*, and *Standard quantum limit (optical neural networks)*.
+- **Linked** from the Frontiers index, the README field map, and the open-challenges section of the photonic computing page.
+
 ## 2026-10-23 (evening): Evaluation and benchmarks, and their pitfalls
 
 - **Modern AI**: new page [Evaluation and benchmarks, and their pitfalls](docs/03-modern-ai/evaluation-and-benchmarks.md): evaluations as experiments on a super-population of questions, four families of benchmarks, standard errors and paired differences, the unbiased pass@k estimator with a tested NumPy sketch, and six ways scores mislead (contamination and the GSM1k replication, saturation from MMLU to Humanity's Last Exam, MMLU label errors, metric-driven "emergence", LLM-judge biases, and the 2025 *Leaderboard Illusion* findings on Chatbot Arena), all tied to the four variants of Goodhart's law. Also covers SWE-bench and METR's 50% task-completion time horizon, a reader's checklist, and a clearly labelled speculative section on evaluating models on noisy analog and optical hardware.
@@ -55,7 +62,7 @@ Planned topics, roughly in rotation order:
 - [ ] Frontiers / recursion: fast-weight programmers and self-referential networks
 - [x] Frontiers / fractals: heavy-tailed weight spectra and generalization (2026-10-23)
 - [ ] Frontiers / dynamics: SGD as a stochastic differential equation
-- [ ] Frontiers / photonics: energy-per-MAC accounting and optical nonlinearities
+- [x] Frontiers / photonics: energy-per-MAC accounting and optical nonlinearities (2026-10-24)
 - [ ] Frontiers / neuromorphic: memristive crossbars and in-memory computing
 - [ ] Frontiers / quantum: tensor networks as ML models
 - [ ] Frontiers / world models: causal representation learning

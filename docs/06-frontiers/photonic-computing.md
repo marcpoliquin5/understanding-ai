@@ -67,9 +67,9 @@ How digital ML compilers already solve the partitioning, tiling, and code-genera
 
 ## Open challenges (active research)
 
-- **Nonlinearity**: all-optical activations remain weak or power-hungry; most systems return to electronics between layers.
+- **Nonlinearity**: all-optical activations remain weak or power-hungry; most systems return to electronics between layers. See [Energy per MAC and the nonlinearity problem](optical-energy-and-nonlinearity.md#6-the-nonlinearity-problem-established-with-active-research).
 - **Precision**: analog noise and drift typically limit effective precision to a few bits, which suits quantized inference better than training.
-- **I/O overhead**: energy saved in the optical core can be lost in electro-optic conversion if data does not stay in the optical domain long enough.
+- **I/O overhead**: energy saved in the optical core can be lost in electro-optic conversion if data does not stay in the optical domain long enough. The arithmetic is worked through in [Energy per MAC](optical-energy-and-nonlinearity.md#3-the-scaling-argument-established).
 - **Scale and integration**: fitting large meshes on chip, packaging with lasers and electronics, and manufacturing at volume.
 - **Memory**: there is no dense, fast optical equivalent of SRAM; weights and activations live electronically.
 
@@ -84,6 +84,6 @@ How digital ML compilers already solve the partitioning, tiling, and code-genera
 
 ## Next topics for this page
 
-- Wavelength-division multiplexing and the energy-per-MAC accounting of optical systems
+- Wavelength-division multiplexing in more detail (energy-per-MAC accounting and optical nonlinearities now have [their own page](optical-energy-and-nonlinearity.md))
 - Phase-change materials for non-volatile optical weights
 - Error models and calibration in MZI meshes in more detail
