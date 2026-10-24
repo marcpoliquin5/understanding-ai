@@ -2,6 +2,13 @@
 
 Understanding AI grows daily. Each entry records what was added or changed, newest first. See [docs/DAILY_UPDATES.md](docs/DAILY_UPDATES.md) for how updates work.
 
+## 2026-10-24 (evening): Fast-weight programmers and self-referential networks
+
+- **Frontiers**: new page [Fast-weight programmers and self-referential networks](docs/06-frontiers/fast-weight-programmers.md): slow networks that program fast weights (Hinton & Plaut 1987, Schmidhuber 1992, Ba et al. 2016), the exact equivalence between causal linear attention and additive outer-product memories and the capacity limit it implies, the delta rule as one online gradient step and its hardware-efficient parallelization (DeltaNet), a tested NumPy sketch of equivalence, rebinding and crosstalk, a family table of editing rules (gated delta rule, Kimi Delta Attention, test-time training, Titans) and their use in production hybrids (Qwen3-Next, Kimi Linear), expressiveness results on parity and negative eigenvalues, the modern self-referential weight matrix, an honest status table, and a clearly labelled speculative section on outer-product updates as a hardware primitive.
+- **References**: new *Frontiers: fast-weight programmers* section with 20 entries, each checked against its arXiv abstract page, Crossref, or the official model card (one 1987 conference paper without a DOI is listed without a link).
+- **Glossary**: added *Delta rule (fast weights)*, *Fast weights*, and *Self-referential weight matrix (SRWM)*.
+- **Linked** from the Frontiers index, the README field map and highlights, and the learning-to-learn section of the recursion page.
+
 ## 2026-10-24: Energy per MAC and the nonlinearity problem
 
 - **Frontiers**: new page [Energy per MAC: the accounting of optical neural networks, and the nonlinearity problem](docs/06-frontiers/optical-energy-and-nonlinearity.md): Horowitz's digital energy table as the baseline, the four stages of an optical MAC, the $1/N$ scaling argument and why memory traffic sets the floor, the shot-noise standard quantum limit and the sub-photon-per-multiplication experiments (2022), a tested NumPy energy-budget calculator with clearly illustrative parameters, O-E-O versus electro-optic versus all-optical activations (cold-atom EIT, lithium-niobate ReLU, single-chip in situ training), the two April 2025 Nature photonic accelerators, a six-question checklist for reading energy claims, and a clearly labelled speculative section on energy-aware compilation and per-layer precision.
@@ -59,7 +66,7 @@ Planned topics, roughly in rotation order:
 - [ ] Modern AI: AI for science (protein design, materials, weather)
 - [x] Systems: compilers for ML (XLA, MLIR, Triton) (2026-10-18)
 - [ ] Alignment: reward modelling failure modes in depth
-- [ ] Frontiers / recursion: fast-weight programmers and self-referential networks
+- [x] Frontiers / recursion: fast-weight programmers and self-referential networks (2026-10-24)
 - [x] Frontiers / fractals: heavy-tailed weight spectra and generalization (2026-10-23)
 - [ ] Frontiers / dynamics: SGD as a stochastic differential equation
 - [x] Frontiers / photonics: energy-per-MAC accounting and optical nonlinearities (2026-10-24)

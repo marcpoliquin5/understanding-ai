@@ -48,7 +48,7 @@ flowchart TB
         A1[Alignment & safety] --- A2[Interpretability]
     end
     subgraph X[06 · Frontiers]
-        X1[Recursion & self-improvement] --- X2[Fractal structure] --- X3[Nonlinear dynamics]
+        X1[Recursion & self-improvement] --- X1b[Fast-weight programmers] --- X2[Fractal structure] --- X3[Nonlinear dynamics]
         X4[Photonic computing] --- X5[Neuromorphic] --- X6[Quantum ML] --- X7[World models]
     end
     F --> C --> D --> M
@@ -69,7 +69,7 @@ flowchart TB
 | [**03 · Modern AI**](docs/03-modern-ai/README.md) | [Large language models](docs/03-modern-ai/large-language-models.md) · [Generative models](docs/03-modern-ai/generative-models.md) · [Retrieval, tools & agents](docs/03-modern-ai/retrieval-tools-and-agents.md) · [Multimodal](docs/03-modern-ai/multimodal-models.md) · [Evaluation & benchmarks](docs/03-modern-ai/evaluation-and-benchmarks.md) |
 | [**04 · Systems**](docs/04-systems/README.md) | [Hardware & training](docs/04-systems/hardware-and-training.md) · [Inference & efficiency](docs/04-systems/inference-and-efficiency.md) · [ML compilers](docs/04-systems/ml-compilers.md) |
 | [**05 · Alignment, safety & interpretability**](docs/05-alignment-safety-interpretability/README.md) | [Alignment & safety](docs/05-alignment-safety-interpretability/alignment.md) · [Interpretability](docs/05-alignment-safety-interpretability/interpretability.md) |
-| [**06 · Frontiers**](docs/06-frontiers/README.md) | [Recursion & self-improvement](docs/06-frontiers/recursion-and-self-improvement.md) · [Fractal & self-similar structure](docs/06-frontiers/fractal-and-self-similar-structure.md) · [Heavy-tailed weight spectra](docs/06-frontiers/heavy-tailed-weight-spectra.md) · [Non-linearity & dynamical systems](docs/06-frontiers/nonlinearity-and-dynamical-systems.md) · [Photonic computing](docs/06-frontiers/photonic-computing.md) · [Optical energy & nonlinearity](docs/06-frontiers/optical-energy-and-nonlinearity.md) · [Neuromorphic computing](docs/06-frontiers/neuromorphic-computing.md) · [Quantum ML](docs/06-frontiers/quantum-machine-learning.md) · [World models](docs/06-frontiers/world-models.md) |
+| [**06 · Frontiers**](docs/06-frontiers/README.md) | [Recursion & self-improvement](docs/06-frontiers/recursion-and-self-improvement.md) · [Fast-weight programmers](docs/06-frontiers/fast-weight-programmers.md) · [Fractal & self-similar structure](docs/06-frontiers/fractal-and-self-similar-structure.md) · [Heavy-tailed weight spectra](docs/06-frontiers/heavy-tailed-weight-spectra.md) · [Non-linearity & dynamical systems](docs/06-frontiers/nonlinearity-and-dynamical-systems.md) · [Photonic computing](docs/06-frontiers/photonic-computing.md) · [Optical energy & nonlinearity](docs/06-frontiers/optical-energy-and-nonlinearity.md) · [Neuromorphic computing](docs/06-frontiers/neuromorphic-computing.md) · [Quantum ML](docs/06-frontiers/quantum-machine-learning.md) · [World models](docs/06-frontiers/world-models.md) |
 
 ## Learning path
 
@@ -85,7 +85,7 @@ Pick the route that fits you.
 
 ## Frontier highlights
 
-- **[Recursion & self-improvement](docs/06-frontiers/recursion-and-self-improvement.md):** from the Bellman equation to models that refine their own outputs, generate their own training data, and search for new algorithms, plus why recursion without grounding leads to *model collapse*.
+- **[Recursion & self-improvement](docs/06-frontiers/recursion-and-self-improvement.md):** from the Bellman equation to models that refine their own outputs, generate their own training data, and search for new algorithms, plus why recursion without grounding leads to *model collapse*. Its companion, **[fast-weight programmers](docs/06-frontiers/fast-weight-programmers.md)**, shows how networks that edit their own weights at runtime became the linear-attention layers in today's long-context models.
 - **[Fractal & self-similar structure](docs/06-frontiers/fractal-and-self-similar-structure.md):** power laws, scale invariance, the renormalization-group view of depth, and the discovery that the boundary of trainability is fractal.
 - **[Non-linearity & dynamical systems](docs/06-frontiers/nonlinearity-and-dynamical-systems.md):** the edge of chaos, neural ODEs, reservoir computing, attention as associative memory, and learning the equations of nature.
 - **[Photonic computing](docs/06-frontiers/photonic-computing.md):** how interferometer meshes multiply matrices with light, the landmark experiments, and the compiler problem.
@@ -95,6 +95,7 @@ Pick the route that fits you.
 
 | Date | Update |
 |---|---|
+| 2026-10-24 | **[Fast-weight programmers and self-referential networks](docs/06-frontiers/fast-weight-programmers.md)**: why linear attention is secretly a 1992 idea, a slow network writing a fast weight matrix one outer product at a time; how the delta rule lets that memory overwrite instead of pile up (with tested code); the family of editing rules behind DeltaNet, Gated DeltaNet, test-time training and Titans, now inside production hybrids such as Qwen3-Next and Kimi Linear; why negative eigenvalues unlock parity; and matrices that rewrite themselves. 20 new checked references. |
 | 2026-10-24 | **[Energy per MAC and the nonlinearity problem](docs/06-frontiers/optical-energy-and-nonlinearity.md)**: where the energy of an optical neural network really goes, why conversions and photons are shared across a whole row of multiplications while memory traffic is not, the shot-noise floor that lets experiments run on fewer than one photon per multiplication, a tested energy-budget calculator, the three ways to put a nonlinearity between optical layers, and the 2025 Nature systems that run ResNet and BERT on photonic hardware. 15 new checked references. |
 | 2026-10-23 | **[Evaluation and benchmarks, and their pitfalls](docs/03-modern-ai/evaluation-and-benchmarks.md)**: why most leaderboard gaps sit inside the error bar (with tested code for paired comparisons and pass@k), how fresh questions exposed memorized math benchmarks, the estimated 6.49% of MMLU questions with errors, emergent abilities that vanish under a different metric, the biases of LLM judges, how private testing distorted Chatbot Arena (2025), and the shift to measuring agents by task time horizon. 22 new checked references. |
 | 2026-10-23 | **[Heavy-tailed weight spectra and generalization](docs/06-frontiers/heavy-tailed-weight-spectra.md)**: why the eigenvalues of trained weight matrices escape the random-matrix baseline and settle into power-law tails, how to fit the exponent without fooling yourself (with code), the contested origins of the tails in SGD, a generalization bound in terms of fractal (Hausdorff) dimension, and how layer spectra now guide learning rates and let LLaMA-7B be pruned to 80% sparsity. 19 new checked references. |

@@ -14,6 +14,7 @@ Short definitions of terms used across Understanding AI, with a link to where ea
 | **Bellman equation** | Recursive relation defining the value of a state through the value of successor states | [RL](docs/01-classical-ml/reinforcement-learning.md) |
 | **Chain of thought** | Prompting or training a model to write intermediate reasoning steps | [LLMs](docs/03-modern-ai/large-language-models.md#prompting-for-reasoning) |
 | **Cross-entropy** | Expected negative log-probability a model assigns to the true outcomes; the standard classification and language-model loss | [Probability](docs/00-foundations/probability-and-information.md) |
+| **Delta rule (fast weights)** | Memory write that stores only the correction $\beta(\mathbf{v} - W\mathbf{k})\mathbf{k}^\top$, one online gradient step on a key-to-value regression; the basis of DeltaNet | [Fast-weight programmers](docs/06-frontiers/fast-weight-programmers.md#3-the-delta-rule-memory-that-can-correct-itself-established) |
 | **Diffusion model** | Generative model that learns to reverse a gradual noising process | [Generative](docs/03-modern-ai/generative-models.md#diffusion-models) |
 | **Double descent** | Test error falling, rising, then falling again as capacity grows past the interpolation threshold | [Learning theory](docs/00-foundations/learning-theory.md#double-descent) |
 | **DPO** | Direct preference optimization: fit preferences with a classification-style loss instead of RL | [LLMs](docs/03-modern-ai/large-language-models.md#direct-preference-optimization-dpo) |
@@ -23,6 +24,7 @@ Short definitions of terms used across Understanding AI, with a link to where ea
 | **Edge of stability** | Regime where the loss curvature hovers near $2/\eta$ during gradient descent | [Optimization](docs/00-foundations/optimization.md#second-order-ideas) |
 | **Embedding** | A learned vector representing a token, image patch, or other item | [Linear algebra](docs/00-foundations/linear-algebra.md) |
 | **Energy per MAC** | Energy spent per multiply-accumulate; for optical hardware it may count only detected light, laser power, or the whole system, which differ by orders of magnitude | [Optical energy](docs/06-frontiers/optical-energy-and-nonlinearity.md) |
+| **Fast weights** | A weight matrix rewritten during a forward pass, usually by outer products programmed by a slower trained network; causal linear attention is an example | [Fast-weight programmers](docs/06-frontiers/fast-weight-programmers.md#1-slow-weights-that-program-fast-weights-established) |
 | **Foundation model** | Large model pretrained on broad data and adapted to many tasks | [Modern AI](docs/03-modern-ai/README.md) |
 | **Fractal dimension** | Non-integer measure of how detail scales with resolution | [Fractals](docs/06-frontiers/fractal-and-self-similar-structure.md) |
 | **Grokking** | Delayed, abrupt generalization long after the training set is memorized | [Learning theory](docs/00-foundations/learning-theory.md#grokking) |
@@ -52,6 +54,7 @@ Short definitions of terms used across Understanding AI, with a link to where ea
 | **Residual connection** | Skip path that adds a block's input to its output | [Architectures](docs/02-deep-learning/architectures.md#residual-networks) |
 | **RLHF** | Reinforcement learning from human feedback via a learned reward model | [LLMs](docs/03-modern-ai/large-language-models.md) |
 | **Scaling law** | Power-law relation between loss and parameters, data, or compute | [Scaling laws](docs/02-deep-learning/scaling-laws.md) |
+| **Self-referential weight matrix (SRWM)** | A weight matrix that generates its own keys, values and learning rates and updates itself with them at runtime | [Fast-weight programmers](docs/06-frontiers/fast-weight-programmers.md#6-networks-that-rewrite-themselves-active-research) |
 | **Self-supervised learning** | Learning from targets constructed from the data itself | [Unsupervised](docs/01-classical-ml/unsupervised-learning.md) |
 | **Shot noise** | Fluctuation in photon counts; with $n$ detected photons the signal-to-noise ratio is $\sqrt{n}$, which sets the optical energy floor for analog optical computing | [Optical energy](docs/06-frontiers/optical-energy-and-nonlinearity.md#4-the-physical-floor-shot-noise-established) |
 | **Spiking neural network** | Network of neurons that communicate with discrete spikes in time | [Neuromorphic](docs/06-frontiers/neuromorphic-computing.md) |

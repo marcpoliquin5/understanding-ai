@@ -19,6 +19,7 @@ Every source cited in Understanding AI, grouped by section. Each entry links to 
 - [Systems](#systems)
 - [Alignment, safety and interpretability](#alignment-safety-and-interpretability)
 - [Frontiers: recursion and self-improvement](#frontiers-recursion-and-self-improvement)
+- [Frontiers: fast-weight programmers](#frontiers-fast-weight-programmers)
 - [Frontiers: fractal and self-similar structure](#frontiers-fractal-and-self-similar-structure)
 - [Frontiers: heavy-tailed weight spectra](#frontiers-heavy-tailed-weight-spectra)
 - [Frontiers: non-linearity and dynamical systems](#frontiers-non-linearity-and-dynamical-systems)
@@ -284,6 +285,29 @@ Every source cited in Understanding AI, grouped by section. Each entry links to 
 - Yuan, W., et al. (2024). *Self-rewarding language models*. ICML. [arXiv:2401.10020](https://arxiv.org/abs/2401.10020)
 - Zelikman, E., Wu, Y., Mu, J., Goodman, N. D. (2022). *STaR: Bootstrapping reasoning with reasoning*. NeurIPS. [arXiv:2203.14465](https://arxiv.org/abs/2203.14465)
 - Zoph, B., Le, Q. V. (2016). *Neural architecture search with reinforcement learning*. ICLR 2017. [arXiv:1611.01578](https://arxiv.org/abs/1611.01578)
+
+## Frontiers: fast-weight programmers
+
+- Hinton, G. E., Plaut, D. C. (1987). *Using fast weights to deblur old memories*. Proceedings of the 9th Annual Conference of the Cognitive Science Society.
+- Schmidhuber, J. (1992). *Learning to control fast-weight memories: An alternative to dynamic recurrent networks*. Neural Computation 4(1), 131–139. [doi:10.1162/neco.1992.4.1.131](https://doi.org/10.1162/neco.1992.4.1.131)
+- Schmidhuber, J. (1993). *A 'self-referential' weight matrix*. ICANN '93, 446–450. [doi:10.1007/978-1-4471-2063-6_107](https://doi.org/10.1007/978-1-4471-2063-6_107)
+- Ba, J., Hinton, G., Mnih, V., Leibo, J. Z., Ionescu, C. (2016). *Using fast weights to attend to the recent past*. NeurIPS. [arXiv:1610.06258](https://arxiv.org/abs/1610.06258)
+- Ha, D., Dai, A., Le, Q. V. (2016). *HyperNetworks*. ICLR 2017. [arXiv:1609.09106](https://arxiv.org/abs/1609.09106)
+- Katharopoulos, A., Vyas, A., Pappas, N., Fleuret, F. (2020). *Transformers are RNNs: Fast autoregressive transformers with linear attention*. ICML. [arXiv:2006.16236](https://arxiv.org/abs/2006.16236)
+- Schlag, I., Irie, K., Schmidhuber, J. (2021). *Linear transformers are secretly fast weight programmers*. ICML. [arXiv:2102.11174](https://arxiv.org/abs/2102.11174)
+- Irie, K., Schlag, I., Csordás, R., Schmidhuber, J. (2021). *Going beyond linear transformers with recurrent fast weight programmers*. NeurIPS. [arXiv:2106.06295](https://arxiv.org/abs/2106.06295)
+- Irie, K., Schlag, I., Csordás, R., Schmidhuber, J. (2022). *A modern self-referential weight matrix that learns to modify itself*. ICML. [arXiv:2202.05780](https://arxiv.org/abs/2202.05780)
+- von Oswald, J., Niklasson, E., Randazzo, E., Sacramento, J., Mordvintsev, A., Zhmoginov, A., Vladymyrov, M. (2022). *Transformers learn in-context by gradient descent*. ICML 2023. [arXiv:2212.07677](https://arxiv.org/abs/2212.07677)
+- Irie, K., Csordás, R., Schmidhuber, J. (2023). *Practical computational power of linear transformers and their recurrent and self-referential extensions*. EMNLP. [arXiv:2310.16076](https://arxiv.org/abs/2310.16076)
+- Merrill, W., Petty, J., Sabharwal, A. (2024). *The illusion of state in state-space models*. ICML. [arXiv:2404.08819](https://arxiv.org/abs/2404.08819)
+- Yang, S., Wang, B., Zhang, Y., Shen, Y., Kim, Y. (2024). *Parallelizing linear transformers with the delta rule over sequence length*. NeurIPS. [arXiv:2406.06484](https://arxiv.org/abs/2406.06484)
+- Sun, Y., Li, X., Dalal, K., et al. (2024). *Learning to (learn at test time): RNNs with expressive hidden states*. [arXiv:2407.04620](https://arxiv.org/abs/2407.04620)
+- Grazzi, R., Siems, J., Zela, A., Franke, J. K. H., Hutter, F., Pontil, M. (2024). *Unlocking state-tracking in linear RNNs through negative eigenvalues*. ICLR 2025. [arXiv:2411.12537](https://arxiv.org/abs/2411.12537)
+- Yang, S., Kautz, J., Hatamizadeh, A. (2024). *Gated delta networks: Improving Mamba2 with delta rule*. ICLR 2025. [arXiv:2412.06464](https://arxiv.org/abs/2412.06464)
+- Behrouz, A., Zhong, P., Mirrokni, V. (2024). *Titans: Learning to memorize at test time*. [arXiv:2501.00663](https://arxiv.org/abs/2501.00663)
+- Irie, K., Gershman, S. J. (2025). *Fast weight programming and linear transformers: From machine learning to neurobiology*. [arXiv:2508.08435](https://arxiv.org/abs/2508.08435)
+- Kimi Team, Zhang, Y., Lin, Z., et al. (2025). *Kimi Linear: An expressive, efficient attention architecture*. [arXiv:2510.26692](https://arxiv.org/abs/2510.26692)
+- Qwen Team (2025). *Qwen3-Next-80B-A3B-Instruct* model card. [Hugging Face](https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Instruct)
 
 ## Frontiers: fractal and self-similar structure
 

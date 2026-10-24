@@ -57,6 +57,7 @@ The loop has a failure mode. **Shumailov et al. (2024)** showed that when genera
 
 - **Learned optimizers** (Andrychowicz et al. 2016) train a network to output parameter updates for another network.
 - **Neural architecture search** (Zoph & Le 2016) uses a controller trained with reinforcement learning to design network architectures.
+- **Fast-weight programmers and self-referential weight matrices** let a network rewrite weights, including its own, while it runs; linear attention turns out to be one of them. See [Fast-weight programmers and self-referential networks](fast-weight-programmers.md).
 
 ## 5. AI that discovers algorithms (established, recent)
 
@@ -82,5 +83,4 @@ Current evidence supports a narrower claim: **AI is increasingly part of the loo
 ## Next topics for this page
 
 - Fixed points and self-consistency in iterative refinement
-- Self-referential weight matrices and fast-weight programmers
 - Formal limits from computability (Rice's theorem, Löb's theorem) applied to self-modifying agents

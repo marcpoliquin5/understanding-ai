@@ -9,6 +9,7 @@ This is where the map runs out and the territory is still being surveyed. Each p
 | Page | The question it asks |
 |---|---|
 | [Recursion and self-improvement](recursion-and-self-improvement.md) | Can AI systems improve the process that produces them, and what limits that loop? |
+| [Fast-weight programmers and self-referential networks](fast-weight-programmers.md) | What happens when a network writes another network's weights, or its own, while it runs, and why is that the same thing as linear attention? |
 | [Fractal and self-similar structure](fractal-and-self-similar-structure.md) | Why do power laws, scale invariance, and fractal boundaries keep appearing in learning? |
 | [Heavy-tailed weight spectra](heavy-tailed-weight-spectra.md) | Why do trained weight matrices develop power-law eigenvalue spectra, and can that predict how well a model generalizes without any data? |
 | [Non-linearity and dynamical systems](nonlinearity-and-dynamical-systems.md) | What can chaos theory, the edge of chaos, and differential equations tell us about networks? |
@@ -23,6 +24,7 @@ mindmap
   root((Frontiers))
     Algorithms
       Recursion & self-improvement
+      Fast-weight programmers
       World models
     Mathematics of learning
       Fractals & scaling
