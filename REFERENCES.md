@@ -14,6 +14,7 @@ Every source cited in Understanding AI, grouped by section. Each entry links to 
 - [Reinforcement learning](#reinforcement-learning)
 - [Deep learning architectures](#deep-learning-architectures)
 - [Transformers and language models](#transformers-and-language-models)
+- [Mixture of experts](#mixture-of-experts)
 - [Generative and multimodal models](#generative-and-multimodal-models)
 - [Retrieval, tools and agents](#retrieval-tools-and-agents)
 - [Evaluation and benchmarks](#evaluation-and-benchmarks)
@@ -179,6 +180,32 @@ Every source cited in Understanding AI, grouped by section. Each entry links to 
 - Wei, J., et al. (2022). *Emergent abilities of large language models*. TMLR. [arXiv:2206.07682](https://arxiv.org/abs/2206.07682)
 - Wei, J., et al. (2022). *Chain-of-thought prompting elicits reasoning in large language models*. NeurIPS. [arXiv:2201.11903](https://arxiv.org/abs/2201.11903)
 - Yao, S., et al. (2023). *Tree of thoughts: Deliberate problem solving with large language models*. NeurIPS. [arXiv:2305.10601](https://arxiv.org/abs/2305.10601)
+
+## Mixture of experts
+
+Shazeer et al. (2017), Fedus et al. (2021) and Kimi Team (2025) are also cited on the [mixture-of-experts page](docs/02-deep-learning/mixture-of-experts.md); they are listed under their existing sections.
+
+- Jacobs, R. A., Jordan, M. I., Nowlan, S. J., Hinton, G. E. (1991). *Adaptive mixtures of local experts*. Neural Computation 3(1), 79–87. [doi:10.1162/neco.1991.3.1.79](https://doi.org/10.1162/neco.1991.3.1.79)
+- Jordan, M. I., Jacobs, R. A. (1994). *Hierarchical mixtures of experts and the EM algorithm*. Neural Computation 6(2), 181–214. [doi:10.1162/neco.1994.6.2.181](https://doi.org/10.1162/neco.1994.6.2.181)
+- Bengio, Y., Léonard, N., Courville, A. (2013). *Estimating or propagating gradients through stochastic neurons for conditional computation*. [arXiv:1308.3432](https://arxiv.org/abs/1308.3432)
+- Lepikhin, D., Lee, H., Xu, Y., Chen, D., Firat, O., Huang, Y., et al. (2020). *GShard: Scaling giant models with conditional computation and automatic sharding*. [arXiv:2006.16668](https://arxiv.org/abs/2006.16668)
+- Lewis, M., Bhosale, S., Dettmers, T., Goyal, N., Zettlemoyer, L. (2021). *BASE layers: Simplifying training of large, sparse models*. ICML. [arXiv:2103.16716](https://arxiv.org/abs/2103.16716)
+- Roller, S., Sukhbaatar, S., Szlam, A., Weston, J. (2021). *Hash layers for large sparse models*. NeurIPS. [arXiv:2106.04426](https://arxiv.org/abs/2106.04426)
+- Riquelme, C., Puigcerver, J., Mustafa, B., Neumann, M., Jenatton, R., Pinto, A. S., et al. (2021). *Scaling vision with sparse mixture of experts*. NeurIPS. [arXiv:2106.05974](https://arxiv.org/abs/2106.05974)
+- Du, N., Huang, Y., Dai, A. M., Tong, S., Lepikhin, D., Xu, Y., et al. (2021). *GLaM: Efficient scaling of language models with mixture-of-experts*. ICML 2022. [arXiv:2112.06905](https://arxiv.org/abs/2112.06905)
+- Rajbhandari, S., Li, C., Yao, Z., Zhang, M., Aminabadi, R. Y., Awan, A. A., et al. (2022). *DeepSpeed-MoE: Advancing mixture-of-experts inference and training to power next-generation AI scale*. ICML. [arXiv:2201.05596](https://arxiv.org/abs/2201.05596)
+- Clark, A., de las Casas, D., Guy, A., Mensch, A., Paganini, M., Hoffmann, J., et al. (2022). *Unified scaling laws for routed language models*. ICML. [arXiv:2202.01169](https://arxiv.org/abs/2202.01169)
+- Zoph, B., Bello, I., Kumar, S., Du, N., Huang, Y., Dean, J., et al. (2022). *ST-MoE: Designing stable and transferable sparse expert models*. [arXiv:2202.08906](https://arxiv.org/abs/2202.08906)
+- Zhou, Y., Lei, T., Liu, H., Du, N., Huang, Y., Zhao, V., et al. (2022). *Mixture-of-experts with expert choice routing*. NeurIPS. [arXiv:2202.09368](https://arxiv.org/abs/2202.09368)
+- Gale, T., Narayanan, D., Young, C., Zaharia, M. (2022). *MegaBlocks: Efficient sparse training with mixture-of-experts*. MLSys 2023. [arXiv:2211.15841](https://arxiv.org/abs/2211.15841)
+- Komatsuzaki, A., Puigcerver, J., Lee-Thorp, J., Riquelme Ruiz, C., Mustafa, B., Ainslie, J., et al. (2022). *Sparse upcycling: Training mixture-of-experts from dense checkpoints*. ICLR 2023. [arXiv:2212.05055](https://arxiv.org/abs/2212.05055)
+- Puigcerver, J., Riquelme, C., Mustafa, B., Houlsby, N. (2023). *From sparse to soft mixtures of experts*. ICLR 2024. [arXiv:2308.00951](https://arxiv.org/abs/2308.00951)
+- Jiang, A. Q., Sablayrolles, A., Roux, A., Mensch, A., Savary, B., Bamford, C., et al. (2024). *Mixtral of experts*. [arXiv:2401.04088](https://arxiv.org/abs/2401.04088)
+- Dai, D., Deng, C., Zhao, C., Xu, R. X., Gao, H., Chen, D., et al. (2024). *DeepSeekMoE: Towards ultimate expert specialization in mixture-of-experts language models*. [arXiv:2401.06066](https://arxiv.org/abs/2401.06066)
+- Krajewski, J., Ludziejewski, J., Adamczewski, K., Pióro, M., Krutul, M., Antoniak, S., et al. (2024). *Scaling laws for fine-grained mixture of experts*. [arXiv:2402.07871](https://arxiv.org/abs/2402.07871)
+- Wang, L., Gao, H., Zhao, C., Sun, X., Dai, D. (2024). *Auxiliary-loss-free load balancing strategy for mixture-of-experts*. [arXiv:2408.15664](https://arxiv.org/abs/2408.15664)
+- Muennighoff, N., Soldaini, L., Groeneveld, D., Lo, K., Morrison, J., Min, S., et al. (2024). *OLMoE: Open mixture-of-experts language models*. [arXiv:2409.02060](https://arxiv.org/abs/2409.02060)
+- DeepSeek-AI, Liu, A., Feng, B., Xue, B., Wang, B., Wu, B., et al. (2024). *DeepSeek-V3 technical report*. [arXiv:2412.19437](https://arxiv.org/abs/2412.19437)
 
 ## Generative and multimodal models
 

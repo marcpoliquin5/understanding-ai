@@ -32,7 +32,7 @@ Smaller weights mean fewer bytes moved per token, which directly speeds up memor
 
 ## Mixture of experts
 
-A **mixture-of-experts (MoE)** layer contains many feed-forward "experts" and a router that sends each token to only a few of them (Shazeer et al. 2017). The **Switch Transformer** (Fedus, Zoph & Shazeer 2021) routes each token to a single expert. Total parameter count grows while compute per token stays roughly constant, decoupling capacity from cost (at the price of memory and communication).
+A **mixture-of-experts (MoE)** layer contains many feed-forward "experts" and a router that sends each token to only a few of them (Shazeer et al. 2017). The **Switch Transformer** (Fedus, Zoph & Shazeer 2021) routes each token to a single expert. Total parameter count grows while compute per token stays roughly constant, decoupling capacity from cost (at the price of memory and communication). The [mixture-of-experts page](../02-deep-learning/mixture-of-experts.md) covers routing, load balancing, and MoE scaling laws in depth.
 
 ```mermaid
 flowchart LR

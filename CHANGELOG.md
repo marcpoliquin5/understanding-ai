@@ -2,6 +2,13 @@
 
 Understanding AI grows daily. Each entry records what was added or changed, newest first. See [docs/DAILY_UPDATES.md](docs/DAILY_UPDATES.md) for how updates work.
 
+## 2026-10-25 (evening): Mixture of experts and conditional computation
+
+- **Deep learning**: new page [Mixture of experts and conditional computation](docs/02-deep-learning/mixture-of-experts.md): from adaptive mixtures of local experts (1991) and hierarchical mixtures (1994) to the sparsely-gated MoE layer, the top-$k$ router written out, a design-point table from GShard and Switch to Mixtral, OLMoE, DeepSeek-V3 and Kimi K2, router collapse and four families of fixes (auxiliary losses, capacity limits and dropless block-sparse kernels, expert-choice, BASE and hash routing, and auxiliary-loss-free bias balancing), a tested NumPy sketch where the bias update takes the busiest expert from 3.11x to 1.03x its fair share and token drops from 23.3% to zero, the router z-loss, sparse upcycling and Soft MoE, fine-grained and shared experts and MoE scaling laws, an honest status table, the systems cost of sparsity (expert parallelism, all-to-all, memory), and a clearly labelled speculative section on routing across heterogeneous and optical hardware.
+- **References**: new *Mixture of experts* section with 21 entries, each checked against its arXiv abstract page or Crossref; three further sources were already listed.
+- **Glossary**: added *Capacity factor*, *Load balancing (MoE)*, and *Router (gating network)*; *Mixture of experts (MoE)* now points to the new page.
+- **Linked** from the Deep learning index, the README contents table and field map, and the mixture-of-experts section of the inference page.
+
 ## 2026-10-25: Information geometry and the natural gradient
 
 - **Foundations**: new page [Information geometry and the natural gradient](docs/00-foundations/information-geometry-natural-gradient.md): the Fisher information metric as the second-order expansion of KL divergence and Chentsov's uniqueness theorem, the natural gradient as steepest descent under that metric (Amari 1998) with its reparameterization invariance and link to Gauss–Newton, a tested NumPy sketch (natural gradient fits a narrow Gaussian in 21 steps against 1,046 for the best stable plain step, the empirical Fisher diverging from the Fisher, and Newton–Schulz orthogonalization), the empirical-Fisher trap, K-FAC, Shampoo and its AlgoPerf win, SOAP, Muon and steepest descent under the spectral norm with its scaling to Moonlight and Kimi K2, the same geometry in natural policy gradients, TRPO, mirror descent and elastic weight consolidation, an honest status table, and a clearly labelled speculative section on parameterization-free training of physical interferometer meshes.

@@ -8,6 +8,7 @@ Deep learning stacks many simple, differentiable layers and trains them end to e
 | [Architectures](architectures.md) | CNNs, RNNs and LSTMs, residual networks, normalization, graph neural networks |
 | [Transformers](transformers.md) | Attention from first principles, multi-head attention, positional encoding, the full block |
 | [Normalization, initialization and μP](normalization-initialization-mup.md) | Variance-preserving init, the edge of chaos, Pre-LN vs Post-LN, QK-norm, normalization-free transformers, and μP hyperparameter transfer |
+| [Mixture of experts](mixture-of-experts.md) | Sparse routing, load balancing and router collapse (with tested code), stability tricks, fine-grained and shared experts, MoE scaling laws, and the systems cost of sparsity |
 | [Scaling laws](scaling-laws.md) | How loss falls with compute, data and parameters, and what that implies |
 
 ```mermaid
@@ -20,4 +21,5 @@ flowchart LR
     ResNet --> TF
     TF --> FM[Foundation models]
     TF --> SSM[State-space models 2021+]
+    TF --> MoE[Sparse mixture of experts 2017+]
 ```
