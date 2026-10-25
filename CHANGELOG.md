@@ -2,6 +2,13 @@
 
 Understanding AI grows daily. Each entry records what was added or changed, newest first. See [docs/DAILY_UPDATES.md](docs/DAILY_UPDATES.md) for how updates work.
 
+## 2026-10-25: Information geometry and the natural gradient
+
+- **Foundations**: new page [Information geometry and the natural gradient](docs/00-foundations/information-geometry-natural-gradient.md): the Fisher information metric as the second-order expansion of KL divergence and Chentsov's uniqueness theorem, the natural gradient as steepest descent under that metric (Amari 1998) with its reparameterization invariance and link to Gauss–Newton, a tested NumPy sketch (natural gradient fits a narrow Gaussian in 21 steps against 1,046 for the best stable plain step, the empirical Fisher diverging from the Fisher, and Newton–Schulz orthogonalization), the empirical-Fisher trap, K-FAC, Shampoo and its AlgoPerf win, SOAP, Muon and steepest descent under the spectral norm with its scaling to Moonlight and Kimi K2, the same geometry in natural policy gradients, TRPO, mirror descent and elastic weight consolidation, an honest status table, and a clearly labelled speculative section on parameterization-free training of physical interferometer meshes.
+- **References**: new *Information geometry and natural gradients* section with 19 entries, each checked against its arXiv abstract page, Crossref, the NeurIPS proceedings page, or the author's post.
+- **Glossary**: added *Empirical Fisher*, *Fisher information matrix*, *K-FAC*, *Muon*, and *Natural gradient*.
+- **Linked** from the Foundations index, the README field map, and the second-order section of the optimization page.
+
 ## 2026-10-24 (evening): Fast-weight programmers and self-referential networks
 
 - **Frontiers**: new page [Fast-weight programmers and self-referential networks](docs/06-frontiers/fast-weight-programmers.md): slow networks that program fast weights (Hinton & Plaut 1987, Schmidhuber 1992, Ba et al. 2016), the exact equivalence between causal linear attention and additive outer-product memories and the capacity limit it implies, the delta rule as one online gradient step and its hardware-efficient parallelization (DeltaNet), a tested NumPy sketch of equivalence, rebinding and crosstalk, a family table of editing rules (gated delta rule, Kimi Delta Attention, test-time training, Titans) and their use in production hybrids (Qwen3-Next, Kimi Linear), expressiveness results on parity and negative eigenvalues, the modern self-referential weight matrix, an honest status table, and a clearly labelled speculative section on outer-product updates as a hardware primitive.
@@ -57,7 +64,7 @@ Understanding AI grows daily. Each entry records what was added or changed, newe
 
 Planned topics, roughly in rotation order:
 
-- [ ] Foundations: information geometry and natural gradients
+- [x] Foundations: information geometry and natural gradients (2026-10-25)
 - [ ] Classical ML: Gaussian processes and Bayesian optimization
 - [ ] Deep learning: worked derivation of attention gradients
 - [x] Deep learning: normalization, initialization and μP (hyperparameter transfer) (2026-10-22)

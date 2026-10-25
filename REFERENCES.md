@@ -9,6 +9,7 @@ Every source cited in Understanding AI, grouped by section. Each entry links to 
 - [Textbooks](#textbooks)
 - [Foundations and history](#foundations-and-history)
 - [Optimization and learning theory](#optimization-and-learning-theory)
+- [Information geometry and natural gradients](#information-geometry-and-natural-gradients)
 - [Classical machine learning](#classical-machine-learning)
 - [Reinforcement learning](#reinforcement-learning)
 - [Deep learning architectures](#deep-learning-architectures)
@@ -70,6 +71,28 @@ Every source cited in Understanding AI, grouped by section. Each entry links to 
 - Power, A., Burda, Y., Edwards, H., Babuschkin, I., Misra, V. (2022). *Grokking: Generalization beyond overfitting on small algorithmic datasets*. arXiv. [arXiv:2201.02177](https://arxiv.org/abs/2201.02177)
 - Saxe, A. M., McClelland, J. L., Ganguli, S. (2013). *Exact solutions to the nonlinear dynamics of learning in deep linear neural networks*. ICLR 2014. [arXiv:1312.6120](https://arxiv.org/abs/1312.6120)
 - Zhang, C., Bengio, S., Hardt, M., Recht, B., Vinyals, O. (2016). *Understanding deep learning requires rethinking generalization*. ICLR 2017. [arXiv:1611.03530](https://arxiv.org/abs/1611.03530)
+
+## Information geometry and natural gradients
+
+- Amari, S. (1998). *Natural gradient works efficiently in learning*. Neural Computation 10(2), 251–276. [doi:10.1162/089976698300017746](https://doi.org/10.1162/089976698300017746)
+- Amari, S., Nagaoka, H. (2000). *Methods of Information Geometry*. Translations of Mathematical Monographs 191, American Mathematical Society. [doi:10.1090/mmono/191](https://doi.org/10.1090/mmono/191)
+- Amari, S. (2016). *Information Geometry and Its Applications*. Applied Mathematical Sciences, Springer. [doi:10.1007/978-4-431-55978-8](https://doi.org/10.1007/978-4-431-55978-8)
+- Kakade, S. (2001). *A natural policy gradient*. NeurIPS. [Proceedings](https://proceedings.neurips.cc/paper/2001/hash/4b86abe48d358ecf194c56c69108433e-Abstract.html)
+- Pascanu, R., Bengio, Y. (2013). *Revisiting natural gradient for deep networks*. [arXiv:1301.3584](https://arxiv.org/abs/1301.3584)
+- Martens, J. (2014). *New insights and perspectives on the natural gradient method*. JMLR 21 (2020). [arXiv:1412.1193](https://arxiv.org/abs/1412.1193)
+- Martens, J., Grosse, R. (2015). *Optimizing neural networks with Kronecker-factored approximate curvature*. ICML. [arXiv:1503.05671](https://arxiv.org/abs/1503.05671)
+- Schulman, J., Levine, S., Moritz, P., Jordan, M. I., Abbeel, P. (2015). *Trust region policy optimization*. ICML. [arXiv:1502.05477](https://arxiv.org/abs/1502.05477)
+- Raskutti, G., Mukherjee, S. (2015). *The information geometry of mirror descent*. IEEE Transactions on Information Theory 61(3), 1451–1457. [doi:10.1109/TIT.2015.2388583](https://doi.org/10.1109/TIT.2015.2388583)
+- Kirkpatrick, J., Pascanu, R., Rabinowitz, N., et al. (2017). *Overcoming catastrophic forgetting in neural networks*. PNAS 114(13), 3521–3526. [doi:10.1073/pnas.1611835114](https://doi.org/10.1073/pnas.1611835114)
+- Gupta, V., Koren, T., Singer, Y. (2018). *Shampoo: Preconditioned stochastic tensor optimization*. ICML. [arXiv:1802.09568](https://arxiv.org/abs/1802.09568)
+- Kunstner, F., Balles, L., Hennig, P. (2019). *Limitations of the empirical Fisher approximation for natural gradient descent*. NeurIPS. [arXiv:1905.12558](https://arxiv.org/abs/1905.12558)
+- Anil, R., Gupta, V., Koren, T., Regan, K., Singer, Y. (2020). *Scalable second order optimization for deep learning*. [arXiv:2002.09018](https://arxiv.org/abs/2002.09018)
+- Vyas, N., Morwani, D., Zhao, R., Kwun, M., Shapira, I., Brandfonbrener, D., et al. (2024). *SOAP: Improving and stabilizing Shampoo using Adam*. [arXiv:2409.11321](https://arxiv.org/abs/2409.11321)
+- Bernstein, J., Newhouse, L. (2024). *Old optimizer, new norm: An anthology*. [arXiv:2409.20325](https://arxiv.org/abs/2409.20325)
+- Jordan, K., Jin, Y., Boza, V., You, J., Cesista, F., Newhouse, L., Bernstein, J. (2024). *Muon: An optimizer for hidden layers in neural networks*. Blog post. [kellerjordan.github.io](https://kellerjordan.github.io/posts/muon/)
+- Kasimbeg, P., Schneider, F., Eschenhagen, R., Bae, J., Sastry, C. S., Saroufim, M., et al. (2025). *Accelerating neural network training: An analysis of the AlgoPerf competition*. ICLR 2025. [arXiv:2502.15015](https://arxiv.org/abs/2502.15015)
+- Liu, J., Su, J., Yao, X., Jiang, Z., Lai, G., Du, Y., et al. (2025). *Muon is scalable for LLM training*. [arXiv:2502.16982](https://arxiv.org/abs/2502.16982)
+- Kimi Team, Bai, Y., Bao, Y., et al. (2025). *Kimi K2: Open agentic intelligence*. [arXiv:2507.20534](https://arxiv.org/abs/2507.20534)
 
 ## Classical machine learning
 

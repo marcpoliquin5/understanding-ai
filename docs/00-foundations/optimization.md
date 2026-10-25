@@ -71,6 +71,8 @@ Neural network losses are **non-convex**: they have many minima, saddle points, 
 
 Newton's method uses curvature (the Hessian $H$): $\theta \leftarrow \theta - H^{-1}\nabla L$. It is too expensive for large networks, but curvature still matters. **Edge of stability** (Cohen et al. 2021) is the empirical observation that with full-batch gradient descent, the sharpest curvature rises until it hovers around $2/\eta$, the threshold at which plain gradient descent on a quadratic would become unstable.
 
+A different route to curvature measures steps by how much the model's *predictions* change rather than how far its parameters move. That leads to the natural gradient and to practical preconditioners such as K-FAC, Shampoo, SOAP, and Muon; see [Information geometry and the natural gradient](information-geometry-natural-gradient.md).
+
 ## Practical stabilizers
 
 | Technique | Problem it addresses |
