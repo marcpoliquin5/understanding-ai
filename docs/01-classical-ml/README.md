@@ -6,6 +6,7 @@ Deep learning gets the headlines, but the classical toolbox still wins many real
 |---|---|
 | [Supervised learning](supervised-learning.md) | Linear and logistic regression, SVMs and kernels, decision trees, random forests, gradient boosting, evaluation |
 | [Unsupervised learning](unsupervised-learning.md) | Clustering, PCA, mixture models and EM, manifold learning, density estimation |
+| [Gaussian processes and Bayesian optimization](gaussian-processes-bayesian-optimization.md) | Distributions over functions, closed-form posteriors, marginal-likelihood model selection, acquisition functions and the tuning loop (with tested code), high-dimensional BO, and the infinite-width link to neural networks |
 | [Reinforcement learning](reinforcement-learning.md) | MDPs, value functions, Bellman equations, Q-learning, policy gradients, exploration |
 
 ```mermaid

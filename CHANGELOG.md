@@ -2,6 +2,13 @@
 
 Understanding AI grows daily. Each entry records what was added or changed, newest first. See [docs/DAILY_UPDATES.md](docs/DAILY_UPDATES.md) for how updates work.
 
+## 2026-10-26: Gaussian processes and Bayesian optimization
+
+- **Classical ML**: new page [Gaussian processes and Bayesian optimization](docs/01-classical-ml/gaussian-processes-bayesian-optimization.md): Gaussian processes as distributions over functions, RBF and Matérn kernels, kriging (Matheron 1963) and EGO (Jones et al. 1998) as the origins, closed-form posterior mean and variance, the marginal likelihood as an automatic Occam's razor, acquisition functions (probability of improvement, expected improvement, GP-UCB with its regret bounds, Thompson sampling, predictive entropy search), a tested NumPy sketch where the marginal likelihood picks the length-scale and expected-improvement BO finds the best grid point in 20 of 20 runs against 2 of 20 for random search at 15 evaluations, applications from the NeurIPS 2020 black-box optimization challenge to AlphaGo and reaction chemistry, sparse and GPU-scale GPs, TuRBO and the 2024–2025 papers tracing high-dimensional failures to length-scale priors, LLM-assisted BO, the infinite-width link to neural networks (NNGP and the neural tangent kernel), an honest status table, and a clearly labelled speculative section on calibrating analog hardware with few measurements.
+- **References**: new *Gaussian processes and Bayesian optimization* section with 26 entries, each checked against its arXiv abstract page, Crossref, the PMLR proceedings page, or the book's webpage; one further source was already listed.
+- **Glossary**: added *Acquisition function*, *Bayesian optimization*, *Expected improvement (EI)*, and *Gaussian process (GP)*.
+- **Linked** from the Classical ML index, the README contents table and field map, and the kernels section of the supervised learning page.
+
 ## 2026-10-25 (evening): Mixture of experts and conditional computation
 
 - **Deep learning**: new page [Mixture of experts and conditional computation](docs/02-deep-learning/mixture-of-experts.md): from adaptive mixtures of local experts (1991) and hierarchical mixtures (1994) to the sparsely-gated MoE layer, the top-$k$ router written out, a design-point table from GShard and Switch to Mixtral, OLMoE, DeepSeek-V3 and Kimi K2, router collapse and four families of fixes (auxiliary losses, capacity limits and dropless block-sparse kernels, expert-choice, BASE and hash routing, and auxiliary-loss-free bias balancing), a tested NumPy sketch where the bias update takes the busiest expert from 3.11x to 1.03x its fair share and token drops from 23.3% to zero, the router z-loss, sparse upcycling and Soft MoE, fine-grained and shared experts and MoE scaling laws, an honest status table, the systems cost of sparsity (expert parallelism, all-to-all, memory), and a clearly labelled speculative section on routing across heterogeneous and optical hardware.
@@ -72,7 +79,7 @@ Understanding AI grows daily. Each entry records what was added or changed, newe
 Planned topics, roughly in rotation order:
 
 - [x] Foundations: information geometry and natural gradients (2026-10-25)
-- [ ] Classical ML: Gaussian processes and Bayesian optimization
+- [x] Classical ML: Gaussian processes and Bayesian optimization (2026-10-26)
 - [ ] Deep learning: worked derivation of attention gradients
 - [x] Deep learning: normalization, initialization and μP (hyperparameter transfer) (2026-10-22)
 - [x] Modern AI: evaluation and benchmarks, and their pitfalls (2026-10-23)

@@ -11,6 +11,7 @@ Every source cited in Understanding AI, grouped by section. Each entry links to 
 - [Optimization and learning theory](#optimization-and-learning-theory)
 - [Information geometry and natural gradients](#information-geometry-and-natural-gradients)
 - [Classical machine learning](#classical-machine-learning)
+- [Gaussian processes and Bayesian optimization](#gaussian-processes-and-bayesian-optimization)
 - [Reinforcement learning](#reinforcement-learning)
 - [Deep learning architectures](#deep-learning-architectures)
 - [Transformers and language models](#transformers-and-language-models)
@@ -108,6 +109,37 @@ Every source cited in Understanding AI, grouped by section. Each entry links to 
 - Pearson, K. (1901). *On lines and planes of closest fit to systems of points in space*. Philosophical Magazine. [doi:10.1080/14786440109462720](https://doi.org/10.1080/14786440109462720)
 - Tibshirani, R. (1996). *Regression shrinkage and selection via the lasso*. Journal of the Royal Statistical Society, Series B. [doi:10.1111/j.2517-6161.1996.tb02080.x](https://doi.org/10.1111/j.2517-6161.1996.tb02080.x)
 - van der Maaten, L., Hinton, G. (2008). *Visualizing data using t-SNE*. JMLR. [Link](https://jmlr.org/papers/v9/vandermaaten08a.html)
+
+## Gaussian processes and Bayesian optimization
+
+Jacot et al. (2018) is also cited on the [Gaussian processes page](docs/01-classical-ml/gaussian-processes-bayesian-optimization.md); it is listed under its existing section.
+
+- Rasmussen, C. E., Williams, C. K. I. (2006). *Gaussian Processes for Machine Learning*. MIT Press. [Book webpage (free PDF)](https://gaussianprocess.org/gpml/)
+- Matheron, G. (1963). *Principles of geostatistics*. Economic Geology 58(8), 1246–1266. [doi:10.2113/gsecongeo.58.8.1246](https://doi.org/10.2113/gsecongeo.58.8.1246)
+- Neal, R. M. (1996). *Bayesian Learning for Neural Networks*. Lecture Notes in Statistics 118, Springer. [doi:10.1007/978-1-4612-0745-0](https://doi.org/10.1007/978-1-4612-0745-0)
+- Jones, D. R., Schonlau, M., Welch, W. J. (1998). *Efficient global optimization of expensive black-box functions*. Journal of Global Optimization 13, 455–492. [doi:10.1023/A:1008306431147](https://doi.org/10.1023/A:1008306431147)
+- Titsias, M. (2009). *Variational learning of inducing variables in sparse Gaussian processes*. AISTATS, PMLR 5. [Link](https://proceedings.mlr.press/v5/titsias09a.html)
+- Srinivas, N., Krause, A., Kakade, S. M., Seeger, M. (2009). *Gaussian process optimization in the bandit setting: No regret and experimental design*. ICML 2010. [arXiv:0912.3995](https://arxiv.org/abs/0912.3995)
+- Snoek, J., Larochelle, H., Adams, R. P. (2012). *Practical Bayesian optimization of machine learning algorithms*. NeurIPS. [arXiv:1206.2944](https://arxiv.org/abs/1206.2944)
+- Hensman, J., Fusi, N., Lawrence, N. D. (2013). *Gaussian processes for big data*. UAI. [arXiv:1309.6835](https://arxiv.org/abs/1309.6835)
+- Hernández-Lobato, J. M., Hoffman, M. W., Ghahramani, Z. (2014). *Predictive entropy search for efficient global optimization of black-box functions*. NeurIPS. [arXiv:1406.2541](https://arxiv.org/abs/1406.2541)
+- Wilson, A. G., Nickisch, H. (2015). *Kernel interpolation for scalable structured Gaussian processes (KISS-GP)*. ICML. [arXiv:1503.01057](https://arxiv.org/abs/1503.01057)
+- Shahriari, B., Swersky, K., Wang, Z., Adams, R. P., de Freitas, N. (2016). *Taking the human out of the loop: A review of Bayesian optimization*. Proceedings of the IEEE 104(1), 148–175. [doi:10.1109/JPROC.2015.2494218](https://doi.org/10.1109/JPROC.2015.2494218)
+- Li, L., Jamieson, K., DeSalvo, G., Rostamizadeh, A., Talwalkar, A. (2016). *Hyperband: A novel bandit-based approach to hyperparameter optimization*. JMLR 18 (2018). [arXiv:1603.06560](https://arxiv.org/abs/1603.06560)
+- Lee, J., Bahri, Y., Novak, R., Schoenholz, S. S., Pennington, J., Sohl-Dickstein, J. (2017). *Deep neural networks as Gaussian processes*. ICLR 2018. [arXiv:1711.00165](https://arxiv.org/abs/1711.00165)
+- Matthews, A. G. de G., Rowland, M., Hron, J., Turner, R. E., Ghahramani, Z. (2018). *Gaussian process behaviour in wide deep neural networks*. ICLR. [arXiv:1804.11271](https://arxiv.org/abs/1804.11271)
+- Falkner, S., Klein, A., Hutter, F. (2018). *BOHB: Robust and efficient hyperparameter optimization at scale*. ICML. [arXiv:1807.01774](https://arxiv.org/abs/1807.01774)
+- Frazier, P. I. (2018). *A tutorial on Bayesian optimization*. [arXiv:1807.02811](https://arxiv.org/abs/1807.02811)
+- Gardner, J. R., Pleiss, G., Bindel, D., Weinberger, K. Q., Wilson, A. G. (2018). *GPyTorch: Blackbox matrix-matrix Gaussian process inference with GPU acceleration*. NeurIPS. [arXiv:1809.11165](https://arxiv.org/abs/1809.11165)
+- Chen, Y., Huang, A., Wang, Z., Antonoglou, I., Schrittwieser, J., Silver, D., de Freitas, N. (2018). *Bayesian optimization in AlphaGo*. [arXiv:1812.06855](https://arxiv.org/abs/1812.06855)
+- Eriksson, D., Pearce, M., Gardner, J. R., Turner, R., Poloczek, M. (2019). *Scalable global optimization via local Bayesian optimization*. NeurIPS. [arXiv:1910.01739](https://arxiv.org/abs/1910.01739)
+- Balandat, M., Karrer, B., Jiang, D. R., Daulton, S., Letham, B., Wilson, A. G., Bakshy, E. (2019). *BoTorch: A framework for efficient Monte-Carlo Bayesian optimization*. NeurIPS 2020. [arXiv:1910.06403](https://arxiv.org/abs/1910.06403)
+- Shields, B. J., Stevens, J., Li, J., Parasram, M., Damani, F., Alvarado, J. I. M., et al. (2021). *Bayesian reaction optimization as a tool for chemical synthesis*. Nature 590, 89–96. [doi:10.1038/s41586-021-03213-y](https://doi.org/10.1038/s41586-021-03213-y)
+- Turner, R., Eriksson, D., McCourt, M., Kiili, J., Laaksonen, E., Xu, Z., Guyon, I. (2021). *Bayesian optimization is superior to random search for machine learning hyperparameter tuning: Analysis of the black-box optimization challenge 2020*. [arXiv:2104.10201](https://arxiv.org/abs/2104.10201)
+- Hvarfner, C., Hellsten, E. O., Nardi, L. (2024). *Vanilla Bayesian optimization performs great in high dimensions*. ICML. [arXiv:2402.02229](https://arxiv.org/abs/2402.02229)
+- Xu, Z., Wang, H., Phillips, J. M., Zhe, S. (2024). *Standard Gaussian process is all you need for high-dimensional Bayesian optimization*. [arXiv:2402.02746](https://arxiv.org/abs/2402.02746)
+- Liu, T., Astorga, N., Seedat, N., van der Schaar, M. (2024). *Large language models to enhance Bayesian optimization*. ICLR. [arXiv:2402.03921](https://arxiv.org/abs/2402.03921)
+- Papenmeier, L., Poloczek, M., Nardi, L. (2025). *Understanding high-dimensional Bayesian optimization*. [arXiv:2502.09198](https://arxiv.org/abs/2502.09198)
 
 ## Reinforcement learning
 

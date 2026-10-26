@@ -26,6 +26,8 @@ An SVM (Cortes & Vapnik 1995) finds the separating hyperplane with the **largest
 
 A common choice is the RBF kernel $k(\mathbf{x}, \mathbf{x}') = \exp(-\gamma \lVert \mathbf{x} - \mathbf{x}' \rVert^2)$. Kernels returned to deep learning theory through the [neural tangent kernel](../00-foundations/optimization.md#convex-vs-non-convex), and to quantum ML through [quantum feature maps](../06-frontiers/quantum-machine-learning.md).
 
+Read as a covariance instead of a similarity, the same kernel defines a Gaussian process, a regression model that also reports its uncertainty; see [Gaussian processes and Bayesian optimization](gaussian-processes-bayesian-optimization.md).
+
 ## Decision trees and ensembles
 
 A **decision tree** recursively splits the feature space with simple threshold rules, choosing each split to reduce impurity (Gini or entropy). Trees are interpretable but high-variance.
