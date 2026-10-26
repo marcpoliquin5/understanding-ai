@@ -21,6 +21,7 @@ Every source cited in Understanding AI, grouped by section. Each entry links to 
 - [Evaluation and benchmarks](#evaluation-and-benchmarks)
 - [Systems](#systems)
 - [Alignment, safety and interpretability](#alignment-safety-and-interpretability)
+- [Reward models and their failure modes](#reward-models-and-their-failure-modes)
 - [Frontiers: recursion and self-improvement](#frontiers-recursion-and-self-improvement)
 - [Frontiers: fast-weight programmers](#frontiers-fast-weight-programmers)
 - [Frontiers: fractal and self-similar structure](#frontiers-fractal-and-self-similar-structure)
@@ -349,6 +350,33 @@ Shazeer et al. (2017), Fedus et al. (2021) and Kimi Team (2025) are also cited o
 - Sundararajan, M., Taly, A., Yan, Q. (2017). *Axiomatic attribution for deep networks*. ICML. [arXiv:1703.01365](https://arxiv.org/abs/1703.01365)
 - Szegedy, C., et al. (2013). *Intriguing properties of neural networks*. ICLR 2014. [arXiv:1312.6199](https://arxiv.org/abs/1312.6199)
 - Zou, A., Wang, Z., Kolter, J. Z., Fredrikson, M. (2023). *Universal and transferable adversarial attacks on aligned language models*. arXiv. [arXiv:2307.15043](https://arxiv.org/abs/2307.15043)
+
+## Reward models and their failure modes
+
+Sources for the [reward models page](docs/05-alignment-safety-interpretability/reward-model-failure-modes.md). Christiano et al. (2017), Ouyang et al. (2022), Rafailov et al. (2023) and Lightman et al. (2023) are listed under *Transformers and language models*, and Bradley & Terry (1952) and Manheim & Garrabrant (2018) under *Evaluation and benchmarks*.
+
+- Leike, J., Krueger, D., Everitt, T., Martic, M., Maini, V., Legg, S. (2018). *Scalable agent alignment via reward modeling: a research direction*. [arXiv:1811.07871](https://arxiv.org/abs/1811.07871)
+- Ziegler, D. M., Stiennon, N., Wu, J., Brown, T. B., Radford, A., Amodei, D., Christiano, P., Irving, G. (2019). *Fine-tuning language models from human preferences*. [arXiv:1909.08593](https://arxiv.org/abs/1909.08593)
+- Stiennon, N., Ouyang, L., Wu, J., Ziegler, D. M., Lowe, R., Voss, C., Radford, A., Amodei, D., Christiano, P. (2020). *Learning to summarize from human feedback*. NeurIPS. [arXiv:2009.01325](https://arxiv.org/abs/2009.01325)
+- Pan, A., Bhatia, K., Steinhardt, J. (2022). *The effects of reward misspecification: Mapping and mitigating misaligned models*. ICLR. [arXiv:2201.03544](https://arxiv.org/abs/2201.03544)
+- Skalse, J., Howe, N. H. R., Krasheninnikov, D., Krueger, D. (2022). *Defining and characterizing reward hacking*. [arXiv:2209.13085](https://arxiv.org/abs/2209.13085)
+- Gao, L., Schulman, J., Hilton, J. (2022). *Scaling laws for reward model overoptimization*. [arXiv:2210.10760](https://arxiv.org/abs/2210.10760)
+- Casper, S., Davies, X., Shi, C., Gilbert, T. K., Scheurer, J., Rando, J., Freedman, R., Korbak, T., et al. (2023). *Open problems and fundamental limitations of reinforcement learning from human feedback*. [arXiv:2307.15217](https://arxiv.org/abs/2307.15217)
+- Coste, T., Anwar, U., Kirk, R., Krueger, D. (2023). *Reward model ensembles help mitigate overoptimization*. ICLR 2024. [arXiv:2310.02743](https://arxiv.org/abs/2310.02743)
+- Singhal, P., Goyal, T., Xu, J., Durrett, G. (2023). *A long way to go: Investigating length correlations in RLHF*. [arXiv:2310.03716](https://arxiv.org/abs/2310.03716)
+- Moskovitz, T., Singh, A. K., Strouse, D. J., Sandholm, T., Salakhutdinov, R., Dragan, A. D., McAleer, S. (2023). *Confronting reward model overoptimization with constrained RLHF*. [arXiv:2310.04373](https://arxiv.org/abs/2310.04373)
+- Sharma, M., Tong, M., Korbak, T., Duvenaud, D., Askell, A., Bowman, S. R., et al. (2023). *Towards understanding sycophancy in language models*. [arXiv:2310.13548](https://arxiv.org/abs/2310.13548)
+- Eisenstein, J., Nagpal, C., Agarwal, A., Beirami, A., D'Amour, A., Dvijotham, D. J., Fisch, A., Heller, K., et al. (2023). *Helping or herding? Reward model ensembles mitigate but do not eliminate reward hacking*. [arXiv:2312.09244](https://arxiv.org/abs/2312.09244)
+- Ramé, A., Vieillard, N., Hussenot, L., Dadashi, R., Cideron, G., Bachem, O., Ferret, J. (2024). *WARM: On the benefits of weight averaged reward models*. [arXiv:2401.12187](https://arxiv.org/abs/2401.12187)
+- Chen, L., Zhu, C., Soselia, D., Chen, J., Zhou, T., Goldstein, T., Huang, H., Shoeybi, M., Catanzaro, B. (2024). *ODIN: Disentangled reward mitigates hacking in RLHF*. [arXiv:2402.07319](https://arxiv.org/abs/2402.07319)
+- Lambert, N., Pyatkin, V., Morrison, J., Miranda, L. J., Lin, B. Y., Chandu, K., Dziri, N., Kumar, S., et al. (2024). *RewardBench: Evaluating reward models for language modeling*. [arXiv:2403.13787](https://arxiv.org/abs/2403.13787)
+- Rafailov, R., Chittepu, Y., Park, R., Sikchi, H., Hejna, J., Knox, B., Finn, C., Niekum, S. (2024). *Scaling laws for reward model overoptimization in direct alignment algorithms*. [arXiv:2406.02900](https://arxiv.org/abs/2406.02900)
+- Denison, C., MacDiarmid, M., Barez, F., Duvenaud, D., Kravec, S., Marks, S., Schiefer, N., Soklaski, R., et al. (2024). *Sycophancy to subterfuge: Investigating reward-tampering in large language models*. [arXiv:2406.10162](https://arxiv.org/abs/2406.10162)
+- Wen, J., Zhong, R., Khan, A., Perez, E., Steinhardt, J., Huang, M., Bowman, S. R., He, H., Feng, S. (2024). *Language models learn to mislead humans via RLHF*. [arXiv:2409.12822](https://arxiv.org/abs/2409.12822)
+- Baker, B., Huizinga, J., Gao, L., Dou, Z., Guan, M. Y., Madry, A., Zaremba, W., Pachocki, J., Farhi, D. (2025). *Monitoring reasoning models for misbehavior and the risks of promoting obfuscation*. [arXiv:2503.11926](https://arxiv.org/abs/2503.11926)
+- OpenAI (2025). *Sycophancy in GPT-4o: What happened and what we're doing about it*. Blog post, April 29, 2025. [Link](https://openai.com/index/sycophancy-in-gpt-4o/)
+- Malik, S., Pyatkin, V., Land, S., Morrison, J., Smith, N. A., Hajishirzi, H., Lambert, N. (2025). *RewardBench 2: Advancing reward model evaluation*. [arXiv:2506.01937](https://arxiv.org/abs/2506.01937)
+- MacDiarmid, M., Wright, B., Uesato, J., Benton, J., Kutasov, J., Price, S., Bouscal, N., Bowman, S., et al. (2025). *Natural emergent misalignment from reward hacking in production RL*. [arXiv:2511.18397](https://arxiv.org/abs/2511.18397)
 
 ## Frontiers: recursion and self-improvement
 

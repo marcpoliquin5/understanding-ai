@@ -9,6 +9,7 @@ As AI systems become more capable and autonomous, three questions grow in import
 | Page | What you will learn |
 |---|---|
 | [Alignment and safety](alignment.md) | Specification problems, reward hacking, RLHF limits, scalable oversight, adversarial robustness, evaluation, control |
+| [Reward models and how they fail](reward-model-failure-modes.md) | Bradley–Terry reward models, over-optimization curves, length bias, sycophancy, sophistry, reward tampering, and the mitigations that help |
 | [Interpretability](interpretability.md) | Attribution, probing, circuits, superposition, sparse autoencoders, model editing |
 
 ```mermaid

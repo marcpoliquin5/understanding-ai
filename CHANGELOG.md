@@ -2,6 +2,13 @@
 
 Understanding AI grows daily. Each entry records what was added or changed, newest first. See [docs/DAILY_UPDATES.md](docs/DAILY_UPDATES.md) for how updates work.
 
+## 2026-10-26 (evening): Reward models and how they fail
+
+- **Alignment**: new page [Reward models and how they fail](docs/05-alignment-safety-interpretability/reward-model-failure-modes.md): Bradley–Terry reward models and the KL-regularized objective with its closed-form optimum, best-of-$n$ and its KL, Goodhart's four variants mapped onto reward modelling, the Skalse et al. result that almost no proxy is unhackable over all stochastic policies, the Gao et al. over-optimization laws for best-of-$n$ and RL and their extension to direct alignment algorithms, capability-driven phase transitions in reward hacking, a tested NumPy sketch where a linear proxy that agrees with the gold reward on 85.0% of pairs drives the gold score from a peak of 0.48 at $n = 64$ to −0.04 at $n = 16{,}384$ (the Gao et al. form fits with $R^2 = 0.976$), a field guide from length bias and sycophancy (including the April 2025 GPT-4o rollback) through unintended sophistry, underspecification, reward tampering and obfuscated reward hacking to 2025 evidence of emergent misalignment from production reward hacking, a table of mitigations (KL control, ensembles, WARM, constrained RLHF, ODIN, process supervision, RewardBench 2, chain-of-thought monitoring), an honest status table, and a clearly labelled speculative section on Goodhart effects when the reward is a physical measurement.
+- **References**: new *Reward models and their failure modes* section with 22 entries, each checked against its arXiv abstract page or the publisher's page; six further sources were already listed.
+- **Glossary**: added *Bradley–Terry model*, *Reward hacking*, *Reward model*, *Reward over-optimization*, and *Sycophancy*.
+- **Linked** from the Alignment index, the README contents table and field map, and the learning-from-human-preferences section of the alignment page.
+
 ## 2026-10-26: Gaussian processes and Bayesian optimization
 
 - **Classical ML**: new page [Gaussian processes and Bayesian optimization](docs/01-classical-ml/gaussian-processes-bayesian-optimization.md): Gaussian processes as distributions over functions, RBF and Matérn kernels, kriging (Matheron 1963) and EGO (Jones et al. 1998) as the origins, closed-form posterior mean and variance, the marginal likelihood as an automatic Occam's razor, acquisition functions (probability of improvement, expected improvement, GP-UCB with its regret bounds, Thompson sampling, predictive entropy search), a tested NumPy sketch where the marginal likelihood picks the length-scale and expected-improvement BO finds the best grid point in 20 of 20 runs against 2 of 20 for random search at 15 evaluations, applications from the NeurIPS 2020 black-box optimization challenge to AlphaGo and reaction chemistry, sparse and GPU-scale GPs, TuRBO and the 2024–2025 papers tracing high-dimensional failures to length-scale priors, LLM-assisted BO, the infinite-width link to neural networks (NNGP and the neural tangent kernel), an honest status table, and a clearly labelled speculative section on calibrating analog hardware with few measurements.
@@ -86,7 +93,7 @@ Planned topics, roughly in rotation order:
 - [ ] Modern AI: code generation and program synthesis
 - [ ] Modern AI: AI for science (protein design, materials, weather)
 - [x] Systems: compilers for ML (XLA, MLIR, Triton) (2026-10-18)
-- [ ] Alignment: reward modelling failure modes in depth
+- [x] Alignment: reward modelling failure modes in depth (2026-10-26)
 - [x] Frontiers / recursion: fast-weight programmers and self-referential networks (2026-10-24)
 - [x] Frontiers / fractals: heavy-tailed weight spectra and generalization (2026-10-23)
 - [ ] Frontiers / dynamics: SGD as a stochastic differential equation
