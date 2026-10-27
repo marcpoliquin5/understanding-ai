@@ -21,6 +21,7 @@ Every source cited in Understanding AI, grouped by section. Each entry links to 
 - [Evaluation and benchmarks](#evaluation-and-benchmarks)
 - [Systems](#systems)
 - [Alignment, safety and interpretability](#alignment-safety-and-interpretability)
+- [Sparse autoencoders and dictionary learning](#sparse-autoencoders-and-dictionary-learning)
 - [Reward models and their failure modes](#reward-models-and-their-failure-modes)
 - [Frontiers: recursion and self-improvement](#frontiers-recursion-and-self-improvement)
 - [Frontiers: fast-weight programmers](#frontiers-fast-weight-programmers)
@@ -350,6 +351,40 @@ Shazeer et al. (2017), Fedus et al. (2021) and Kimi Team (2025) are also cited o
 - Sundararajan, M., Taly, A., Yan, Q. (2017). *Axiomatic attribution for deep networks*. ICML. [arXiv:1703.01365](https://arxiv.org/abs/1703.01365)
 - Szegedy, C., et al. (2013). *Intriguing properties of neural networks*. ICLR 2014. [arXiv:1312.6199](https://arxiv.org/abs/1312.6199)
 - Zou, A., Wang, Z., Kolter, J. Z., Fredrikson, M. (2023). *Universal and transferable adversarial attacks on aligned language models*. arXiv. [arXiv:2307.15043](https://arxiv.org/abs/2307.15043)
+
+## Sparse autoencoders and dictionary learning
+
+Sources for the [sparse autoencoders page](docs/05-alignment-safety-interpretability/sparse-autoencoders.md). Elhage et al. (2022) and Bricken et al. (2023) are listed under *Alignment, safety and interpretability*.
+
+- Olshausen, B. A., Field, D. J. (1996). *Emergence of simple-cell receptive field properties by learning a sparse code for natural images*. Nature 381, 607–609. [doi:10.1038/381607a0](https://doi.org/10.1038/381607a0)
+- Makhzani, A., Frey, B. (2013). *k-Sparse autoencoders*. [arXiv:1312.5663](https://arxiv.org/abs/1312.5663)
+- Bills, S., et al. (2023). *Language models can explain neurons in language models*. OpenAI. [Link](https://openaipublic.blob.core.windows.net/neuron-explainer/paper/index.html)
+- Cunningham, H., Ewart, A., Riggs, L., Huben, R., Sharkey, L. (2023). *Sparse autoencoders find highly interpretable features in language models*. [arXiv:2309.08600](https://arxiv.org/abs/2309.08600)
+- Marks, S., Rager, C., Michaud, E. J., Belinkov, Y., Bau, D., Mueller, A. (2024). *Sparse feature circuits: Discovering and editing interpretable causal graphs in language models*. [arXiv:2403.19647](https://arxiv.org/abs/2403.19647)
+- Rajamanoharan, S., Conmy, A., Smith, L., Lieberum, T., Varma, V., Kramár, J., Shah, R., Nanda, N. (2024). *Improving dictionary learning with gated sparse autoencoders*. [arXiv:2404.16014](https://arxiv.org/abs/2404.16014)
+- Braun, D., Taylor, J., Goldowsky-Dill, N., Sharkey, L. (2024). *Identifying functionally important features with end-to-end sparse dictionary learning*. [arXiv:2405.12241](https://arxiv.org/abs/2405.12241)
+- Templeton, A., Conerly, T., Marcus, J., Lindsey, J., Bricken, T., Chen, B., et al. (2024). *Scaling monosemanticity: Extracting interpretable features from Claude 3 Sonnet*. Transformer Circuits Thread. [Link](https://transformer-circuits.pub/2024/scaling-monosemanticity/index.html)
+- Anthropic (2024). *Golden Gate Claude*. May 23, 2024. [Link](https://www.anthropic.com/news/golden-gate-claude)
+- Engels, J., Michaud, E. J., Liao, I., Gurnee, W., Tegmark, M. (2024). *Not all language model features are one-dimensionally linear*. [arXiv:2405.14860](https://arxiv.org/abs/2405.14860)
+- Gao, L., Dupré la Tour, T., Tillman, H., Goh, G., Troll, R., Radford, A., Sutskever, I., Leike, J., Wu, J. (2024). *Scaling and evaluating sparse autoencoders*. [arXiv:2406.04093](https://arxiv.org/abs/2406.04093)
+- Dunefsky, J., Chlenski, P., Nanda, N. (2024). *Transcoders find interpretable LLM feature circuits*. [arXiv:2406.11944](https://arxiv.org/abs/2406.11944)
+- Rajamanoharan, S., Lieberum, T., Sonnerat, N., Conmy, A., Varma, V., Kramár, J., Nanda, N. (2024). *Jumping ahead: Improving reconstruction fidelity with JumpReLU sparse autoencoders*. [arXiv:2407.14435](https://arxiv.org/abs/2407.14435)
+- Lieberum, T., Rajamanoharan, S., Conmy, A., Smith, L., Sonnerat, N., Varma, V., Kramár, J., Dragan, A., Shah, R., Nanda, N. (2024). *Gemma Scope: Open sparse autoencoders everywhere all at once on Gemma 2*. [arXiv:2408.05147](https://arxiv.org/abs/2408.05147)
+- Chanin, D., Wilken-Smith, J., Dulka, T., Bhatnagar, H., Golechha, S., Bloom, J. (2024). *A is for absorption: Studying feature splitting and absorption in sparse autoencoders*. [arXiv:2409.14507](https://arxiv.org/abs/2409.14507)
+- Paulo, G., Mallen, A., Juang, C., Belrose, N. (2024). *Automatically interpreting millions of features in large language models*. [arXiv:2410.13928](https://arxiv.org/abs/2410.13928)
+- Engels, J., Riggs, L., Tegmark, M. (2024). *Decomposing the dark matter of sparse autoencoders*. [arXiv:2410.14670](https://arxiv.org/abs/2410.14670)
+- Lindsey, J., Templeton, A., Marcus, J., Conerly, T., Batson, J., Olah, C. (2024). *Sparse crosscoders for cross-layer features and model diffing*. Transformer Circuits Thread (research update). [Link](https://transformer-circuits.pub/2024/crosscoders/index.html)
+- He, Z., Shu, W., Ge, X., Chen, L., Wang, J., Zhou, Y., Liu, F., Guo, Q., Huang, X., et al. (2024). *Llama Scope: Extracting millions of features from Llama-3.1-8B with sparse autoencoders*. [arXiv:2410.20526](https://arxiv.org/abs/2410.20526)
+- Bussmann, B., Leask, P., Nanda, N. (2024). *BatchTopK sparse autoencoders*. [arXiv:2412.06410](https://arxiv.org/abs/2412.06410)
+- Sharkey, L., Chughtai, B., Batson, J., Lindsey, J., Wu, J., Bushnaq, L., Goldowsky-Dill, N., Heimersheim, S., Ortega, A., et al. (2025). *Open problems in mechanistic interpretability*. [arXiv:2501.16496](https://arxiv.org/abs/2501.16496)
+- Paulo, G., Belrose, N. (2025). *Sparse autoencoders trained on the same data learn different features*. [arXiv:2501.16615](https://arxiv.org/abs/2501.16615)
+- Heap, T., Lawson, T., Farnik, L., Aitchison, L. (2025). *Automated interpretability metrics do not distinguish trained and random transformers* (first released as *Sparse autoencoders can interpret randomly initialized transformers*). [arXiv:2501.17727](https://arxiv.org/abs/2501.17727)
+- Kantamneni, S., Engels, J., Rajamanoharan, S., Tegmark, M., Nanda, N. (2025). *Are sparse autoencoders useful? A case study in sparse probing*. [arXiv:2502.16681](https://arxiv.org/abs/2502.16681)
+- Karvonen, A., Rager, C., Lin, J., Tigges, C., Bloom, J., Chanin, D., Lau, Y.-T., Farrell, E., McDougall, C., et al. (2025). *SAEBench: A comprehensive benchmark for sparse autoencoders in language model interpretability*. [arXiv:2503.09532](https://arxiv.org/abs/2503.09532)
+- Bussmann, B., Nabeshima, N., Karvonen, A., Nanda, N. (2025). *Learning multi-level features with Matryoshka sparse autoencoders*. [arXiv:2503.17547](https://arxiv.org/abs/2503.17547)
+- Smith, L., Rajamanoharan, S., Conmy, A., McDougall, C., Kramár, J., Lieberum, T., Shah, R., Nanda, N. (2025). *Negative results for SAEs on downstream tasks and deprioritising SAE research (GDM Mech Interp Team Progress Update #2)*. AI Alignment Forum, March 26, 2025. [Link](https://www.alignmentforum.org/posts/4uXCAJNuPKtKBsi28/negative-results-for-saes-on-downstream-tasks)
+- Ameisen, E., Lindsey, J., Pearce, A., Gurnee, W., Turner, N. L., Chen, B., Citro, C., et al. (2025). *Circuit tracing: Revealing computational graphs in language models*. Transformer Circuits Thread. [Link](https://transformer-circuits.pub/2025/attribution-graphs/methods.html)
+- Lindsey, J., Gurnee, W., Ameisen, E., Chen, B., Pearce, A., Turner, N. L., Citro, C., et al. (2025). *On the biology of a large language model*. Transformer Circuits Thread. [Link](https://transformer-circuits.pub/2025/attribution-graphs/biology.html)
 
 ## Reward models and their failure modes
 

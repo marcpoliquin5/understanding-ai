@@ -11,6 +11,7 @@ As AI systems become more capable and autonomous, three questions grow in import
 | [Alignment and safety](alignment.md) | Specification problems, reward hacking, RLHF limits, scalable oversight, adversarial robustness, evaluation, control |
 | [Reward models and how they fail](reward-model-failure-modes.md) | Bradley–Terry reward models, over-optimization curves, length bias, sycophancy, sophistry, reward tampering, and the mitigations that help |
 | [Interpretability](interpretability.md) | Attribution, probing, circuits, superposition, sparse autoencoders, model editing |
+| [Sparse autoencoders and the dictionary of features](sparse-autoencoders.md) | Dictionary learning against superposition, L1 to TopK and JumpReLU, Golden Gate Claude, transcoders and attribution graphs, and the 2025 evidence on what SAEs cannot tell you |
 
 ```mermaid
 flowchart LR

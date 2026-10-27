@@ -50,7 +50,7 @@ To undo it, **sparse autoencoders** (SAEs) learn an overcomplete dictionary of s
 \mathcal{L} = \lVert \mathbf{h} - \hat{\mathbf{h}} \rVert^2 + \lambda \lVert \mathbf{f} \rVert_1
 ```
 
-Bricken et al. (2023) found that SAE features in a small transformer were far more interpretable (monosemantic) than individual neurons.
+Bricken et al. (2023) found that SAE features in a small transformer were far more interpretable (monosemantic) than individual neurons. For how SAEs scaled to frontier models, how they became the basis for circuit tracing, and the 2025 results on their limits, see [Sparse autoencoders and the dictionary of features](sparse-autoencoders.md).
 
 ## Locating and editing knowledge
 
