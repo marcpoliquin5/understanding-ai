@@ -2,6 +2,13 @@
 
 Understanding AI grows daily. Each entry records what was added or changed, newest first. See [docs/DAILY_UPDATES.md](docs/DAILY_UPDATES.md) for how updates work.
 
+## 2026-10-27 (evening): SGD as a stochastic differential equation
+
+- **Frontiers**: new page [SGD as a stochastic differential equation](docs/06-frontiers/sgd-as-a-stochastic-differential-equation.md): minibatch SGD written as an Itô SDE with time $t = k\eta$, weak-order stochastic modified equations and the Fokker–Planck equation, temperature $\eta/B$ and the linear scaling rule with its limits and the gradient noise scale, the Ornstein–Uhlenbeck stationary covariance from the Lyapunov equation and its exact discrete-time correction, a tested NumPy sketch on a two-dimensional least-squares problem whose curvatures differ 37-fold, where SGD's spread matches the SDE prediction at small steps along both directions and the sharp direction's spread nearly doubles (0.0248 against 0.0126) at $\eta = 0.16$, close to the stability limit of 0.219, as the exact discrete formula predicts (0.0243), Kramers escape and why anisotropic noise favours flat minima, implicit gradient regularization and the slow SDE along a manifold of minima, the square-root scaling rule for Adam and critical batch size in modern pre-training, where the picture breaks (edge of stability, heavy-tailed noise, large learning rates), stochastic gradient Langevin dynamics, an honest status table, and a clearly labelled speculative section on physical noise in analog hardware as part of the SDE.
+- **References**: new *Frontiers: SGD as a stochastic differential equation* section with 27 entries, each checked against its arXiv abstract page or the publisher's page; four further sources were already listed.
+- **Glossary**: added *Fokker–Planck equation*, *Gradient noise scale*, *Implicit gradient regularization*, *Linear scaling rule*, *Stochastic differential equation (SDE)*, and *Stochastic gradient Langevin dynamics (SGLD)*.
+- **Linked** from the Frontiers index and mindmap, the README contents table and field map, the SGD section of the optimization page, and the non-linearity and dynamical systems page (removed from its next-topics list).
+
 ## 2026-10-27: Sparse autoencoders and the dictionary of features
 
 - **Interpretability**: new page [Sparse autoencoders and the dictionary of features](docs/05-alignment-safety-interpretability/sparse-autoencoders.md): superposition and why individual neurons are hard to read, the sparse-coding roots of the idea (Olshausen and Field, 1996), the SAE objective with reconstruction, sparsity and the L0 and fraction-of-variance-unexplained metrics, scaling from a one-layer model to roughly 34 million features in Claude 3 Sonnet and 16 million latents on GPT-4, the move from L1 to Gated, TopK, JumpReLU, BatchTopK, Matryoshka and end-to-end SAEs, a tested NumPy sketch where no neuron matches any of 128 planted features but a TopK SAE recovers all of them while L1 shrinks their activations to about a third of their true size or less, Golden Gate Claude, sparse feature circuits, transcoders, crosscoders and attribution graphs, automated feature labelling, the 2025 negative results (seed dependence, feature absorption, multi-dimensional features, SAE dark matter, random-transformer baselines, SAEBench, and linear probes beating SAE probes), an honest status table, and a clearly labelled speculative section on sparse codes as a hardware interface.
@@ -103,7 +110,7 @@ Planned topics, roughly in rotation order:
 - [x] Alignment: reward modelling failure modes in depth (2026-10-26)
 - [x] Frontiers / recursion: fast-weight programmers and self-referential networks (2026-10-24)
 - [x] Frontiers / fractals: heavy-tailed weight spectra and generalization (2026-10-23)
-- [ ] Frontiers / dynamics: SGD as a stochastic differential equation
+- [x] Frontiers / dynamics: SGD as a stochastic differential equation (2026-10-27)
 - [x] Frontiers / photonics: energy-per-MAC accounting and optical nonlinearities (2026-10-24)
 - [ ] Frontiers / neuromorphic: memristive crossbars and in-memory computing
 - [ ] Frontiers / quantum: tensor networks as ML models

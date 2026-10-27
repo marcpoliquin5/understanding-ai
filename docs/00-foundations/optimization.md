@@ -30,7 +30,7 @@ Computing the gradient over all $N$ examples is expensive. **SGD** estimates it 
 \theta_{t+1} = \theta_t - \eta \, \frac{1}{|\mathcal{B}|} \sum_{i \in \mathcal{B}} \nabla_\theta \ell_i(\theta_t)
 ```
 
-The idea traces back to stochastic approximation (Robbins & Monro 1951). The noise in SGD is not only a cost: it is widely believed to help escape poor regions and to bias training toward solutions that generalize, although the precise mechanisms remain an active research question.
+The idea traces back to stochastic approximation (Robbins & Monro 1951). The noise in SGD is not only a cost: it is widely believed to help escape poor regions and to bias training toward solutions that generalize, although the precise mechanisms remain an active research question. For the continuous-time view, in which SGD becomes a diffusion with temperature roughly $\eta/|\mathcal{B}|$, see [SGD as a stochastic differential equation](../06-frontiers/sgd-as-a-stochastic-differential-equation.md).
 
 ## Momentum and adaptive methods
 

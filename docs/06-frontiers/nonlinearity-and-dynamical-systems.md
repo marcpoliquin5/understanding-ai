@@ -74,6 +74,7 @@ The Lorenz system (Lorenz 1963), the classic example of deterministic chaos, is 
 - **Edge of stability** (Cohen et al. 2021): with full-batch gradient descent, the top Hessian eigenvalue rises until it hovers around $2/\eta$, where classical analysis predicts divergence, yet loss continues to decrease non-monotonically over long time scales.
 - **Fractal trainability boundaries** (Sohl-Dickstein 2024): the boundary between convergent and divergent hyperparameters is fractal (see [Fractal structure](fractal-and-self-similar-structure.md#4-fractal-geometry-in-training-established-recent)).
 - **Grokking and phase transitions** (Power et al. 2022): abrupt qualitative changes during training resemble bifurcations.
+- **SGD as a diffusion**: with small learning rates, minibatch SGD behaves like a stochastic differential equation whose temperature is set by the learning rate over the batch size; see [SGD as a stochastic differential equation](sgd-as-a-stochastic-differential-equation.md).
 
 ## Speculative directions
 
@@ -88,4 +89,4 @@ The Lorenz system (Lorenz 1963), the classic example of deterministic chaos, is 
 
 - Mean-field theory and the neural tangent kernel in more depth
 - Continuous attractors and working memory in RNNs
-- Stochastic differential equation views of SGD
+- Stochastic differential equation views of SGD (now its own page: [SGD as a stochastic differential equation](sgd-as-a-stochastic-differential-equation.md))
