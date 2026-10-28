@@ -594,6 +594,34 @@ Sources for the [reward models page](docs/05-alignment-safety-interpretability/r
 - Neftci, E. O., Mostafa, H., Zenke, F. (2019). *Surrogate gradient learning in spiking neural networks*. IEEE Signal Processing Magazine. [arXiv:1901.09948](https://arxiv.org/abs/1901.09948)
 - Roy, K., Jaiswal, A., Panda, P. (2019). *Towards spike-based machine intelligence with neuromorphic computing*. Nature. [doi:10.1038/s41586-019-1677-2](https://doi.org/10.1038/s41586-019-1677-2)
 
+## Frontiers: memristive crossbars and in-memory computing
+
+- Ambrogio, S., Narayanan, P., Tsai, H., Shelby, R. M., Boybat, I., et al. (2018). *Equivalent-accuracy accelerated neural-network training using analogue memory*. Nature 558, 60–67. [doi:10.1038/s41586-018-0180-5](https://doi.org/10.1038/s41586-018-0180-5)
+- Ambrogio, S., Narayanan, P., Okazaki, A., Fasoli, A., Mackin, C., et al. (2023). *An analog-AI chip for energy-efficient speech recognition and transcription*. Nature 620, 768–775. [doi:10.1038/s41586-023-06337-5](https://doi.org/10.1038/s41586-023-06337-5)
+- Büchel, J., Vasilopoulos, A., Simon, W. A., Boybat, I., Tsai, H., et al. (2025). *Efficient scaling of large language models with mixture of experts and 3D analog in-memory computing*. Nature Computational Science 5, 13–26. [doi:10.1038/s43588-024-00753-x](https://doi.org/10.1038/s43588-024-00753-x)
+- Burr, G. W., Shelby, R. M., Sebastian, A., Kim, S., Kim, S., et al. (2017). *Neuromorphic computing using non-volatile memory*. Advances in Physics: X 2, 89–124. [doi:10.1080/23746149.2016.1259585](https://doi.org/10.1080/23746149.2016.1259585)
+- Chua, L. (1971). *Memristor: The missing circuit element*. IEEE Transactions on Circuit Theory 18, 507–519. [doi:10.1109/TCT.1971.1083337](https://doi.org/10.1109/TCT.1971.1083337)
+- Gokmen, T., Haensch, W. (2020). *Algorithm for training neural networks on resistive device arrays*. Frontiers in Neuroscience 14. [doi:10.3389/fnins.2020.00103](https://doi.org/10.3389/fnins.2020.00103)
+- Gokmen, T., Vlasov, Y. (2016). *Acceleration of deep neural network training with resistive cross-point devices: Design considerations*. Frontiers in Neuroscience 10. [doi:10.3389/fnins.2016.00333](https://doi.org/10.3389/fnins.2016.00333)
+- Ielmini, D., Wong, H.-S. P. (2018). *In-memory computing with resistive switching devices*. Nature Electronics 1, 333–343. [doi:10.1038/s41928-018-0092-2](https://doi.org/10.1038/s41928-018-0092-2)
+- Joshi, V., Le Gallo, M., Haefeli, S., Boybat, I., Nandakumar, S. R., et al. (2020). *Accurate deep neural network inference using computational phase-change memory*. Nature Communications 11, 2473. [doi:10.1038/s41467-020-16108-9](https://doi.org/10.1038/s41467-020-16108-9)
+- Le Gallo, M., Sebastian, A., Mathis, R., Manica, M., Giefers, H., et al. (2018). *Mixed-precision in-memory computing*. Nature Electronics 1, 246–253. [doi:10.1038/s41928-018-0054-8](https://doi.org/10.1038/s41928-018-0054-8)
+- Le Gallo, M., Khaddam-Aljameh, R., Stanisavljevic, M., Vasilopoulos, A., Kersting, B., et al. (2023). *A 64-core mixed-signal in-memory compute chip based on phase-change memory for deep neural network inference*. Nature Electronics 6, 680–693. [doi:10.1038/s41928-023-01010-1](https://doi.org/10.1038/s41928-023-01010-1)
+- Leroux, N., Manea, P.-P., Sudarshan, C., Finkbeiner, J., Siegel, S., Strachan, J. P., Neftci, E. (2025). *Analog in-memory computing attention mechanism for fast and energy-efficient large language models*. Nature Computational Science 5, 813–824. [doi:10.1038/s43588-025-00854-1](https://doi.org/10.1038/s43588-025-00854-1)
+- Li, C., Hu, M., Li, Y., Jiang, H., Ge, N., et al. (2018). *Analogue signal and image processing with large memristor crossbars*. Nature Electronics 1, 52–59. [doi:10.1038/s41928-017-0002-z](https://doi.org/10.1038/s41928-017-0002-z)
+- Prezioso, M., Merrikh-Bayat, F., Hoskins, B. D., Adam, G. C., Likharev, K. K., Strukov, D. B. (2015). *Training and operation of an integrated neuromorphic network based on metal-oxide memristors*. Nature 521, 61–64. [doi:10.1038/nature14441](https://doi.org/10.1038/nature14441)
+- Rao, M., Tang, H., Wu, J., Song, W., Zhang, M., et al. (2023). *Thousands of conductance levels in memristors integrated on CMOS*. Nature 615, 823–829. [doi:10.1038/s41586-023-05759-5](https://doi.org/10.1038/s41586-023-05759-5)
+- Rasch, M. J., Moreda, D., Gokmen, T., Le Gallo, M., Carta, F., Goldberg, C., El Maghraoui, K., Sebastian, A., Narayanan, V. (2021). *A flexible and fast PyTorch toolkit for simulating training and inference on analog crossbar arrays*. AICAS 2021. [arXiv:2104.02184](https://arxiv.org/abs/2104.02184)
+- Rasch, M. J., Mackin, C., Le Gallo, M., Chen, A., Fasoli, A., et al. (2023). *Hardware-aware training for large-scale and diverse deep learning inference workloads using in-memory computing-based accelerators*. Nature Communications 14. [doi:10.1038/s41467-023-40770-4](https://doi.org/10.1038/s41467-023-40770-4)
+- Sebastian, A., Le Gallo, M., Khaddam-Aljameh, R., Eleftheriou, E. (2020). *Memory devices and applications for in-memory computing*. Nature Nanotechnology 15, 529–544. [doi:10.1038/s41565-020-0655-z](https://doi.org/10.1038/s41565-020-0655-z)
+- Song, W., Rao, M., Li, Y., Li, C., Zhuo, Y., et al. (2024). *Programming memristor arrays with arbitrarily high precision for analog computing*. Science 383, 903–910. [doi:10.1126/science.adi9405](https://doi.org/10.1126/science.adi9405)
+- Strukov, D. B., Snider, G. S., Stewart, D. R., Williams, R. S. (2008). *The missing memristor found*. Nature 453, 80–83. [doi:10.1038/nature06932](https://doi.org/10.1038/nature06932)
+- Sun, Z., Pedretti, G., Ambrosi, E., Bricalli, A., Wang, W., et al. (2019). *Solving matrix equations in one step with cross-point resistive arrays*. PNAS 116, 4123–4128. [doi:10.1073/pnas.1815682116](https://doi.org/10.1073/pnas.1815682116)
+- Wan, W., Kubendran, R., Schaefer, C., Eryilmaz, S. B., Zhang, W., et al. (2022). *A compute-in-memory chip based on resistive random-access memory*. Nature 608, 504–512. [doi:10.1038/s41586-022-04992-8](https://doi.org/10.1038/s41586-022-04992-8)
+- Yao, P., Wu, H., Gao, B., Tang, J., Zhang, Q., et al. (2020). *Fully hardware-implemented memristor convolutional neural network*. Nature 577, 641–646. [doi:10.1038/s41586-020-1942-4](https://doi.org/10.1038/s41586-020-1942-4)
+
+Horowitz (2014) is listed under the optical energy section.
+
 ## Frontiers: quantum machine learning
 
 - Biamonte, J., et al. (2017). *Quantum machine learning*. Nature. [doi:10.1038/nature23474](https://doi.org/10.1038/nature23474)

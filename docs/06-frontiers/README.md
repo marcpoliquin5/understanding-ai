@@ -17,6 +17,7 @@ This is where the map runs out and the territory is still being surveyed. Each p
 | [Photonic and optical computing](photonic-computing.md) | Can light do the matrix multiplications of AI faster and with less energy? |
 | [Optical energy and nonlinearity](optical-energy-and-nonlinearity.md) | Where does the energy of an optical neural network actually go, what physics sets the floor, and why is the nonlinearity the hard part? |
 | [Neuromorphic computing](neuromorphic-computing.md) | What happens when hardware computes with spikes and local memory, like brains? |
+| [Memristive crossbars and in-memory computing](memristive-crossbars-in-memory-computing.md) | How can a grid of programmable resistors multiply a matrix by a vector in one step, and how do imprecise, drifting devices still run real networks? |
 | [Quantum machine learning](quantum-machine-learning.md) | Where, if anywhere, do quantum computers offer real advantages for learning? |
 | [World models](world-models.md) | Can systems learn internal simulators of their environment and plan with them? |
 
@@ -36,6 +37,7 @@ mindmap
       Photonic computing
       Optical energy accounting
       Neuromorphic computing
+      Memristive crossbars
       Quantum ML
 ```
 

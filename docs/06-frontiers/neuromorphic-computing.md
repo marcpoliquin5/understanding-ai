@@ -44,7 +44,7 @@ The spike function is a step, so its derivative is zero almost everywhere, which
 
 - **IBM TrueNorth** (Merolla et al. 2014): a chip with one million spiking neurons and 256 million synapses, using an asynchronous, event-driven design with very low power.
 - **Intel Loihi** (Davies et al. 2018): a many-core neuromorphic research chip with programmable on-chip learning rules.
-- **Analog in-memory computing**: crossbars of resistive or phase-change devices compute matrix–vector products in place via Ohm's and Kirchhoff's laws, avoiding weight movement. This sits between neuromorphic and conventional accelerators.
+- **Analog in-memory computing**: crossbars of resistive or phase-change devices compute matrix–vector products in place via Ohm's and Kirchhoff's laws, avoiding weight movement. This sits between neuromorphic and conventional accelerators; devices, non-idealities and landmark chips are covered in [Memristive crossbars and in-memory computing](memristive-crossbars-in-memory-computing.md).
 - **Neuromorphic photonics**: spiking and weighted networks built from lasers and microring resonators (Tait et al. 2017; Shastri et al. 2021); see [Photonic computing](photonic-computing.md).
 
 A broad review is given by Roy, Jaiswal & Panda (2019).
@@ -73,5 +73,4 @@ A broad review is given by Roy, Jaiswal & Panda (2019).
 ## Next topics for this page
 
 - Temporal coding schemes and their information capacity
-- Memristive crossbars and device non-idealities
 - Benchmarks such as keyword spotting on neuromorphic hardware

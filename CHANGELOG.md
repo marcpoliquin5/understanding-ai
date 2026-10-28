@@ -2,6 +2,14 @@
 
 Understanding AI grows daily. Each entry records what was added or changed, newest first. See [docs/DAILY_UPDATES.md](docs/DAILY_UPDATES.md) for how updates work.
 
+## 2026-10-28 (evening): Memristive crossbars and in-memory computing
+
+- **Frontiers**: new page [Memristive crossbars and in-memory computing](docs/06-frontiers/memristive-crossbars-in-memory-computing.md): the memory wall that motivates computing where the weights are, the crossbar matrix-vector product from Ohm's and Kirchhoff's laws with differential conductance pairs and the converter-sharing argument, Chua's memristor and the 2008 TiO$_2$ device, a comparison of RRAM, phase-change memory, flash and gain cells, a field guide to non-idealities (finite levels, programming and read noise, power-law drift, IR drop, asymmetric updates, ADC precision), a tested NumPy sketch of a $256 \times 256$ differential-pair layer where the output error falls from 0.456 at 4 levels to 0.041 at 64 but barely moves at 256, 3% programming error sets a floor near 0.17, a year of drift with $\nu = 0.05$ raises the error from 0.070 to 0.586 while one calibration scalar per array holds it to 0.100, and four self-compensating devices per weight cut the RMS weight error from $3.0 \times 10^{-2}$ to $6.7 \times 10^{-5}$; hardware-aware training, write-verify, multi-device precision and mixed-precision refinement; training on arrays (resistive processing units, in-situ perceptrons, phase-change memory plus capacitor cells, Tiki-Taka); a table of landmark chips from 2015 to 2025 including NeuRRAM, IBM's 64-core and 35-million-device phase-change chips, attention in gain-cell memory and mixture-of-experts on 3D analog hardware; one-step linear-system solving; an honest status table; and a clearly labelled speculative section on a shared noise budget across electronic and optical analog substrates.
+- **References**: new *Memristive crossbars and in-memory computing* section with 23 entries, each checked against Crossref or its arXiv abstract page.
+- **Glossary**: added *Analog in-memory computing*, *Conductance drift*, *Crossbar array*, *Hardware-aware training*, *IR drop*, and *Memristor*.
+- **Linked** from the Frontiers index and mindmap, the README contents table and reading paths, and the hardware section of the neuromorphic page (whose "next topics" item is now done).
+- **Backlog**: ticked the memristive crossbars item.
+
 ## 2026-10-28: Attention gradients, derived by hand
 
 - **Deep learning**: new page [Attention gradients, derived by hand](docs/02-deep-learning/attention-gradients.md): the forward pass of scaled dot-product attention and the reverse-mode convention, $dV = P^\top dO$ and $dP = dO\,V^\top$, the softmax Jacobian $\operatorname{diag}(p) - pp^\top$ with a one-line proof that its eigenvalues lie in $[0, 1/2]$ and that it vanishes for one-hot rows, $dS = P \odot (dP - D)$ and $dQ$, $dK$, a matmul count giving about 2.5 times the forward arithmetic, the identity $D_i = dO_i \cdot O_i$ that, together with the saved per-row log-sum-exp, lets FlashAttention rebuild the attention matrix tile by tile instead of storing it, a tested NumPy sketch on a causal head ($n = 64$, $d = 16$) where the hand-derived gradients match central finite differences to a maximum relative error of $4.3 \times 10^{-9}$ and a tiled backward pass that stores 64 numbers instead of 4,096 matches the naive one to round-off, why the $1/\sqrt{d}$ scale exists (largest Jacobian eigenvalue $0.28$ at logit spread 4 against $1.1 \times 10^{-3}$ at spread 16), attention-logit growth and QK-norm, entropy collapse and σReparam, the missing global Lipschitz bound, a table of variants (masks, additive biases, sparsemax, linear attention, grouped-query), an honest status table, and a clearly labelled speculative section on recomputing attention when the forward pass runs on noisy analog or optical hardware.
@@ -119,7 +127,7 @@ Planned topics, roughly in rotation order:
 - [x] Frontiers / fractals: heavy-tailed weight spectra and generalization (2026-10-23)
 - [x] Frontiers / dynamics: SGD as a stochastic differential equation (2026-10-27)
 - [x] Frontiers / photonics: energy-per-MAC accounting and optical nonlinearities (2026-10-24)
-- [ ] Frontiers / neuromorphic: memristive crossbars and in-memory computing
+- [x] Frontiers / neuromorphic: memristive crossbars and in-memory computing (2026-10-28)
 - [ ] Frontiers / quantum: tensor networks as ML models
 - [ ] Frontiers / world models: causal representation learning
 - [ ] Frontiers: continual learning and catastrophic forgetting
