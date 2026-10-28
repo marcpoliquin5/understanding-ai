@@ -15,6 +15,7 @@ Every source cited in Understanding AI, grouped by section. Each entry links to 
 - [Reinforcement learning](#reinforcement-learning)
 - [Deep learning architectures](#deep-learning-architectures)
 - [Transformers and language models](#transformers-and-language-models)
+- [Attention gradients](#attention-gradients)
 - [Mixture of experts](#mixture-of-experts)
 - [Generative and multimodal models](#generative-and-multimodal-models)
 - [Retrieval, tools and agents](#retrieval-tools-and-agents)
@@ -215,6 +216,19 @@ Jacot et al. (2018) is also cited on the [Gaussian processes page](docs/01-class
 - Wei, J., et al. (2022). *Emergent abilities of large language models*. TMLR. [arXiv:2206.07682](https://arxiv.org/abs/2206.07682)
 - Wei, J., et al. (2022). *Chain-of-thought prompting elicits reasoning in large language models*. NeurIPS. [arXiv:2201.11903](https://arxiv.org/abs/2201.11903)
 - Yao, S., et al. (2023). *Tree of thoughts: Deliberate problem solving with large language models*. NeurIPS. [arXiv:2305.10601](https://arxiv.org/abs/2305.10601)
+
+## Attention gradients
+
+- Baydin, A. G., Pearlmutter, B. A., Radul, A. A., Siskind, J. M. (2018). *Automatic differentiation in machine learning: a survey*. JMLR 18(153). [arXiv:1502.05767](https://arxiv.org/abs/1502.05767)
+- Chen, T., Xu, B., Zhang, C., Guestrin, C. (2016). *Training deep nets with sublinear memory cost*. [arXiv:1604.06174](https://arxiv.org/abs/1604.06174)
+- Dao, T. (2023). *FlashAttention-2: Faster attention with better parallelism and work partitioning*. ICLR 2024. [arXiv:2307.08691](https://arxiv.org/abs/2307.08691)
+- Gao, B., Pavel, L. (2017). *On the properties of the softmax function with application in game theory and reinforcement learning*. [arXiv:1704.00805](https://arxiv.org/abs/1704.00805)
+- Griewank, A., Walther, A. (2008). *Evaluating derivatives: Principles and techniques of algorithmic differentiation* (2nd ed.). SIAM. [doi:10.1137/1.9780898717761](https://doi.org/10.1137/1.9780898717761)
+- Kim, H., Papamakarios, G., Mnih, A. (2021). *The Lipschitz constant of self-attention*. ICML. [arXiv:2006.04710](https://arxiv.org/abs/2006.04710)
+- Martins, A. F. T., Astudillo, R. F. (2016). *From softmax to sparsemax: A sparse model of attention and multi-label classification*. ICML. [arXiv:1602.02068](https://arxiv.org/abs/1602.02068)
+- Milakov, M., Gimelshein, N. (2018). *Online normalizer calculation for softmax*. [arXiv:1805.02867](https://arxiv.org/abs/1805.02867)
+- Rabe, M. N., Staats, C. (2021). *Self-attention does not need $O(n^2)$ memory*. [arXiv:2112.05682](https://arxiv.org/abs/2112.05682)
+- Zhai, S., Likhomanenko, T., Littwin, E., Busbridge, D., Ramapuram, J., Zhang, Y., et al. (2023). *Stabilizing transformer training by preventing attention entropy collapse*. ICML. [arXiv:2303.06296](https://arxiv.org/abs/2303.06296)
 
 ## Mixture of experts
 

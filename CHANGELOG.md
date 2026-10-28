@@ -2,6 +2,13 @@
 
 Understanding AI grows daily. Each entry records what was added or changed, newest first. See [docs/DAILY_UPDATES.md](docs/DAILY_UPDATES.md) for how updates work.
 
+## 2026-10-28: Attention gradients, derived by hand
+
+- **Deep learning**: new page [Attention gradients, derived by hand](docs/02-deep-learning/attention-gradients.md): the forward pass of scaled dot-product attention and the reverse-mode convention, $dV = P^\top dO$ and $dP = dO\,V^\top$, the softmax Jacobian $\operatorname{diag}(p) - pp^\top$ with a one-line proof that its eigenvalues lie in $[0, 1/2]$ and that it vanishes for one-hot rows, $dS = P \odot (dP - D)$ and $dQ$, $dK$, a matmul count giving about 2.5 times the forward arithmetic, the identity $D_i = dO_i \cdot O_i$ that, together with the saved per-row log-sum-exp, lets FlashAttention rebuild the attention matrix tile by tile instead of storing it, a tested NumPy sketch on a causal head ($n = 64$, $d = 16$) where the hand-derived gradients match central finite differences to a maximum relative error of $4.3 \times 10^{-9}$ and a tiled backward pass that stores 64 numbers instead of 4,096 matches the naive one to round-off, why the $1/\sqrt{d}$ scale exists (largest Jacobian eigenvalue $0.28$ at logit spread 4 against $1.1 \times 10^{-3}$ at spread 16), attention-logit growth and QK-norm, entropy collapse and σReparam, the missing global Lipschitz bound, a table of variants (masks, additive biases, sparsemax, linear attention, grouped-query), an honest status table, and a clearly labelled speculative section on recomputing attention when the forward pass runs on noisy analog or optical hardware.
+- **References**: new *Attention gradients* section with 10 entries, each checked against its arXiv abstract page or Crossref; seven further sources were already listed.
+- **Glossary**: added *FlashAttention*, *Log-sum-exp*, *Online softmax*, and *QK-norm*.
+- **Linked** from the Deep learning index, the README contents table, and the efficient-attention paragraph of the transformers page.
+
 ## 2026-10-27 (evening): SGD as a stochastic differential equation
 
 - **Frontiers**: new page [SGD as a stochastic differential equation](docs/06-frontiers/sgd-as-a-stochastic-differential-equation.md): minibatch SGD written as an Itô SDE with time $t = k\eta$, weak-order stochastic modified equations and the Fokker–Planck equation, temperature $\eta/B$ and the linear scaling rule with its limits and the gradient noise scale, the Ornstein–Uhlenbeck stationary covariance from the Lyapunov equation and its exact discrete-time correction, a tested NumPy sketch on a two-dimensional least-squares problem whose curvatures differ 37-fold, where SGD's spread matches the SDE prediction at small steps along both directions and the sharp direction's spread nearly doubles (0.0248 against 0.0126) at $\eta = 0.16$, close to the stability limit of 0.219, as the exact discrete formula predicts (0.0243), Kramers escape and why anisotropic noise favours flat minima, implicit gradient regularization and the slow SDE along a manifold of minima, the square-root scaling rule for Adam and critical batch size in modern pre-training, where the picture breaks (edge of stability, heavy-tailed noise, large learning rates), stochastic gradient Langevin dynamics, an honest status table, and a clearly labelled speculative section on physical noise in analog hardware as part of the SDE.
@@ -101,7 +108,7 @@ Planned topics, roughly in rotation order:
 
 - [x] Foundations: information geometry and natural gradients (2026-10-25)
 - [x] Classical ML: Gaussian processes and Bayesian optimization (2026-10-26)
-- [ ] Deep learning: worked derivation of attention gradients
+- [x] Deep learning: worked derivation of attention gradients (2026-10-28)
 - [x] Deep learning: normalization, initialization and μP (hyperparameter transfer) (2026-10-22)
 - [x] Modern AI: evaluation and benchmarks, and their pitfalls (2026-10-23)
 - [ ] Modern AI: code generation and program synthesis

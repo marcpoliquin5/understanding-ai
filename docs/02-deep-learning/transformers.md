@@ -72,7 +72,7 @@ Attention by itself is permutation-invariant: it does not know word order. Posit
 
 ## Cost
 
-Self-attention costs $O(n^2 d)$ time and memory for a sequence of length $n$. This quadratic term motivates efficient attention kernels such as **FlashAttention** (Dao et al. 2022), which computes exact attention while avoiding materializing the $n \times n$ matrix in slow memory, as well as sub-quadratic alternatives such as [state-space models](architectures.md#state-space-models).
+Self-attention costs $O(n^2 d)$ time and memory for a sequence of length $n$. This quadratic term motivates efficient attention kernels such as **FlashAttention** (Dao et al. 2022), which computes exact attention while avoiding materializing the $n \times n$ matrix in slow memory, as well as sub-quadratic alternatives such as [state-space models](architectures.md#state-space-models). The [attention gradients](attention-gradients.md) page derives the backward pass by hand and shows the identity that lets FlashAttention skip storing the attention matrix.
 
 During generation, keys and values of past tokens are cached (the **KV cache**), so each new token costs $O(n d)$, but the cache grows with context length. See [Inference and efficiency](../04-systems/inference-and-efficiency.md).
 
