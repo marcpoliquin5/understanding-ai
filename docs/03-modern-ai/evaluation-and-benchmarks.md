@@ -86,7 +86,7 @@ For code, a model is often allowed several attempts. Naively estimating "solved 
 \text{pass@}k = \mathbb{E}_{\text{problems}}\left[\,1 - \frac{\binom{n-c}{k}}{\binom{n}{k}}\,\right].
 ```
 
-With $n = 200$ samples of which $c = 13$ pass, the function above gives pass@1 $= 0.065$, pass@10 $\approx 0.50$, and pass@100 $\approx 1.0$. The same model looks weak or near-perfect depending on $k$, which is why a pass@k number without its $k$ is meaningless. Chen et al. reported that Codex solved 28.8% of HumanEval problems with one sample and 70.2% with 100 samples per problem.
+With $n = 200$ samples of which $c = 13$ pass, the function above gives pass@1 $= 0.065$, pass@10 $\approx 0.50$, and pass@100 $\approx 1.0$. The same model looks weak or near-perfect depending on $k$, which is why a pass@k number without its $k$ is meaningless. How sampling many programs and selecting among them by execution turns high pass@k into real accuracy is covered on the [code generation page](code-generation-and-program-synthesis.md#4-sample-filter-select-established). Chen et al. reported that Codex solved 28.8% of HumanEval problems with one sample and 70.2% with 100 samples per problem.
 
 ## 3. Six ways benchmark numbers mislead
 

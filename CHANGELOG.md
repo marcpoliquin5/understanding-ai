@@ -2,6 +2,14 @@
 
 Understanding AI grows daily. Each entry records what was added or changed, newest first. See [docs/DAILY_UPDATES.md](docs/DAILY_UPDATES.md) for how updates work.
 
+## 2026-10-29: Code generation and program synthesis
+
+- **Modern AI**: new page [Code generation and program synthesis](docs/03-modern-ai/code-generation-and-program-synthesis.md): synthesis before language models (deductive synthesis, sketching with SAT and SMT solvers, programming by example and Flash Fill) and the neural-guided search of DeepCoder, RobustFill and DreamCoder; the naturalness of code, Codex and HumanEval, MBPP's log-linear scaling and APPS; fill-in-the-middle training and a table of open code models from StarCoder to StarCoder2; repeated sampling and coverage (15.9% to 56% on SWE-bench Lite with 250 samples); the AlphaCode sample-filter-cluster pipeline and CodeT's generated tests; a tested NumPy toy simulation of 2,000 problems with 1,000 samples and 10 submissions each, where random submission solves 24.3%, filtering on public examples 60.6% and filtering plus behaviour clustering 79.4% of problems against an 86.9% ceiling, with both gains shrinking (43.1% and 61.3%) when wrong programs pass the examples three times as often; self-debugging, Reflexion, CodeRL and reinforcement learning from verifiable rewards; repository-scale agents (SWE-agent, OpenHands, Agentless); honest measurement (EvalPlus, LiveCodeBench, BigCodeBench); FunSearch and AlphaEvolve; the conflicting productivity and security evidence (a 55.8% speedup in a 2023 experiment, a 19% slowdown in a 2025 randomized trial, about 40% vulnerable programs in 2021); an honest status table; and a clearly labelled speculative section on evaluator-driven program search for unfamiliar accelerators.
+- **References**: new *Code generation and program synthesis* section with 30 entries, each checked against its arXiv abstract page or Crossref; six further sources were already listed.
+- **Glossary**: added *Coverage (repeated sampling)*, *Fill-in-the-middle (FIM)*, *Program synthesis*, and *Programming by example*.
+- **Linked** from the Modern AI index, the README contents table and software-engineer reading path, the pass@k section of the evaluation page, and the tool-use section of the agents page.
+- **Backlog**: ticked the code generation and program synthesis item.
+
 ## 2026-10-28 (evening): Memristive crossbars and in-memory computing
 
 - **Frontiers**: new page [Memristive crossbars and in-memory computing](docs/06-frontiers/memristive-crossbars-in-memory-computing.md): the memory wall that motivates computing where the weights are, the crossbar matrix-vector product from Ohm's and Kirchhoff's laws with differential conductance pairs and the converter-sharing argument, Chua's memristor and the 2008 TiO$_2$ device, a comparison of RRAM, phase-change memory, flash and gain cells, a field guide to non-idealities (finite levels, programming and read noise, power-law drift, IR drop, asymmetric updates, ADC precision), a tested NumPy sketch of a $256 \times 256$ differential-pair layer where the output error falls from 0.456 at 4 levels to 0.041 at 64 but barely moves at 256, 3% programming error sets a floor near 0.17, a year of drift with $\nu = 0.05$ raises the error from 0.070 to 0.586 while one calibration scalar per array holds it to 0.100, and four self-compensating devices per weight cut the RMS weight error from $3.0 \times 10^{-2}$ to $6.7 \times 10^{-5}$; hardware-aware training, write-verify, multi-device precision and mixed-precision refinement; training on arrays (resistive processing units, in-situ perceptrons, phase-change memory plus capacitor cells, Tiki-Taka); a table of landmark chips from 2015 to 2025 including NeuRRAM, IBM's 64-core and 35-million-device phase-change chips, attention in gain-cell memory and mixture-of-experts on 3D analog hardware; one-step linear-system solving; an honest status table; and a clearly labelled speculative section on a shared noise budget across electronic and optical analog substrates.
@@ -119,7 +127,7 @@ Planned topics, roughly in rotation order:
 - [x] Deep learning: worked derivation of attention gradients (2026-10-28)
 - [x] Deep learning: normalization, initialization and μP (hyperparameter transfer) (2026-10-22)
 - [x] Modern AI: evaluation and benchmarks, and their pitfalls (2026-10-23)
-- [ ] Modern AI: code generation and program synthesis
+- [x] Modern AI: code generation and program synthesis (2026-10-29)
 - [ ] Modern AI: AI for science (protein design, materials, weather)
 - [x] Systems: compilers for ML (XLA, MLIR, Triton) (2026-10-18)
 - [x] Alignment: reward modelling failure modes in depth (2026-10-26)

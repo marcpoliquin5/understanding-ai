@@ -48,7 +48,7 @@ A general agent repeats **observe → think → act** until a goal is met. Exten
 
 - **Memory**: summaries or retrieval over past interactions (e.g. *Generative Agents*, Park et al. 2023).
 - **Reflection**: critique a failed attempt and retry (*Reflexion*, Shinn et al. 2023).
-- **Skill libraries**: store working code for reuse (*Voyager*, Wang et al. 2023).
+- **Skill libraries**: store working code for reuse (*Voyager*, Wang et al. 2023). Agents that write and repair code across whole repositories are covered on the [code generation page](code-generation-and-program-synthesis.md#6-from-functions-to-repositories-active-research).
 - **Planning and search**: explore alternatives before committing (*Tree of Thoughts*, Yao et al. 2023).
 
 ## Multi-agent systems

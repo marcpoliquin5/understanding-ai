@@ -9,6 +9,7 @@ Modern AI is built around **foundation models**: large networks pretrained on br
 | [Retrieval, tools and agents](retrieval-tools-and-agents.md) | RAG, tool use, ReAct, planning loops, multi-agent systems, agent runtimes |
 | [Multimodal models](multimodal-models.md) | Vision–language models, CLIP, image and video generation, speech |
 | [Evaluation and benchmarks](evaluation-and-benchmarks.md) | Error bars and paired comparisons, pass@k, contamination, saturation, label errors, LLM judges, leaderboard gaming, agent time horizons |
+| [Code generation and program synthesis](code-generation-and-program-synthesis.md) | Synthesis from specs and examples, code models and fill-in-the-middle, sample-filter-cluster selection (tested code), execution feedback and RL, repository agents, honest code benchmarks, program search for discovery, developer productivity evidence |
 
 ```mermaid
 flowchart LR
