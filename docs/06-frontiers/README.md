@@ -19,6 +19,7 @@ This is where the map runs out and the territory is still being surveyed. Each p
 | [Neuromorphic computing](neuromorphic-computing.md) | What happens when hardware computes with spikes and local memory, like brains? |
 | [Memristive crossbars and in-memory computing](memristive-crossbars-in-memory-computing.md) | How can a grid of programmable resistors multiply a matrix by a vector in one step, and how do imprecise, drifting devices still run real networks? |
 | [Quantum machine learning](quantum-machine-learning.md) | Where, if anywhere, do quantum computers offer real advantages for learning? |
+| [What transformers can and cannot compute](what-transformers-can-and-cannot-compute.md) | Which problems can a transformer solve in one forward pass, and how much do chain of thought, looping and depth add? |
 | [World models](world-models.md) | Can systems learn internal simulators of their environment and plan with them? |
 
 ```mermaid
@@ -28,6 +29,7 @@ mindmap
       Recursion & self-improvement
       Fast-weight programmers
       World models
+      Limits of computation
     Mathematics of learning
       Fractals & scaling
       Heavy-tailed spectra

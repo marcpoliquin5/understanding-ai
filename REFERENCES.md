@@ -670,6 +670,45 @@ Horowitz (2014) is listed under the optical energy section.
 - Schuld, M., Killoran, N. (2019). *Quantum machine learning in feature Hilbert spaces*. Physical Review Letters. [doi:10.1103/PhysRevLett.122.040504](https://doi.org/10.1103/PhysRevLett.122.040504)
 - Tang, E. (2019). *A quantum-inspired classical algorithm for recommendation systems*. STOC. [arXiv:1807.04271](https://arxiv.org/abs/1807.04271)
 
+## Frontiers: what transformers can and cannot compute
+
+- Anil, C., Wu, Y., Andreassen, A., Lewkowycz, A., Misra, V., Ramasesh, V., Slone, A., Gur-Ari, G., Dyer, E., Neyshabur, B. (2022). *Exploring length generalization in large language models*. NeurIPS 2022. [arXiv:2207.04901](https://arxiv.org/abs/2207.04901)
+- Barak, B., Edelman, B. L., Goel, S., Kakade, S., Malach, E., Zhang, C. (2022). *Hidden progress in deep learning: SGD learns parities near the computational limit*. NeurIPS 2022. [arXiv:2207.08799](https://arxiv.org/abs/2207.08799)
+- Bhattamishra, S., Ahuja, K., Goyal, N. (2020). *On the ability and limitations of transformers to recognize formal languages*. EMNLP 2020. [arXiv:2009.11264](https://arxiv.org/abs/2009.11264)
+- Chiang, D., Cholak, P. (2022). *Overcoming a theoretical limitation of self-attention*. ACL 2022. [arXiv:2202.12172](https://arxiv.org/abs/2202.12172)
+- Delétang, G., Ruoss, A., Grau-Moya, J., Genewein, T., Wenliang, L. K., Catt, E., Cundy, C., Hutter, M., Legg, S., Veness, J., Ortega, P. A. (2022). *Neural networks and the Chomsky hierarchy*. [arXiv:2207.02098](https://arxiv.org/abs/2207.02098)
+- Dziri, N., Lu, X., Sclar, M., Li, X. L., Jiang, L., Lin, B. Y., et al. (2023). *Faith and fate: Limits of transformers on compositionality*. NeurIPS 2023. [arXiv:2305.18654](https://arxiv.org/abs/2305.18654)
+- Feng, G., Zhang, B., Gu, Y., Ye, H., He, D., Wang, L. (2023). *Towards revealing the mystery behind chain of thought: A theoretical perspective*. NeurIPS 2023. [arXiv:2305.15408](https://arxiv.org/abs/2305.15408)
+- Giannou, A., Rajput, S., Sohn, J., Lee, K., Lee, J. D., Papailiopoulos, D. (2023). *Looped transformers as programmable computers*. [arXiv:2301.13196](https://arxiv.org/abs/2301.13196)
+- Hahn, M. (2020). *Theoretical limitations of self-attention in neural sequence models*. TACL 8. [arXiv:1906.06755](https://arxiv.org/abs/1906.06755)
+- Hahn, M., Rofin, M. (2024). *Why are sensitive functions hard for transformers?* ACL 2024. [arXiv:2402.09963](https://arxiv.org/abs/2402.09963)
+- Hao, Y., Angluin, D., Frank, R. (2022). *Formal language recognition by hard attention transformers: Perspectives from circuit complexity*. TACL. [arXiv:2204.06618](https://arxiv.org/abs/2204.06618)
+- Li, Z., Liu, H., Zhou, D., Ma, T. (2024). *Chain of thought empowers transformers to solve inherently serial problems*. ICLR 2024. [arXiv:2402.12875](https://arxiv.org/abs/2402.12875)
+- Li, Y., Svete, A., Sabharwal, A., Merrill, W. (2026). *Efficiently representing algorithms with chain-of-thought transformers*. [arXiv:2606.19697](https://arxiv.org/abs/2606.19697)
+- Lindner, D., Kramár, J., Farquhar, S., Rahtz, M., McGrath, T., Mikulik, V. (2023). *Tracr: Compiled transformers as a laboratory for interpretability*. NeurIPS 2023. [arXiv:2301.05062](https://arxiv.org/abs/2301.05062)
+- Liu, B., Ash, J. T., Goel, S., Krishnamurthy, A., Zhang, C. (2022). *Transformers learn shortcuts to automata*. [arXiv:2210.10749](https://arxiv.org/abs/2210.10749)
+- Malach, E. (2023). *Auto-regressive next-token predictors are universal learners*. [arXiv:2309.06979](https://arxiv.org/abs/2309.06979)
+- Merrill, W., Sabharwal, A., Smith, N. A. (2022). *Saturated transformers are constant-depth threshold circuits*. TACL. [arXiv:2106.16213](https://arxiv.org/abs/2106.16213)
+- Merrill, W., Sabharwal, A. (2023). *The parallelism tradeoff: Limitations of log-precision transformers*. TACL. [arXiv:2207.00729](https://arxiv.org/abs/2207.00729)
+- Merrill, W., Sabharwal, A. (2023). *A logic for expressing log-precision transformers*. NeurIPS 2023. [arXiv:2210.02671](https://arxiv.org/abs/2210.02671)
+- Merrill, W., Sabharwal, A. (2024). *The expressive power of transformers with chain of thought*. ICLR 2024. [arXiv:2310.07923](https://arxiv.org/abs/2310.07923)
+- Merrill, W., Sabharwal, A. (2025a). *A little depth goes a long way: The expressive power of log-depth transformers*. NeurIPS 2025. [arXiv:2503.03961](https://arxiv.org/abs/2503.03961)
+- Merrill, W., Sabharwal, A. (2025b). *Exact expressive power of transformers with padding*. NeurIPS 2025. [arXiv:2505.18948](https://arxiv.org/abs/2505.18948)
+- Merrill, W., Jiang, H., Li, Y., Lin, T., Sabharwal, A. (2026). *Why are linear RNNs more parallelizable?* To appear at ICML 2026. [arXiv:2603.03612](https://arxiv.org/abs/2603.03612)
+- Merrill, W., Li, Y., Romero, T., Svete, A., et al. (2026). *Olmo Hybrid: From theory to practice and back*. [arXiv:2604.03444](https://arxiv.org/abs/2604.03444)
+- Pérez, J., Marinković, J., Barceló, P. (2019). *On the Turing completeness of modern neural network architectures*. ICLR 2019. [arXiv:1901.03429](https://arxiv.org/abs/1901.03429)
+- Sanford, C., Hsu, D., Telgarsky, M. (2023). *Representational strengths and limitations of transformers*. [arXiv:2306.02896](https://arxiv.org/abs/2306.02896)
+- Schuurmans, D. (2023). *Memory augmented large language models are computationally universal*. [arXiv:2301.04589](https://arxiv.org/abs/2301.04589)
+- Siegelmann, H. T., Sontag, E. D. (1995). *On the computational power of neural nets*. Journal of Computer and System Sciences 50(1), 132–150. [doi:10.1006/jcss.1995.1013](https://doi.org/10.1006/jcss.1995.1013)
+- Strobl, L., Merrill, W., Weiss, G., Chiang, D., Angluin, D. (2024). *What formal languages can transformers express? A survey*. TACL 12, 543–561. [arXiv:2311.00208](https://arxiv.org/abs/2311.00208)
+- Svete, A., Merrill, W., Cotterell, R., Sabharwal, A. (2026). *Revisiting padded transformer expressivity: Which architectural choices matter and which don't*. [arXiv:2605.30523](https://arxiv.org/abs/2605.30523)
+- Weiss, G., Goldberg, Y., Yahav, E. (2021). *Thinking like transformers*. ICML 2021. [arXiv:2106.06981](https://arxiv.org/abs/2106.06981)
+- Yang, A., Chiang, D., Angluin, D. (2024). *Masked hard-attention transformers recognize exactly the star-free languages*. NeurIPS 2024. [arXiv:2310.13897](https://arxiv.org/abs/2310.13897)
+- Zhou, H., Bradley, A., Littwin, E., Razin, N., Saremi, O., Susskind, J., Bengio, S., Nakkiran, P. (2023). *What algorithms can transformers learn? A study in length generalization*. [arXiv:2310.16028](https://arxiv.org/abs/2310.16028)
+- Zhou, Y., Alon, U., Chen, X., Wang, X., Agarwal, R., Zhou, D. (2024). *Transformers can achieve length generalization but not robustly*. [arXiv:2402.09371](https://arxiv.org/abs/2402.09371)
+
+Dehghani et al. (2018) and Merrill, Petty & Sabharwal (2024) are already listed in other sections.
+
 ## Frontiers: world models
 
 - Assran, M., et al. (2023). *Self-supervised learning from images with a joint-embedding predictive architecture*. CVPR. [arXiv:2301.08243](https://arxiv.org/abs/2301.08243)

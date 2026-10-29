@@ -16,6 +16,8 @@ Language is recursive: phrases contain phrases. **Recursive neural networks** (S
 
 **Universal Transformers** (Dehghani et al. 2018) apply the *same* transformer block repeatedly, with **adaptive computation time** (Graves 2016) deciding how many iterations each position needs. This makes depth a runtime choice and gives the model a recurrent inductive bias.
 
+The computational side of looping a shared block, including what repeated layers and chain-of-thought steps add to a transformer's power, is covered in [What transformers can and cannot compute](what-transformers-can-and-cannot-compute.md#4-buying-power-with-steps-established).
+
 ## 2. Models that improve their own outputs (established, rapidly developing)
 
 ```mermaid

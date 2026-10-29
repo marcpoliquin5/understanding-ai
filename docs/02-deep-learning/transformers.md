@@ -88,3 +88,5 @@ During generation, keys and values of past tokens are cached (the **KV cache**),
 2. **Short paths**: any token can influence any other in one layer.
 3. **Scalability**: performance improves predictably with size (see [Scaling laws](scaling-laws.md)).
 4. **Generality**: the same block works for text, images, audio, code and molecules.
+
+What this architecture can compute in principle, and why one forward pass cannot track long sequential state without a chain of thought, is the subject of [What transformers can and cannot compute](../06-frontiers/what-transformers-can-and-cannot-compute.md).
