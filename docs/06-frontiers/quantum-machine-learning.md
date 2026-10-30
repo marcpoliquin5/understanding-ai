@@ -57,6 +57,10 @@ Photonic platforms are one route to quantum hardware, using the same programmabl
 
 The *Nature* review by Biamonte et al. (2017) remains a widely cited overview of the original vision; reading it alongside the dequantization and barren-plateau literature gives a balanced view.
 
+## Tensor networks: the classical shadow of quantum ML
+
+Matrix product states and tree tensor networks are the classical form of shallow, low-entanglement quantum circuits. They can be trained classically as classifiers and generative models, moved onto quantum hardware, and they are also the strongest classical simulators that any claimed quantum advantage must beat. See [Tensor networks as machine learning models](tensor-networks-as-ml-models.md).
+
 ## Speculative directions
 
 > [!WARNING]
@@ -64,10 +68,9 @@ The *Nature* review by Biamonte et al. (2017) remains a widely cited overview of
 
 - **Quantum data, quantum models.** Learning problems whose inputs are themselves quantum states (from sensors or simulations) are where quantum advantages appear most plausible.
 - **Fault-tolerant era algorithms.** If large error-corrected machines arrive, quantum linear algebra might accelerate specific scientific ML workloads, provided data loading and readout costs are overcome.
-- **Quantum-inspired classical methods.** Ideas from quantum algorithms, such as tensor networks and sampling techniques, may yield more practical value on classical hardware than on quantum hardware in the near term.
+- **Quantum-inspired classical methods.** Ideas from quantum algorithms, such as [tensor networks](tensor-networks-as-ml-models.md) and sampling techniques, may yield more practical value on classical hardware than on quantum hardware in the near term.
 
 ## Next topics for this page
 
-- Tensor networks as machine learning models
 - Quantum error-correction decoders with neural networks
 - Rigorous separations between classical and quantum learners

@@ -19,6 +19,7 @@ This is where the map runs out and the territory is still being surveyed. Each p
 | [Neuromorphic computing](neuromorphic-computing.md) | What happens when hardware computes with spikes and local memory, like brains? |
 | [Memristive crossbars and in-memory computing](memristive-crossbars-in-memory-computing.md) | How can a grid of programmable resistors multiply a matrix by a vector in one step, and how do imprecise, drifting devices still run real networks? |
 | [Quantum machine learning](quantum-machine-learning.md) | Where, if anywhere, do quantum computers offer real advantages for learning? |
+| [Tensor networks as machine learning models](tensor-networks-as-ml-models.md) | How can a chain of small tensors stand in for an exponentially large one, and what do bond dimension and entanglement say about which models, datasets and weight matrices compress? |
 | [What transformers can and cannot compute](what-transformers-can-and-cannot-compute.md) | Which problems can a transformer solve in one forward pass, and how much do chain of thought, looping and depth add? |
 | [Continual learning and catastrophic forgetting](continual-learning-and-catastrophic-forgetting.md) | Why does a network trained on something new forget what it knew, what do regularization, replay and separate parameters each buy, and can a model keep learning without losing the ability to learn? |
 | [World models](world-models.md) | Can systems learn internal simulators of their environment and plan with them? |
@@ -43,6 +44,7 @@ mindmap
       Neuromorphic computing
       Memristive crossbars
       Quantum ML
+      Tensor networks
 ```
 
 These threads interlock. Nonlinear dynamics explains why physical systems can compute; photonic and neuromorphic hardware are physical dynamical systems pressed into computing; scaling laws hint at self-similar structure in data; and self-improving systems need world models to plan their own improvements.
