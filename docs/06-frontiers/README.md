@@ -20,6 +20,7 @@ This is where the map runs out and the territory is still being surveyed. Each p
 | [Memristive crossbars and in-memory computing](memristive-crossbars-in-memory-computing.md) | How can a grid of programmable resistors multiply a matrix by a vector in one step, and how do imprecise, drifting devices still run real networks? |
 | [Quantum machine learning](quantum-machine-learning.md) | Where, if anywhere, do quantum computers offer real advantages for learning? |
 | [What transformers can and cannot compute](what-transformers-can-and-cannot-compute.md) | Which problems can a transformer solve in one forward pass, and how much do chain of thought, looping and depth add? |
+| [Continual learning and catastrophic forgetting](continual-learning-and-catastrophic-forgetting.md) | Why does a network trained on something new forget what it knew, what do regularization, replay and separate parameters each buy, and can a model keep learning without losing the ability to learn? |
 | [World models](world-models.md) | Can systems learn internal simulators of their environment and plan with them? |
 
 ```mermaid
@@ -30,6 +31,7 @@ mindmap
       Fast-weight programmers
       World models
       Limits of computation
+      Continual learning
     Mathematics of learning
       Fractals & scaling
       Heavy-tailed spectra

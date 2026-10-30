@@ -67,7 +67,7 @@ A broad review is given by Roy, Jaiswal & Panda (2019).
 > **Speculative.** These are open hypotheses.
 
 - **Spiking transformers and language models.** Whether large-scale sequence models can be made natively spiking without losing quality, and with large real energy savings, is unresolved.
-- **Continual, on-chip learning.** Local learning rules on neuromorphic hardware might enable systems that keep learning after deployment, a capability conventional models handle poorly.
+- **Continual, on-chip learning.** Local learning rules on neuromorphic hardware might enable systems that keep learning after deployment, a capability conventional models handle poorly (see [continual learning and catastrophic forgetting](continual-learning-and-catastrophic-forgetting.md)).
 - **Brains as the scaling existence proof.** The brain shows that general intelligence is possible at very low power; how much of its efficiency comes from spikes specifically, versus sparsity, analog physics, or architecture, is not known.
 
 ## Next topics for this page

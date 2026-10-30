@@ -183,7 +183,7 @@ flowchart TB
 
 - **Reinforcement learning.** Kakade (2001) applied the natural gradient to policies, measuring steps by the Fisher of the action distribution. **TRPO** (Schulman et al. 2015) turned the idea into a hard constraint on the average KL divergence between old and new policies, solved approximately with conjugate gradients and Fisher-vector products. PPO's clipped objective ([reinforcement learning](../01-classical-ml/reinforcement-learning.md)) is a cheaper descendant of the same trust-region idea.
 - **Mirror descent.** For exponential families, Raskutti & Mukherjee (2015) showed that mirror descent with the Bregman divergence of the log-partition function is equivalent to natural gradient descent in the dual (mean-parameter) coordinates.
-- **Continual learning.** Elastic weight consolidation (Kirkpatrick et al. 2017) protects old tasks by penalizing moves in parameters with high diagonal Fisher, treating the Fisher as a measure of which weights the old task depends on.
+- **Continual learning.** Elastic weight consolidation (Kirkpatrick et al. 2017) protects old tasks by penalizing moves in parameters with high diagonal Fisher, treating the Fisher as a measure of which weights the old task depends on. The [continual learning page](../06-frontiers/continual-learning-and-catastrophic-forgetting.md#elastic-weight-consolidation-derived) derives it and tests where the diagonal approximation costs accuracy.
 - **Unifying view.** Pascanu & Bengio (2013) showed that several earlier second-order methods for deep networks, including Hessian-free optimization and Krylov subspace descent, can be read as implementations of the natural gradient.
 
 ## 7. What we know and what we don't
