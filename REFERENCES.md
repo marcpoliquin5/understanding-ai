@@ -20,6 +20,7 @@ Every source cited in Understanding AI, grouped by section. Each entry links to 
 - [Generative and multimodal models](#generative-and-multimodal-models)
 - [Retrieval, tools and agents](#retrieval-tools-and-agents)
 - [Evaluation and benchmarks](#evaluation-and-benchmarks)
+- [AI for science](#ai-for-science)
 - [Systems](#systems)
 - [Alignment, safety and interpretability](#alignment-safety-and-interpretability)
 - [Sparse autoencoders and dictionary learning](#sparse-autoencoders-and-dictionary-learning)
@@ -344,6 +345,46 @@ Shazeer et al. (2017), Fedus et al. (2021) and Kimi Team (2025) are also cited o
 - Becker, J., Rush, N., Barnes, E., Rein, D. (2025). *Measuring the impact of early-2025 AI on experienced open-source developer productivity*. [arXiv:2507.09089](https://arxiv.org/abs/2507.09089)
 
 Also cited on this page and listed elsewhere: Chen et al. (2021) Codex and Jimenez et al. (2023) SWE-bench under *Evaluation and benchmarks*; Shinn et al. (2023) Reflexion under *Retrieval, tools and agents*; DeepSeek-AI (2025) DeepSeek-R1; Romera-Paredes et al. FunSearch; Kwa et al. (2025).
+
+## AI for science
+
+- Abramson, J., Adler, J., Dunger, J., Evans, R., Green, T., et al. (2024). *Accurate structure prediction of biomolecular interactions with AlphaFold 3*. Nature 630, 493–500. [doi:10.1038/s41586-024-07487-w](https://doi.org/10.1038/s41586-024-07487-w)
+- Baek, M., DiMaio, F., Anishchenko, I., Dauparas, J., Ovchinnikov, S., et al. (2021). *Accurate prediction of protein structures and interactions using a three-track neural network*. Science 373, 871–876. [doi:10.1126/science.abj8754](https://doi.org/10.1126/science.abj8754)
+- Batatia, I., Kovács, D. P., Simm, G. N. C., Ortner, C., Csányi, G. (2022). *MACE: Higher order equivariant message passing neural networks for fast and accurate force fields*. NeurIPS 2022. [arXiv:2206.07697](https://arxiv.org/abs/2206.07697)
+- Batzner, S., Musaelian, A., Sun, L., Geiger, M., Mailoa, J. P., et al. (2022). *E(3)-equivariant graph neural networks for data-efficient and accurate interatomic potentials*. Nature Communications 13, 2453. [doi:10.1038/s41467-022-29939-5](https://doi.org/10.1038/s41467-022-29939-5)
+- Behler, J., Parrinello, M. (2007). *Generalized Neural-Network Representation of High-Dimensional Potential-Energy Surfaces*. Physical Review Letters 98, 146401. [doi:10.1103/PhysRevLett.98.146401](https://doi.org/10.1103/PhysRevLett.98.146401)
+- Bi, K., Xie, L., Zhang, H., Chen, X., Gu, X., et al. (2023). *Accurate medium-range global weather forecasting with 3D neural networks*. Nature 619, 533–538. [doi:10.1038/s41586-023-06185-3](https://doi.org/10.1038/s41586-023-06185-3)
+- Bodnar, C., Bruinsma, W. P., Lucic, A., Stanley, M., Allen, A., et al. (2025). *A foundation model for the Earth system*. Nature 641, 1180–1187. [doi:10.1038/s41586-025-09005-y](https://doi.org/10.1038/s41586-025-09005-y)
+- Cheetham, A. K., Seshadri, R. (2024). *Artificial Intelligence Driving Materials Discovery? Perspective on the Article: Scaling Deep Learning for Materials Discovery*. Chemistry of Materials 36, 3490–3495. [doi:10.1021/acs.chemmater.4c00643](https://doi.org/10.1021/acs.chemmater.4c00643)
+- Dauparas, J., Anishchenko, I., Bennett, N., Bai, H., Ragotte, R. J., et al. (2022). *Robust deep learning–based protein sequence design using ProteinMPNN*. Science 378, 49–56. [doi:10.1126/science.add2187](https://doi.org/10.1126/science.add2187)
+- Degrave, J., Felici, F., Buchli, J., Neunert, M., Tracey, B., et al. (2022). *Magnetic control of tokamak plasmas through deep reinforcement learning*. Nature 602, 414–419. [doi:10.1038/s41586-021-04301-9](https://doi.org/10.1038/s41586-021-04301-9)
+- Fawzi, A., Balog, M., Huang, A., Hubert, T., Romera-Paredes, B., et al. (2022). *Discovering faster matrix multiplication algorithms with reinforcement learning*. Nature 610, 47–53. [doi:10.1038/s41586-022-05172-4](https://doi.org/10.1038/s41586-022-05172-4)
+- Gneiting, T., Raftery, A. E. (2007). *Strictly Proper Scoring Rules, Prediction, and Estimation*. Journal of the American Statistical Association 102, 359–378. [doi:10.1198/016214506000001437](https://doi.org/10.1198/016214506000001437)
+- Gottweis, J., Weng, W.-H., Daryin, A., Tu, T., Sirkovic, P., et al. (2025). *Accelerating scientific discovery with Co-Scientist*. [arXiv:2502.18864](https://arxiv.org/abs/2502.18864)
+- Hayes, T., Rao, R., Akin, H., Sofroniew, N. J., Oktay, D., et al. (2025). *Simulating 500 million years of evolution with a language model*. Science 387, 850–858. [doi:10.1126/science.ads0018](https://doi.org/10.1126/science.ads0018)
+- Hersbach, H. (2000). *Decomposition of the Continuous Ranked Probability Score for Ensemble Prediction Systems*. Weather and Forecasting 15, 559–570. [doi:10.1175/1520-0434(2000)015<0559:DOTCRP>2.0.CO;2](https://doi.org/10.1175/1520-0434(2000)015<0559:DOTCRP>2.0.CO;2)
+- Kochkov, D., Yuval, J., Langmore, I., Norgaard, P., Smith, J., et al. (2024). *Neural general circulation models for weather and climate*. Nature 632, 1060–1066. [doi:10.1038/s41586-024-07744-y](https://doi.org/10.1038/s41586-024-07744-y)
+- Kryshtafovych, A., Schwede, T., Topf, M., Fidelis, K., Moult, J. (2021). *Critical assessment of methods of protein structure prediction (CASP)—Round XIV*. Proteins: Structure, Function, and Bioinformatics 89, 1607–1617. [doi:10.1002/prot.26237](https://doi.org/10.1002/prot.26237)
+- Lam, R., Sanchez-Gonzalez, A., Willson, M., Wirnsberger, P., Fortunato, M., et al. (2023). *Learning skillful medium-range global weather forecasting*. Science 382, 1416–1421. [doi:10.1126/science.adi2336](https://doi.org/10.1126/science.adi2336)
+- Li, Z., Kovachki, N., Azizzadenesheli, K., Liu, B., Bhattacharya, K., et al. (2020). *Fourier neural operator for parametric partial differential equations*. ICLR 2021. [arXiv:2010.08895](https://arxiv.org/abs/2010.08895)
+- Lin, Z., Akin, H., Rao, R., Hie, B., Zhu, Z., et al. (2023). *Evolutionary-scale prediction of atomic-level protein structure with a language model*. Science 379, 1123–1130. [doi:10.1126/science.ade2574](https://doi.org/10.1126/science.ade2574)
+- Lorenz, E. N., Emanuel, K. A. (1998). *Optimal Sites for Supplementary Weather Observations: Simulation with a Small Model*. Journal of the Atmospheric Sciences 55, 399–414. [doi:10.1175/1520-0469(1998)055<0399:OSFSWO>2.0.CO;2](https://doi.org/10.1175/1520-0469(1998)055<0399:OSFSWO>2.0.CO;2)
+- Merchant, A., Batzner, S., Schoenholz, S. S., Aykol, M., Cheon, G., et al. (2023). *Scaling deep learning for materials discovery*. Nature 624, 80–85. [doi:10.1038/s41586-023-06735-9](https://doi.org/10.1038/s41586-023-06735-9)
+- Nobel Prize Outreach (2024). *The Nobel Prize in Chemistry 2024: summary*. [nobelprize.org](https://www.nobelprize.org/prizes/chemistry/2024/summary/)
+- Pathak, J., Subramanian, S., Harrington, P., Raja, S., Chattopadhyay, A., et al. (2022). *FourCastNet: A global data-driven high-resolution weather model using adaptive Fourier neural operators*. [arXiv:2202.11214](https://arxiv.org/abs/2202.11214)
+- Price, I., Sanchez-Gonzalez, A., Alet, F., Andersson, T. R., El-Kadi, A., et al. (2024). *Probabilistic weather forecasting with machine learning*. Nature 637, 84–90. [doi:10.1038/s41586-024-08252-9](https://doi.org/10.1038/s41586-024-08252-9)
+- Rasp, S., Hoyer, S., Merose, A., Langmore, I., Battaglia, P., et al. (2024). *WeatherBench 2: A Benchmark for the Next Generation of Data‐Driven Global Weather Models*. Journal of Advances in Modeling Earth Systems 16, e2023MS004019. [doi:10.1029/2023MS004019](https://doi.org/10.1029/2023MS004019)
+- Schmidt, M., Lipson, H. (2009). *Distilling Free-Form Natural Laws from Experimental Data*. Science 324, 81–85. [doi:10.1126/science.1165893](https://doi.org/10.1126/science.1165893)
+- Senior, A. W., Evans, R., Jumper, J., Kirkpatrick, J., Sifre, L., et al. (2020). *Improved protein structure prediction using potentials from deep learning*. Nature 577, 706–710. [doi:10.1038/s41586-019-1923-7](https://doi.org/10.1038/s41586-019-1923-7)
+- Stokes, J. M., Yang, K., Swanson, K., Jin, W., Cubillos-Ruiz, A., et al. (2020). *A Deep Learning Approach to Antibiotic Discovery*. Cell 180, 688–702.e13. [doi:10.1016/j.cell.2020.01.021](https://doi.org/10.1016/j.cell.2020.01.021)
+- Szymanski, N. J., Rendy, B., Fei, Y., Kumar, R. E., He, T., et al. (2023). *An autonomous laboratory for the accelerated synthesis of inorganic materials*. Nature 624, 86–91. [doi:10.1038/s41586-023-06734-w](https://doi.org/10.1038/s41586-023-06734-w)
+- Udrescu, S., Tegmark, M. (2020). *AI Feynman: A physics-inspired method for symbolic regression*. Science Advances 6, eaay2631. [doi:10.1126/sciadv.aay2631](https://doi.org/10.1126/sciadv.aay2631)
+- Varadi, M., Anyango, S., Deshpande, M., Nair, S., Natassia, C., et al. (2021). *AlphaFold Protein Structure Database: massively expanding the structural coverage of protein-sequence space with high-accuracy models*. Nucleic Acids Research 50, D439–D444. [doi:10.1093/nar/gkab1061](https://doi.org/10.1093/nar/gkab1061)
+- Watson, J. L., Juergens, D., Bennett, N. R., Trippe, B. L., Yim, J., et al. (2023). *De novo design of protein structure and function with RFdiffusion*. Nature 620, 1089–1100. [doi:10.1038/s41586-023-06415-8](https://doi.org/10.1038/s41586-023-06415-8)
+- Wong, F., Zheng, E. J., Valeri, J. A., Donghia, N. M., Anahtar, M. N., et al. (2023). *Discovery of a structural class of antibiotics with explainable deep learning*. Nature 626, 177–185. [doi:10.1038/s41586-023-06887-8](https://doi.org/10.1038/s41586-023-06887-8)
+- Zeni, C., Pinsler, R., Zügner, D., Fowler, A., Horton, M., et al. (2025). *A generative model for inorganic materials design*. Nature 639, 624–632. [doi:10.1038/s41586-025-08628-5](https://doi.org/10.1038/s41586-025-08628-5)
+
+Also cited on this page and listed elsewhere: Jumper et al. (2021) under *Generative and multimodal models*; Raissi et al. (2019) and Brunton et al. (2016) under *Frontiers: non-linearity and dynamical systems*; Lu et al. (2024) and Romera-Paredes et al. (2024) under *Frontiers: recursion and self-improvement*; Novikov et al. (2025) under *Code generation and program synthesis*.
 
 ## Systems
 

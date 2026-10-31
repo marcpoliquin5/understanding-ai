@@ -10,6 +10,7 @@ Modern AI is built around **foundation models**: large networks pretrained on br
 | [Multimodal models](multimodal-models.md) | Vision–language models, CLIP, image and video generation, speech |
 | [Evaluation and benchmarks](evaluation-and-benchmarks.md) | Error bars and paired comparisons, pass@k, contamination, saturation, label errors, LLM judges, leaderboard gaming, agent time horizons |
 | [Code generation and program synthesis](code-generation-and-program-synthesis.md) | Synthesis from specs and examples, code models and fill-in-the-middle, sample-filter-cluster selection (tested code), execution feedback and RL, repository agents, honest code benchmarks, program search for discovery, developer productivity evidence |
+| [AI for science](ai-for-science.md) | Why science differs as an ML problem, protein structure prediction and design, learned interatomic potentials and materials discovery (with the GNoME caveat), ML weather and ensemble forecasting, the blurring trap and CRPS (tested Lorenz-96 sketch), neural operators and equation discovery, honest status |
 
 ```mermaid
 flowchart LR
