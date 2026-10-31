@@ -2,6 +2,15 @@
 
 Understanding AI grows daily. Each entry records what was added or changed, newest first. See [docs/DAILY_UPDATES.md](docs/DAILY_UPDATES.md) for how updates work.
 
+## 2026-10-31 (evening): Causal representation learning
+
+- **Frontiers**: new page [Causal representation learning](docs/06-frontiers/causal-representation-learning.md): structural causal models, interventions and Pearl's three levels; independent causal mechanisms and causal versus anticausal learning; causal discovery from observed variables (Markov equivalence, LiNGAM, additive noise models, NOTEARS and the varsortability critique); identifiability, from Gaussian rotation symmetry and Comon's ICA theorem to the non-uniqueness of nonlinear ICA and the impossibility of unsupervised disentanglement; the routes back (auxiliary variables, paired views, interventions, time and sparsity, mixing restrictions) and the invariance reading that unifies them; ICP, IRM, its critique and DomainBed; shortcut learning; LLMs and causality (strong on named variables, near random on Corr2Cause); causal abstraction and robust agents; the causal chambers and the real optical system on which tested methods failed; links to world models; and a labelled speculative section on experiments, hardware drift and invariance.
+- **Tested sketch**: four NumPy experiments (20,000 samples each). FastICA recovers Laplace and uniform sources perfectly over 10 starts but Gaussian ones only 0.720 to 0.999 depending on the start, and rotated Gaussian latents reproduce identical observations; two environments with different variance shifts recover Gaussian sources (1.000) while a uniform shift leaves a tie (0.928, arbitrary); HSIC between regressor and residual is 136.6 times larger in the anticausal direction with uniform noise and equal (ratio 0.9) with Gaussian noise; with a spurious effect feature that flips at test time, pooled regression reaches test MSE 1.738 while the causal predictor, whose residual variance is the same in both training environments, stays at 0.252.
+- **References**: new *Causal representation learning* section with 49 entries, each checked against its arXiv abstract page, Crossref, or the publisher's page.
+- **Glossary**: added *Causal representation learning*, *Identifiability*, *Independent component analysis (ICA)*, *Intervention (do-operator)*, *Invariant risk minimization (IRM)*, *Markov equivalence class*, *Structural causal model (SCM)*, and *Varsortability*.
+- **Linked** from the Frontiers index and mindmap, the README field map, contents table and mathematically-minded reading path, and the world models page (its generalization row; removed from that page's next topics).
+- **Backlog**: ticked the causal representation learning item. Every backlog item is now done.
+
 ## 2026-10-31: AI for science: proteins, materials and weather
 
 - **Modern AI**: new page [AI for science: proteins, materials and weather](docs/03-modern-ai/ai-for-science.md): why scientific ML differs (scarce, expensive data; known symmetries; outside verification); protein structure prediction from CASP14 and AlphaFold 2 through RoseTTAFold, ESMFold, AlphaFold 3 and the 2024 Chemistry Nobel; protein design with RFdiffusion, ProteinMPNN and ESM3; Behler–Parrinello, NequIP and MACE interatomic potentials; GNoME, A-Lab and MatterGen with the published critique of novelty claims; deep-learning antibiotic discovery; ML weather from FourCastNet, Pangu-Weather and GraphCast to NeuralGCM, GenCast and Aurora, evaluated with WeatherBench 2; the blurring trap (squared-error training learns the conditional mean) and CRPS as a proper scoring rule; neural operators, PINNs, SINDy, symbolic regression and automated-scientist systems; an honest status table; and a labelled speculative section on emulators for noisy analog hardware.
@@ -170,6 +179,6 @@ Planned topics, roughly in rotation order:
 - [x] Frontiers / photonics: energy-per-MAC accounting and optical nonlinearities (2026-10-24)
 - [x] Frontiers / neuromorphic: memristive crossbars and in-memory computing (2026-10-28)
 - [x] Frontiers / quantum: tensor networks as ML models (2026-10-30)
-- [ ] Frontiers / world models: causal representation learning
+- [x] Frontiers / world models: causal representation learning (2026-10-31)
 - [x] Frontiers: continual learning and catastrophic forgetting (2026-10-30)
 - [x] Frontiers: AI and the theory of computation (what transformers can and cannot compute) (2026-10-29)

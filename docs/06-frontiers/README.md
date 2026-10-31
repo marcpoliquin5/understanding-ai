@@ -22,6 +22,7 @@ This is where the map runs out and the territory is still being surveyed. Each p
 | [Tensor networks as machine learning models](tensor-networks-as-ml-models.md) | How can a chain of small tensors stand in for an exponentially large one, and what do bond dimension and entanglement say about which models, datasets and weight matrices compress? |
 | [What transformers can and cannot compute](what-transformers-can-and-cannot-compute.md) | Which problems can a transformer solve in one forward pass, and how much do chain of thought, looping and depth add? |
 | [Continual learning and catastrophic forgetting](continual-learning-and-catastrophic-forgetting.md) | Why does a network trained on something new forget what it knew, what do regularization, replay and separate parameters each buy, and can a model keep learning without losing the ability to learn? |
+| [Causal representation learning](causal-representation-learning.md) | Can a model discover the causal variables behind its observations, why is that impossible without extra structure, and what do environments, interventions and invariance buy? |
 | [World models](world-models.md) | Can systems learn internal simulators of their environment and plan with them? |
 
 ```mermaid
@@ -31,6 +32,7 @@ mindmap
       Recursion & self-improvement
       Fast-weight programmers
       World models
+      Causal representation learning
       Limits of computation
       Continual learning
     Mathematics of learning

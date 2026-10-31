@@ -44,7 +44,7 @@ Critics note that such representations may be partial, task-specific, and brittl
 | **Sample efficiency** | Learn from imagined experience instead of costly real interaction |
 | **Planning** | Search over action sequences before committing |
 | **Safety** | Predict consequences of actions, including harmful ones, before taking them |
-| **Generalization** | Causal models transfer to new situations better than surface correlations |
+| **Generalization** | Causal models transfer to new situations better than surface correlations; see [causal representation learning](causal-representation-learning.md) for when the causal variables themselves can be learned |
 | **Robotics** | Physical trial and error is slow and risky; simulation is not |
 
 ## Speculative directions
@@ -59,5 +59,4 @@ Critics note that such representations may be partial, task-specific, and brittl
 ## Next topics for this page
 
 - Model-based RL error compounding and how planners cope
-- Causal representation learning
 - Evaluating physical consistency of video generators
