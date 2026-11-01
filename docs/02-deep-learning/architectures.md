@@ -72,7 +72,7 @@ where $\bigoplus$ is a permutation-invariant aggregation (sum, mean, max). The b
 
 ## State-space models
 
-**Structured state-space models** such as S4 (Gu, Goel & Ré 2021) and **Mamba** (Gu & Dao 2023) revisit linear recurrences $\mathbf{h}_t = \bar A \mathbf{h}_{t-1} + \bar B \mathbf{x}_t$ with carefully structured matrices. They can be trained in parallel like convolutions but run as recurrences at inference, with cost linear in sequence length. Mamba makes the parameters input-dependent ("selective"), recovering some of attention's flexibility.
+**Structured state-space models** such as S4 (Gu, Goel & Ré 2021) and **Mamba** (Gu & Dao 2023) revisit linear recurrences $\mathbf{h}_t = \bar A \mathbf{h}_{t-1} + \bar B \mathbf{x}_t$ with carefully structured matrices. They can be trained in parallel like convolutions but run as recurrences at inference, with cost linear in sequence length. Mamba makes the parameters input-dependent ("selective"), recovering some of attention's flexibility. The full story, with tested code, HiPPO memory, state space duality and the limits of a fixed-size state, is on the [state-space models page](state-space-models.md).
 
 ## Choosing an architecture
 

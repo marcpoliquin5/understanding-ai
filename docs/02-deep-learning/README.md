@@ -9,6 +9,7 @@ Deep learning stacks many simple, differentiable layers and trains them end to e
 | [Transformers](transformers.md) | Attention from first principles, multi-head attention, positional encoding, the full block |
 | [Attention gradients, derived by hand](attention-gradients.md) | The full backward pass of attention, the softmax Jacobian and its 1/2 bound, the identity behind FlashAttention's memory-light backward pass (with tested code), and why confident attention stops learning |
 | [Normalization, initialization and μP](normalization-initialization-mup.md) | Variance-preserving init, the edge of chaos, Pre-LN vs Post-LN, QK-norm, normalization-free transformers, and μP hyperparameter transfer |
+| [State-space models: from S4 to Mamba](state-space-models.md) | Linear dynamical systems as layers, recurrence, convolution and parallel scan (with tested code), HiPPO memory, S4 and diagonal SSMs, selectivity and Mamba, state space duality with linear attention, Mamba-3, the limits of a fixed-size state, and hybrids |
 | [Mixture of experts](mixture-of-experts.md) | Sparse routing, load balancing and router collapse (with tested code), stability tricks, fine-grained and shared experts, MoE scaling laws, and the systems cost of sparsity |
 | [Scaling laws](scaling-laws.md) | How loss falls with compute, data and parameters, and what that implies |
 

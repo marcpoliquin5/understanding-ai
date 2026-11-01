@@ -6,7 +6,7 @@ That tradition turned out to be hiding in plain sight. Linear attention, the del
 
 > The core idea in one sentence: **a sequence model's memory can be a weight matrix that is edited while the model runs, and the choice of editing rule (add, overwrite, decay, or take a gradient step) decides what that memory can store, forget, and compute.**
 
-This page deepens one thread of [recursion and self-improvement](recursion-and-self-improvement.md) and connects it to [transformers](../02-deep-learning/transformers.md), [architectures](../02-deep-learning/architectures.md) (state-space models), and [inference efficiency](../04-systems/inference-and-efficiency.md).
+This page deepens one thread of [recursion and self-improvement](recursion-and-self-improvement.md) and connects it to [transformers](../02-deep-learning/transformers.md), [architectures](../02-deep-learning/architectures.md), [state-space models](../02-deep-learning/state-space-models.md), and [inference efficiency](../04-systems/inference-and-efficiency.md).
 
 ## 1. Slow weights that program fast weights (established)
 

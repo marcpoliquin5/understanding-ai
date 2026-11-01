@@ -2,6 +2,15 @@
 
 Understanding AI grows daily. Each entry records what was added or changed, newest first. See [docs/DAILY_UPDATES.md](docs/DAILY_UPDATES.md) for how updates work.
 
+## 2026-11-01: State-space models: from S4 to Mamba
+
+- **Deep learning**: new page [State-space models: from S4 to Mamba](docs/02-deep-learning/state-space-models.md): the continuous linear system and its discretizations (zero-order hold, bilinear, Euler); the recurrence, convolution and parallel-scan forms of one layer; HiPPO and the Legendre memory matrix; S4's normal-plus-low-rank structure and its results on Long Range Arena and Path-X; the diagonal simplifications DSS, S4D, S5 and LRU; why time-invariant SSMs lagged on language (H3, Zoology's associative-recall gap) and Mamba's selective parameters with its hardware-aware scan; state space duality and semiseparable matrices (Mamba-2) and Mamba-3's complex, rotating states; what a fixed-size state cannot do (copying, the recall-memory trade-off, state tracking, oversized states that fail to forget); hybrids in production (Jamba, Griffin, the 8B Mamba study, Nemotron-H); a status table; and a labelled speculative section on physical linear systems as sequence layers.
+- **Tested sketch**: three NumPy experiments. On 4,096 steps the FFT convolution and a 12-round parallel scan match the recurrence to about 1e-14; HiPPO-LegS reconstructs a 10,000-step signal from 4, 8, 16, 32 and 64 numbers with relative errors 0.775, 0.619, 0.064, 0.046 and 0.033; and on recalling a value at a random position, the best possible time-invariant layer leaves 0.873, 0.983 and 0.998 of the variance unexplained at lengths 16, 128 and 1,024 (matching theory) while a selective layer with one state number is exact.
+- **References**: new *State-space models* section with 28 entries, each checked against its arXiv abstract page or Crossref; four further sources cited on the page were already listed. Added the COLM 2024 venue to the existing Mamba entry.
+- **Glossary**: added *HiPPO*, *Linear time-invariant (LTI) system*, *Parallel scan*, *Selective state-space model*, *State space duality (SSD)*, and *State-space model (SSM)*.
+- **Linked** from the Deep learning index, the architectures page's state-space section, the README field map and contents table, and the fast-weight programmers page.
+- **Backlog**: added new items and ticked the state-space models item.
+
 ## 2026-10-31 (evening): Causal representation learning
 
 - **Frontiers**: new page [Causal representation learning](docs/06-frontiers/causal-representation-learning.md): structural causal models, interventions and Pearl's three levels; independent causal mechanisms and causal versus anticausal learning; causal discovery from observed variables (Markov equivalence, LiNGAM, additive noise models, NOTEARS and the varsortability critique); identifiability, from Gaussian rotation symmetry and Comon's ICA theorem to the non-uniqueness of nonlinear ICA and the impossibility of unsupervised disentanglement; the routes back (auxiliary variables, paired views, interventions, time and sparsity, mixing restrictions) and the invariance reading that unifies them; ICP, IRM, its critique and DomainBed; shortcut learning; LLMs and causality (strong on named variables, near random on Corr2Cause); causal abstraction and robust agents; the causal chambers and the real optical system on which tested methods failed; links to world models; and a labelled speculative section on experiments, hardware drift and invariance.
@@ -182,3 +191,7 @@ Planned topics, roughly in rotation order:
 - [x] Frontiers / world models: causal representation learning (2026-10-31)
 - [x] Frontiers: continual learning and catastrophic forgetting (2026-10-30)
 - [x] Frontiers: AI and the theory of computation (what transformers can and cannot compute) (2026-10-29)
+- [x] Deep learning: structured state-space models, from S4 to Mamba (2026-11-01)
+- [ ] Deep learning: linear attention and its kernels (from Performer to gated linear attention)
+- [ ] Modern AI: speculative decoding and other inference-time accelerations
+- [ ] Foundations: information theory for machine learning (entropy, KL, mutual information)
