@@ -23,6 +23,7 @@ Every source cited in Understanding AI, grouped by section. Each entry links to 
 - [Evaluation and benchmarks](#evaluation-and-benchmarks)
 - [AI for science](#ai-for-science)
 - [Systems](#systems)
+- [Speculative decoding](#speculative-decoding)
 - [Alignment, safety and interpretability](#alignment-safety-and-interpretability)
 - [Sparse autoencoders and dictionary learning](#sparse-autoencoders-and-dictionary-learning)
 - [Reward models and their failure modes](#reward-models-and-their-failure-modes)
@@ -452,6 +453,43 @@ Also cited on this page and listed elsewhere: Jumper et al. (2021) under *Genera
 - Tillet, P., Kung, H. T., Cox, D. (2019). *Triton: An intermediate language and compiler for tiled neural network computations*. MAPL. [doi:10.1145/3315508.3329973](https://doi.org/10.1145/3315508.3329973)
 - Williams, S., Waterman, A., Patterson, D. (2009). *Roofline: An insightful visual performance model for multicore architectures*. Communications of the ACM. [doi:10.1145/1498765.1498785](https://doi.org/10.1145/1498765.1498785)
 - Zheng, L., Jia, C., Sun, M., Wu, Z., Yu, C. H., Haj-Ali, A., et al. (2020). *Ansor: Generating high-performance tensor programs for deep learning*. OSDI. [arXiv:2006.06762](https://arxiv.org/abs/2006.06762)
+
+## Speculative decoding
+
+- Ankner, Z., Parthasarathy, R., Nrusimha, A., Rinard, C., Ragan-Kelley, J., Brandon, W. (2024). *Hydra: Sequentially-dependent draft heads for Medusa decoding*. [arXiv:2402.05109](https://arxiv.org/abs/2402.05109)
+- Cai, T., Li, Y., Geng, Z., Peng, H., Lee, J. D., Chen, D., Dao, T. (2024). *Medusa: Simple LLM inference acceleration framework with multiple decoding heads*. [arXiv:2401.10774](https://arxiv.org/abs/2401.10774)
+- Chen, C., Borgeaud, S., Irving, G., Lespiau, J.-B., Sifre, L., Jumper, J. (2023). *Accelerating large language model decoding with speculative sampling*. [arXiv:2302.01318](https://arxiv.org/abs/2302.01318)
+- Chen, Z., May, A., Svirschevski, R., Huang, Y., Ryabinin, M., Jia, Z., Chen, B. (2024). *Sequoia: Scalable, robust, and hardware-aware speculative decoding*. [arXiv:2402.12374](https://arxiv.org/abs/2402.12374)
+- DeepSeek-AI, Liu, A., Feng, B., Xue, B., et al. (2024). *DeepSeek-V3 technical report*. [arXiv:2412.19437](https://arxiv.org/abs/2412.19437)
+- Elhoushi, M., Shrivastava, A., Liskovich, D., Hosmer, B., Wasti, B., Lai, L., et al. (2024). *LayerSkip: Enabling early exit inference and self-speculative decoding*. ACL. [arXiv:2404.16710](https://arxiv.org/abs/2404.16710)
+- Fu, Y., Bailis, P., Stoica, I., Zhang, H. (2024). *Break the sequential dependency of LLM inference using lookahead decoding*. [arXiv:2402.02057](https://arxiv.org/abs/2402.02057)
+- Gloeckle, F., Youbi Idrissi, B., Rozière, B., Lopez-Paz, D., Synnaeve, G. (2024). *Better & faster large language models via multi-token prediction*. [arXiv:2404.19737](https://arxiv.org/abs/2404.19737)
+- He, Z., Zhong, Z., Cai, T., Lee, J. D., He, D. (2023). *REST: Retrieval-based speculative decoding*. NAACL 2024. [arXiv:2311.08252](https://arxiv.org/abs/2311.08252)
+- Kim, S., Mangalam, K., Moon, S., Malik, J., Mahoney, M. W., Gholami, A., Keutzer, K. (2023). *Speculative decoding with big little decoder*. NeurIPS. [arXiv:2302.07863](https://arxiv.org/abs/2302.07863)
+- Kou, S., Hu, L., He, Z., Deng, Z., Zhang, H. (2024). *CLLMs: Consistency large language models*. ICML. [arXiv:2403.00835](https://arxiv.org/abs/2403.00835)
+- Lan, Y. (2026). *Speculative decoding for mixture-of-experts models: Expert bytes, kernel bandwidth and the best draft length*. [arXiv:2610.34440](https://arxiv.org/abs/2610.34440)
+- Li, Y., Wei, F., Zhang, C., Zhang, H. (2024a). *EAGLE: Speculative sampling requires rethinking feature uncertainty*. [arXiv:2401.15077](https://arxiv.org/abs/2401.15077)
+- Li, Y., Wei, F., Zhang, C., Zhang, H. (2024b). *EAGLE-2: Faster inference of language models with dynamic draft trees*. [arXiv:2406.16858](https://arxiv.org/abs/2406.16858)
+- Li, Y., Wei, F., Zhang, C., Zhang, H. (2025). *EAGLE-3: Scaling up inference acceleration of large language models via training-time test*. [arXiv:2503.01840](https://arxiv.org/abs/2503.01840)
+- Liu, X., Hu, L., Bailis, P., Cheung, A., Deng, Z., Stoica, I., Zhang, H. (2023). *Online speculative decoding*. [arXiv:2310.07177](https://arxiv.org/abs/2310.07177)
+- Ma, B., Afzal, A., Eitzinger, J., Koestler, H., Wellein, G. (2026). *Only accepted tokens count: An energy accounting of speculative decoding under latency targets*. [arXiv:2610.40287](https://arxiv.org/abs/2610.40287)
+- Meng, Z. (2026). *Speculative acceptance does not decay with position: A full-length diagnostic on long chain-of-thought with independent drafts*. [arXiv:2610.30644](https://arxiv.org/abs/2610.30644)
+- Miao, X., Oliaro, G., Zhang, Z., Cheng, X., Wang, Z., Zhang, Z., et al. (2023). *SpecInfer: Accelerating generative large language model serving with tree-based speculative inference and verification*. ASPLOS 2024. [arXiv:2305.09781](https://arxiv.org/abs/2305.09781)
+- Ranjan, E., Teru, K. K., Venkitesh, B., Locatelli, A. (2026). *Why speculative decoding works better than predicted on sparse MoE models*. [arXiv:2610.38981](https://arxiv.org/abs/2610.38981)
+- Sadhukhan, R., Chen, J., Chen, Z., Tiwari, V., Lai, R., Shi, J., et al. (2024). *MagicDec: Breaking the latency-throughput tradeoff for long context generation with speculative decoding*. [arXiv:2408.11049](https://arxiv.org/abs/2408.11049)
+- Santilli, A., Severino, S., Postolache, E., Maiorca, V., Mancusi, M., Marin, R., Rodolà, E. (2023). *Accelerating transformer inference for translation via parallel decoding*. ACL. [arXiv:2305.10427](https://arxiv.org/abs/2305.10427)
+- Spector, B., Ré, C. (2023). *Accelerating LLM inference with staged speculative decoding*. ES-FOMO workshop at ICML. [arXiv:2308.04623](https://arxiv.org/abs/2308.04623)
+- Stern, M., Shazeer, N., Uszkoreit, J. (2018). *Blockwise parallel decoding for deep autoregressive models*. NeurIPS. [arXiv:1811.03115](https://arxiv.org/abs/1811.03115)
+- Sun, H., Chen, Z., Yang, X., Tian, Y., Chen, B. (2024). *TriForce: Lossless acceleration of long sequence generation with hierarchical speculative decoding*. COLM. [arXiv:2404.11912](https://arxiv.org/abs/2404.11912)
+- Sun, Z., Suresh, A. T., Ro, J. H., Beirami, A., Jain, H., Yu, F. (2023). *SpecTr: Fast speculative decoding via optimal transport*. NeurIPS. [arXiv:2310.15141](https://arxiv.org/abs/2310.15141)
+- Teoh, J. (2026). *Multi-token prediction done right*. [arXiv:2610.38331](https://arxiv.org/abs/2610.38331)
+- Xia, H., Yang, Z., Dong, Q., Wang, P., Li, Y., Ge, T., et al. (2024). *Unlocking efficiency in large language model inference: A comprehensive survey of speculative decoding*. Findings of ACL. [arXiv:2401.07851](https://arxiv.org/abs/2401.07851)
+- Yang, N., Ge, T., Wang, L., Jiao, B., Jiang, D., Yang, L., Majumder, R., et al. (2023). *Inference with reference: Lossless acceleration of large language models*. [arXiv:2304.04487](https://arxiv.org/abs/2304.04487)
+- Yang, P., Du, C., Zhang, F., Wang, H., Pang, T., Du, C., An, B. (2025). *LongSpec: Long-context lossless speculative decoding with efficient drafting and verification*. ACL. [arXiv:2502.17421](https://arxiv.org/abs/2502.17421)
+- Zhang, J., Wang, J., Li, H., Shou, L., Chen, K., Chen, G., Mehrotra, S. (2023). *Draft & verify: Lossless large language model acceleration via self-speculative decoding*. ACL 2024. [arXiv:2309.08168](https://arxiv.org/abs/2309.08168)
+- Zhou, Y., Lyu, K., Rawat, A. S., Menon, A. K., Rostamizadeh, A., Kumar, S., et al. (2023). *DistillSpec: Improving speculative decoding via knowledge distillation*. [arXiv:2310.08461](https://arxiv.org/abs/2310.08461)
+
+Also cited on this page and listed elsewhere: Leviathan et al. (2023) under *Systems*.
 
 ## Alignment, safety and interpretability
 

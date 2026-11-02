@@ -48,7 +48,7 @@ flowchart LR
 
 ## Speculative decoding
 
-A small, fast **draft model** proposes several tokens; the large model verifies them in one parallel pass, accepting the longest agreeing prefix. With the acceptance rule of Leviathan, Kalman & Matias (2023), the output distribution is **exactly** that of the large model, while wall-clock time drops.
+A small, fast **draft model** proposes several tokens; the large model verifies them in one parallel pass, accepting the longest agreeing prefix. With the acceptance rule of Leviathan, Kalman & Matias (2023), the output distribution is **exactly** that of the large model, while wall-clock time drops. The full story, with the exactness proof, the speed-up formula, a tested sketch and the drafter zoo from Medusa to EAGLE-3, is on [speculative decoding](speculative-decoding.md).
 
 ## Long context
 

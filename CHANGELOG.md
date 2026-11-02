@@ -2,6 +2,15 @@
 
 Understanding AI grows daily. Each entry records what was added or changed, newest first. See [docs/DAILY_UPDATES.md](docs/DAILY_UPDATES.md) for how updates work.
 
+## 2026-11-01 (evening): Speculative decoding
+
+- **Systems**: new page [Speculative decoding: several tokens per step, the same answer](docs/04-systems/speculative-decoding.md): why memory-bound decoding leaves compute idle and why batching does not help a single user; blockwise parallel decoding; the speculative sampling acceptance rule with the residual distribution, the proof that it preserves the target distribution exactly, and acceptance as $1 - \operatorname{TV}(p, q)$; expected tokens per call and the speed-up formula with drafter cost; a drafter table (small and distilled models, online drafters, Medusa, Hydra, EAGLE 1 to 3, layer skipping and LayerSkip, retrieval, Lookahead decoding, multi-token prediction including DeepSeek-V3 and Soft-MTP); Jacobi decoding and consistency LLMs; token trees (SpecInfer, staged speculation, Sequoia) and the optimal-transport view (SpecTr); lossless versus lossy schemes; when speculation stops paying (batch size and energy, long contexts, mixture-of-experts, reasoning traces, workload dependence); a status table; and a labelled speculative section on noisy analog drafters with exact digital verification.
+- **Tested sketch**: four NumPy experiments. Over 400,000 samples the acceptance rule's output is as close to the target (total variation 0.0034 to 0.0039) as direct sampling (0.0033 to 0.0046), with acceptance matching $1 - \operatorname{TV}$ at 0.858, 0.675 and 0.340; full speculative decoding of 60,000 tokens on a bigram model keeps bigram statistics as close to the target as plain sampling (0.028 to 0.032 against 0.030) while producing 1.78, 2.38, 3.20 and 4.02 tokens per target call at draft lengths 1, 2, 4 and 8; the best draft length is 4 to 13 at 5% drafter cost (1.92× to 4.67×) and 2 to 7 at 20% (1.40× to 2.37×); and recursive rejection over 1, 2 and 4 independent drafts stays exact while raising acceptance from 0.411 to 0.466 and 0.519.
+- **References**: new *Speculative decoding* section with 32 entries, each checked against its arXiv abstract page; Leviathan et al. (2023) was already listed under *Systems*.
+- **Glossary**: added *Draft model*, *Multi-token prediction*, *Residual distribution (speculative sampling)*, *Speculative decoding*, and *Token tree verification*.
+- **Linked** from the Systems index, the speculative decoding section of the inference page, the README field map, contents table and software-engineer reading path.
+- **Backlog**: ticked the speculative decoding item (filed under Systems rather than Modern AI) and added new items.
+
 ## 2026-11-01: State-space models: from S4 to Mamba
 
 - **Deep learning**: new page [State-space models: from S4 to Mamba](docs/02-deep-learning/state-space-models.md): the continuous linear system and its discretizations (zero-order hold, bilinear, Euler); the recurrence, convolution and parallel-scan forms of one layer; HiPPO and the Legendre memory matrix; S4's normal-plus-low-rank structure and its results on Long Range Arena and Path-X; the diagonal simplifications DSS, S4D, S5 and LRU; why time-invariant SSMs lagged on language (H3, Zoology's associative-recall gap) and Mamba's selective parameters with its hardware-aware scan; state space duality and semiseparable matrices (Mamba-2) and Mamba-3's complex, rotating states; what a fixed-size state cannot do (copying, the recall-memory trade-off, state tracking, oversized states that fail to forget); hybrids in production (Jamba, Griffin, the 8B Mamba study, Nemotron-H); a status table; and a labelled speculative section on physical linear systems as sequence layers.
@@ -193,5 +202,7 @@ Planned topics, roughly in rotation order:
 - [x] Frontiers: AI and the theory of computation (what transformers can and cannot compute) (2026-10-29)
 - [x] Deep learning: structured state-space models, from S4 to Mamba (2026-11-01)
 - [ ] Deep learning: linear attention and its kernels (from Performer to gated linear attention)
-- [ ] Modern AI: speculative decoding and other inference-time accelerations
+- [x] Systems: speculative decoding and other inference-time accelerations (2026-11-01)
+- [ ] Systems: KV-cache compression, paging and prefix sharing
+- [ ] Modern AI: diffusion language models and parallel text generation
 - [ ] Foundations: information theory for machine learning (entropy, KL, mutual information)
