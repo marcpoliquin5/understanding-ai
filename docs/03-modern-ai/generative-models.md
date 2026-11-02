@@ -55,6 +55,8 @@ flowchart LR
     xT -. learned denoising .-> xd2[...] -.-> x1b[x1] -.-> x0b[New image]
 ```
 
+For text, where tokens cannot be made "slightly noisier", the Gaussian noise is replaced by masking tokens; see [diffusion language models](diffusion-language-models.md).
+
 Song et al. (2021) unified diffusion with **score matching** via stochastic differential equations: the network learns the score $\nabla_{\mathbf{x}} \log p_t(\mathbf{x})$, the direction toward higher data density at each noise level.
 
 ### Latent diffusion

@@ -2,6 +2,15 @@
 
 Understanding AI grows daily. Each entry records what was added or changed, newest first. See [docs/DAILY_UPDATES.md](docs/DAILY_UPDATES.md) for how updates work.
 
+## 2026-11-02: Diffusion language models
+
+- **Modern AI**: new page [Diffusion language models: writing every word at once](docs/03-modern-ai/diffusion-language-models.md): the non-autoregressive lineage (non-autoregressive translation, Mask-Predict, MaskGIT); discrete diffusion with uniform and absorbing corruption, continuous-embedding Diffusion-LM, score entropy (SEDD) and discrete flow matching; the masked diffusion bound as a weighted masked-LM cross-entropy, its time-independence and its equivalence to any-order autoregression; sampling choices (how many, which positions, re-masking, blocks) and the float32 categorical-sampling temperature pitfall; the parallel decoding problem and the perplexity-versus-sequence-error theory; a scale table (MDLM, MD4, SMDM, LLaDA, LLaDA 1.5, d1, block diffusion, Dream, Mercury, Seed Diffusion, BYOD); data efficiency under repeated data and its debated mechanism; learned and set-based unmasking policies; a status table; and a labelled speculative section on physical sampling of the denoiser's marginals.
+- **Tested sketch**: four NumPy experiments with an exact (perfect) denoiser. The masked diffusion bound estimate (4.2129 ± 0.0254 nats) matches the entropy (4.2248) of a 6-token Markov chain, against 6.4278 for a context-free denoiser; committing all six tokens in one pass gives total variation 0.74 from the truth, recovering only at one token per pass; most-confident-first is worse than random at 2 and 3 steps (0.63 and 0.53 against 0.38 and 0.20); one-step permutation validity is 0.037, matching the independent-marginals prediction of 0.038; and given a prompt, threshold decoding writes a copy in one pass with no loss but must fall back to one token per pass on free continuation.
+- **References**: new *Diffusion language models* section with 30 entries, each checked against its arXiv abstract page; Ho et al. (2020) and Devlin et al. (2018) were already listed.
+- **Glossary**: added *Absorbing state*, *Any-order autoregressive model*, *Block diffusion*, *Masked diffusion model*, and *Parallel decoding (unmasking)*.
+- **Linked** from the Modern AI index, the diffusion section of the generative models page, the README field map, contents table and software-engineer reading path.
+- **Backlog**: ticked the diffusion language models item.
+
 ## 2026-11-01 (evening): Speculative decoding
 
 - **Systems**: new page [Speculative decoding: several tokens per step, the same answer](docs/04-systems/speculative-decoding.md): why memory-bound decoding leaves compute idle and why batching does not help a single user; blockwise parallel decoding; the speculative sampling acceptance rule with the residual distribution, the proof that it preserves the target distribution exactly, and acceptance as $1 - \operatorname{TV}(p, q)$; expected tokens per call and the speed-up formula with drafter cost; a drafter table (small and distilled models, online drafters, Medusa, Hydra, EAGLE 1 to 3, layer skipping and LayerSkip, retrieval, Lookahead decoding, multi-token prediction including DeepSeek-V3 and Soft-MTP); Jacobi decoding and consistency LLMs; token trees (SpecInfer, staged speculation, Sequoia) and the optimal-transport view (SpecTr); lossless versus lossy schemes; when speculation stops paying (batch size and energy, long contexts, mixture-of-experts, reasoning traces, workload dependence); a status table; and a labelled speculative section on noisy analog drafters with exact digital verification.
@@ -204,5 +213,5 @@ Planned topics, roughly in rotation order:
 - [ ] Deep learning: linear attention and its kernels (from Performer to gated linear attention)
 - [x] Systems: speculative decoding and other inference-time accelerations (2026-11-01)
 - [ ] Systems: KV-cache compression, paging and prefix sharing
-- [ ] Modern AI: diffusion language models and parallel text generation
+- [x] Modern AI: diffusion language models and parallel text generation (2026-11-02)
 - [ ] Foundations: information theory for machine learning (entropy, KL, mutual information)

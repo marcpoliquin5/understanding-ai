@@ -6,6 +6,7 @@ Modern AI is built around **foundation models**: large networks pretrained on br
 |---|---|
 | [Large language models](large-language-models.md) | Pretraining, in-context learning, instruction tuning, RLHF and DPO, reasoning, hallucination |
 | [Generative models](generative-models.md) | VAEs, GANs, diffusion and flow matching, latent diffusion |
+| [Diffusion language models](diffusion-language-models.md) | Masked diffusion as a weighted masked-LM loss and any-order autoregression, LLaDA, Dream and block diffusion, why committing tokens in parallel breaks dependencies (tested sketch with a perfect denoiser), Fast-dLLM, Mercury and Seed Diffusion speeds, data efficiency, learned unmasking orders |
 | [Retrieval, tools and agents](retrieval-tools-and-agents.md) | RAG, tool use, ReAct, planning loops, multi-agent systems, agent runtimes |
 | [Multimodal models](multimodal-models.md) | Vision–language models, CLIP, image and video generation, speech |
 | [Evaluation and benchmarks](evaluation-and-benchmarks.md) | Error bars and paired comparisons, pass@k, contamination, saturation, label errors, LLM judges, leaderboard gaming, agent time horizons |
