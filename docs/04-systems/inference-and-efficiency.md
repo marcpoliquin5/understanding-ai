@@ -11,7 +11,7 @@ A decoder generates one token at a time. Recomputing attention over the whole pr
 | **Prefill** | Process the whole prompt in parallel | Compute-bound |
 | **Decode** | One token per step, reading all weights and the KV cache | Memory-bandwidth-bound |
 
-The KV cache grows linearly with context length and batch size and often dominates memory. **PagedAttention** (Kwon et al. 2023, the vLLM system) manages it in fixed-size blocks, like virtual-memory pages, reducing fragmentation and enabling larger batches.
+The KV cache grows linearly with context length and batch size and often dominates memory. **PagedAttention** (Kwon et al. 2023, the vLLM system) manages it in fixed-size blocks, like virtual-memory pages, reducing fragmentation and enabling larger batches. How the cache is shared across requests, shrunk by head sharing, eviction and quantization, and split across prefill and decode machines is covered on [the KV cache](kv-cache.md) page.
 
 ## Batching
 

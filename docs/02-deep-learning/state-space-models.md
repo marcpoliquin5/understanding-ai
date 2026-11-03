@@ -46,7 +46,7 @@ flowchart LR
     S --> P["Parallel scan<br/>associative (a, b) pairs<br/>O(log L) depth: also works when Ā varies"]
 ```
 
-- **Recurrence.** Constant memory and constant work per generated token, with no growing KV cache. This is the inference advantage.
+- **Recurrence.** Constant memory and constant work per generated token, with no growing [KV cache](../04-systems/kv-cache.md). This is the inference advantage.
 - **Convolution.** When the parameters are the same at every step (the layer is *linear time-invariant*, LTI), the kernel can be computed once and applied with a fast Fourier transform. This is how S4 trained.
 - **Parallel scan.** The pairs $(\bar A_k, \bar B_k u_k)$ compose associatively: $(a_2, b_2) \circ (a_1, b_1) = (a_2 a_1,\; a_2 b_1 + b_2)$. Any associative operation can be evaluated in $O(\log L)$ parallel rounds (Hillis & Steele 1986). Martin and Cundy (2017) used this to parallelize linear RNNs over sequence length, reporting up to 9× speed-ups and training on a dependency one million steps long; S5 (Smith, Warrington & Linderman 2022) made the scan the core of an SSM layer. Crucially, the scan does not need the parameters to be the same at every step.
 

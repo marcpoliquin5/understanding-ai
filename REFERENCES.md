@@ -25,6 +25,7 @@ Every source cited in Understanding AI, grouped by section. Each entry links to 
 - [AI for science](#ai-for-science)
 - [Systems](#systems)
 - [Speculative decoding](#speculative-decoding)
+- [KV cache](#kv-cache)
 - [Alignment, safety and interpretability](#alignment-safety-and-interpretability)
 - [Sparse autoencoders and dictionary learning](#sparse-autoencoders-and-dictionary-learning)
 - [Reward models and their failure modes](#reward-models-and-their-failure-modes)
@@ -524,6 +525,47 @@ Also cited on this page and listed elsewhere: Jumper et al. (2021) under *Genera
 - Zhou, Y., Lyu, K., Rawat, A. S., Menon, A. K., Rostamizadeh, A., Kumar, S., et al. (2023). *DistillSpec: Improving speculative decoding via knowledge distillation*. [arXiv:2310.08461](https://arxiv.org/abs/2310.08461)
 
 Also cited on this page and listed elsewhere: Leviathan et al. (2023) under *Systems*.
+
+## KV cache
+
+- Agrawal, A., Kedia, N., Panwar, A., Mohan, J., Kwatra, N., Gulavani, B. S., Tumanov, A., et al. (2024). *Taming throughput-latency tradeoff in LLM inference with Sarathi-Serve*. [arXiv:2403.02310](https://arxiv.org/abs/2403.02310)
+- Ainslie, J., Lee-Thorp, J., de Jong, M., Zemlyanskiy, Y., Lebrón, F., Sanghai, S. (2023). *GQA: Training generalized multi-query transformer models from multi-head checkpoints*. EMNLP. [arXiv:2305.13245](https://arxiv.org/abs/2305.13245)
+- Brandon, W., Mishra, M., Nrusimha, A., Panda, R., Ragan Kelly, J. (2024). *Reducing transformer key-value cache size with cross-layer attention*. [arXiv:2405.12981](https://arxiv.org/abs/2405.12981)
+- Cai, Z., Zhang, Y., Gao, B., Liu, Y., Li, Y., Liu, T., Lu, K., et al. (2024). *PyramidKV: Dynamic KV cache compression based on pyramidal information funneling*. [arXiv:2406.02069](https://arxiv.org/abs/2406.02069)
+- Chen, J. Y., Feng, Y., Indyk, P., Kapralov, M., Kochetkova, E., Prokhorov, B. (2026a). *Attention under bounded key-query similarity: Space complexity and transformer anisotropy*. [arXiv:2610.35020](https://arxiv.org/abs/2610.35020)
+- Chen, Y., Wang, P., Xu, H. (2026b). *ZipFusion: Fusing lossless KV decompression with attention for efficient LLM decoding*. [arXiv:2610.33719](https://arxiv.org/abs/2610.33719)
+- DeepSeek-AI, Liu, A., Feng, B., Wang, B., et al. (2024). *DeepSeek-V2: A strong, economical, and efficient mixture-of-experts language model*. [arXiv:2405.04434](https://arxiv.org/abs/2405.04434)
+- Devoto, A., Zhao, Y., Scardapane, S., Minervini, P. (2024). *A simple and effective L2 norm-based strategy for KV cache compression*. EMNLP. [arXiv:2406.11430](https://arxiv.org/abs/2406.11430)
+- Ge, S., Zhang, Y., Liu, L., Zhang, M., Han, J., Gao, J. (2023). *Model tells you what to discard: Adaptive KV cache compression for LLMs*. ICLR 2024. [arXiv:2310.01801](https://arxiv.org/abs/2310.01801)
+- Gim, I., Chen, G., Lee, S., Sarda, N., Khandelwal, A., Zhong, L. (2023). *Prompt Cache: Modular attention reuse for low-latency inference*. MLSys 2024. [arXiv:2311.04934](https://arxiv.org/abs/2311.04934)
+- Guo, Y., George, A. M., Joshi, S. (2026). *GAAC: Lossless KV compression for bandwidth-efficient LLM inference on personal devices*. [arXiv:2610.38210](https://arxiv.org/abs/2610.38210)
+- Hooper, C., Kim, S., Mohammadzadeh, H., Mahoney, M. W., Shao, Y. S., Keutzer, K., Gholami, A. (2024). *KVQuant: Towards 10 million context length LLM inference with KV cache quantization*. NeurIPS. [arXiv:2401.18079](https://arxiv.org/abs/2401.18079)
+- Huang, X., Ma, T., Li, Z., Zhao, Y., Li, Z., Zhu, Q., Yang, W., et al. (2026). *FlatCake: A flat KVCache storage architecture for LLM serving*. [arXiv:2610.38355](https://arxiv.org/abs/2610.38355)
+- Kanwat, U. (2026). *Folding attention biases into keys makes compacted KV caches run on standard kernels*. [arXiv:2610.36520](https://arxiv.org/abs/2610.36520)
+- Li, Y., Huang, Y., Yang, B., Venkitesh, B., Locatelli, A., Ye, H., Cai, T., et al. (2024a). *SnapKV: LLM knows what you are looking for before generation*. [arXiv:2404.14469](https://arxiv.org/abs/2404.14469)
+- Li, Y., Jiang, H., Wu, Q., Luo, X., Ahn, S., Zhang, C., Abdi, A. H., et al. (2024b). *SCBench: A KV cache-centric analysis of long-context methods*. ICLR 2025. [arXiv:2412.10319](https://arxiv.org/abs/2412.10319)
+- Liu, A., Liu, J., Pan, Z., He, Y., Haffari, G., Zhuang, B. (2024b). *MiniCache: KV cache compression in depth dimension for large language models*. [arXiv:2405.14366](https://arxiv.org/abs/2405.14366)
+- Liu, Z., Desai, A., Liao, F., Wang, W., Xie, V., Xu, Z., Kyrillidis, A., et al. (2023). *Scissorhands: Exploiting the persistence of importance hypothesis for LLM KV cache compression at test time*. [arXiv:2305.17118](https://arxiv.org/abs/2305.17118)
+- Liu, Z., Yuan, J., Jin, H., Zhong, S., Xu, Z., Braverman, V., Chen, B., et al. (2024a). *KIVI: A tuning-free asymmetric 2bit quantization for KV cache*. ICML. [arXiv:2402.02750](https://arxiv.org/abs/2402.02750)
+- Nawrot, P., Łańcucki, A., Chochowski, M., Tarjan, D., Ponti, E. M. (2024). *Dynamic memory compression: Retrofitting LLMs for accelerated inference*. [arXiv:2403.09636](https://arxiv.org/abs/2403.09636)
+- Patel, P., Choukse, E., Zhang, C., Shah, A., Goiri, Í., Maleki, S., Bianchini, R. (2023). *Splitwise: Efficient generative LLM inference using phase splitting*. [arXiv:2311.18677](https://arxiv.org/abs/2311.18677)
+- Pope, R., Douglas, S., Chowdhery, A., Devlin, J., Bradbury, J., Levskaya, A., Heek, J., et al. (2022). *Efficiently scaling transformer inference*. [arXiv:2211.05102](https://arxiv.org/abs/2211.05102)
+- Qin, R., Li, Z., He, W., Zhang, M., Wu, Y., Zheng, W., Xu, X. (2024). *Mooncake: A KVCache-centric disaggregated architecture for LLM serving*. [arXiv:2407.00079](https://arxiv.org/abs/2407.00079)
+- Shazeer, N. (2019). *Fast transformer decoding: One write-head is all you need*. [arXiv:1911.02150](https://arxiv.org/abs/1911.02150)
+- Sun, Y., Dong, L., Zhu, Y., Huang, S., Wang, W., Ma, S., Zhang, Q., et al. (2024). *You only cache once: Decoder-decoder architectures for language models*. [arXiv:2405.05254](https://arxiv.org/abs/2405.05254)
+- Tai, Y., Ding, Y., Li, G., Luo, S., Zhang, C., Zhai, G., Guo, G., et al. (2026). *KV cache quantization for diffusion language models*. [arXiv:2610.39853](https://arxiv.org/abs/2610.39853)
+- Tang, J., Zhao, Y., Zhu, K., Xiao, G., Kasikci, B., Han, S. (2024). *Quest: Query-aware sparsity for efficient long-context LLM inference*. ICML. [arXiv:2406.10774](https://arxiv.org/abs/2406.10774)
+- Xiao, G., Tian, Y., Chen, B., Han, S., Lewis, M. (2023). *Efficient streaming language models with attention sinks*. ICLR 2024. [arXiv:2309.17453](https://arxiv.org/abs/2309.17453)
+- Ye, L., Tao, Z., Huang, Y., Li, Y. (2024). *ChunkAttention: Efficient self-attention with prefix-aware KV cache and two-phase partition*. ACL. [arXiv:2402.15220](https://arxiv.org/abs/2402.15220)
+- Yuan, J., Liu, H., Zhong, S., Chuang, Y.-N., Li, S., Wang, G., Le, D., et al. (2024). *KV cache compression, but what must we give in return? A comprehensive benchmark of long context capable approaches*. [arXiv:2407.01527](https://arxiv.org/abs/2407.01527)
+- Zandieh, A., Daliri, M., Hadian, M., Mirrokni, V. (2025). *TurboQuant: Online vector quantization with near-optimal distortion rate*. [arXiv:2504.19874](https://arxiv.org/abs/2504.19874)
+- Zandieh, A., Daliri, M., Han, I. (2024). *QJL: 1-bit quantized JL transform for KV cache quantization with zero overhead*. [arXiv:2406.03482](https://arxiv.org/abs/2406.03482)
+- Zhang, J., Chen, H. (2026). *BellowsKV: One latent for many layers, expanded on demand*. [arXiv:2610.35023](https://arxiv.org/abs/2610.35023)
+- Zhang, Z., Sheng, Y., Zhou, T., Chen, T., Zheng, L., Cai, R., Song, Z., et al. (2023). *H₂O: Heavy-hitter oracle for efficient generative inference of large language models*. [arXiv:2306.14048](https://arxiv.org/abs/2306.14048)
+- Zheng, L., Yin, L., Xie, Z., Sun, C., Huang, J., Yu, C. H., Cao, S., et al. (2023). *SGLang: Efficient execution of structured language model programs*. [arXiv:2312.07104](https://arxiv.org/abs/2312.07104)
+- Zhong, Y., Liu, S., Chen, J., Hu, J., Zhu, Y., Liu, X., Jin, X., et al. (2024). *DistServe: Disaggregating prefill and decoding for goodput-optimized large language model serving*. OSDI. [arXiv:2401.09670](https://arxiv.org/abs/2401.09670)
+
+Also cited on this page and listed elsewhere: Kwon et al. (2023) and Dao et al. (2022) under *Systems*.
 
 ## Alignment, safety and interpretability
 

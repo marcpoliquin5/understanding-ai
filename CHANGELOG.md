@@ -2,6 +2,15 @@
 
 Understanding AI grows daily. Each entry records what was added or changed, newest first. See [docs/DAILY_UPDATES.md](docs/DAILY_UPDATES.md) for how updates work.
 
+## 2026-11-02 (evening): The KV cache
+
+- **Systems**: new page [The KV cache: paging, sharing and compression](docs/04-systems/kv-cache.md): what the cache holds, the size formula $2 L h_{kv} d_h b T B$, and why decode is memory-bound; paging with block tables and copy-on-write (PagedAttention); prefix sharing (Prompt Cache, RadixAttention, ChunkAttention); chunked prefill and prefill/decode disaggregation (Sarathi-Serve, Splitwise, DistServe, Mooncake) and 2026 flat KV storage (FlatCake); smaller per-token entries (MQA, GQA, cross-layer attention, YOCO, MLA, DMC, MiniCache, BellowsKV); eviction (attention sinks, H2O, Scissorhands, FastGen, SnapKV, PyramidKV, key-norm pruning) versus query-aware selection (Quest) and new space lower bounds for attention under bounded key–query similarity; quantization (KIVI, KVQuant, QJL, TurboQuant), lossless coding (GAAC, ZipFusion) and caches for diffusion language models; what benchmarks (Yuan et al., SCBench) say compression costs in multi-turn use and kernel compatibility; a status table; and a labelled speculative section on approximate in-memory page scoring with exact attention on the selected pages.
+- **Tested sketch**: four NumPy experiments. For an illustrative 32-layer, 128-dimensional-head configuration at 16 bits, one 128,000-token sequence needs 62.50 GiB of cache with 32 KV heads, 15.62 with 8, 1.95 with one and 4.39 with a 576-number latent; on-demand 16-token blocks use 99.5% of allocated memory against 39.4% for max-length reservation, and sharing a 1,500-token system prompt across 256 requests needs 2.33× fewer blocks; with a 256-token budget, an H2O-style accumulated-attention policy is near the oracle on a follow-up about an already-attended topic (relative error 0.045 against 0.039) but fails on a new topic (1.281), where page-level query-aware selection stays usable (0.343); and 2-bit per-channel key quantization cuts the attention-weight total variation from 0.728 (per-token) to 0.157 when keys have outlier channels, with a random rotation in between (0.494).
+- **References**: new *KV cache* section with 36 entries, each checked against its arXiv abstract page; Kwon et al. (2023) and Dao et al. (2022) were already listed under *Systems*.
+- **Glossary**: added *Attention sink*, *Grouped-query attention (GQA)*, *Heavy hitter (KV eviction)*, *Multi-head latent attention (MLA)*, *PagedAttention*, *Prefill–decode disaggregation* and *Prefix caching*; *KV cache* now points to the new page.
+- **Linked** from the Systems index, the KV cache section of the inference page, the speculative decoding and state-space model pages, the README field map, contents table and software-engineer reading path.
+- **Backlog**: ticked the KV-cache compression item.
+
 ## 2026-11-02: Diffusion language models
 
 - **Modern AI**: new page [Diffusion language models: writing every word at once](docs/03-modern-ai/diffusion-language-models.md): the non-autoregressive lineage (non-autoregressive translation, Mask-Predict, MaskGIT); discrete diffusion with uniform and absorbing corruption, continuous-embedding Diffusion-LM, score entropy (SEDD) and discrete flow matching; the masked diffusion bound as a weighted masked-LM cross-entropy, its time-independence and its equivalence to any-order autoregression; sampling choices (how many, which positions, re-masking, blocks) and the float32 categorical-sampling temperature pitfall; the parallel decoding problem and the perplexity-versus-sequence-error theory; a scale table (MDLM, MD4, SMDM, LLaDA, LLaDA 1.5, d1, block diffusion, Dream, Mercury, Seed Diffusion, BYOD); data efficiency under repeated data and its debated mechanism; learned and set-based unmasking policies; a status table; and a labelled speculative section on physical sampling of the denoiser's marginals.
@@ -212,6 +221,6 @@ Planned topics, roughly in rotation order:
 - [x] Deep learning: structured state-space models, from S4 to Mamba (2026-11-01)
 - [ ] Deep learning: linear attention and its kernels (from Performer to gated linear attention)
 - [x] Systems: speculative decoding and other inference-time accelerations (2026-11-01)
-- [ ] Systems: KV-cache compression, paging and prefix sharing
+- [x] Systems: KV-cache compression, paging and prefix sharing (2026-11-02)
 - [x] Modern AI: diffusion language models and parallel text generation (2026-11-02)
 - [ ] Foundations: information theory for machine learning (entropy, KL, mutual information)
