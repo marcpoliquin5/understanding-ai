@@ -8,6 +8,7 @@ Before neural networks, transformers, or agents, there are four ideas that every
 | [Linear algebra for AI](linear-algebra.md) | Vectors, matrices, eigen-decompositions, SVD, and why matrix multiplication is the engine of AI |
 | [Probability and information](probability-and-information.md) | Random variables, Bayes' rule, maximum likelihood, entropy, cross-entropy, KL divergence |
 | [Optimization](optimization.md) | Gradients, gradient descent, SGD, momentum, Adam, convexity and its absence |
+| [Information theory for machine learning](information-theory-for-ml.md) | Prediction as compression (with a real arithmetic coder in tested code), bits per byte, the two directions of KL, mutual information and the $\log N$ ceiling of InfoNCE, the information bottleneck debate, description length and generalization bounds, rate–distortion limits of quantization |
 | [Information geometry and the natural gradient](information-geometry-natural-gradient.md) | The Fisher metric, why steepest descent depends on the ruler, K-FAC, Shampoo, SOAP, and Muon |
 | [What it means to learn](learning-theory.md) | Generalization, bias–variance, PAC learning, no free lunch, double descent |
 

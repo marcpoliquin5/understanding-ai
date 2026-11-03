@@ -79,6 +79,8 @@ I(X; Y) = D_{\mathrm{KL}}\big(p(x, y) \,\Vert\, p(x)p(y)\big)
 
 How much knowing $Y$ reduces uncertainty about $X$. Contrastive representation learning methods are often motivated as maximizing (bounds on) mutual information between views of the same data.
 
+For the deeper story (arithmetic coding, both directions of KL, why mutual information is hard to estimate, the information bottleneck debate, description length and rate–distortion), see [Information theory for machine learning](information-theory-for-ml.md).
+
 ## Sampling
 
 Generative models produce outputs by sampling. For language models, common strategies modify the softmax:
