@@ -30,6 +30,8 @@ flowchart LR
 
 ## 2. Linear attention is a fast-weight programmer (established)
 
+*For feature maps, random-feature approximations of softmax, gating and the GPU kernels behind these layers, see [linear attention and its kernels](../02-deep-learning/linear-attention.md).*
+
 Softmax attention computes $\mathbf{y}_t = \sum_{i \le t} \mathbf{v}_i\, \mathrm{softmax}_i(\mathbf{k}_i^\top \mathbf{q}_t)$, which needs every past key and value (the KV cache) and costs $O(t)$ per step. Katharopoulos et al. (2020) replaced the softmax with a kernel feature map $\phi$ and observed that the sum can then be regrouped:
 
 ```math

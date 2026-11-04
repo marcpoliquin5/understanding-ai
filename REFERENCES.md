@@ -18,6 +18,7 @@ Every source cited in Understanding AI, grouped by section. Each entry links to 
 - [Transformers and language models](#transformers-and-language-models)
 - [Attention gradients](#attention-gradients)
 - [State-space models](#state-space-models)
+- [Linear attention](#linear-attention)
 - [Mixture of experts](#mixture-of-experts)
 - [Generative and multimodal models](#generative-and-multimodal-models)
 - [Diffusion language models](#diffusion-language-models)
@@ -303,6 +304,32 @@ Jacot et al. (2018) is also cited on the [Gaussian processes page](docs/01-class
 - Sun, Y., Dong, L., Huang, S., et al. (2023). *Retentive network: A successor to transformer for large language models*. [arXiv:2307.08621](https://arxiv.org/abs/2307.08621)
 - Tay, Y., Dehghani, M., Abnar, S., et al. (2020). *Long Range Arena: A benchmark for efficient transformers*. ICLR 2021. [arXiv:2011.04006](https://arxiv.org/abs/2011.04006)
 - Waleffe, R., Byeon, W., Riach, D., et al. (2024). *An empirical study of Mamba-based language models*. [arXiv:2406.07887](https://arxiv.org/abs/2406.07887)
+
+## Linear attention
+
+- Rahimi, A., Recht, B. (2007). *Random features for large-scale kernel machines*. NeurIPS. [Proceedings](https://papers.nips.cc/paper_files/paper/2007/hash/013a006f03dbc5392effeb8f18fda755-Abstract.html)
+- Tsai, Y.-H. H., Bai, S., Yamada, M., Morency, L.-P., Salakhutdinov, R. (2019). *Transformer dissection: A unified understanding of transformer's attention via the lens of kernel*. EMNLP. [arXiv:1908.11775](https://arxiv.org/abs/1908.11775)
+- Wang, S., Li, B. Z., Khabsa, M., Fang, H., Ma, H. (2020). *Linformer: Self-attention with linear complexity*. [arXiv:2006.04768](https://arxiv.org/abs/2006.04768)
+- Tay, Y., Dehghani, M., Bahri, D., Metzler, D. (2020). *Efficient transformers: A survey*. [arXiv:2009.06732](https://arxiv.org/abs/2009.06732)
+- Choromanski, K., Likhosherstov, V., Dohan, D., Song, X., Gane, A., Sarlos, T., Hawkins, P., et al. (2020). *Rethinking attention with Performers*. ICLR 2021. [arXiv:2009.14794](https://arxiv.org/abs/2009.14794)
+- Xiong, Y., Zeng, Z., Chakraborty, R., Tan, M., Fung, G., Li, Y., Singh, V. (2021). *Nyströmformer: A Nyström-based algorithm for approximating self-attention*. AAAI. [arXiv:2102.03902](https://arxiv.org/abs/2102.03902)
+- Peng, H., Pappas, N., Yogatama, D., Schwartz, R., Smith, N. A., Kong, L. (2021). *Random feature attention*. ICLR. [arXiv:2103.02143](https://arxiv.org/abs/2103.02143)
+- Kasai, J., Peng, H., Zhang, Y., Yogatama, D., Ilharco, G., Pappas, N., Mao, Y., et al. (2021). *Finetuning pretrained transformers into RNNs*. EMNLP. [arXiv:2103.13076](https://arxiv.org/abs/2103.13076)
+- Qin, Z., Sun, W., Deng, H., Li, D., Wei, Y., Lv, B., Yan, J., et al. (2022a). *cosFormer: Rethinking softmax in attention*. ICLR. [arXiv:2202.08791](https://arxiv.org/abs/2202.08791)
+- Qin, Z., Han, X., Sun, W., Li, D., Kong, L., Barnes, N., Zhong, Y. (2022b). *The devil in linear transformer*. EMNLP. [arXiv:2210.10340](https://arxiv.org/abs/2210.10340)
+- Keles, F. D., Wijewardena, P. M., Hegde, C. (2022). *On the computational complexity of self-attention*. [arXiv:2209.04881](https://arxiv.org/abs/2209.04881)
+- Alman, J., Song, Z. (2023). *Fast attention requires bounded entries*. [arXiv:2302.13214](https://arxiv.org/abs/2302.13214)
+- Yang, S., Wang, B., Shen, Y., Panda, R., Kim, Y. (2023). *Gated linear attention transformers with hardware-efficient training*. [arXiv:2312.06635](https://arxiv.org/abs/2312.06635)
+- Qin, Z., Sun, W., Li, D., Shen, X., Sun, W., Zhong, Y. (2024a). *Lightning Attention-2: A free lunch for handling unlimited sequence lengths in large language models*. [arXiv:2401.04658](https://arxiv.org/abs/2401.04658)
+- Zhang, M., Bhatia, K., Kumbong, H., Ré, C. (2024). *The Hedgehog & the Porcupine: Expressive linear attentions with softmax mimicry*. ICLR. [arXiv:2402.04347](https://arxiv.org/abs/2402.04347)
+- Peng, B., Goldstein, D., Anthony, Q., Albalak, A., Alcaide, E., Biderman, S., Cheah, E., et al. (2024). *Eagle and Finch: RWKV with matrix-valued states and dynamic recurrence*. [arXiv:2404.05892](https://arxiv.org/abs/2404.05892)
+- Qin, Z., Yang, S., Sun, W., Shen, X., Li, D., Sun, W., Zhong, Y. (2024b). *HGRN2: Gated linear RNNs with state expansion*. COLM. [arXiv:2404.07904](https://arxiv.org/abs/2404.07904)
+- Mercat, J., Vasiljevic, I., Keh, S., Arora, K., Dave, A., Gaidon, A., Kollar, T. (2024). *Linearizing large language models*. [arXiv:2405.06640](https://arxiv.org/abs/2405.06640)
+- Zhang, M., Arora, S., Chalamala, R., Wu, A., Spector, B., Singhal, A., Ramesh, K., Ré, C. (2025). *LoLCATs: On low-rank linearizing of large language models*. ICLR. [arXiv:2410.10254](https://arxiv.org/abs/2410.10254)
+- MiniMax, Li, A., Gong, B., Yang, B., Shan, B., Liu, C., Zhu, C., Zhang, C., et al. (2025). *MiniMax-01: Scaling foundation models with lightning attention*. [arXiv:2501.08313](https://arxiv.org/abs/2501.08313)
+- Duanmu, H., Zheng, S., Zheng, N., Lu, J., Zheng, X., Zhang, X., Chang, L.-W., Liu, X., Lin, D. (2026). *FlexLinearAttention: Compiling a unified abstraction into scalable kernels for linear attention*. ICLR. [Proceedings](https://proceedings.iclr.cc/paper_files/paper/2026/hash/d029c97ee0db162c60f2ebc9cb93387e-Abstract-Conference.html)
+- Ghriss, A., Chakraborty, S. (2026). *Kernelized linear attention: Breaking the capacity wall with symmetric cones*. [arXiv:2607.17419](https://arxiv.org/abs/2607.17419)
+- Dev, P., Sankar, A., Varma, V. (2026). *MS-GLA: Multi-scale gated linear attention for addressing representational bottlenecks via multi-temporal resolution*. [arXiv:2609.35664](https://arxiv.org/abs/2609.35664)
 
 ## Mixture of experts
 

@@ -10,6 +10,7 @@ Deep learning stacks many simple, differentiable layers and trains them end to e
 | [Attention gradients, derived by hand](attention-gradients.md) | The full backward pass of attention, the softmax Jacobian and its 1/2 bound, the identity behind FlashAttention's memory-light backward pass (with tested code), and why confident attention stops learning |
 | [Normalization, initialization and μP](normalization-initialization-mup.md) | Variance-preserving init, the edge of chaos, Pre-LN vs Post-LN, QK-norm, normalization-free transformers, and μP hyperparameter transfer |
 | [State-space models: from S4 to Mamba](state-space-models.md) | Linear dynamical systems as layers, recurrence, convolution and parallel scan (with tested code), HiPPO memory, S4 and diagonal SSMs, selectivity and Mamba, state space duality with linear attention, Mamba-3, the limits of a fixed-size state, and hybrids |
+| [Linear attention and its kernels](linear-attention.md) | Attention as a kernel smoother, the associativity trick and the recurrent form, Performer's random features, feature maps and attention dilution, recall versus state size, decay and gates (GLA, RetNet, Mamba-2), chunkwise kernels (with tested code), hybrids and linearized LLMs |
 | [Mixture of experts](mixture-of-experts.md) | Sparse routing, load balancing and router collapse (with tested code), stability tricks, fine-grained and shared experts, MoE scaling laws, and the systems cost of sparsity |
 | [Scaling laws](scaling-laws.md) | How loss falls with compute, data and parameters, and what that implies |
 
@@ -23,5 +24,7 @@ flowchart LR
     ResNet --> TF
     TF --> FM[Foundation models]
     TF --> SSM[State-space models 2021+]
+    TF --> LA[Linear attention 2020+]
+    LA --- SSM
     TF --> MoE[Sparse mixture of experts 2017+]
 ```
