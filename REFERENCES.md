@@ -24,6 +24,7 @@ Every source cited in Understanding AI, grouped by section. Each entry links to 
 - [Diffusion language models](#diffusion-language-models)
 - [Retrieval, tools and agents](#retrieval-tools-and-agents)
 - [Evaluation and benchmarks](#evaluation-and-benchmarks)
+- [Reasoning models and test-time compute](#reasoning-models-and-test-time-compute)
 - [AI for science](#ai-for-science)
 - [Systems](#systems)
 - [Speculative decoding](#speculative-decoding)
@@ -478,6 +479,49 @@ Shazeer et al. (2017), Fedus et al. (2021) and Kimi Team (2025) are also cited o
 - Becker, J., Rush, N., Barnes, E., Rein, D. (2025). *Measuring the impact of early-2025 AI on experienced open-source developer productivity*. [arXiv:2507.09089](https://arxiv.org/abs/2507.09089)
 
 Also cited on this page and listed elsewhere: Chen et al. (2021) Codex and Jimenez et al. (2023) SWE-bench under *Evaluation and benchmarks*; Shinn et al. (2023) Reflexion under *Retrieval, tools and agents*; DeepSeek-AI (2025) DeepSeek-R1; Romera-Paredes et al. FunSearch; Kwa et al. (2025).
+
+## Reasoning models and test-time compute
+
+Sources for the [reasoning models page](docs/03-modern-ai/reasoning-models-and-test-time-compute.md). Each arXiv entry was checked against its arXiv abstract page; the Nature paper against Crossref.
+
+- Aggarwal, P., Welleck, S. (2025). *L1: Controlling How Long A Reasoning Model Thinks With Reinforcement Learning*. COLM 2025. [arXiv:2503.04697](https://arxiv.org/abs/2503.04697)
+- Ahmadian, A., Cremer, C., Gallé, M., et al. (2024). *Back to Basics: Revisiting REINFORCE Style Optimization for Learning from Human Feedback in LLMs*. [arXiv:2402.14740](https://arxiv.org/abs/2402.14740)
+- Baker, B., Huizinga, J., Gao, L., et al. (2025). *Monitoring Reasoning Models for Misbehavior and the Risks of Promoting Obfuscation*. [arXiv:2503.11926](https://arxiv.org/abs/2503.11926)
+- Chen, X., Xu, J., Liang, T., et al. (2024). *Do NOT Think That Much for 2+3=? On the Overthinking of o1-Like LLMs*. [arXiv:2412.21187](https://arxiv.org/abs/2412.21187)
+- Chen, Y., Benton, J., Radhakrishnan, A., et al. (2025). *Reasoning Models Don't Always Say What They Think*. [arXiv:2505.05410](https://arxiv.org/abs/2505.05410)
+- Cobbe, K., Kosaraju, V., Bavarian, M., et al. (2021). *Training Verifiers to Solve Math Word Problems*. [arXiv:2110.14168](https://arxiv.org/abs/2110.14168)
+- Cui, G., Zhang, Y., Chen, J., et al. (2025). *The Entropy Mechanism of Reinforcement Learning for Reasoning Language Models*. [arXiv:2505.22617](https://arxiv.org/abs/2505.22617)
+- Dao, N., Morton-Ferguson, C., Golowich, N., et al. (2026). *ReAPO: Retry-Aware Policy Optimization for Efficient Exploration in LLM Reasoning*. [arXiv:2610.28770](https://arxiv.org/abs/2610.28770)
+- Guo, D., Yang, D., Zhang, H., et al. (2025). *DeepSeek-R1 incentivizes reasoning in LLMs through reinforcement learning*. Nature 645, 633–638. [doi:10.1038/s41586-025-09422-z](https://doi.org/10.1038/s41586-025-09422-z)
+- Hosseini, A., Yuan, X., Malkin, N., et al. (2024). *V-STaR: Training Verifiers for Self-Taught Reasoners*. [arXiv:2402.06457](https://arxiv.org/abs/2402.06457)
+- Kimi Team (2025). *Kimi k1.5: Scaling Reinforcement Learning with LLMs*. [arXiv:2501.12599](https://arxiv.org/abs/2501.12599)
+- Korbak, T., Balesni, M., Barnes, E., et al. (2025). *Chain of Thought Monitorability: A New and Fragile Opportunity for AI Safety*. [arXiv:2507.11473](https://arxiv.org/abs/2507.11473)
+- Lambert, N., Morrison, J., Pyatkin, V., et al. (2024). *Tulu 3: Pushing Frontiers in Open Language Model Post-Training*. [arXiv:2411.15124](https://arxiv.org/abs/2411.15124)
+- Lanham, T., Chen, A., Radhakrishnan, A., et al. (2023). *Measuring Faithfulness in Chain-of-Thought Reasoning*. [arXiv:2307.13702](https://arxiv.org/abs/2307.13702)
+- Lawsen, A. (2025). *Comment on The Illusion of Thinking: Understanding the Strengths and Limitations of Reasoning Models via the Lens of Problem Complexity*. [arXiv:2506.09250](https://arxiv.org/abs/2506.09250)
+- Liu, M., Diao, S., Lu, X., et al. (2025). *ProRL: Prolonged Reinforcement Learning Expands Reasoning Boundaries in Large Language Models*. [arXiv:2505.24864](https://arxiv.org/abs/2505.24864)
+- Liu, Z., Chen, C., Li, W., et al. (2025). *Understanding R1-Zero-Like Training: A Critical Perspective*. [arXiv:2503.20783](https://arxiv.org/abs/2503.20783)
+- Muennighoff, N., Yang, Z., Shi, W., et al. (2025). *s1: Simple test-time scaling*. [arXiv:2501.19393](https://arxiv.org/abs/2501.19393)
+- OpenAI (2024). *Learning to reason with LLMs*. Blog post, 12 September 2024. [openai.com](https://openai.com/index/learning-to-reason-with-llms/)
+- Punjwani, S., Goldblum, M. (2026). *Decoupling Exploration from Optimization in RLVR*. [arXiv:2610.10536](https://arxiv.org/abs/2610.10536)
+- Shao, R., Li, S. S., Xin, R., et al. (2025). *Spurious Rewards: Rethinking Training Signals in RLVR*. [arXiv:2506.10947](https://arxiv.org/abs/2506.10947)
+- Shao, Z., Wang, P., Zhu, Q., et al. (2024). *DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models*. [arXiv:2402.03300](https://arxiv.org/abs/2402.03300)
+- Shojaee, P., Mirzadeh, I., Alizadeh, K., et al. (2025). *The Illusion of Thinking: Understanding the Strengths and Limitations of Reasoning Models via the Lens of Problem Complexity*. NeurIPS 2025. [arXiv:2506.06941](https://arxiv.org/abs/2506.06941)
+- Turpin, M., Michael, J., Perez, E., et al. (2023). *Language Models Don't Always Say What They Think: Unfaithful Explanations in Chain-of-Thought Prompting*. NeurIPS 2023. [arXiv:2305.04388](https://arxiv.org/abs/2305.04388)
+- Uesato, J., Kushman, N., Kumar, R., et al. (2022). *Solving math word problems with process- and outcome-based feedback*. [arXiv:2211.14275](https://arxiv.org/abs/2211.14275)
+- Wang, P., Li, L., Shao, Z., et al. (2023). *Math-Shepherd: Verify and Reinforce LLMs Step-by-step without Human Annotations*. [arXiv:2312.08935](https://arxiv.org/abs/2312.08935)
+- Wang, Y., Yang, Q., Zeng, Z., et al. (2025). *Reinforcement Learning for Reasoning in Large Language Models with One Training Example*. [arXiv:2504.20571](https://arxiv.org/abs/2504.20571)
+- Wu, F., Xuan, W., Xing, D., et al. (2025). *The Invisible Leash: Why RLVR May or May Not Escape Its Origin*. [arXiv:2507.14843](https://arxiv.org/abs/2507.14843)
+- Yang, B., Zhang, Z., Li, W., et al. (2026). *Guided-RLVR: Guided Exploration in Reinforcement Learning with Verifiable Rewards*. [arXiv:2610.37041](https://arxiv.org/abs/2610.37041)
+- Yeo, E., Tong, Y., Niu, M., et al. (2025). *Demystifying Long Chain-of-Thought Reasoning in LLMs*. [arXiv:2502.03373](https://arxiv.org/abs/2502.03373)
+- Yu, Q., Zhang, Z., Zhu, R., et al. (2025). *DAPO: An Open-Source LLM Reinforcement Learning System at Scale*. [arXiv:2503.14476](https://arxiv.org/abs/2503.14476)
+- Yu, Y., Jang, S., Yu, H. (2026). *Difficulty-Adaptive Tree-Structured Policy Optimization for Expanding Reasoning Coverage in RLVR*. Findings of EMNLP 2026. [arXiv:2609.08650](https://arxiv.org/abs/2609.08650)
+- Yue, Y., Chen, Z., Lu, R., et al. (2025). *Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?*. NeurIPS 2025. [arXiv:2504.13837](https://arxiv.org/abs/2504.13837)
+- Zeng, W., Huang, Y., Liu, Q., et al. (2025). *SimpleRL-Zoo: Investigating and Taming Zero Reinforcement Learning for Open Base Models in the Wild*. COLM 2025. [arXiv:2503.18892](https://arxiv.org/abs/2503.18892)
+- Zhang, L., Hosseini, A., Bansal, H., et al. (2024). *Generative Verifiers: Reward Modeling as Next-Token Prediction*. ICLR 2025. [arXiv:2408.15240](https://arxiv.org/abs/2408.15240)
+- Zheng, C., Liu, S., Li, M., et al. (2025). *Group Sequence Policy Optimization*. [arXiv:2507.18071](https://arxiv.org/abs/2507.18071)
+
+Also cited on this page and listed elsewhere: DeepSeek-AI (2025) DeepSeek-R1, Kojima et al. (2022), Lightman et al. (2023), Snell et al. (2024), Wang et al. (2022) self-consistency and Wei et al. (2022) chain of thought under *Transformers and language models*; Schulman et al. (2017) PPO under *Reinforcement learning*; Brown et al. (2024) Large Language Monkeys under *Code generation and program synthesis*; Zelikman et al. (2022) STaR under *Frontiers: recursion and self-improvement*.
 
 ## AI for science
 

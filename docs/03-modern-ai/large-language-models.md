@@ -61,7 +61,7 @@ where $y_w$ and $y_l$ are the preferred and dispreferred responses.
 
 ## Reasoning models
 
-Since 2024, a prominent direction has been training models with reinforcement learning on tasks with checkable answers (math, code) so they produce long chains of reasoning before answering. **Lightman et al. (2023)** showed that rewarding each correct reasoning *step* (process supervision) can outperform rewarding only the final answer. **DeepSeek-R1** (DeepSeek-AI 2025) reported that large-scale RL with rule-based rewards elicits extended reasoning behaviours, including self-verification.
+Since 2024, a prominent direction has been training models with reinforcement learning on tasks with checkable answers (math, code) so they produce long chains of reasoning before answering. **Lightman et al. (2023)** showed that rewarding each correct reasoning *step* (process supervision) can outperform rewarding only the final answer. **DeepSeek-R1** (DeepSeek-AI 2025) reported that large-scale RL with rule-based rewards elicits extended reasoning behaviours, including self-verification. The full story, from GRPO and verifiable rewards to test-time compute and the debate over whether RL teaches new reasoning, is on its own page: [reasoning models and test-time compute](reasoning-models-and-test-time-compute.md).
 
 ## Efficient adaptation
 
