@@ -55,6 +55,8 @@ Human labellers preferred outputs of the 1.3B-parameter InstructGPT model to tho
 
 where $y_w$ and $y_l$ are the preferred and dispreferred responses.
 
+The swarm of successors—IPO, KTO, SimPO, ORPO, online and iterative DPO, and the failure modes (length, overfitting, likelihood displacement) that motivated them—is on its own page: [preference optimization beyond DPO](preference-optimization-beyond-dpo.md).
+
 ### Constitutional AI and AI feedback
 
 **Bai et al. (2022)** replaced much of the human harmlessness labelling with feedback from the model itself, guided by a written set of principles (a "constitution").
@@ -82,5 +84,5 @@ Retrieval, tool use, and verification (next page) mitigate several of these.
 ## Key takeaways
 
 - Next-token prediction at scale yields broad capabilities and in-context learning.
-- Post-training (SFT, RLHF, DPO) turns a predictor into an assistant.
+- Post-training (SFT, RLHF, DPO and its variants) turns a predictor into an assistant; see [preference optimization beyond DPO](preference-optimization-beyond-dpo.md).
 - Reasoning can be improved by prompting, by spending more inference compute, and by RL on verifiable tasks.

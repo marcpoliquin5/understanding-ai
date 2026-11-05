@@ -4,7 +4,8 @@ Modern AI is built around **foundation models**: large networks pretrained on br
 
 | Page | What you will learn |
 |---|---|
-| [Large language models](large-language-models.md) | Pretraining, in-context learning, instruction tuning, RLHF and DPO, reasoning, hallucination |
+| [Large language models](large-language-models.md) | Pretraining, in-context learning, instruction tuning, RLHF and DPO (see [beyond DPO](preference-optimization-beyond-dpo.md) for the variants), reasoning, hallucination |
+| [Preference optimization beyond DPO](preference-optimization-beyond-dpo.md) | IPO, KTO, SimPO, ORPO, online and iterative DPO, Nash-style methods; deterministic overfitting, length confounds and likelihood displacement (tested sketch: DPO margin unbounded vs IPO saturates; sum vs average length; `No`/`Never`/`Yes` displacement) |
 | [Generative models](generative-models.md) | VAEs, GANs, diffusion and flow matching, latent diffusion |
 | [Diffusion language models](diffusion-language-models.md) | Masked diffusion as a weighted masked-LM loss and any-order autoregression, LLaDA, Dream and block diffusion, why committing tokens in parallel breaks dependencies (tested sketch with a perfect denoiser), Fast-dLLM, Mercury and Seed Diffusion speeds, data efficiency, learned unmasking orders |
 | [Retrieval, tools and agents](retrieval-tools-and-agents.md) | RAG, tool use, ReAct, planning loops, multi-agent systems, agent runtimes |

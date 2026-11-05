@@ -25,6 +25,7 @@ Every source cited in Understanding AI, grouped by section. Each entry links to 
 - [Retrieval, tools and agents](#retrieval-tools-and-agents)
 - [Evaluation and benchmarks](#evaluation-and-benchmarks)
 - [Reasoning models and test-time compute](#reasoning-models-and-test-time-compute)
+- [Preference optimization beyond DPO](#preference-optimization-beyond-dpo)
 - [AI for science](#ai-for-science)
 - [Systems](#systems)
 - [Speculative decoding](#speculative-decoding)
@@ -523,6 +524,35 @@ Sources for the [reasoning models page](docs/03-modern-ai/reasoning-models-and-t
 - Zheng, C., Liu, S., Li, M., et al. (2025). *Group Sequence Policy Optimization*. [arXiv:2507.18071](https://arxiv.org/abs/2507.18071)
 
 Also cited on this page and listed elsewhere: DeepSeek-AI (2025) DeepSeek-R1, Kojima et al. (2022), Lightman et al. (2023), Snell et al. (2024), Wang et al. (2022) self-consistency and Wei et al. (2022) chain of thought under *Transformers and language models*; Schulman et al. (2017) PPO under *Reinforcement learning*; Brown et al. (2024) Large Language Monkeys under *Code generation and program synthesis*; Zelikman et al. (2022) STaR under *Frontiers: recursion and self-improvement*.
+
+
+## Preference optimization beyond DPO
+
+Sources for the [preference optimization beyond DPO page](docs/03-modern-ai/preference-optimization-beyond-dpo.md). Christiano et al. (2017), Ouyang et al. (2022), Rafailov et al. (2023), Bradley & Terry (1952) and Singhal et al. (2023) are listed under *Transformers and language models*, *Evaluation and benchmarks*, or *Reward models and their failure modes*.
+
+- Azar, M. G., Rowland, M., Piot, B., Guo, D., Calandriello, D., Valko, M., Munos, R. (2023). *A general theoretical paradigm to understand learning from human preferences*. [arXiv:2310.12036](https://arxiv.org/abs/2310.12036)
+- Rafailov, R., Chittepu, Y., Park, R., Sikchi, H., Hejna, J., Knox, B., Finn, C., Niekum, S. (2024). *Scaling laws for reward model overoptimization in direct alignment algorithms*. [arXiv:2406.02900](https://arxiv.org/abs/2406.02900)
+- Ethayarajh, K., Xu, W., Muennighoff, N., Jurafsky, D., Kiela, D. (2024). *KTO: Model alignment as prospect theoretic optimization*. [arXiv:2402.01306](https://arxiv.org/abs/2402.01306)
+- Meng, Y., Xia, M., Chen, D. (2024). *SimPO: Simple preference optimization with a reference-free reward*. [arXiv:2405.14734](https://arxiv.org/abs/2405.14734)
+- Hong, J., Lee, N., Thorne, J. (2024). *ORPO: Monolithic preference optimization without reference model*. [arXiv:2403.07691](https://arxiv.org/abs/2403.07691)
+- Xu, H., Sharaf, A., Chen, Y., Tan, W., Shen, L., Van Durme, B., Murray, K., Kim, Y. J. (2024). *Contrastive preference optimization: Pushing the boundaries of LLM performance in machine translation*. [arXiv:2401.08417](https://arxiv.org/abs/2401.08417)
+- Tang, Y., Guo, Z. D., Zheng, Z., Calandriello, D., Munos, R., Rowland, M., Richemond, P. H., Valko, M., Ávila Pires, B., Piot, B. (2024). *Generalized preference optimization: A unified approach to offline alignment*. [arXiv:2402.05749](https://arxiv.org/abs/2402.05749)
+- Park, R., Rafailov, R., Ermon, S., Finn, C. (2024). *Disentangling length from quality in direct preference optimization*. [arXiv:2403.19159](https://arxiv.org/abs/2403.19159)
+- Pal, A., Karkhanis, D., Dooley, S., Roberts, M., Naidu, S., White, C. (2024). *Smaug: Fixing failure modes of preference optimisation with DPO-Positive*. [arXiv:2402.13228](https://arxiv.org/abs/2402.13228)
+- Razin, N., Malladi, S., Bhaskar, A., Chen, D., Arora, S., Hanin, B. (2024). *Unintentional unalignment: Likelihood displacement in direct preference optimization*. [arXiv:2410.08847](https://arxiv.org/abs/2410.08847)
+- Shi, Z., Land, S., Locatelli, A., Geist, M., Bartolo, M. (2024). *Understanding likelihood over-optimisation in direct alignment algorithms*. [arXiv:2410.11677](https://arxiv.org/abs/2410.11677)
+- Feng, D., Qin, B., Huang, C., Zhang, Z., Lei, W. (2024). *Towards analyzing and understanding the limitations of DPO: A theoretical perspective*. [arXiv:2404.04626](https://arxiv.org/abs/2404.04626)
+- Xiong, W., Dong, H., Ye, C., Wang, Z., Zhong, H., Ji, H., Jiang, N., Zhang, T. (2023). *Iterative preference learning from human feedback: Bridging theory and practice for RLHF under KL-constraint*. [arXiv:2312.11456](https://arxiv.org/abs/2312.11456)
+- Guo, S., Zhang, B., Liu, T., Liu, T., Khalman, M., Llinares, F., Ramé, A., Mesnard, T., Zhao, Y., Piot, B., Ferret, J., Blondel, M. (2024). *Direct language model alignment from online AI feedback*. [arXiv:2402.04792](https://arxiv.org/abs/2402.04792)
+- Dong, H., Xiong, W., Pang, B., Wang, H., Zhao, H., Zhou, Y., Jiang, N., Sahoo, D., Xiong, C., Zhang, T. (2024). *RLHF workflow: From reward modeling to online RLHF*. [arXiv:2405.07863](https://arxiv.org/abs/2405.07863)
+- Yuan, W., Pang, R. Y., Cho, K., Li, X., Sukhbaatar, S., Xu, J., Weston, J. (2024). *Self-rewarding language models*. [arXiv:2401.10020](https://arxiv.org/abs/2401.10020)
+- Rosset, C., Cheng, C.-A., Mitra, A., Santacroce, M., Awadallah, A., Xie, T. (2024). *Direct Nash optimization: Teaching language models to self-improve with general preferences*. [arXiv:2404.03715](https://arxiv.org/abs/2404.03715)
+- Munos, R., Valko, M., Calandriello, D., Azar, M. G., Rowland, M., Guo, Z. D., et al. (2023). *Nash learning from human feedback*. [arXiv:2312.00886](https://arxiv.org/abs/2312.00886)
+- Sun, S., Zhang, Y., Bukharin, A., Mosallanezhad, D., Zeng, J., Singhal, S., Shen, G., Renduchintala, A., Konuk, T., Dong, Y., Wang, Z., Chichkov, D., Delalleau, O., Kuchaiev, O. (2025). *Reward-aware preference optimization: A unified mathematical framework for model alignment*. [arXiv:2502.00203](https://arxiv.org/abs/2502.00203)
+- Wu, J., Xie, Y., Yang, Z., Wu, J., Gao, J., Ding, B., Wang, X., He, X. (2024). *β-DPO: Direct preference optimization with dynamic β*. [arXiv:2407.08639](https://arxiv.org/abs/2407.08639)
+- Cui, G., Yuan, L., Ding, N., Yao, G., He, B., Zhu, W., Ni, Y., Xie, G., Xie, R., Lin, Y., Liu, Z., Sun, M. (2023). *UltraFeedback: Boosting language models with scaled AI feedback*. [arXiv:2310.01377](https://arxiv.org/abs/2310.01377)
+- Lee, H., Phatale, S., Mansoor, H., Mesnard, T., Ferret, J., Lu, K., Bishop, C., Hall, E., Carbune, V., Rastogi, A., Prakash, S. (2023). *RLAIF vs. RLHF: Scaling reinforcement learning from human feedback with AI feedback*. [arXiv:2309.00267](https://arxiv.org/abs/2309.00267)
+- Zhao, Y., Joshi, R., Liu, T., Khalman, M., Saleh, M., Liu, P. J. (2023). *SLiC-HF: Sequence likelihood calibration with human feedback*. [arXiv:2305.10425](https://arxiv.org/abs/2305.10425)
 
 ## AI for science
 

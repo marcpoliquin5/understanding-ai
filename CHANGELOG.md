@@ -2,6 +2,15 @@
 
 Understanding AI grows daily. Each entry records what was added or changed, newest first. See [docs/DAILY_UPDATES.md](docs/DAILY_UPDATES.md) for how updates work.
 
+## 2026-11-05: Preference optimization beyond DPO
+
+- **Modern AI**: new page [Preference optimization beyond DPO](docs/03-modern-ai/preference-optimization-beyond-dpo.md): recap of RLHF → DPO; three failure modes (deterministic overfitting, length confounds, likelihood displacement / CHES); IPO and $\Psi$PO; KTO and human-aware losses; SimPO and ORPO (reference-free); CPO and GPO; online and iterative DPO, OAIF, self-rewarding LMs, Direct Nash Optimization and Nash learning from human feedback; RPO unification; a practitioner's chooser; status table; and a labelled speculative section on active preference collection and hybrid verifiable rewards.
+- **Tested sketch**: three NumPy experiments. On deterministic preferences, DPO's margin reaches 9.40 by step 5,000 with $\pi(y_w)\approx 0.9999$ while IPO locks at margin 5.00 ($\pi\approx 0.993$) by step 500; sum-of-logprob implicit rewards score equal-quality responses as $-10,-50,-200$ by length and flip a long-better comparison to margin $-34$, while average log-probs stay length-free and keep the correct sign ($+0.4$); in a two-dimensional embedding where `No` and `Never` are nearly parallel, DPO that prefers `No` over `Never` drives $P(\mathrm{Yes})$ to $\approx 1$ while IPO ($\tau=2$) caps at $\approx 0.79$ with margin $0.25$.
+- **References**: new *Preference optimization beyond DPO* section with 23 entries, each checked against its arXiv abstract page; Christiano et al. (2017), Ouyang et al. (2022), Rafailov et al. (2023), Bradley & Terry (1952) and Singhal et al. (2023) were already listed.
+- **Glossary**: added *Centered hidden embedding similarity (CHES)*, *Human-aware losses (HALOs)*, *IPO*, *KTO*, *Likelihood displacement*, *ORPO* and *SimPO*; *DPO* now also points to the new page.
+- **Linked** from the Modern AI index, the large language models page's DPO section, the alignment page's preferences section, the reward-model failure modes page, the README field map, contents table and safety / software-engineer reading paths.
+- **Backlog**: ticked the preference optimization beyond DPO item.
+
 ## 2026-11-04 (evening): Chain-of-thought monitoring and steganography
 
 - **Alignment**: new page [Chain-of-thought monitoring and steganography](docs/05-alignment-safety-interpretability/chain-of-thought-monitoring-and-steganography.md): faithfulness versus monitorability and reasoning-as-computation versus rationalization (Emmons et al.), filler tokens (Pfau et al.), the leak-but-not-readable theorem (Mohammadkhani et al.) and the scaling of chain-of-thought reliance (Xin); the measured evidence that monitors work (Baker et al., Arnav et al., Guan et al., Dhoot et al.) and the causal bounds on it (Fu et al.); ten ways the window closes, from post-hoc rationalization and necessary-but-silent factors to obfuscation under monitor or output penalties, reward misspecification, monitor jailbreaking, encoded, illegible and latent reasoning, awareness of being watched and controllability; Cachin's definition, arithmetic-coding and minimum-entropy-coupling steganography and the steganographic gap; current model capabilities; and the defenses (the monitorability tax, monitorability training, MONA, paraphrasing, hybrid monitors, interpretability decoding, AI control and evidence standards); status table and a labelled speculative section.
@@ -261,6 +270,6 @@ Planned topics, roughly in rotation order:
 - [x] Modern AI: diffusion language models and parallel text generation (2026-11-02)
 - [x] Foundations: information theory for machine learning (entropy, KL, mutual information) (2026-11-03)
 - [x] Modern AI: reasoning models, RL with verifiable rewards and test-time compute (2026-11-04)
-- [ ] Modern AI: preference optimization beyond DPO (IPO, KTO, SimPO, online DPO)
+- [x] Modern AI: preference optimization beyond DPO (IPO, KTO, SimPO, online DPO) (2026-11-05)
 - [ ] Systems: serving long-reasoning models (length budgets, early exit, batching long outputs)
 - [x] Alignment: chain-of-thought monitoring and steganography

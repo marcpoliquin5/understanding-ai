@@ -57,7 +57,7 @@ R_{\text{RL}}(d) = d\,(\alpha_{\text{RL}} - \beta_{\text{RL}} \log d),
 
 measured relative to the starting policy. Both rise, peak, and fall. The coefficients move smoothly with the number of reward model parameters, and larger proxies reach higher gold scores before declining; but over-optimization persisted at every proxy size and dataset size they tried (as Coste et al. 2023 summarize it). Two follow-ups widen the result:
 
-- **No reward model, same problem.** Direct alignment algorithms such as DPO skip the explicit reward model, yet Rafailov et al. (2024) found the same hump-shaped degradation at higher KL budgets, often before a single epoch over the preference data is complete. The implicit reward is still a proxy.
+- **No reward model, same problem.** Direct alignment algorithms such as DPO skip the explicit reward model, yet Rafailov et al. (2024) found the same hump-shaped degradation at higher KL budgets, often before a single epoch over the preference data is complete. The implicit reward is still a proxy. The broader post-DPO landscape (IPO, KTO, SimPO, online methods, likelihood displacement) is covered in [preference optimization beyond DPO](../03-modern-ai/preference-optimization-beyond-dpo.md).
 - **Capability makes it worse, sometimes suddenly.** Pan, Bhatia and Steinhardt (2022) built four RL environments with misspecified rewards and found that more capable agents (larger models, finer actions, longer training) often exploit the gap more, reaching higher proxy and lower true reward, sometimes through **phase transitions** where true reward drops sharply at a capability threshold.
 
 ### A tested sketch

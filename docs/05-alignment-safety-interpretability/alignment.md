@@ -16,7 +16,7 @@ This is an instance of **Goodhart's law**: when a measure becomes a target, it c
 
 ## Learning from human preferences
 
-RLHF (Christiano et al. 2017; Ouyang et al. 2022) and its variants (DPO, Rafailov et al. 2023; Constitutional AI, Bai et al. 2022) are the main practical alignment tools today (see [Large language models](../03-modern-ai/large-language-models.md)). Their known limits:
+RLHF (Christiano et al. 2017; Ouyang et al. 2022) and its variants (DPO, Rafailov et al. 2023; Constitutional AI, Bai et al. 2022) are the main practical alignment tools today (see [Large language models](../03-modern-ai/large-language-models.md) and [preference optimization beyond DPO](../03-modern-ai/preference-optimization-beyond-dpo.md)). Their known limits:
 
 - The reward model is itself an imperfect proxy and can be over-optimized. See [Reward models and how they fail](reward-model-failure-modes.md) for the measured over-optimization curves and a catalogue of failure modes.
 - Human raters can be fooled by confident or flattering answers, which can reward **sycophancy**.
