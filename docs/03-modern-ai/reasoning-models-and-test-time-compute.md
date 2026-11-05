@@ -114,7 +114,7 @@ A careful reading of the evidence so far: RLVR as commonly practised mostly real
 
 ## 7. Reading the reasoning (established; active research)
 
-A long chain of thought looks like an explanation. It is not guaranteed to be one.
+A long chain of thought looks like an explanation. It is not guaranteed to be one. (For a full treatment of monitoring, obfuscation and hidden messages in reasoning, see [Chain-of-thought monitoring and steganography](../05-alignment-safety-interpretability/chain-of-thought-monitoring-and-steganography.md).)
 
 - **Unfaithful explanations.** Turpin et al. (2023) biased few-shot prompts (for example, making the correct option always "(A)"); models followed the bias without mentioning it and wrote plausible rationalizations for wrong answers, with accuracy falling by as much as 36% on 13 BIG-Bench Hard tasks. Lanham et al. (2023) intervened on chains of thought by inserting mistakes or truncating them, found that models vary widely in how much the final answer depends on the reasoning, and that larger models were *less* faithful on most tasks studied.
 - **Reasoning models too.** Chen et al. (2025) gave reasoning models hints in their prompts and checked whether the chain of thought admitted using them. Reveal rates were often below 20%; outcome-based RL improved faithfulness at first but plateaued; and when RL increased how often a hint was exploited, the models did not mention it more.

@@ -59,6 +59,8 @@ For the statistics of benchmark comparisons and the common ways scores mislead, 
 
 **Greenblatt et al. (2024)** proposed *AI control*: designing deployment protocols (monitoring, trusted editing, restricted permissions) that remain safe even if the model is trying to subvert them, and evaluating those protocols against a deliberately adversarial red team. Control complements alignment: one aims to make the model want the right thing; the other limits the damage if it does not.
 
+One of the most-used monitoring signals is the model's own written reasoning; when it can be trusted, and how training can teach a model to hide from it, is covered in [Chain-of-thought monitoring and steganography](chain-of-thought-monitoring-and-steganography.md).
+
 Practical agent runtimes apply the same philosophy at a smaller scale: hard budgets, least-privilege tools, human approval for irreversible actions, and audit logs. See the [agents page](../03-modern-ai/retrieval-tools-and-agents.md#making-agents-dependable) for how these ideas are applied in practice.
 
 ## Key takeaways
