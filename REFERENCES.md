@@ -706,6 +706,34 @@ Also cited on this page and listed elsewhere: Leviathan et al. (2023) under *Sys
 
 Also cited on this page and listed elsewhere: Kwon et al. (2023) and Dao et al. (2022) under *Systems*.
 
+## Serving long-reasoning models
+
+- Aggarwal, P., Welleck, S. (2025). *L1: Controlling How Long A Reasoning Model Thinks With Reinforcement Learning*. [arXiv:2503.04697](https://arxiv.org/abs/2503.04697)
+- Agrawal, A., Kedia, N., Panwar, A., Mohan, J., Kwatra, N., Gulavani, B. S., Tumanov, A., et al. (2024). *Taming throughput-latency tradeoff in LLM inference with Sarathi-Serve*. [arXiv:2403.02310](https://arxiv.org/abs/2403.02310)
+- Chen, X., Xu, J., Liang, T., He, Z., Pang, J., Yu, D., Song, L., et al. (2024). *Do NOT Think That Much for 2+3=? On the Overthinking of o1-Like LLMs*. [arXiv:2412.21187](https://arxiv.org/abs/2412.21187)
+- DeepSeek-AI, Guo, D., Yang, D., Zhang, H., Song, J., et al. (2025). *DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning*. [arXiv:2501.12948](https://arxiv.org/abs/2501.12948)
+- Elhoushi, M., Shrivastava, A., Liskovich, D., Hosmer, B., Wasti, B., Lai, L., et al. (2024). *LayerSkip: Enabling early exit inference and self-speculative decoding*. ACL. [arXiv:2404.16710](https://arxiv.org/abs/2404.16710)
+- Fan, S., Jiang, X., Li, X., Meng, X., Han, P., Shang, S., et al. (2024). *Not All Layers of LLMs Are Necessary During Inference*. [arXiv:2403.02181](https://arxiv.org/abs/2403.02181)
+- Kwon, W., Li, Z., Zhuang, S., Sheng, Y., Zheng, L., Yu, C. H., Gonzalez, J. E., et al. (2023). *Efficient memory management for large language model serving with PagedAttention*. SOSP. [arXiv:2309.06180](https://arxiv.org/abs/2309.06180)
+- Li, J., He, X., Li, K., Chai, H., Yu, H., Yuan, Y. (2026). *Efficient Test-Time Scaling via Temporal Reasoning Aggregation*. [arXiv:2604.17304](https://arxiv.org/abs/2604.17304)
+- Liu, Y., Wu, J., He, Y., Gong, R., Xia, J., Li, L., Gao, H., et al. (2025). *Efficient Inference for Large Reasoning Models: A Survey*. [arXiv:2503.23077](https://arxiv.org/abs/2503.23077)
+- Min, D., Vaccarino, G., Chen, H., Wu, Y., Yona, G., Cheng, L., et al. (2026). *Stop When Reasoning Converges: Semantic-Preserving Early Exit for Reasoning Models*. [arXiv:2605.17672](https://arxiv.org/abs/2605.17672)
+- Muennighoff, N., Yang, Z., Shi, W., Li, X. L., Fei-Fei, L., Hajishirzi, H., Zettlemoyer, L., Liang, P. (2025). *s1: Simple test-time scaling*. [arXiv:2501.19393](https://arxiv.org/abs/2501.19393)
+- Patel, P., Choukse, E., Zhang, C., Shah, A., Goiri, Í., Maleki, S., Bianchini, R. (2023). *Splitwise: Efficient generative LLM inference using phase splitting*. [arXiv:2311.18677](https://arxiv.org/abs/2311.18677)
+- Ruan, C., Chen, Y., Tian, D., Shi, Y., Wu, Y., Li, J., et al. (2025). *DynaServe: Unified and Elastic Execution for Dynamic Disaggregated LLM Serving*. [arXiv:2504.09285](https://arxiv.org/abs/2504.09285)
+- Sun, R., Cheng, W., Li, D., Chen, H., Wang, W. (2025). *Stop When Enough: Adaptive Early-Stopping for Chain-of-Thought Reasoning*. [arXiv:2510.10103](https://arxiv.org/abs/2510.10103)
+- Tang, Z., Li, S., Cui, H., Huang, Z., Guo, J., Wang, T., et al. (2026). *LASER: Load-Aware Serving with Early-Exit for Reasoning LLMs at the Edge*. [arXiv:2606.31580](https://arxiv.org/abs/2606.31580)
+- Wang, X., McInerney, J., Wang, L., Kallus, N. (2025). *Entropy After </Think> for reasoning model early exiting*. [arXiv:2509.26522](https://arxiv.org/abs/2509.26522)
+- Wang, Y., Jiang, Y., Cui, B., Fu, F. (2025). *Thinking Short and Right Over Thinking Long: Serving LLM Reasoning Efficiently and Accurately*. [arXiv:2505.13326](https://arxiv.org/abs/2505.13326)
+- Wang, Z., Hong, Z., Li, X., Wang, Z., Li, S., Meng, Q., et al. (2025). *STAR: Decode-Phase Rescheduling for LLM Inference*. [arXiv:2510.13668](https://arxiv.org/abs/2510.13668)
+- Wu, B., Zhong, Y., Zhang, Z., Liu, S., Liu, F., Sun, Y., Huang, G., Liu, X., Jin, X. (2023). *Fast Distributed Inference Serving for Large Language Models*. [arXiv:2305.05920](https://arxiv.org/abs/2305.05920)
+- Wu, Y., Liu, T., Zeng, Y., Wu, S., Xiong, J., Dong, X., et al. (2025). *Arrow: Adaptive Scheduling Mechanisms for Disaggregated LLM Inference Architecture*. [arXiv:2505.11916](https://arxiv.org/abs/2505.11916)
+- Yang, C., Si, Q., Duan, Y., Zhu, Z., Zhu, C., Li, Q., et al. (2025). *Dynamic Early Exit in Reasoning Models*. [arXiv:2504.15895](https://arxiv.org/abs/2504.15895)
+- Yu, G.-I., Jeong, J. S., Kim, G.-W., Kim, S., Chun, B.-G. (2022). *Orca: A Distributed Serving System for Transformer-Based Generative Models*. OSDI. [USENIX](https://www.usenix.org/conference/osdi22/presentation/yu)
+- Zhong, Y., Liu, S., Chen, J., Hu, J., Zhu, Y., Liu, X., Jin, X., Zhang, H. (2024). *DistServe: Disaggregating prefill and decoding for goodput-optimized large language model serving*. OSDI. [arXiv:2401.09670](https://arxiv.org/abs/2401.09670)
+
+Also cited on this page and listed elsewhere: Kwon et al. (2023), Patel et al. (2023), Zhong et al. (2024) and Agrawal et al. (2024) under *KV cache*; Muennighoff et al. (2025) and DeepSeek-AI (2025) under *Reasoning models and test-time compute*; Elhoushi et al. (2024) under *Speculative decoding*.
+
 ## Alignment, safety and interpretability
 
 - Amodei, D., et al. (2016). *Concrete problems in AI safety*. arXiv. [arXiv:1606.06565](https://arxiv.org/abs/1606.06565)

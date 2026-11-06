@@ -8,6 +8,7 @@ Intelligence at scale is an engineering achievement. Frontier models are trained
 | [Inference and efficiency](inference-and-efficiency.md) | KV caching, batching, quantization, distillation, mixture-of-experts, speculative decoding |
 | [The KV cache: paging, sharing and compression](kv-cache.md) | How big the cache gets and why decoding is memory-bound, paging and prefix sharing (tested code), prefill/decode disaggregation, MQA, GQA and latent caches, token eviction versus query-aware selection, 2- and 3-bit quantization, and what compression costs in multi-turn use |
 | [Speculative decoding](speculative-decoding.md) | The draft-and-verify acceptance rule and its exactness proof, the speed-up formula and best draft length (tested code), drafters from small models to Medusa and EAGLE-3, token trees and optimal transport, when batching, long contexts and mixture-of-experts change the answer |
+| [Serving long-reasoning models](serving-long-reasoning-models.md) | Why long CoT breaks classic serving, length budgets and truncation, early exit and overthinking mitigations, continuous batching of long variable outputs (tested code), KV growth, speculation and prefill/decode disaggregation for decode-heavy traffic |
 | [Compilers for machine learning](ml-compilers.md) | Fusion and tiling, IRs and lowering, Halide, TVM, XLA, Triton, MLIR, PyTorch 2, learned schedule search, LLM-written kernels |
 
 ```mermaid

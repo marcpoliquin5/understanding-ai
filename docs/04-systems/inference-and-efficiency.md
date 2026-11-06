@@ -50,6 +50,8 @@ flowchart LR
 
 A small, fast **draft model** proposes several tokens; the large model verifies them in one parallel pass, accepting the longest agreeing prefix. With the acceptance rule of Leviathan, Kalman & Matias (2023), the output distribution is **exactly** that of the large model, while wall-clock time drops. The full story, with the exactness proof, the speed-up formula, a tested sketch and the drafter zoo from Medusa to EAGLE-3, is on [speculative decoding](speculative-decoding.md).
 
+Reasoning models that emit thousands of chain-of-thought tokens change the serving mix: decode dominates, lengths are heavy-tailed, and length budgets plus early exit become first-class controls. That systems story is on [serving long-reasoning models](serving-long-reasoning-models.md).
+
 ## Long context
 
 Techniques for longer contexts include efficient attention kernels, positional schemes that extrapolate (such as RoPE scaling variants), and sub-quadratic architectures like [state-space models](../02-deep-learning/architectures.md#state-space-models).

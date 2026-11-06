@@ -2,6 +2,15 @@
 
 Understanding AI grows daily. Each entry records what was added or changed, newest first. See [docs/DAILY_UPDATES.md](docs/DAILY_UPDATES.md) for how updates work.
 
+## 2026-11-05 (evening): Serving long-reasoning models
+
+- **Systems**: new page [Serving long-reasoning models](docs/04-systems/serving-long-reasoning-models.md): why long chain-of-thought breaks classic serving (decode-heavy, heavy-tailed lengths, KV growth, TTFT vs TPOT); length budgets and truncation risk (overthinking, s1 budget forcing, L1/LCPO); inference-time early exit (DEER, EAT, REFRAIN, PUMA, TRACE, load-aware LASER) and multi-branch serving (SART); continuous / iteration-level batching (Orca) and long-decode scheduling (STAR, Arrow, DynaServe); KV arithmetic and paging vs max-token reservation; speculative decoding and prefill/decode disaggregation under reasoning traffic; a status table; and a labelled speculative section on fleet-wide stopping control.
+- **Tested sketch**: four NumPy experiments. Under a 70/30 short/long length mix, continuous batching reaches **16.2×** the throughput of static request-level batches sized for `max_tokens=4096` (only 16 reserved slots) with mean latency equal to mean length (805 vs 214,901 under static head-of-line blocking); hard budgets climb from accuracy 0.157 at 128 tokens to 0.984 at 4,096 then stall while an oracle stop at $T^\star$ uses 1,214 tokens against 2,260 unbounded; noisy confidence early exit trades accuracy 0.497→0.997 for token savings 46%→31% as $\tau$ rises from 0.50 to 0.99; and KV capacity on an illustrative 80 GiB / 128 KiB-per-token layout falls from batch 1,056 at 512 context to 33 at 16,384, with max-token reservation wasting **4.0×** memory versus paging on the same mix.
+- **References**: new *Serving long-reasoning models* section with 23 entries, each checked against its arXiv abstract page or the USENIX OSDI page for Orca; several overlap *KV cache*, *Reasoning models* and *Speculative decoding*.
+- **Glossary**: added *Continuous batching*, *Early exit (reasoning)*, *Goodput (LLM serving)*, *Iteration-level scheduling*, *Length budget*, *Overthinking (reasoning models)* and *TPOT*.
+- **Linked** from the Systems index, the inference page, the reasoning-models overthinking note, the README field map, contents table, What's new and software-engineer reading path.
+- **Backlog**: ticked the serving long-reasoning models item; added open items on inference-time routing across model sizes and on prefix-aware multi-sample reasoning serving.
+
 ## 2026-11-05: Preference optimization beyond DPO
 
 - **Modern AI**: new page [Preference optimization beyond DPO](docs/03-modern-ai/preference-optimization-beyond-dpo.md): recap of RLHF → DPO; three failure modes (deterministic overfitting, length confounds, likelihood displacement / CHES); IPO and $\Psi$PO; KTO and human-aware losses; SimPO and ORPO (reference-free); CPO and GPO; online and iterative DPO, OAIF, self-rewarding LMs, Direct Nash Optimization and Nash learning from human feedback; RPO unification; a practitioner's chooser; status table; and a labelled speculative section on active preference collection and hybrid verifiable rewards.
@@ -271,5 +280,8 @@ Planned topics, roughly in rotation order:
 - [x] Foundations: information theory for machine learning (entropy, KL, mutual information) (2026-11-03)
 - [x] Modern AI: reasoning models, RL with verifiable rewards and test-time compute (2026-11-04)
 - [x] Modern AI: preference optimization beyond DPO (IPO, KTO, SimPO, online DPO) (2026-11-05)
-- [ ] Systems: serving long-reasoning models (length budgets, early exit, batching long outputs)
+- [x] Systems: serving long-reasoning models (length budgets, early exit, batching long outputs) (2026-11-05 evening)
+- [ ] Systems: inference-time routing across model sizes (RouteLLM-style routers, cascade serving)
+- [ ] Systems: prefix-aware multi-sample reasoning serving (shared KV for best-of-N / self-consistency)
+- [ ] Frontiers: evaluation under distribution shift for scientific ML emulators
 - [x] Alignment: chain-of-thought monitoring and steganography
