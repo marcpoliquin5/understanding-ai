@@ -30,6 +30,8 @@ Every source cited in Understanding AI, grouped by section. Each entry links to 
 - [Systems](#systems)
 - [Speculative decoding](#speculative-decoding)
 - [KV cache](#kv-cache)
+- [Serving long-reasoning models](#serving-long-reasoning-models)
+- [Inference-time routing](#inference-time-routing)
 - [Alignment, safety and interpretability](#alignment-safety-and-interpretability)
 - [Sparse autoencoders and dictionary learning](#sparse-autoencoders-and-dictionary-learning)
 - [Reward models and their failure modes](#reward-models-and-their-failure-modes)
@@ -733,6 +735,24 @@ Also cited on this page and listed elsewhere: Kwon et al. (2023) and Dao et al. 
 - Zhong, Y., Liu, S., Chen, J., Hu, J., Zhu, Y., Liu, X., Jin, X., Zhang, H. (2024). *DistServe: Disaggregating prefill and decoding for goodput-optimized large language model serving*. OSDI. [arXiv:2401.09670](https://arxiv.org/abs/2401.09670)
 
 Also cited on this page and listed elsewhere: Kwon et al. (2023), Patel et al. (2023), Zhong et al. (2024) and Agrawal et al. (2024) under *KV cache*; Muennighoff et al. (2025) and DeepSeek-AI (2025) under *Reasoning models and test-time compute*; Elhoushi et al. (2024) under *Speculative decoding*.
+
+## Inference-time routing
+
+- Aggarwal, P., Madaan, A., Anand, A., Potharaju, S. P., Mishra, S., Zhou, P., Gupta, A., et al. (2024). *AutoMix: Automatically Mixing Language Models*. NeurIPS. [arXiv:2310.12963](https://arxiv.org/abs/2310.12963)
+- Chen, L., Zaharia, M., Zou, J. (2023). *FrugalGPT: How to Use Large Language Models While Reducing Cost and Improving Performance*. TMLR 2024. [arXiv:2305.05176](https://arxiv.org/abs/2305.05176)
+- Dekoninck, J., Baader, M., Vechev, M. (2024). *A Unified Approach to Routing and Cascading for LLMs*. ICML 2025. [arXiv:2410.10347](https://arxiv.org/abs/2410.10347)
+- Ding, D., Mallick, A., Wang, C., Sim, R., Mukherjee, S., Rühle, V., Lakshmanan, L. V. S., Awadallah, A. H. (2024). *Hybrid LLM: Cost-Efficient and Quality-Aware Query Routing*. ICLR. [arXiv:2404.14618](https://arxiv.org/abs/2404.14618)
+- Gupta, N., Narasimhan, H., Jitkrittum, W., Rawat, A. S., Menon, A. K., Kumar, S. (2024). *Language Model Cascades: Token-level Uncertainty and Beyond*. ICLR. [arXiv:2404.10136](https://arxiv.org/abs/2404.10136)
+- Hu, Q. J., Bieker, J., Li, X., Jiang, N., Keigwin, B., Ranganath, G., Keutzer, K., Upadhyay, S. K. (2024). *RouterBench: A Benchmark for Multi-LLM Routing System*. [arXiv:2403.12031](https://arxiv.org/abs/2403.12031)
+- Jiang, D., Ren, X., Lin, B. Y. (2023). *LLM-Blender: Ensembling Large Language Models with Pairwise Ranking and Generative Fusion*. ACL. [arXiv:2306.02561](https://arxiv.org/abs/2306.02561)
+- Jiang, Y., Fu, F., Zhao, W., Rabanser, S., Zhang, J., Lane, N. D., Yuan, B. (2025). *Cascadia: An Efficient Cascade Serving System for Large Language Models*. [arXiv:2506.04203](https://arxiv.org/abs/2506.04203)
+- Lu, K., Yuan, H., Lin, R., Lin, J., Yuan, Z., Zhou, C., Zhou, J. (2023). *Routing to the Expert: Efficient Reward-Guided Ensemble of Large Language Models*. NAACL 2024. [arXiv:2311.08692](https://arxiv.org/abs/2311.08692)
+- Ong, I., Almahairi, A., Wu, V., Chiang, W.-L., Wu, T., Gonzalez, J. E., Kadous, M. W., Stoica, I. (2024). *RouteLLM: Learning to Route LLMs with Preference Data*. [arXiv:2406.18665](https://arxiv.org/abs/2406.18665)
+- Shnitzer, T., Ou, A., Silva, M., Soule, K., Sun, Y., Solomon, J., Thompson, N., Yurochkin, M. (2023). *Large Language Model Routing with Benchmark Datasets*. [arXiv:2309.15789](https://arxiv.org/abs/2309.15789)
+- Yue, M., Zhao, J., Zhang, M., Du, L., Yao, Z. (2024). *Large Language Model Cascades with Mixture of Thought Representations for Cost-Efficient Reasoning*. ICLR. [arXiv:2310.03094](https://arxiv.org/abs/2310.03094)
+- Šakota, M., Peyrard, M., West, R. (2024). *Fly-swat or cannon? Cost-effective language model choice via meta-modeling*. WSDM. [arXiv:2308.06077](https://arxiv.org/abs/2308.06077)
+
+Also cited on this page and listed elsewhere: Leviathan et al. (2023) under *Speculative decoding*; Kwon et al. (2023) under *Systems*.
 
 ## Alignment, safety and interpretability
 

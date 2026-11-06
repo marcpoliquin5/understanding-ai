@@ -2,6 +2,15 @@
 
 Understanding AI grows daily. Each entry records what was added or changed, newest first. See [docs/DAILY_UPDATES.md](docs/DAILY_UPDATES.md) for how updates work.
 
+## 2026-11-06: Inference-time routing across model sizes
+
+- **Systems**: new page [Inference-time routing across model sizes](docs/04-systems/inference-time-routing.md): the quality–cost dilemma across model sizes; routing (RouteLLM, Hybrid LLM, Zooter) with PGR and CPT metrics; cascading (FrugalGPT, Yue et al. mixture-of-thoughts, AutoMix); cascade routing (Dekoninck et al.) and cascade serving (CASCADIA); a status table; and a labelled speculative section on load-aware thresholds and route-then-speculate.
+- **Tested sketch**: four NumPy experiments. Small alone accuracy 0.753 / cost 1.0 against large alone 0.851 / 20; an oracle that escalates only when the large model uniquely succeeds reaches 0.960 at 20.7% large calls (cost 4.94); a noisy difficulty router recovers **70%** of the quality gap at 50% large calls (cost 10.5); cascades that always pay the small model reach similar accuracy at higher cost; and a 32-GPU pool with an 8× large/small size ratio serves **4.7×** more concurrent requests at 10% large traffic than all-large.
+- **References**: new *Inference-time routing* section with 13 entries, each checked against its arXiv abstract page.
+- **Glossary**: added *Call–performance threshold (CPT)*, *Cascade (LLM)*, *Cascade routing*, *Ex-ante quality estimation*, *Performance gap recovered (PGR)* and *Router (inference)*; distinguished from the MoE gating-network router.
+- **Linked** from the Systems index, the inference page, the README field map, contents table, What's new and software-engineer reading path.
+- **Backlog**: ticked the inference-time routing item.
+
 ## 2026-11-05 (evening): Serving long-reasoning models
 
 - **Systems**: new page [Serving long-reasoning models](docs/04-systems/serving-long-reasoning-models.md): why long chain-of-thought breaks classic serving (decode-heavy, heavy-tailed lengths, KV growth, TTFT vs TPOT); length budgets and truncation risk (overthinking, s1 budget forcing, L1/LCPO); inference-time early exit (DEER, EAT, REFRAIN, PUMA, TRACE, load-aware LASER) and multi-branch serving (SART); continuous / iteration-level batching (Orca) and long-decode scheduling (STAR, Arrow, DynaServe); KV arithmetic and paging vs max-token reservation; speculative decoding and prefill/decode disaggregation under reasoning traffic; a status table; and a labelled speculative section on fleet-wide stopping control.
@@ -281,7 +290,7 @@ Planned topics, roughly in rotation order:
 - [x] Modern AI: reasoning models, RL with verifiable rewards and test-time compute (2026-11-04)
 - [x] Modern AI: preference optimization beyond DPO (IPO, KTO, SimPO, online DPO) (2026-11-05)
 - [x] Systems: serving long-reasoning models (length budgets, early exit, batching long outputs) (2026-11-05 evening)
-- [ ] Systems: inference-time routing across model sizes (RouteLLM-style routers, cascade serving)
+- [x] Systems: inference-time routing across model sizes (RouteLLM-style routers, cascade serving) (2026-11-06)
 - [ ] Systems: prefix-aware multi-sample reasoning serving (shared KV for best-of-N / self-consistency)
 - [ ] Frontiers: evaluation under distribution shift for scientific ML emulators
 - [x] Alignment: chain-of-thought monitoring and steganography

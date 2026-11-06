@@ -52,6 +52,10 @@ A small, fast **draft model** proposes several tokens; the large model verifies 
 
 Reasoning models that emit thousands of chain-of-thought tokens change the serving mix: decode dominates, lengths are heavy-tailed, and length budgets plus early exit become first-class controls. That systems story is on [serving long-reasoning models](serving-long-reasoning-models.md).
 
+## Routing across model sizes
+
+When several model sizes are available, a **router** can send easy queries to a cheap model and hard ones to a strong one, or a **cascade** can try cheap first and escalate on low confidence. Preference-trained routers (RouteLLM), API cascades (FrugalGPT) and joint cascade-serving schedulers are covered on [inference-time routing](inference-time-routing.md).
+
 ## Long context
 
 Techniques for longer contexts include efficient attention kernels, positional schemes that extrapolate (such as RoPE scaling variants), and sub-quadratic architectures like [state-space models](../02-deep-learning/architectures.md#state-space-models).
@@ -61,3 +65,4 @@ Techniques for longer contexts include efficient attention kernels, positional s
 - Decoding is limited by memory bandwidth, so reducing bytes per token (quantization, batching, caching) is the main lever.
 - MoE and distillation decouple capability from per-token cost.
 - Speculative decoding speeds up generation without changing the output distribution.
+- Routing and cascading across model sizes cut cost when quality estimators are good enough to spot easy queries.
