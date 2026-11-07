@@ -754,6 +754,26 @@ Also cited on this page and listed elsewhere: Kwon et al. (2023), Patel et al. (
 
 Also cited on this page and listed elsewhere: Leviathan et al. (2023) under *Speculative decoding*; Kwon et al. (2023) under *Systems*.
 
+
+## Prefix-aware multi-sample serving
+
+- Aggarwal, P., Madaan, A., Yang, Y., Mausam. (2023). *Let's Sample Step by Step: Adaptive-Consistency for Efficient Reasoning and Coding with LLMs*. EMNLP. [arXiv:2305.11860](https://arxiv.org/abs/2305.11860)
+- Brown, B., Juravsky, J., Ehrlich, R., et al. (2024). *Large Language Monkeys: Scaling Inference Compute with Repeated Sampling*. [arXiv:2407.21787](https://arxiv.org/abs/2407.21787)
+- Cobbe, K., Kosaraju, V., Bavarian, M., et al. (2021). *Training Verifiers to Solve Math Word Problems*. [arXiv:2110.14168](https://arxiv.org/abs/2110.14168)
+- Gim, I., Chen, G., Lee, S., Sarda, N., Khandelwal, A., Zhong, L. (2023). *Prompt Cache: Modular Attention Reuse for Low-Latency Inference*. MLSys 2024. [arXiv:2311.04934](https://arxiv.org/abs/2311.04934)
+- Juravsky, J., Brown, B., Ehrlich, R., Fu, D. Y., Ré, C., Mirhoseini, A. (2024). *Hydragen: High-Throughput LLM Inference with Shared Prefixes*. [arXiv:2402.05099](https://arxiv.org/abs/2402.05099)
+- Kwon, W., Li, Z., Zhuang, S., Sheng, Y., Zheng, L., Yu, C. H., Gonzalez, J. E., et al. (2023). *Efficient memory management for large language model serving with PagedAttention*. SOSP. [arXiv:2309.06180](https://arxiv.org/abs/2309.06180)
+- Li, Y., Shi, J., Feng, S., Yuan, P., Wang, X., Zhang, Y., Zhang, J., Tan, C., Pan, B., Hu, Y., Li, K. (2025). *Speculative Decoding for Multi-Sample Inference*. [arXiv:2503.05330](https://arxiv.org/abs/2503.05330)
+- Wang, X., Wei, J., Schuurmans, D., Le, Q., Chi, E., Narang, S., Chowdhery, A., Zhou, D. (2022). *Self-Consistency Improves Chain of Thought Reasoning in Language Models*. ICLR 2023. [arXiv:2203.11171](https://arxiv.org/abs/2203.11171)
+- Wang, Y., Jiang, Y., Cui, B., Fu, F. (2025). *Thinking Short and Right Over Thinking Long: Serving LLM Reasoning Efficiently and Accurately*. [arXiv:2505.13326](https://arxiv.org/abs/2505.13326)
+- Yao, J., Chen, K., Zhang, K., You, J., Yuan, B., Wang, Z., Lin, T. (2024). *DeFT: Decoding with Flash Tree-Attention for Efficient Tree-structured LLM Inference*. [arXiv:2404.00242](https://arxiv.org/abs/2404.00242)
+- Yao, S., Yu, D., Zhao, J., Shafran, I., Griffiths, T. L., Cao, Y., Narasimhan, K. (2023). *Tree of Thoughts: Deliberate Problem Solving with Large Language Models*. NeurIPS. [arXiv:2305.10601](https://arxiv.org/abs/2305.10601)
+- Ye, L., Tao, Z., Huang, Y., Li, Y. (2024). *ChunkAttention: Efficient Self-Attention with Prefix-Aware KV Cache and Two-Phase Partition*. ACL. [arXiv:2402.15220](https://arxiv.org/abs/2402.15220)
+- Zheng, L., Yin, L., Xie, Z., Sun, C., Huang, J., Yu, C. H., Cao, S., et al. (2023). *SGLang: Efficient Execution of Structured Language Model Programs*. [arXiv:2312.07104](https://arxiv.org/abs/2312.07104)
+- Zheng, Z., Ji, X., Fang, T., Zhou, F., Liu, C., Peng, G. (2024). *BatchLLM: Optimizing Large Batched LLM Inference with Global Prefix Sharing and Throughput-oriented Token Batching*. MLSys 2026. [arXiv:2412.03594](https://arxiv.org/abs/2412.03594)
+
+Also cited on this page and listed elsewhere: Kwon et al. (2023), Gim et al. (2023), Ye et al. (2024) and Zheng et al. (2023) under *KV cache*; Wang et al. (2025) SART under *Serving long-reasoning models*; Brown et al. (2024) under *Code generation and program synthesis*; Leviathan et al. (2023) under *Speculative decoding*.
+
 ## Alignment, safety and interpretability
 
 - Amodei, D., et al. (2016). *Concrete problems in AI safety*. arXiv. [arXiv:1606.06565](https://arxiv.org/abs/1606.06565)

@@ -10,6 +10,7 @@ Intelligence at scale is an engineering achievement. Frontier models are trained
 | [Speculative decoding](speculative-decoding.md) | The draft-and-verify acceptance rule and its exactness proof, the speed-up formula and best draft length (tested code), drafters from small models to Medusa and EAGLE-3, token trees and optimal transport, when batching, long contexts and mixture-of-experts change the answer |
 | [Serving long-reasoning models](serving-long-reasoning-models.md) | Why long CoT breaks classic serving, length budgets and truncation, early exit and overthinking mitigations, continuous batching of long variable outputs (tested code), KV growth, speculation and prefill/decode disaggregation for decode-heavy traffic |
 | [Inference-time routing across model sizes](inference-time-routing.md) | RouteLLM-style routers and FrugalGPT-style cascades, PGR and CPT metrics, AutoMix and cascade routing, GPU-pool capacity under size mix (tested code), and co-optimised cascade serving |
+| [Prefix-aware multi-sample serving](prefix-aware-multi-sample-serving.md) | Shared KV for Best-of-N and self-consistency, Hydragen-style prefix attention (tested code), BatchLLM group scheduling, Adaptive-Consistency sample budgets |
 | [Compilers for machine learning](ml-compilers.md) | Fusion and tiling, IRs and lowering, Halide, TVM, XLA, Triton, MLIR, PyTorch 2, learned schedule search, LLM-written kernels |
 
 ```mermaid

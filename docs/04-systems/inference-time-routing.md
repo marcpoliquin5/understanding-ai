@@ -204,6 +204,6 @@ Routers today are mostly request-local. Serving cares about the *fleet*: queue d
 - Ding et al. (2024), *Hybrid LLM*; Aggarwal et al. (2024), *AutoMix*; Yue et al. (2024), mixture-of-thoughts cascades.
 - Hu et al. (2024), *RouterBench*; Dekoninck, Baader and Vechev (2024), *cascade routing*.
 - Jiang et al. (2025), *CASCADIA*: cascade serving with joint deployment and routing.
-- Related pages: [Inference and efficiency](inference-and-efficiency.md), [Speculative decoding](speculative-decoding.md), [Serving long-reasoning models](serving-long-reasoning-models.md), [Reasoning models](../03-modern-ai/reasoning-models-and-test-time-compute.md).
+- Related pages: [Inference and efficiency](inference-and-efficiency.md), [Speculative decoding](speculative-decoding.md), [Serving long-reasoning models](serving-long-reasoning-models.md), [Prefix-aware multi-sample serving](prefix-aware-multi-sample-serving.md), [Reasoning models](../03-modern-ai/reasoning-models-and-test-time-compute.md).
 
 Full citations for every source on this page are in [REFERENCES.md](../../REFERENCES.md#inference-time-routing).

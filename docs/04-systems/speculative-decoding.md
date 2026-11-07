@@ -251,6 +251,9 @@ The acceptance rule asks only two things of the target: its probabilities on the
 
 ## Further reading
 
+- Companion: [Prefix-aware multi-sample serving](prefix-aware-multi-sample-serving.md).
+
+
 - Stern, M., Shazeer, N., Uszkoreit, J. (2018). *Blockwise parallel decoding for deep autoregressive models*. NeurIPS. [arXiv:1811.03115](https://arxiv.org/abs/1811.03115)
 - Leviathan, Y., Kalman, M., Matias, Y. (2023). *Fast inference from transformers via speculative decoding*. ICML. [arXiv:2211.17192](https://arxiv.org/abs/2211.17192)
 - Chen, C., Borgeaud, S., Irving, G., Lespiau, J.-B., Sifre, L., Jumper, J. (2023). *Accelerating large language model decoding with speculative sampling*. [arXiv:2302.01318](https://arxiv.org/abs/2302.01318)

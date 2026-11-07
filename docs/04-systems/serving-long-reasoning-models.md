@@ -284,6 +284,6 @@ Early-exit papers mostly optimize one request. Serving cares about the *fleet*: 
 - Yang et al. (2025), *DEER*; Wang et al. (2025), *EAT* and *SART*; Sun et al. (2025), *REFRAIN*: inference-time early exit.
 - Wang et al. (2025), *STAR*; Wu et al. (2025), *Arrow*; Tang et al. (2026), *LASER*: decode scheduling and load-aware exit.
 - Liu et al. (2025), *Efficient Inference for Large Reasoning Models*: survey.
-- Related pages: [Reasoning models](../03-modern-ai/reasoning-models-and-test-time-compute.md), [KV cache](kv-cache.md), [Speculative decoding](speculative-decoding.md), [Inference and efficiency](inference-and-efficiency.md).
+- Related pages: [Reasoning models](../03-modern-ai/reasoning-models-and-test-time-compute.md), [KV cache](kv-cache.md), [Speculative decoding](speculative-decoding.md), [Prefix-aware multi-sample serving](prefix-aware-multi-sample-serving.md), [Inference and efficiency](inference-and-efficiency.md).
 
 Full citations for every source on this page are in [REFERENCES.md](../../REFERENCES.md#serving-long-reasoning-models).

@@ -254,5 +254,6 @@ Two cautions keep this honest. First, the asymmetry holds only for exact checker
 - Snell, C., et al. (2024). *Scaling LLM test-time compute optimally can be more effective than scaling model parameters*. [arXiv:2408.03314](https://arxiv.org/abs/2408.03314)
 - Yue, Y., et al. (2025). *Does reinforcement learning really incentivize reasoning capacity in LLMs beyond the base model?* [arXiv:2504.13837](https://arxiv.org/abs/2504.13837)
 - Chen, Y., et al. (2025). *Reasoning models don't always say what they think*. [arXiv:2505.05410](https://arxiv.org/abs/2505.05410)
+- Systems companion: [Prefix-aware multi-sample serving](../04-systems/prefix-aware-multi-sample-serving.md) — shared KV and Hydragen-style attention when Best-of-N samples share a prompt.
 
 Full citations for every source on this page are in [REFERENCES.md](../../REFERENCES.md#reasoning-models-and-test-time-compute).

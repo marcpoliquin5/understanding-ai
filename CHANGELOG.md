@@ -2,6 +2,14 @@
 
 Understanding AI grows daily. Each entry records what was added or changed, newest first. See [docs/DAILY_UPDATES.md](docs/DAILY_UPDATES.md) for how updates work.
 
+## 2026-11-06 (evening): Prefix-aware multi-sample reasoning serving
+
+- **Systems**: new page [Prefix-aware multi-sample reasoning serving](docs/04-systems/prefix-aware-multi-sample-serving.md): why Best-of-N and self-consistency are a serving problem (repeated prefill, duplicated prompt KV, *N* prefix reads per decode step); shared storage via PagedAttention, Prompt Cache, RadixAttention and ChunkAttention; Hydragen's exact attention decomposition and inter-sequence batched prefix reads (up to 32× decode throughput; hierarchical sharing −55% on APPS) and DeFT's tree generalisation; BatchLLM's explicit prefix-sharing groups and memory-centric token batching (1.3–10.8× over vLLM/SGLang); Adaptive-Consistency's Beta early stop (~3.3× fewer samples), SART's multi-branch early stop, and cross-path speculative decoding; a tested four-part NumPy sketch where sharing a 2,048-token prompt across 64 samples cuts KV **4.7×**, a Hydragen-style read proxy saves **21.9×** at *T*=128 (shrinking to 8.0× at *T*=512), adaptive majority vote matches fixed-*N*=40 accuracy at **16.7** mean samples (**2.4×**), and a 1M-token pool holds **4.7×** more *N*=64 jobs; an honest status table; and a clearly labelled speculative section on multi-sample requests as first-class schedulable objects.
+- **References**: new *Prefix-aware multi-sample serving* section with 14 entries, each checked against its arXiv abstract page (Hydragen, BatchLLM, Adaptive-Consistency, DeFT, multi-sample speculative decoding, and cross-listed self-consistency / Monkeys / PagedAttention / SGLang / Prompt Cache / ChunkAttention / SART sources).
+- **Glossary**: added *Prefix-aware multi-sample serving*, *Self-consistency (decoding)*, *Best-of-N*, and *Hydragen attention*.
+- **Linked** from the Systems index, the README field map, contents table, software-engineer reading path and What's new, and from the KV cache, serving long-reasoning, speculative decoding and inference-time routing pages.
+- **Backlog**: ticked the prefix-aware multi-sample reasoning serving item; added an open item on tool-augmented / agent serving (session state, sandbox pools, multi-turn KV).
+
 ## 2026-11-06: Inference-time routing across model sizes
 
 - **Systems**: new page [Inference-time routing across model sizes](docs/04-systems/inference-time-routing.md): the quality–cost dilemma across model sizes; routing (RouteLLM, Hybrid LLM, Zooter) with PGR and CPT metrics; cascading (FrugalGPT, Yue et al. mixture-of-thoughts, AutoMix); cascade routing (Dekoninck et al.) and cascade serving (CASCADIA); a status table; and a labelled speculative section on load-aware thresholds and route-then-speculate.
@@ -291,6 +299,7 @@ Planned topics, roughly in rotation order:
 - [x] Modern AI: preference optimization beyond DPO (IPO, KTO, SimPO, online DPO) (2026-11-05)
 - [x] Systems: serving long-reasoning models (length budgets, early exit, batching long outputs) (2026-11-05 evening)
 - [x] Systems: inference-time routing across model sizes (RouteLLM-style routers, cascade serving) (2026-11-06)
-- [ ] Systems: prefix-aware multi-sample reasoning serving (shared KV for best-of-N / self-consistency)
+- [x] Systems: prefix-aware multi-sample reasoning serving (shared KV for best-of-N / self-consistency) (2026-11-06 evening)
+- [ ] Systems: tool-augmented / agent serving (session state, sandbox pools, multi-turn tool-call KV)
 - [ ] Frontiers: evaluation under distribution shift for scientific ML emulators
 - [x] Alignment: chain-of-thought monitoring and steganography
