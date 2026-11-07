@@ -48,6 +48,7 @@ Every source cited in Understanding AI, grouped by section. Each entry links to 
 - [Frontiers: quantum machine learning](#frontiers-quantum-machine-learning)
 - [Frontiers: causal representation learning](#frontiers-causal-representation-learning)
 - [Frontiers: world models](#frontiers-world-models)
+- [Frontiers: distribution shift in scientific emulators](#frontiers-distribution-shift-in-scientific-emulators)
 
 ## Textbooks
 
@@ -1311,3 +1312,25 @@ Kirkpatrick et al. (2017) is already listed in another section.
 - Ha, D., Schmidhuber, J. (2018). *World models*. arXiv. [arXiv:1803.10122](https://arxiv.org/abs/1803.10122)
 - Hafner, D., Pasukonis, J., Ba, J., Lillicrap, T. (2023). *Mastering diverse domains through world models*. arXiv. [arXiv:2301.04104](https://arxiv.org/abs/2301.04104)
 - LeCun, Y. (2022). *A path towards autonomous machine intelligence*. OpenReview. [Link](https://openreview.net/forum?id=BZ5a1r-kVsf)
+
+## Frontiers: distribution shift in scientific emulators
+
+Each entry checked against its arXiv abstract page or Crossref; Gneiting and Raftery (2007) is listed under *AI for science*.
+
+- Angelopoulos, A. N., Bates, S. (2021). *A Gentle Introduction to Conformal Prediction and Distribution-Free Uncertainty Quantification*. [arXiv:2107.07511](https://arxiv.org/abs/2107.07511)
+- Bonavita, M. (2023). *On some limitations of data-driven weather forecasting models*. [arXiv:2309.08473](https://arxiv.org/abs/2309.08473)
+- Deng, B., Choi, Y., Zhong, P., Riebesell, J., Anand, S., Li, Z., Jun, K., Persson, K. A., Ceder, G. (2024). *Overcoming systematic softening in universal machine learning interatomic potentials by fine-tuning*. [arXiv:2405.07105](https://arxiv.org/abs/2405.07105)
+- Ferro, C. A. T. (2014). *Fair scores for ensemble forecasts*. Quarterly Journal of the Royal Meteorological Society 140, 1917–1923. [doi:10.1002/qj.2270](https://doi.org/10.1002/qj.2270)
+- Hakim, G. J., Agrawal, A. (2026). *Gray Swan Factory: Making Extreme Events from Ordinary Cyclones*. [arXiv:2604.00348](https://arxiv.org/abs/2604.00348)
+- Koh, P. W., Sagawa, S., Marklund, H., Xie, S. M., et al. (2020). *WILDS: A Benchmark of in-the-Wild Distribution Shifts*. ICML 2021. [arXiv:2012.07421](https://arxiv.org/abs/2012.07421)
+- Kreiman, T., Krishnapriyan, A. S. (2025). *Understanding and Mitigating Distribution Shifts For Machine Learning Force Fields*. [arXiv:2503.08674](https://arxiv.org/abs/2503.08674)
+- Lerch, S., Thorarinsdottir, T. L., Ravazzolo, F., Gneiting, T. (2017). *Forecaster's Dilemma: Extreme Events and Forecast Evaluation*. Statistical Science 32(1). [arXiv:1512.09244](https://arxiv.org/abs/1512.09244)
+- McGreivy, N., Hakim, A. (2024). *Weak baselines and reporting biases lead to overoptimism in machine learning for fluid-related partial differential equations*. [arXiv:2407.07218](https://arxiv.org/abs/2407.07218)
+- Riebesell, J., Goodall, R. E. A., Benner, P., Chiang, Y., Deng, B., Ceder, G., Asta, M., Lee, A. A., Jain, A., Persson, K. A. (2023). *Matbench Discovery: A framework to evaluate machine learning crystal stability predictions*. [arXiv:2308.14920](https://arxiv.org/abs/2308.14920)
+- Sun, Y. Q., Hassanzadeh, P., Zand, M., Chattopadhyay, A., Weare, J., Abbot, D. S. (2024). *Can AI weather models predict out-of-distribution gray swan tropical cyclones?* [arXiv:2410.14932](https://arxiv.org/abs/2410.14932)
+- Tibshirani, R. J., Barber, R. F., Candès, E. J., Ramdas, A. (2019). *Conformal Prediction Under Covariate Shift*. NeurIPS 2019. [arXiv:1904.06019](https://arxiv.org/abs/1904.06019)
+- Watson-Parris, D., Rao, Y., Olivié, D., Seland, Ø., Nowack, P., et al. (2022). *ClimateBench v1.0: A Benchmark for Data-Driven Climate Projections*. Journal of Advances in Modeling Earth Systems 14. [doi:10.1029/2021MS002954](https://doi.org/10.1029/2021MS002954)
+- Watson-Parris, D., Tobin, W., Paçal, A., Schlund, M., Balaji, V., et al. (2026). *ClimateBench v2.0: Probabilistic Climate Model Benchmarking*. [arXiv:2610.04558](https://arxiv.org/abs/2610.04558)
+- Watt-Meyer, O., Dresdner, G., McGibbon, J., Clark, S. K., Henn, B., et al. (2023). *ACE: A fast, skillful learned global atmospheric model for climate prediction*. [arXiv:2310.02074](https://arxiv.org/abs/2310.02074)
+- Wessel, J. B., Spuler, F., Ferro, C. A. T., Kretschmer, M., Sippel, S. (2026). *Probabilistic AI models outperform numerical weather prediction models on record breaking heat extremes*. [arXiv:2610.20519](https://arxiv.org/abs/2610.20519)
+- Zhang, Z., Fischer, E., Zscheischler, J., Engelke, S. (2025). *Numerical models outperform AI weather forecasts of record-breaking extremes*. [arXiv:2508.15724](https://arxiv.org/abs/2508.15724)

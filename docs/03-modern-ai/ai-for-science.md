@@ -148,6 +148,8 @@ What the numbers show:
 
 This is the reason the field moved from deterministic MSE-trained emulators toward generative ensembles: the summary score that first made machine-learned forecasts look best was partly rewarding a loss of realism.
 
+How these emulators behave on events *outside* their training data, such as gray-swan cyclones and record-breaking heat, and how to score them fairly there, is the subject of [Evaluating scientific ML emulators under distribution shift](../06-frontiers/distribution-shift-in-scientific-emulators.md).
+
 ## 7. Cross-cutting tools (established, with uneven maturity)
 
 - **Neural operators** learn a map from one function to another, such as from an initial condition to the solution of a partial differential equation, instead of solving one instance. The Fourier neural operator parameterizes the integral kernel in Fourier space and reported up to three orders of magnitude speed-ups over traditional solvers on Burgers, Darcy and Navier–Stokes problems (Li et al., 2020). FourCastNet is one descendant.
