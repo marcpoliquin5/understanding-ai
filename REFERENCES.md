@@ -775,6 +775,19 @@ Also cited on this page and listed elsewhere: Leviathan et al. (2023) under *Spe
 
 Also cited on this page and listed elsewhere: Kwon et al. (2023), Gim et al. (2023), Ye et al. (2024) and Zheng et al. (2023) under *KV cache*; Wang et al. (2025) SART under *Serving long-reasoning models*; Brown et al. (2024) under *Code generation and program synthesis*; Leviathan et al. (2023) under *Speculative decoding*.
 
+## Serving tool-augmented agents
+
+- Abhyankar, R., He, Z., Srivatsa, V., Zhang, H., Zhang, Y. (2024). *InferCept: Efficient Intercept Support for Augmented Large Language Model Inference*. ICML. [arXiv:2402.01869](https://arxiv.org/abs/2402.01869)
+- Dong, Y., Ruan, C. F., Cai, Y., Lai, R., Xu, Z., Zhao, Y., Chen, T. (2025). *XGrammar: Flexible and Efficient Structured Generation Engine For Large Language Models*. MLSys. [arXiv:2411.15100](https://arxiv.org/abs/2411.15100)
+- Li, H., He, R., Mang, Q., Zhang, Q., Mao, H., Chen, X., Zhou, H., Zhang, H., Cheung, A., Gonzalez, J., Stoica, I. (2025). *Continnum: Efficient and Robust Multi-Turn LLM Agent Scheduling with KV Cache Time-to-Live*. [arXiv:2511.02230](https://arxiv.org/abs/2511.02230)
+- Lin, C., Han, Z., Zhang, C., Yang, Y., Yang, F., Chen, C., Qiu, L. (2024). *Parrot: Efficient Serving of LLM-based Applications with Semantic Variable*. OSDI. [arXiv:2405.19888](https://arxiv.org/abs/2405.19888)
+- Luo, M., Shi, X., Cai, C., Zhang, T., Wong, J., Wang, Y., Wang, C., Huang, Y., Chen, Z., Gonzalez, J. E., Stoica, I. (2025). *Autellix: An Efficient Serving Engine for LLM Agents as General Programs*. [arXiv:2502.13965](https://arxiv.org/abs/2502.13965)
+- Tan, X., Jiang, Y., Yang, Y., Xu, H. (2025). *Towards End-to-End Optimization of LLM-based Applications with Ayo*. ASPLOS. Preprint titled *Teola: Towards End-to-End Optimization of LLM-based Applications*. [arXiv:2407.00326](https://arxiv.org/abs/2407.00326)
+- Willard, B. T., Louf, R. (2023). *Efficient Guided Generation for Large Language Models*. [arXiv:2307.09702](https://arxiv.org/abs/2307.09702)
+- Zhang, Y., Wo, T., Wang, J., Sun, X., Zhang, M., Yuan, C., Li, L., Hu, C., Zomaya, A. Y., Yang, R. (2026). *SpecBox: Speculative Sandbox Scheduling for Efficient LLM Agent Serving*. [arXiv:2607.23933](https://arxiv.org/abs/2607.23933)
+
+Also cited on this page and listed elsewhere: Kwon et al. (2023) under *Prefix-aware multi-sample serving* and *Systems*; Zheng et al. (2023) *SGLang* under *Prefix-aware multi-sample serving* and *KV cache*; Schick et al. (2023) *Toolformer* and Yao et al. (2022) *ReAct* under *Modern AI*; Yu et al. (2022) *Orca* under *Serving long-reasoning models*.
+
 ## Alignment, safety and interpretability
 
 - Amodei, D., et al. (2016). *Concrete problems in AI safety*. arXiv. [arXiv:1606.06565](https://arxiv.org/abs/1606.06565)

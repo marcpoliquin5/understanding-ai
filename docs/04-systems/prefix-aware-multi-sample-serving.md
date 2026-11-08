@@ -1,6 +1,6 @@
 # Prefix-aware multi-sample reasoning serving
 
-Self-consistency and Best-of-N do not ask a model to think once. They ask it to think *N* times from the same prompt and keep the answer that wins a vote or a verifier. That is a quality win—and a systems tax. Naively, *N* samples mean *N* prefills of the same prompt and *N* growing KV caches. **Prefix-aware multi-sample serving** collapses that redundancy: store the shared prompt once, schedule the *N* branches together, and (when the kernel allows) read the shared prefix once per decode step instead of *N* times. It sits next to [serving long-reasoning models](serving-long-reasoning-models.md) (one long trace) and [inference-time routing](inference-time-routing.md) (pick a model); here the model is fixed and the *sample fan-out* is the load.
+Self-consistency and Best-of-N do not ask a model to think once. They ask it to think *N* times from the same prompt and keep the answer that wins a vote or a verifier. That is a quality win—and a systems tax. Naively, *N* samples mean *N* prefills of the same prompt and *N* growing KV caches. **Prefix-aware multi-sample serving** collapses that redundancy: store the shared prompt once, schedule the *N* branches together, and (when the kernel allows) read the shared prefix once per decode step instead of *N* times. It sits next to [serving long-reasoning models](serving-long-reasoning-models.md) (one long trace), [inference-time routing](inference-time-routing.md) (pick a model) and [serving tool-augmented agents](serving-tool-augmented-agents.md) (one program that pauses for tools); here the model is fixed and the *sample fan-out* is the load.
 
 > The core idea in one sentence: **when *N* reasoning traces share a prompt, share the KV of that prompt in memory *and* in the attention kernel, schedule the *N* branches as a group, and stop sampling once a majority is stable—so coverage and majority vote get cheaper without changing the model's distribution.**
 
@@ -236,6 +236,6 @@ Serving APIs still treat Best-of-N as *N* independent completions. A testable pr
 - Juravsky et al. (2024), *Hydragen*; Yao et al. (2024), *DeFT*: shared prefix compute.
 - Zheng et al. (2024), *BatchLLM*: schedule shared-prefix groups.
 - Aggarwal et al. (2023), *Adaptive-Consistency*; Wang et al. (2025), *SART*; Li et al. (2025), multi-sample speculative decoding: fewer samples, faster samples.
-- Related pages: [KV cache](kv-cache.md), [Speculative decoding](speculative-decoding.md), [Serving long-reasoning models](serving-long-reasoning-models.md), [Inference-time routing](inference-time-routing.md), [Reasoning models](../03-modern-ai/reasoning-models-and-test-time-compute.md).
+- Related pages: [KV cache](kv-cache.md), [Speculative decoding](speculative-decoding.md), [Serving long-reasoning models](serving-long-reasoning-models.md), [Inference-time routing](inference-time-routing.md), [Serving tool-augmented agents](serving-tool-augmented-agents.md), [Reasoning models](../03-modern-ai/reasoning-models-and-test-time-compute.md).
 
 Full citations for every source on this page are in [REFERENCES.md](../../REFERENCES.md#prefix-aware-multi-sample-serving).

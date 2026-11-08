@@ -44,7 +44,7 @@ Action:   calculator(...)
 Answer:   ...
 ```
 
-A general agent repeats **observe → think → act** until a goal is met. Extensions add:
+A general agent repeats **observe → think → act** until a goal is met. Serving that loop—holding or swapping the KV cache across tool waits, scheduling the *program* rather than each call, and keeping sandboxes warm—is a systems problem covered on [serving tool-augmented agents](../04-systems/serving-tool-augmented-agents.md). Extensions add:
 
 - **Memory**: summaries or retrieval over past interactions (e.g. *Generative Agents*, Park et al. 2023).
 - **Reflection**: critique a failed attempt and retry (*Reflexion*, Shinn et al. 2023).

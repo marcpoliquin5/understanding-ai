@@ -2,6 +2,15 @@
 
 Understanding AI grows daily. Each entry records what was added or changed, newest first. See [docs/DAILY_UPDATES.md](docs/DAILY_UPDATES.md) for how updates work.
 
+## 2026-11-07 (evening): Serving tool-augmented agents
+
+- **Systems**: new page [Serving tool-augmented agents](docs/04-systems/serving-tool-augmented-agents.md): why tool interceptions break chat serving (recompute vs pinned memory vs two-level head-of-line blocking); InferCept's preserve/discard/swap waste model and 1.6–2× throughput; Continnum's KV-cache TTL (spelled as in the paper) and program-level FCFS (1.12–3.66× delay, up to 8.18× job-completion time on an internal SWE-agent testbed); Autellix PLAS/ATLAS (4–15× program throughput vs vLLM); Parrot Semantic Variables (94% repeated tokens in production chat-search; up to 11.7× on MetaGPT-style coding) and Ayo/Teola primitive dataflow (up to 2.09×); Outlines' FSM vocabulary index and XGrammar's CFG masks (62% → 100% function-call syntax; up to 100× faster mask generation); SpecBox speculative sandbox prewarming (2.9× P99 vs on-demand, 45.9% less peak memory than reserved); a tested four-part NumPy sketch; an honest status table; and a labelled speculative section on a joint GPU/KV/sandbox control loop.
+- **Tested sketch**: InferCept-style waste picks preserve for 0.09 s tools and swap above 0.16 s; a 2 s TTL costs 1.185 s/interception against 2.463 always-discard (2.08×) and 1.644 always-preserve (1.39×); FIFO and PLAS coincide on a work-bound burst while newest-call-first makes short programs wait 4.66× longer; sharing an 1,800-token schema across 32 sessions saves 10.89× KV at turn 1 and 1.32× at turn 16; a pool of four cuts mean sandbox provisioning from 3.00 s to 0.122 s (24.6×) at 6 memory units versus 64 reserved.
+- **References**: new *Serving tool-augmented agents* section with 8 entries, each checked against its arXiv abstract page; Kwon et al. (2023), Zheng et al. (2023), Schick et al. (2023), Yao et al. (2022) and Yu et al. (2022) were already listed.
+- **Glossary**: added *Constrained decoding*, *KV cache time-to-live*, *Program-level attained service (PLAS)*, *Semantic Variable*, *Tool-call interception* and *Sandbox prewarming*.
+- **Linked** from the Systems index, the README field map, contents table, software-engineer reading path and What's new, and from the inference, KV cache, serving long-reasoning, prefix-aware multi-sample, inference-time routing and retrieval-tools-and-agents pages.
+- **Backlog**: ticked the tool-augmented / agent serving item; added an open item on prompt injection and tool-use security for agents.
+
 ## 2026-11-07: Evaluating scientific ML emulators under distribution shift
 
 - **Frontiers**: new page [Evaluating scientific ML emulators under distribution shift](docs/06-frontiers/distribution-shift-in-scientific-emulators.md): covariate, target and regime shift plus intensity extrapolation (gray swans); FourCastNet trained without Category 3–5 cyclones failing on 2018–2023 Category 5 storms but transferring across basins (Sun et al.); gradient-optimized gray swans from real hurricanes (Hakim and Agrawal, 2026); the deterministic-versus-probabilistic dispute over record-breaking extremes (Zhang et al., 2025; Wessel et al., 2026); Pangu-Weather's physical consistency (Bonavita); ACE, ClimateBench v1 and ClimateBench v2's paleoclimate and perfect-model tiers; PES softening in M3GNet, CHGNet and MACE-MP-0 and test-time refinement for force fields; Matbench Discovery; weak baselines in ML-for-PDEs (79% of 76 papers); proper scores, fair CRPS, the forecaster's dilemma and threshold-weighted CRPS; split and weighted conformal prediction and where reweighting cannot help; an evaluation checklist; a status table; and a labelled speculative section on emulators that know their range.
@@ -309,6 +318,7 @@ Planned topics, roughly in rotation order:
 - [x] Systems: serving long-reasoning models (length budgets, early exit, batching long outputs) (2026-11-05 evening)
 - [x] Systems: inference-time routing across model sizes (RouteLLM-style routers, cascade serving) (2026-11-06)
 - [x] Systems: prefix-aware multi-sample reasoning serving (shared KV for best-of-N / self-consistency) (2026-11-06 evening)
-- [ ] Systems: tool-augmented / agent serving (session state, sandbox pools, multi-turn tool-call KV)
+- [x] Systems: tool-augmented / agent serving (session state, sandbox pools, multi-turn tool-call KV) (2026-11-07 evening)
+- [ ] Alignment: prompt injection and tool-use security for agents
 - [x] Frontiers: evaluation under distribution shift for scientific ML emulators
 - [x] Alignment: chain-of-thought monitoring and steganography
