@@ -63,7 +63,7 @@ Agents act in the world, so errors cost more than a wrong sentence. Engineering 
 |---|---|
 | Budgets | Limits on time, tokens, money, and number of steps |
 | Side effects | Human approval for irreversible actions; idempotent, reviewable writes |
-| Prompt injection | Treat retrieved content as data, not instructions; least-privilege tools |
+| Prompt injection | Treat retrieved content as data, not instructions; least-privilege tools; capability checks at the tool boundary. See [Prompt injection and tool-use security](../05-alignment-safety-interpretability/prompt-injection-and-tool-use-security.md) |
 | Observability | Logs and receipts of every action for audit |
 | Evaluation | Task suites with checkable outcomes rather than impressions |
 

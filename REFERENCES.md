@@ -916,6 +916,45 @@ Sources for the [chain-of-thought monitoring page](docs/05-alignment-safety-inte
 - Zolkowski, A., Nishimura-Gasparian, K., McCarthy, R., Zimmermann, R. S., et al. (2025). *Early Signs of Steganographic Capabilities in Frontier LLMs*. [arXiv:2507.02737](https://arxiv.org/abs/2507.02737)
 - Zolkowski, A., Xing, W., Lindner, D., Tramèr, F., et al. (2025). *Can Reasoning Models Obfuscate Reasoning? Stress-Testing Chain-of-Thought Monitorability*. [arXiv:2510.19851](https://arxiv.org/abs/2510.19851)
 
+## Prompt injection and tool-use security
+
+Sources for the [prompt injection and tool-use security page](docs/05-alignment-safety-interpretability/prompt-injection-and-tool-use-security.md). Each arXiv entry was checked against its arXiv abstract page (title, authors and date); Hardy (1988) was checked against Crossref, and the Willison posts against their pages on simonwillison.net. Greenblatt et al. (2024) and Zou et al. (2023) are listed under *Alignment, safety and interpretability*.
+
+- Beurer-Kellner, L., Buesser, B., Creţu, A.-M., Debenedetti, E., Dobos, D., Fabian, D., Fischer, M., Froelicher, D., Grosse, K., Naeff, D., Ozoani, E., Paverd, A., Tramèr, F., Volhejn, V. (2025). *Design Patterns for Securing LLM Agents against Prompt Injections*. [arXiv:2506.08837](https://arxiv.org/abs/2506.08837)
+- Chen, S., Peng, Y., Chang, J., Sitawarin, C., Wagner, D. (2026). *SecPO: Principled Adversarial Training for Prompt Injection Security*. [arXiv:2610.41998](https://arxiv.org/abs/2610.41998)
+- Chen, S., Piet, J., Sitawarin, C., Wagner, D. (2024). *StruQ: Defending Against Prompt Injection with Structured Queries*. [arXiv:2402.06363](https://arxiv.org/abs/2402.06363)
+- Chen, S., Zharmagambetov, A., Mahloujifar, S., Chaudhuri, K., Wagner, D., Guo, C. (2024). *SecAlign: Defending Against Prompt Injection with Preference Optimization*. [arXiv:2410.05451](https://arxiv.org/abs/2410.05451)
+- Chen, S., Zharmagambetov, A., Wagner, D., Guo, C. (2025). *Meta-SecAlign: Training LLMs against Prompt Injection for Robust Agents*. [arXiv:2507.02735](https://arxiv.org/abs/2507.02735)
+- Chow, A., Zhu, J., Venuto, S., Alharbi, A., Alomair, B., Popa, R., Wagner, D., Piet, J. (2026). *Securing Web Agents with the Compile-Then-Execute Paradigm*. [arXiv:2611.06039](https://arxiv.org/abs/2611.06039)
+- Costa, M., Köpf, B., Kolluri, A., Paverd, A., Russinovich, M., Salem, A., Tople, S., Wutschitz, L., Zanella-Béguelin, S. (2025). *Securing AI Agents with Information-Flow Control*. [arXiv:2505.23643](https://arxiv.org/abs/2505.23643)
+- Debenedetti, E., Shumailov, I., Fan, T., Hayes, J., Carlini, N., Fabian, D., Kern, C., Shi, C., Terzis, A., Tramèr, F. (2025). *Defeating Prompt Injections by Design*. [arXiv:2503.18813](https://arxiv.org/abs/2503.18813)
+- Debenedetti, E., Zhang, J., Balunović, M., Beurer-Kellner, L., Fischer, M., Tramèr, F. (2024). *AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents*. [arXiv:2406.13352](https://arxiv.org/abs/2406.13352)
+- Edelman, E., Edelman, B., Goel, S., Malach, E. (2026). *Understanding and Mitigating Role Spoofing in LLMs*. [arXiv:2610.40396](https://arxiv.org/abs/2610.40396)
+- Evtimov, I., Zharmagambetov, A., Grattafiori, A., Guo, C., Chaudhuri, K. (2025). *WASP: Benchmarking Web Agent Security Against Prompt Injection Attacks*. [arXiv:2504.18575](https://arxiv.org/abs/2504.18575)
+- Greshake, K., Abdelnabi, S., Mishra, S., Endres, C., Holz, T., Fritz, M. (2023). *Not what you've signed up for: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection*. [arXiv:2302.12173](https://arxiv.org/abs/2302.12173)
+- Guo, C., Liu, X., Yang, W., Feng, M., Song, J., Ma, Q., Buractaon, C., White, C., Li, B., Gao, J. (2026). *Where You Inject Matters: The Trust Region Effect in LLM Agents*. [arXiv:2610.38867](https://arxiv.org/abs/2610.38867)
+- Hardy, N. (1988). *The Confused Deputy (or why capabilities might have been invented)*. ACM SIGOPS Operating Systems Review 22(4). [doi:10.1145/54289.871709](https://doi.org/10.1145/54289.871709)
+- Hines, K., Lopez, G., Hall, M., Zarfati, F., Zunger, Y., Kiciman, E. (2024). *Defending Against Indirect Prompt Injection Attacks With Spotlighting*. [arXiv:2403.14720](https://arxiv.org/abs/2403.14720)
+- Liu, Y., Jia, Y., Geng, R., Jia, J., Gong, N. Z. (2023). *Formalizing and Benchmarking Prompt Injection Attacks and Defenses*. USENIX Security 2024. [arXiv:2310.12815](https://arxiv.org/abs/2310.12815)
+- Nasr, M., Carlini, N., Sitawarin, C., Schulhoff, S. V., Hayes, J., Ilie, M., Pluto, J., Song, S., Chaudhari, H., Shumailov, I., Thakurta, A., Xiao, K. Y., Terzis, A., Tramèr, F. (2025). *The Attacker Moves Second: Stronger Adaptive Attacks Bypass Defenses Against LLM Jailbreaks and Prompt Injections*. [arXiv:2510.09023](https://arxiv.org/abs/2510.09023)
+- Perez, F., Ribeiro, I. (2022). *Ignore Previous Prompt: Attack Techniques For Language Models*. NeurIPS ML Safety Workshop. [arXiv:2211.09527](https://arxiv.org/abs/2211.09527)
+- Shaikh, F., Montaruli, B. (2026). *MCP Tool Poisoning in Agentic AI Frameworks: A Cross-Framework Measurement Study*. [arXiv:2611.03555](https://arxiv.org/abs/2611.03555)
+- Shilov, I., Yang, X., Panfilov, A., Kortukov, E., Meeus, M., Romov, P., Samek, W., Geiping, J., de Montjoye, Y.-A. (2026). *Heads of Security: Learned Attention Gates Improve Prompt Injection Robustness*. [arXiv:2610.37657](https://arxiv.org/abs/2610.37657)
+- Suresh, A. K. K., Gao, P. (2026). *AgentCap: Capability-Based Runtime Authorization for Secure LLM Agent Execution*. [arXiv:2611.00729](https://arxiv.org/abs/2611.00729)
+- Wallace, E., Xiao, K., Leike, R., Weng, L., Heidecke, J., Beutel, A. (2024). *The Instruction Hierarchy: Training LLMs to Prioritize Privileged Instructions*. [arXiv:2404.13208](https://arxiv.org/abs/2404.13208)
+- Wang, Z., Gao, Y., Wang, Y., Liu, S., Sun, H., Cheng, H., Shi, G., Du, H., Li, X. (2025). *MCPTox: A Benchmark for Tool Poisoning Attack on Real-World MCP Servers*. [arXiv:2508.14925](https://arxiv.org/abs/2508.14925)
+- Willison, S. (2022). *Prompt injection attacks against GPT-3*. Blog post, 12 September 2022. [Link](https://simonwillison.net/2022/Sep/12/prompt-injection/)
+- Willison, S. (2023). *The Dual LLM pattern for building AI assistants that can resist prompt injection*. Blog post, 25 April 2023. [Link](https://simonwillison.net/2023/Apr/25/dual-llm-pattern/)
+- Willison, S. (2024). *Prompt injection and jailbreaking are not the same thing*. Blog post, 5 March 2024. [Link](https://simonwillison.net/2024/Mar/5/prompt-injection-jailbreaking/)
+- Willison, S. (2025). *The lethal trifecta for AI agents: private data, untrusted content, and external communication*. Blog post, 16 June 2025. [Link](https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/)
+- Wu, T., Zhang, S., Song, K., Xu, S., Zhao, S., Agrawal, R., Indurthi, S. R., Xiang, C., Mittal, P., Zhou, W. (2024). *Instructional Segment Embedding: Improving LLM Safety with Instruction Hierarchy*. [arXiv:2410.09102](https://arxiv.org/abs/2410.09102)
+- Yi, J., Xie, Y., Zhu, B., Kiciman, E., Sun, G., Xie, X., Wu, F. (2023). *Benchmarking and Defending Against Indirect Prompt Injection Attacks on Large Language Models*. [arXiv:2312.14197](https://arxiv.org/abs/2312.14197)
+- Zarif, F., Galib, K. S. A., Promi, S. A., Tarin, S. S., Hossain, A., Ahmed, S., Sadeque, F. Y. (2026). *Ignored, Not Refused: What Low Prompt-Injection Success Rates Hide in Small Tool-Using Agents*. [arXiv:2610.23254](https://arxiv.org/abs/2610.23254)
+- Zhan, Q., Fang, R., Panchal, H. S., Kang, D. (2025). *Adaptive Attacks Break Defenses Against Indirect Prompt Injection Attacks on LLM Agents*. [arXiv:2503.00061](https://arxiv.org/abs/2503.00061)
+- Zhan, Q., Liang, Z., Ying, Z., Kang, D. (2024). *InjecAgent: Benchmarking Indirect Prompt Injections in Tool-Integrated Large Language Model Agents*. [arXiv:2403.02691](https://arxiv.org/abs/2403.02691)
+- Zhu, K., Yang, X., Wang, J., Guo, W., Wang, W. Y. (2025). *MELON: Provable Defense Against Indirect Prompt Injection Attacks in AI Agents*. [arXiv:2502.05174](https://arxiv.org/abs/2502.05174)
+- Zverev, E., Kim, J., Trampert, L., Köpf, B., Kolluri, A., Tople, S., Zanella-Béguelin, S. (2026). *SPIDES: Information-Flow Control for Browser Agents*. [arXiv:2610.24277](https://arxiv.org/abs/2610.24277)
+
 ## Frontiers: recursion and self-improvement
 
 - Andrychowicz, M., et al. (2016). *Learning to learn by gradient descent by gradient descent*. NeurIPS. [arXiv:1606.04474](https://arxiv.org/abs/1606.04474)

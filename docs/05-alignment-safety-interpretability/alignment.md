@@ -43,7 +43,7 @@ Neural networks can be fooled by small, targeted perturbations. **Szegedy et al.
 \mathbf{x}_{\text{adv}} = \mathbf{x} + \epsilon \cdot \mathrm{sign}\big(\nabla_{\mathbf{x}} \mathcal{L}(\theta, \mathbf{x}, y)\big)
 ```
 
-and argued that adversarial vulnerability stems largely from excessive linearity in high dimensions. For language models, **Zou et al. (2023)** found automatically optimized suffixes that elicit disallowed outputs and transfer across models. **Red teaming** with language models (Perez et al. 2022) automates the search for failures.
+and argued that adversarial vulnerability stems largely from excessive linearity in high dimensions. For language models, **Zou et al. (2023)** found automatically optimized suffixes that elicit disallowed outputs and transfer across models. **Red teaming** with language models (Perez et al. 2022) automates the search for failures. For agents, the most consequential adversarial input is often not a user's jailbreak but *prompt injection*: untrusted text in the context that the model treats as instructions; see [Prompt injection and tool-use security](prompt-injection-and-tool-use-security.md).
 
 ## Evaluation
 
@@ -61,7 +61,7 @@ For the statistics of benchmark comparisons and the common ways scores mislead, 
 
 One of the most-used monitoring signals is the model's own written reasoning; when it can be trusted, and how training can teach a model to hide from it, is covered in [Chain-of-thought monitoring and steganography](chain-of-thought-monitoring-and-steganography.md).
 
-Practical agent runtimes apply the same philosophy at a smaller scale: hard budgets, least-privilege tools, human approval for irreversible actions, and audit logs. See the [agents page](../03-modern-ai/retrieval-tools-and-agents.md#making-agents-dependable) for how these ideas are applied in practice.
+Practical agent runtimes apply the same philosophy at a smaller scale: hard budgets, least-privilege tools, human approval for irreversible actions, and audit logs. See the [agents page](../03-modern-ai/retrieval-tools-and-agents.md#making-agents-dependable) for how these ideas are applied in practice, and [Prompt injection and tool-use security](prompt-injection-and-tool-use-security.md#5-defenses-around-the-model-isolation-by-design-active-research) for control-style designs (dual LLM, CaMeL capabilities, information-flow control) that stay safe even when the model is fooled.
 
 ## Key takeaways
 

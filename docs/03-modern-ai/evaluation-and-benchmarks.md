@@ -138,7 +138,7 @@ As models act in the world, evaluation is shifting from "answer this question" t
 
 Kwa et al. (2025) at METR proposed translating benchmark performance into human terms with a **50% task-completion time horizon**: the length of task, measured by how long skilled humans take, that a model completes with 50% success. They report a horizon of around 50 minutes for frontier models such as Claude 3.7 Sonnet, doubling roughly every seven months since 2019, and they discuss the limits of its external validity. The metric is attractive because it is continuous, interpretable, and does not saturate at 100%; whether the trend continues is an empirical question, not a law.
 
-See [Retrieval, tools and agents](retrieval-tools-and-agents.md) for how agents are built, and [Alignment and safety](../05-alignment-safety-interpretability/alignment.md#evaluation) for dangerous-capability evaluations.
+See [Retrieval, tools and agents](retrieval-tools-and-agents.md) for how agents are built, and [Alignment and safety](../05-alignment-safety-interpretability/alignment.md#evaluation) for dangerous-capability evaluations. Agent *security* benchmarks have their own trap: a low attack success rate can mean the agent ignored or failed the attack rather than resisted it, and static attack sets overstate defenses; see [Prompt injection and tool-use security](../05-alignment-safety-interpretability/prompt-injection-and-tool-use-security.md#6-benchmarks-and-the-adaptive-attack-problem-established-active-research).
 
 ## 5. A checklist for reading (or writing) a benchmark claim
 

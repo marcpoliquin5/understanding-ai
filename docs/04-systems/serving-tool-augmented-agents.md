@@ -4,7 +4,7 @@ Chat serving assumes a request arrives, prefills, decodes to an end-of-sequence 
 
 > The core idea in one sentence: **treat the agent program as the unit of work—pin, swap or drop its KV cache for the duration of each tool wait, schedule later calls by how much service the program has already received, share the tool-schema prefix, constrain the call to valid structure, and keep a warm pool of sandboxes—so a multi-turn tool loop is not billed as a sequence of unrelated chat requests.**
 
-This page expands the short efficiency notes in [inference and efficiency](inference-and-efficiency.md). It sits next to [serving long-reasoning models](serving-long-reasoning-models.md) (one long decode) and [prefix-aware multi-sample serving](prefix-aware-multi-sample-serving.md) (many samples of one prompt): here the model pauses, leaves the GPU, and comes back.
+This page expands the short efficiency notes in [inference and efficiency](inference-and-efficiency.md). It is about performance, not security: what happens when a tool output or tool description contains instructions is covered in [prompt injection and tool-use security](../05-alignment-safety-interpretability/prompt-injection-and-tool-use-security.md). It sits next to [serving long-reasoning models](serving-long-reasoning-models.md) (one long decode) and [prefix-aware multi-sample serving](prefix-aware-multi-sample-serving.md) (many samples of one prompt): here the model pauses, leaves the GPU, and comes back.
 
 ```mermaid
 flowchart TB
@@ -335,6 +335,6 @@ Today's systems optimize the GPU scheduler, the KV store and the sandbox fleet i
 - Tan, Jiang, Yang and Xu (2025), *Ayo* (preprint titled *Teola*): primitive-level dataflow for declarable LLM apps.
 - Willard and Louf (2023), *Efficient Guided Generation* (Outlines); Dong et al. (2025), *XGrammar*: constrained decoding for tool JSON.
 - Zhang et al. (2026), *SpecBox*: speculative sandbox prewarming.
-- Related pages: [Retrieval, tools and agents](../03-modern-ai/retrieval-tools-and-agents.md), [KV cache](kv-cache.md), [Serving long-reasoning models](serving-long-reasoning-models.md), [Prefix-aware multi-sample serving](prefix-aware-multi-sample-serving.md), [Inference-time routing](inference-time-routing.md), [Inference and efficiency](inference-and-efficiency.md).
+- Related pages: [Retrieval, tools and agents](../03-modern-ai/retrieval-tools-and-agents.md), [Prompt injection and tool-use security](../05-alignment-safety-interpretability/prompt-injection-and-tool-use-security.md), [KV cache](kv-cache.md), [Serving long-reasoning models](serving-long-reasoning-models.md), [Prefix-aware multi-sample serving](prefix-aware-multi-sample-serving.md), [Inference-time routing](inference-time-routing.md), [Inference and efficiency](inference-and-efficiency.md).
 
 Full citations for every source on this page are in [REFERENCES.md](../../REFERENCES.md#serving-tool-augmented-agents).
