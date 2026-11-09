@@ -340,6 +340,6 @@ Most of today's tool APIs were written for programs that trust their caller. An 
 - Debenedetti et al. (2024), *AgentDojo*, and Debenedetti et al. (2025), *Defeating Prompt Injections by Design* (CaMeL): the benchmark and the by-design defense from the same group.
 - Beurer-Kellner et al. (2025), *Design Patterns for Securing LLM Agents against Prompt Injections*: six patterns and their trade-offs.
 - Nasr et al. (2025), *The Attacker Moves Second*: why defenses must be evaluated against adaptive attackers.
-- Related pages: [Retrieval, tools and agents](../03-modern-ai/retrieval-tools-and-agents.md), [Serving tool-augmented agents](../04-systems/serving-tool-augmented-agents.md), [Alignment and safety](alignment.md), [Chain-of-thought monitoring](chain-of-thought-monitoring-and-steganography.md), [Evaluation and benchmarks](../03-modern-ai/evaluation-and-benchmarks.md).
+- Related pages: [Retrieval, tools and agents](../03-modern-ai/retrieval-tools-and-agents.md), [Serving tool-augmented agents](../04-systems/serving-tool-augmented-agents.md), [Alignment and safety](alignment.md), [Chain-of-thought monitoring](chain-of-thought-monitoring-and-steganography.md), [AI control protocols](ai-control-protocols.md), [Evaluation and benchmarks](../03-modern-ai/evaluation-and-benchmarks.md).
 
 Full citations for every source on this page are in [REFERENCES.md](../../REFERENCES.md#prompt-injection-and-tool-use-security).

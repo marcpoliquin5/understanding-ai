@@ -57,7 +57,7 @@ For the statistics of benchmark comparisons and the common ways scores mislead, 
 
 ## AI control
 
-**Greenblatt et al. (2024)** proposed *AI control*: designing deployment protocols (monitoring, trusted editing, restricted permissions) that remain safe even if the model is trying to subvert them, and evaluating those protocols against a deliberately adversarial red team. Control complements alignment: one aims to make the model want the right thing; the other limits the damage if it does not.
+**Greenblatt et al. (2024)** proposed *AI control*: designing deployment protocols (monitoring, trusted editing, restricted permissions) that remain safe even if the model is trying to subvert them, and evaluating those protocols against a deliberately adversarial red team. Control complements alignment: one aims to make the model want the right thing; the other limits the damage if it does not. The protocols, settings, red-team results and safety cases are covered in depth in [AI control protocols](ai-control-protocols.md).
 
 One of the most-used monitoring signals is the model's own written reasoning; when it can be trusted, and how training can teach a model to hide from it, is covered in [Chain-of-thought monitoring and steganography](chain-of-thought-monitoring-and-steganography.md).
 
