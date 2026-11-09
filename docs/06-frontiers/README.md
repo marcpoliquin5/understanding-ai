@@ -25,6 +25,7 @@ This is where the map runs out and the territory is still being surveyed. Each p
 | [Causal representation learning](causal-representation-learning.md) | Can a model discover the causal variables behind its observations, why is that impossible without extra structure, and what do environments, interventions and invariance buy? |
 | [Evaluating scientific ML emulators under distribution shift](distribution-shift-in-scientific-emulators.md) | Can a learned weather, climate or materials emulator be trusted on events stronger or stranger than anything it was trained on, and how do you score it honestly when it is not? |
 | [World models](world-models.md) | Can systems learn internal simulators of their environment and plan with them? |
+| [Model-based RL: compounding error](model-based-rl-compounding-error.md) | Why does a learned model that is nearly right for one step go wrong over fifty, and how do short rollouts, value expansion, uncertainty and replanning keep planning honest? |
 
 ```mermaid
 mindmap
@@ -33,6 +34,7 @@ mindmap
       Recursion & self-improvement
       Fast-weight programmers
       World models
+      Compounding model error
       Causal representation learning
       Emulators under distribution shift
       Limits of computation

@@ -50,6 +50,7 @@ Every source cited in Understanding AI, grouped by section. Each entry links to 
 - [Frontiers: quantum machine learning](#frontiers-quantum-machine-learning)
 - [Frontiers: causal representation learning](#frontiers-causal-representation-learning)
 - [Frontiers: world models](#frontiers-world-models)
+- [Frontiers: model-based RL and compounding error](#frontiers-model-based-rl-and-compounding-error)
 - [Frontiers: distribution shift in scientific emulators](#frontiers-distribution-shift-in-scientific-emulators)
 
 ## Textbooks
@@ -1406,6 +1407,33 @@ Kirkpatrick et al. (2017) is already listed in another section.
 - Ha, D., Schmidhuber, J. (2018). *World models*. arXiv. [arXiv:1803.10122](https://arxiv.org/abs/1803.10122)
 - Hafner, D., Pasukonis, J., Ba, J., Lillicrap, T. (2023). *Mastering diverse domains through world models*. arXiv. [arXiv:2301.04104](https://arxiv.org/abs/2301.04104)
 - LeCun, Y. (2022). *A path towards autonomous machine intelligence*. OpenReview. [Link](https://openreview.net/forum?id=BZ5a1r-kVsf)
+
+## Frontiers: model-based RL and compounding error
+
+Each entry checked against its arXiv abstract page or Crossref. Schrittwieser et al. (2020) is listed under *Reinforcement learning*; Hafner et al. (2023) and Bruce et al. (2024) under *Frontiers: world models*.
+
+- Asadi, K., Misra, D., Littman, M. L. (2018). *Lipschitz Continuity in Model-based Reinforcement Learning*. [arXiv:1804.07193](https://arxiv.org/abs/1804.07193)
+- Buckman, J., Hafner, D., Tucker, G., Brevdo, E., Lee, H. (2018). *Sample-Efficient Reinforcement Learning with Stochastic Ensemble Value Expansion*. [arXiv:1807.01675](https://arxiv.org/abs/1807.01675)
+- Chua, K., Calandra, R., McAllister, R., Levine, S. (2018). *Deep Reinforcement Learning in a Handful of Trials using Probabilistic Dynamics Models*. [arXiv:1805.12114](https://arxiv.org/abs/1805.12114)
+- Feinberg, V., Wan, A., Stoica, I., Jordan, M. I., Gonzalez, J. E., Levine, S. (2018). *Model-Based Value Estimation for Efficient Model-Free Reinforcement Learning*. [arXiv:1803.00101](https://arxiv.org/abs/1803.00101)
+- Grimm, C., Barreto, A., Singh, S., Silver, D. (2020). *The Value Equivalence Principle for Model-Based Reinforcement Learning*. [arXiv:2011.03506](https://arxiv.org/abs/2011.03506)
+- Hafner, D., Yan, W., Lillicrap, T. (2025). *Training Agents Inside of Scalable World Models*. [arXiv:2509.24527](https://arxiv.org/abs/2509.24527)
+- Hansen, N., Wang, X., Su, H. (2022). *Temporal Difference Learning for Model Predictive Control*. [arXiv:2203.04955](https://arxiv.org/abs/2203.04955)
+- Hansen, N., Su, H., Wang, X. (2023). *TD-MPC2: Scalable, Robust World Models for Continuous Control*. [arXiv:2310.16828](https://arxiv.org/abs/2310.16828)
+- Janner, M., Fu, J., Zhang, M., Levine, S. (2019). *When to Trust Your Model: Model-Based Policy Optimization*. [arXiv:1906.08253](https://arxiv.org/abs/1906.08253)
+- Kearns, M., Singh, S. (2002). *Near-Optimal Reinforcement Learning in Polynomial Time*. Machine Learning 49, 209–232. [doi:10.1023/A:1017984413808](https://doi.org/10.1023/A:1017984413808)
+- Kidambi, R., Rajeswaran, A., Netrapalli, P., Joachims, T. (2020). *MOReL: Model-Based Offline Reinforcement Learning*. [arXiv:2005.05951](https://arxiv.org/abs/2005.05951)
+- Lambert, N., Amos, B., Yadan, O., Calandra, R. (2020). *Objective Mismatch in Model-based Reinforcement Learning*. L4DC 2020, PMLR 120:761–770. [arXiv:2002.04523](https://arxiv.org/abs/2002.04523)
+- Lambert, N., Pister, K., Calandra, R. (2022). *Investigating Compounding Prediction Errors in Learned Dynamics Models*. [arXiv:2203.09637](https://arxiv.org/abs/2203.09637)
+- Maalberg, A., Neumann, A., Knobloch, J. (2026). *Stable Multi-Step Rollouts via Uncertainty-Guided Hybrid Dynamics*. [arXiv:2608.16431](https://arxiv.org/abs/2608.16431)
+- Moerland, T. M., Broekens, J., Plaat, A., Jonker, C. M. (2020). *Model-based Reinforcement Learning: A Survey*. [arXiv:2006.16712](https://arxiv.org/abs/2006.16712)
+- Ni, T., Derman, E., Jain, V., Taboga, V., Ravanbakhsh, S., Bacon, P.-L. (2025). *Long-Horizon Model-Based Offline Reinforcement Learning Without Explicit Conservatism*. [arXiv:2512.04341](https://arxiv.org/abs/2512.04341)
+- Ross, S., Bagnell, J. A. (2012). *Agnostic System Identification for Model-Based Reinforcement Learning*. [arXiv:1203.1007](https://arxiv.org/abs/1203.1007)
+- Talvitie, E. (2017). *Self-Correcting Models for Model-Based Reinforcement Learning*. AAAI 2017, 2597–2603. [arXiv:1612.06018](https://arxiv.org/abs/1612.06018)
+- Venkatraman, A., Hebert, M., Bagnell, J. A. (2015). *Improving Multi-Step Prediction of Learned Time Series Models*. AAAI 2015. [doi:10.1609/aaai.v29i1.9590](https://doi.org/10.1609/aaai.v29i1.9590)
+- Yu, T., Thomas, G., Yu, L., Ermon, S., Zou, J., Levine, S., Finn, C., Ma, T. (2020). *MOPO: Model-based Offline Policy Optimization*. [arXiv:2005.13239](https://arxiv.org/abs/2005.13239)
+- Zhang, Z., Ren, H., Sun, Y., Sheng, Y., Wang, H., Lin, H., Wu, Z., Bacon, P.-L., Yu, Y. (2026). *Towards Practical World Model-based Reinforcement Learning for Vision-Language-Action Models*. [arXiv:2603.20607](https://arxiv.org/abs/2603.20607)
+- Zymla, N. S., Thiele, L., Pitz, J. (2026). *Adaptive Rollout Truncation Based on Epistemic Uncertainty for Efficient Offline World Model Training*. [arXiv:2609.21482](https://arxiv.org/abs/2609.21482)
 
 ## Frontiers: distribution shift in scientific emulators
 

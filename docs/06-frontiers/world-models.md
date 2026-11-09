@@ -20,6 +20,8 @@ flowchart LR
 - **MuZero** (Schrittwieser et al. 2020) learned a latent model that predicts only what matters for planning (reward, value, policy) without reconstructing observations, and matched or exceeded AlphaZero in Go, chess and shogi while also mastering Atari.
 - **DreamerV3** (Hafner et al. 2023) learned behaviours by imagining trajectories in a learned latent world model and, with fixed hyperparameters across many domains, collected diamonds in Minecraft from scratch without human data.
 
+Every one of these systems has to cope with **compounding error**: a learned one-step model fed its own predictions drifts, and a planner searching over it finds and exploits its mistakes. [Model-based RL: compounding error and how planners cope](model-based-rl-compounding-error.md) covers why the error grows, why one-step loss misleads, and the fixes (short branched rollouts, value expansion, ensembles and pessimism, replanning, value-equivalent latent models), with a tested sketch.
+
 ## Learning from prediction, not reconstruction (active research)
 
 **LeCun (2022)** proposed an architecture for autonomous machine intelligence centred on a world model trained with **joint-embedding predictive architectures (JEPA)**: predict the *representation* of missing or future parts of the input rather than its pixels, so the model can ignore unpredictable detail. **I-JEPA** (Assran et al. 2023) applied this to images, predicting representations of masked image regions.
@@ -58,5 +60,4 @@ Critics note that such representations may be partial, task-specific, and brittl
 
 ## Next topics for this page
 
-- Model-based RL error compounding and how planners cope
 - Evaluating physical consistency of video generators
