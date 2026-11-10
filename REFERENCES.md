@@ -37,6 +37,7 @@ Every source cited in Understanding AI, grouped by section. Each entry links to 
 - [Reward models and their failure modes](#reward-models-and-their-failure-modes)
 - [Chain-of-thought monitoring and steganography](#chain-of-thought-monitoring-and-steganography)
 - [Prompt injection and tool-use security](#prompt-injection-and-tool-use-security)
+- [Multimodal prompt injection for computer-use agents](#multimodal-prompt-injection-for-computer-use-agents)
 - [AI control protocols](#ai-control-protocols)
 - [Frontiers: recursion and self-improvement](#frontiers-recursion-and-self-improvement)
 - [Frontiers: fast-weight programmers](#frontiers-fast-weight-programmers)
@@ -958,6 +959,32 @@ Sources for the [prompt injection and tool-use security page](docs/05-alignment-
 - Zhan, Q., Liang, Z., Ying, Z., Kang, D. (2024). *InjecAgent: Benchmarking Indirect Prompt Injections in Tool-Integrated Large Language Model Agents*. [arXiv:2403.02691](https://arxiv.org/abs/2403.02691)
 - Zhu, K., Yang, X., Wang, J., Guo, W., Wang, W. Y. (2025). *MELON: Provable Defense Against Indirect Prompt Injection Attacks in AI Agents*. [arXiv:2502.05174](https://arxiv.org/abs/2502.05174)
 - Zverev, E., Kim, J., Trampert, L., Köpf, B., Kolluri, A., Tople, S., Zanella-Béguelin, S. (2026). *SPIDES: Information-Flow Control for Browser Agents*. [arXiv:2610.24277](https://arxiv.org/abs/2610.24277)
+
+## Multimodal prompt injection for computer-use agents
+
+Sources for the [multimodal prompt injection page](docs/05-alignment-safety-interpretability/multimodal-prompt-injection-computer-use-agents.md). Each arXiv entry was checked against its arXiv abstract page (title, authors and date); Goh et al. (2021) against Crossref; Xiao et al. (2019) against its USENIX Security page; the Anthropic, OpenAI and Trail of Bits posts and *The Register* article against their pages.
+
+- Anthropic (2025a). *Piloting Claude in Chrome*. [claude.com](https://claude.com/resources/articles/claude-for-chrome)
+- Anthropic (2025b). *Mitigating the risk of prompt injections in browser use*, 24 November 2025. [anthropic.com](https://www.anthropic.com/research/prompt-injection-defenses)
+- Bagdasaryan, E., Hsieh, T.-Y., Nassi, B., Shmatikov, V. (2023). *Abusing Images and Sounds for Indirect Instruction Injection in Multi-Modal LLMs*. [arXiv:2307.10490](https://arxiv.org/abs/2307.10490)
+- Bailey, L., Ong, E., Russell, S., Emmons, S. (2023). *Image Hijacks: Adversarial Images can Control Generative Models at Runtime*. [arXiv:2309.00236](https://arxiv.org/abs/2309.00236)
+- Cao, T., Lim, B., Liu, Y., Sui, Y., Li, Y., Deng, S., Lu, L., Oo, N., Yan, S., Hooi, B. (2025). *VPI-Bench: Visual Prompt Injection Attacks for Computer-Use Agents*. [arXiv:2506.02456](https://arxiv.org/abs/2506.02456)
+- Choudhary, S., Christodorescu, M., Hooda, A., Jha, S., Li, T., Octeau, D. (2026). *Secure-CUA: Controlling Untrusted Influence in Computer-Use Agents*. [arXiv:2610.09469](https://arxiv.org/abs/2610.09469)
+- Du, M., Fang, H., Ma, H., Chen, J., Xu, K., Yin, Q., Chang, E.-C. (2026). *SnapGuard: Lightweight Prompt Injection Detection for Screenshot-Based Web Agents*. [arXiv:2604.25562](https://arxiv.org/abs/2604.25562)
+- Goh, G., Cammarata, N., Voss, C., Carter, S., Petrov, M., Schubert, L., Radford, A., Olah, C. (2021). *Multimodal Neurons in Artificial Neural Networks*. Distill. [doi:10.23915/distill.00030](https://doi.org/10.23915/distill.00030)
+- Gong, Y., Ran, D., Liu, J., Wang, C., Cong, T., Wang, A., Duan, S., Wang, X. (2023). *FigStep: Jailbreaking Large Vision-Language Models via Typographic Visual Prompts*. [arXiv:2311.05608](https://arxiv.org/abs/2311.05608)
+- Gu, X., Zheng, X., Pang, T., Du, C., Liu, Q., Wang, Y., Jiang, J., Lin, M. (2024). *Agent Smith: A Single Image Can Jailbreak One Million Multimodal LLM Agents Exponentially Fast*. [arXiv:2402.08567](https://arxiv.org/abs/2402.08567)
+- Kuntz, T., Duzan, A., Zhao, H., Croce, F., Kolter, Z., Flammarion, N., Andriushchenko, M. (2025). *OS-Harm: A Benchmark for Measuring Safety of Computer Use Agents*. [arXiv:2506.14866](https://arxiv.org/abs/2506.14866)
+- Li, A., Zhou, Y., Raghuram, V. C., Goldstein, T., Goldblum, M. (2025). *Commercial LLM Agents Are Already Vulnerable to Simple Yet Dangerous Attacks*. [arXiv:2502.08586](https://arxiv.org/abs/2502.08586)
+- Liao, Z., Jones, J., Jiang, L., Ning, Y., Fosler-Lussier, E., Su, Y., Lin, Z., Sun, H. (2025). *RedTeamCUA: Realistic Adversarial Testing of Computer-Use Agents in Hybrid Web-OS Environments*. [arXiv:2505.21936](https://arxiv.org/abs/2505.21936)
+- Liao, Z., Mo, L., Xu, C., Kang, M., Zhang, J., Xiao, C., Tian, Y., Li, B., Sun, H. (2024). *EIA: Environmental Injection Attack on Generalist Web Agents for Privacy Leakage*. [arXiv:2409.11295](https://arxiv.org/abs/2409.11295)
+- Morozova, K., Hussain, S. S. (2025). *Weaponizing image scaling against production AI systems*. Trail of Bits Blog, 21 August 2025. [blog.trailofbits.com](https://blog.trailofbits.com/2025/08/21/weaponizing-image-scaling-against-production-ai-systems/)
+- OpenAI (2025). *Continuously hardening ChatGPT Atlas against prompt injection*. [openai.com](https://openai.com/index/hardening-atlas-against-prompt-injection/)
+- *The Register* (2025). *Honey, I shrunk the image and now I'm pwned*, 21 August 2025. [theregister.com](https://www.theregister.com/software/2025/08/21/honey-i-shrunk-the-image-and-now-im-pwned/1553780)
+- Wu, C. H., Shah, R., Koh, J. Y., Salakhutdinov, R., Fried, D., Raghunathan, A. (2024). *Dissecting Adversarial Robustness of Multimodal LM Agents*. [arXiv:2406.12814](https://arxiv.org/abs/2406.12814)
+- Xiao, Q., Chen, Y., Shen, C., Chen, Y., Li, K. (2019). *Seeing is Not Believing: Camouflage Attacks on Image Scaling Algorithms*. USENIX Security 2019. [usenix.org](https://www.usenix.org/conference/usenixsecurity19/presentation/xiao)
+- Xu, C., Kang, M., Zhang, J., Liao, Z., Mo, L., Yuan, M., Sun, H., Li, B. (2024). *AdvAgent: Controllable Blackbox Red-teaming on Web Agents*. [arXiv:2410.17401](https://arxiv.org/abs/2410.17401)
+- Zhang, Y., Yu, T., Yang, D. (2024). *Attacking Vision-Language Computer Agents via Pop-ups*. [arXiv:2411.02391](https://arxiv.org/abs/2411.02391)
 
 ## AI control protocols
 
