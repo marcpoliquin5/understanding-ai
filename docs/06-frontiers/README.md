@@ -26,6 +26,7 @@ This is where the map runs out and the territory is still being surveyed. Each p
 | [Evaluating scientific ML emulators under distribution shift](distribution-shift-in-scientific-emulators.md) | Can a learned weather, climate or materials emulator be trusted on events stronger or stranger than anything it was trained on, and how do you score it honestly when it is not? |
 | [World models](world-models.md) | Can systems learn internal simulators of their environment and plan with them? |
 | [Model-based RL: compounding error](model-based-rl-compounding-error.md) | Why does a learned model that is nearly right for one step go wrong over fifty, and how do short rollouts, value expansion, uncertainty and replanning keep planning honest? |
+| [Judging video world models in closed loop](evaluating-video-world-models-closed-loop.md) | Does a video model that looks real help an agent succeed? Closed-loop benchmarks, world models as stand-ins for real robots when ranking policies, and why rankings transfer better than success rates |
 
 ```mermaid
 mindmap
@@ -35,6 +36,7 @@ mindmap
       Fast-weight programmers
       World models
       Compounding model error
+      Closed-loop world model evaluation
       Causal representation learning
       Emulators under distribution shift
       Limits of computation

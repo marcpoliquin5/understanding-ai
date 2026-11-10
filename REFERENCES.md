@@ -52,6 +52,7 @@ Every source cited in Understanding AI, grouped by section. Each entry links to 
 - [Frontiers: world models](#frontiers-world-models)
 - [Frontiers: model-based RL and compounding error](#frontiers-model-based-rl-and-compounding-error)
 - [Frontiers: distribution shift in scientific emulators](#frontiers-distribution-shift-in-scientific-emulators)
+- [Frontiers: evaluating video world models in closed loop](#frontiers-evaluating-video-world-models-in-closed-loop)
 
 ## Textbooks
 
@@ -1456,3 +1457,27 @@ Each entry checked against its arXiv abstract page or Crossref; Gneiting and Raf
 - Watt-Meyer, O., Dresdner, G., McGibbon, J., Clark, S. K., Henn, B., et al. (2023). *ACE: A fast, skillful learned global atmospheric model for climate prediction*. [arXiv:2310.02074](https://arxiv.org/abs/2310.02074)
 - Wessel, J. B., Spuler, F., Ferro, C. A. T., Kretschmer, M., Sippel, S. (2026). *Probabilistic AI models outperform numerical weather prediction models on record breaking heat extremes*. [arXiv:2610.20519](https://arxiv.org/abs/2610.20519)
 - Zhang, Z., Fischer, E., Zscheischler, J., Engelke, S. (2025). *Numerical models outperform AI weather forecasts of record-breaking extremes*. [arXiv:2508.15724](https://arxiv.org/abs/2508.15724)
+
+## Frontiers: evaluating video world models in closed loop
+
+Each entry checked against its arXiv abstract page; World-in-World's environment details and SIMPLER's MMRV definition checked against the full text.
+
+- Assran, M., Bardes, A., Fan, D., Garrido, Q., Howes, R., et al. (2025). *V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning*. [arXiv:2506.09985](https://arxiv.org/abs/2506.09985)
+- Duan, H., Yu, H.-X., Chen, S., Fei-Fei, L., Wu, J. (2025). *WorldScore: A Unified Evaluation Benchmark for World Generation*. [arXiv:2504.00983](https://arxiv.org/abs/2504.00983)
+- Gemini Robotics Team, Choromanski, K., Devin, C., Du, Y., et al. (2025). *Evaluating Gemini Robotics Policies in a Veo World Simulator*. [arXiv:2512.10675](https://arxiv.org/abs/2512.10675)
+- Guo, Y., Shi, L. X., Chen, J., Finn, C. (2025). *Ctrl-World: A Controllable Generative World Model for Robot Manipulation*. [arXiv:2510.10125](https://arxiv.org/abs/2510.10125)
+- Huang, Z., He, Y., Yu, J., Zhang, F., et al. (2023). *VBench: Comprehensive Benchmark Suite for Video Generative Models*. [arXiv:2311.17982](https://arxiv.org/abs/2311.17982)
+- Kang, B., Yue, Y., Lu, R., Lin, Z., Zhao, Y., Wang, K., Huang, G., Feng, J. (2024). *How Far is Video Generation from World Model: A Physical Law Perspective*. [arXiv:2411.02385](https://arxiv.org/abs/2411.02385)
+- Li, X., Hsu, K., Gu, J., Pertsch, K., et al. (2024). *Evaluating Real-World Robot Manipulation Policies in Simulation* (SIMPLER). [arXiv:2405.05941](https://arxiv.org/abs/2405.05941)
+- Li, Y., Zhou, Z., Chen, Y., Xue, Y., Zhu, Y. (2026). *dWorldEval: Scalable Robotic Policy Evaluation via Discrete Diffusion World Model*. [arXiv:2604.22152](https://arxiv.org/abs/2604.22152)
+- Li, Y., Zhu, Y., Wen, J., Shen, C., et al. (2025). *WorldEval: World Model as Real-World Robot Policies Evaluator*. [arXiv:2505.19017](https://arxiv.org/abs/2505.19017)
+- Motamed, S., Culp, L., Swersky, K., Jaini, P., et al. (2025). *Do generative video models understand physical principles?* (Physics-IQ). [arXiv:2501.09038](https://arxiv.org/abs/2501.09038)
+- Qin, Y., Shi, Z., Yu, J., Wang, X., et al. (2024). *WorldSimBench: Towards Video Generation Models as World Simulators*. [arXiv:2410.18072](https://arxiv.org/abs/2410.18072)
+- Quevedo, J., Sharma, A. K., Sun, Y., Suryavanshi, V., et al. (2025). *WorldGym: World Model as An Environment for Policy Evaluation*. [arXiv:2506.00613](https://arxiv.org/abs/2506.00613)
+- Tseng, W.-C., Gu, J., Zhang, Q., Mao, H., Liu, M.-Y., Shkurti, F., Lin, Y.-C. (2025). *Scalable Policy Evaluation with Video World Models*. [arXiv:2511.11520](https://arxiv.org/abs/2511.11520)
+- Wang, D., Liang, Z., Ye, H., Sun, Z., Lu, Z., et al. (2025). *Target-Bench: Can Video World Models Achieve Mapless Path Planning with Semantic Targets?* [arXiv:2511.17792](https://arxiv.org/abs/2511.17792)
+- Xie, Y.-Z., Li, Y.-H., Lee, J.-Y., Zhang, K., et al. (2026). *YoCausal: How Far is Video Generation from World Model? A Causality Perspective*. [arXiv:2605.30346](https://arxiv.org/abs/2605.30346)
+- Zhang, J., Jiang, M., Dai, N., Lu, T., et al. (2025). *World-in-World: World Models in a Closed-Loop World*. [arXiv:2510.18135](https://arxiv.org/abs/2510.18135)
+- Zheng, D., Huang, Z., Liu, H., Zou, K., et al. (2025). *VBench-2.0: Advancing Video Generation Benchmark Suite for Intrinsic Faithfulness*. [arXiv:2503.21755](https://arxiv.org/abs/2503.21755)
+- Ziakas, C., Bar, A., Russo, A. (2026). *Grounding Generated Videos in Feasible Plans via World Models*. [arXiv:2602.01960](https://arxiv.org/abs/2602.01960)
+

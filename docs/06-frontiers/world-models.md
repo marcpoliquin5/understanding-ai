@@ -22,6 +22,8 @@ flowchart LR
 
 Every one of these systems has to cope with **compounding error**: a learned one-step model fed its own predictions drifts, and a planner searching over it finds and exploits its mistakes. [Model-based RL: compounding error and how planners cope](model-based-rl-compounding-error.md) covers why the error grows, why one-step loss misleads, and the fixes (short branched rollouts, value expansion, ensembles and pessimism, replanning, value-equivalent latent models), with a tested sketch.
 
+Generative video models are now proposed as world models too, which raises the question of how to judge them. [Judging video world models by what they let agents do](evaluating-video-world-models-closed-loop.md) argues for closed-loop task success and policy-ranking agreement over visual plausibility, and surveys World-in-World, WorldGym, WorldEval, Ctrl-World and the Veo world simulator, with a tested sketch.
+
 ## Learning from prediction, not reconstruction (active research)
 
 **LeCun (2022)** proposed an architecture for autonomous machine intelligence centred on a world model trained with **joint-embedding predictive architectures (JEPA)**: predict the *representation* of missing or future parts of the input rather than its pixels, so the model can ignore unpredictable detail. **I-JEPA** (Assran et al. 2023) applied this to images, predicting representations of masked image regions.
