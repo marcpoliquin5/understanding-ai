@@ -44,7 +44,7 @@ samples suffice. VC dimension and Rademacher complexity extend this to infinite 
 
 ## Grokking
 
-**Power et al. (2022)** trained small transformers on algorithmic tasks such as modular arithmetic and saw a striking pattern: the model first memorizes the training set, and only much later, long after training accuracy reaches 100%, suddenly generalizes. This **grokking** shows that generalization can emerge abruptly during training, and has become a test case for mechanistic interpretability.
+**Power et al. (2022)** trained small transformers on algorithmic tasks such as modular arithmetic and saw a striking pattern: the model first memorizes the training set, and only much later, long after training accuracy reaches 100%, suddenly generalizes. This **grokking** shows that generalization can emerge abruptly during training, and has become a test case for mechanistic interpretability. The full story, from the Fourier algorithm inside a grokking transformer to weight decay, Softmax Collapse and grokking in LLM pretraining, is on the [grokking page](../02-deep-learning/grokking-and-delayed-generalization.md).
 
 ## Inductive bias in one table
 

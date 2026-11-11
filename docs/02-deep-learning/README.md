@@ -12,6 +12,7 @@ Deep learning stacks many simple, differentiable layers and trains them end to e
 | [State-space models: from S4 to Mamba](state-space-models.md) | Linear dynamical systems as layers, recurrence, convolution and parallel scan (with tested code), HiPPO memory, S4 and diagonal SSMs, selectivity and Mamba, state space duality with linear attention, Mamba-3, the limits of a fixed-size state, and hybrids |
 | [Linear attention and its kernels](linear-attention.md) | Attention as a kernel smoother, the associativity trick and the recurrent form, Performer's random features, feature maps and attention dilution, recall versus state size, decay and gates (GLA, RetNet, Mamba-2), chunkwise kernels (with tested code), hybrids and linearized LLMs |
 | [Mixture of experts](mixture-of-experts.md) | Sparse routing, load balancing and router collapse (with tested code), stability tricks, fine-grained and shared experts, MoE scaling laws, and the systems cost of sparsity |
+| [Grokking: when generalization arrives long after memorization](grokking-and-delayed-generalization.md) | The memorize-then-generalize puzzle, circuit efficiency and weight decay, the Fourier algorithm and progress measures, lazy-to-rich and norm accounts, Softmax Collapse, grokking in vision and LLM pretraining, speed-ups (with tested code) |
 | [Scaling laws](scaling-laws.md) | How loss falls with compute, data and parameters, and what that implies |
 
 ```mermaid
@@ -27,4 +28,5 @@ flowchart LR
     TF --> LA[Linear attention 2020+]
     LA --- SSM
     TF --> MoE[Sparse mixture of experts 2017+]
+    MLP --> GK[Grokking 2022+]
 ```

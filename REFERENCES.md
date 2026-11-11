@@ -20,6 +20,7 @@ Every source cited in Understanding AI, grouped by section. Each entry links to 
 - [State-space models](#state-space-models)
 - [Linear attention](#linear-attention)
 - [Mixture of experts](#mixture-of-experts)
+- [Grokking and delayed generalization](#grokking-and-delayed-generalization)
 - [Generative and multimodal models](#generative-and-multimodal-models)
 - [Diffusion language models](#diffusion-language-models)
 - [Retrieval, tools and agents](#retrieval-tools-and-agents)
@@ -367,6 +368,32 @@ Shazeer et al. (2017), Fedus et al. (2021) and Kimi Team (2025) are also cited o
 - Wang, L., Gao, H., Zhao, C., Sun, X., Dai, D. (2024). *Auxiliary-loss-free load balancing strategy for mixture-of-experts*. [arXiv:2408.15664](https://arxiv.org/abs/2408.15664)
 - Muennighoff, N., Soldaini, L., Groeneveld, D., Lo, K., Morrison, J., Min, S., et al. (2024). *OLMoE: Open mixture-of-experts language models*. [arXiv:2409.02060](https://arxiv.org/abs/2409.02060)
 - DeepSeek-AI, Liu, A., Feng, B., Xue, B., Wang, B., Wu, B., et al. (2024). *DeepSeek-V3 technical report*. [arXiv:2412.19437](https://arxiv.org/abs/2412.19437)
+
+## Grokking and delayed generalization
+
+- Liu, Z., Kitouni, O., Nolte, N., Michaud, E. J., Tegmark, M., Williams, M. (2022a). *Towards understanding grokking: An effective theory of representation learning*. NeurIPS. [arXiv:2205.10343](https://arxiv.org/abs/2205.10343)
+- Thilak, V., Littwin, E., Zhai, S., Saremi, O., Paiss, R., Susskind, J. (2022). *The Slingshot mechanism: An empirical study of adaptive optimizers and the grokking phenomenon*. [arXiv:2206.04817](https://arxiv.org/abs/2206.04817)
+- Liu, Z., Michaud, E. J., Tegmark, M. (2022b). *Omnigrok: Grokking beyond algorithmic data*. [arXiv:2210.01117](https://arxiv.org/abs/2210.01117)
+- Gromov, A. (2023). *Grokking modular arithmetic*. [arXiv:2301.02679](https://arxiv.org/abs/2301.02679)
+- Davies, X., Langosco, L., Krueger, D. (2023). *Unifying grokking and double descent*. NeurIPS 2022 ML Safety Workshop. [arXiv:2303.06173](https://arxiv.org/abs/2303.06173)
+- Merrill, W., Tsilivis, N., Shukla, A. (2023). *A tale of two circuits: Grokking as competition of sparse and dense subnetworks*. ICLR 2023 Workshop on Understanding Foundation Models. [arXiv:2303.11873](https://arxiv.org/abs/2303.11873)
+- Zhong, Z., Liu, Z., Tegmark, M., Andreas, J. (2023). *The clock and the pizza: Two stories in mechanistic explanation of neural networks*. NeurIPS. [arXiv:2306.17844](https://arxiv.org/abs/2306.17844)
+- Varma, V., Shah, R., Kenton, Z., Kramár, J., Kumar, R. (2023). *Explaining grokking through circuit efficiency*. [arXiv:2309.02390](https://arxiv.org/abs/2309.02390)
+- Kumar, T., Bordelon, B., Gershman, S. J., Pehlevan, C. (2023). *Grokking as the transition from lazy to rich training dynamics*. [arXiv:2310.06110](https://arxiv.org/abs/2310.06110)
+- Lyu, K., Jin, J., Li, Z., Du, S. S., Lee, J. D., Hu, W. (2024). *Dichotomy of early and late phase implicit biases can provably induce grokking*. ICLR. [arXiv:2311.18817](https://arxiv.org/abs/2311.18817)
+- Humayun, A. I., Balestriero, R., Baraniuk, R. (2024). *Deep networks always grok and here is why*. ICML. [arXiv:2402.15555](https://arxiv.org/abs/2402.15555)
+- Wang, B., Yue, X., Su, Y., Sun, H. (2024). *Grokked transformers are implicit reasoners: A mechanistic journey to the edge of generalization*. NeurIPS. [arXiv:2405.15071](https://arxiv.org/abs/2405.15071)
+- Lee, J., Kang, B. G., Kim, K., Lee, K. M. (2024). *Grokfast: Accelerated grokking by amplifying slow gradients*. [arXiv:2405.20233](https://arxiv.org/abs/2405.20233)
+- Prieto, L., Barsbey, M., Mediano, P. A. M., Birdal, T. (2025). *Grokking at the edge of numerical stability*. ICLR. [arXiv:2501.04697](https://arxiv.org/abs/2501.04697)
+- Tveit, A., Remseth, B., Skogvold, A. (2025). *Muon optimizer accelerates grokking*. [arXiv:2504.16041](https://arxiv.org/abs/2504.16041)
+- Li, Z., Fan, C., Zhou, T. (2026). *Grokking in LLM pretraining? Monitor memorization-to-generalization without test*. ICLR. [arXiv:2506.21551](https://arxiv.org/abs/2506.21551)
+- Khanh, T. X., Hoa, T. Q., Trung, L. D., Duc, P. T. (2026a). *The norm-separation delay law of grokking: A first-principles theory of delayed generalization*. [arXiv:2603.13331](https://arxiv.org/abs/2603.13331)
+- Khanh, T. X., Viet, D. H., Trung, L. D., Duc, P. T. (2026b). *The weight norm sets the grokking timescale: A causal delay law*. [arXiv:2606.13753](https://arxiv.org/abs/2606.13753)
+- Kataria, A. (2026). *Quantifying the memorization-to-generalization transition: Scaling laws and phase structure in grokking*. [arXiv:2609.10657](https://arxiv.org/abs/2609.10657)
+- Tian, Y., Al-Ars, Z., Kitsak, M., Hofstee, P. (2026). *Misalignment of low-loss regions causes grokking*. [arXiv:2610.00620](https://arxiv.org/abs/2610.00620)
+- Mehendale, S., Chopra, P. (2026). *Subspace crystallization in grokking: Rank compression tracks the phase transition*. [arXiv:2610.35112](https://arxiv.org/abs/2610.35112)
+
+Power et al. (2022), Nanda et al. (2023), Barak et al. (2022) and Jacot et al. (2018) are also cited on the [grokking page](docs/02-deep-learning/grokking-and-delayed-generalization.md); they are listed under their existing sections.
 
 ## Generative and multimodal models
 
