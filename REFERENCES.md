@@ -33,6 +33,9 @@ Every source cited in Understanding AI, grouped by section. Each entry links to 
 - [KV cache](#kv-cache)
 - [Serving long-reasoning models](#serving-long-reasoning-models)
 - [Inference-time routing](#inference-time-routing)
+- [Prefix-aware multi-sample serving](#prefix-aware-multi-sample-serving)
+- [Serving tool-augmented agents](#serving-tool-augmented-agents)
+- [Low-precision training](#low-precision-training)
 - [Alignment, safety and interpretability](#alignment-safety-and-interpretability)
 - [Sparse autoencoders and dictionary learning](#sparse-autoencoders-and-dictionary-learning)
 - [Reward models and their failure modes](#reward-models-and-their-failure-modes)
@@ -819,6 +822,30 @@ Also cited on this page and listed elsewhere: Kwon et al. (2023), Gim et al. (20
 - Zhang, Y., Wo, T., Wang, J., Sun, X., Zhang, M., Yuan, C., Li, L., Hu, C., Zomaya, A. Y., Yang, R. (2026). *SpecBox: Speculative Sandbox Scheduling for Efficient LLM Agent Serving*. [arXiv:2607.23933](https://arxiv.org/abs/2607.23933)
 
 Also cited on this page and listed elsewhere: Kwon et al. (2023) under *Prefix-aware multi-sample serving* and *Systems*; Zheng et al. (2023) *SGLang* under *Prefix-aware multi-sample serving* and *KV cache*; Schick et al. (2023) *Toolformer* and Yao et al. (2022) *ReAct* under *Modern AI*; Yu et al. (2022) *Orca* under *Serving long-reasoning models*.
+
+## Low-precision training
+
+- Agrusa, A., et al. (2026). *What matters for NVFP4 training? A comparative study of low-precision pretraining recipes*. [arXiv:2610.24343](https://arxiv.org/abs/2610.24343)
+- Castro, R. L., et al. (2025). *Quartet: Native FP4 training can be optimal for large language models*. [arXiv:2505.14669](https://arxiv.org/abs/2505.14669)
+- Chmiel, B., Fishman, M., Banner, R., Soudry, D. (2025). *FP4 all the way: Fully quantized training of LLMs*. [arXiv:2505.19115](https://arxiv.org/abs/2505.19115)
+- Cim, M., et al. (2026). *Pretraining large language models with MXFP4 on native FP4 hardware*. [arXiv:2605.09825](https://arxiv.org/abs/2605.09825)
+- Fishman, M., Chmiel, B., Banner, R., Soudry, D. (2024). *Scaling FP8 training to trillion-token LLMs*. ICLR 2025. [arXiv:2409.12517](https://arxiv.org/abs/2409.12517)
+- Gupta, S., Agrawal, A., Gopalakrishnan, K., Narayanan, P. (2015). *Deep learning with limited numerical precision*. ICML. [arXiv:1502.02551](https://arxiv.org/abs/1502.02551)
+- Hu, R., Luschi, C., Balanca, P. (2026). *UE5M3 FP4 block scaling for stable language model pretraining*. [arXiv:2609.02846](https://arxiv.org/abs/2609.02846)
+- Kalamkar, D., et al. (2019). *A study of BFLOAT16 for deep learning training*. [arXiv:1905.12322](https://arxiv.org/abs/1905.12322)
+- Kumar, T., et al. (2024). *Scaling laws for precision*. ICLR 2025. [arXiv:2411.04330](https://arxiv.org/abs/2411.04330)
+- Micikevicius, P., et al. (2022). *FP8 formats for deep learning*. [arXiv:2209.05433](https://arxiv.org/abs/2209.05433)
+- Noune, B., Jones, P., Justus, D., Masters, D., Luschi, C. (2022). *8-bit numerical formats for deep neural networks*. [arXiv:2206.02915](https://arxiv.org/abs/2206.02915)
+- NVIDIA, Abecassis, F., et al. (2025). *Pretraining large language models with NVFP4*. [arXiv:2509.25149](https://arxiv.org/abs/2509.25149)
+- Panferov, A., Schultheis, E., Tabesh, S., Alistarh, D. (2026). *Quartet II: Accurate LLM pre-training in NVFP4 by improved unbiased gradient estimation*. [arXiv:2601.22813](https://arxiv.org/abs/2601.22813)
+- Peng, H., et al. (2023). *FP8-LM: Training FP8 large language models*. [arXiv:2310.18313](https://arxiv.org/abs/2310.18313)
+- Rouhani, B. D., et al. (2023). *Microscaling data formats for deep learning*. [arXiv:2310.10537](https://arxiv.org/abs/2310.10537)
+- Tseng, A., Yu, T., Park, Y. (2025). *Training LLMs with MXFP4*. [arXiv:2502.20586](https://arxiv.org/abs/2502.20586)
+- Wang, N., Choi, J., Brand, D., Chen, C.-Y., Gopalakrishnan, K. (2018). *Training deep neural networks with 8-bit floating point numbers*. NeurIPS. [arXiv:1812.08011](https://arxiv.org/abs/1812.08011)
+- Wang, R., et al. (2025). *Optimizing large language model training using FP4 quantization*. [arXiv:2501.17116](https://arxiv.org/abs/2501.17116)
+- Wortsman, M., Dettmers, T., Zettlemoyer, L., Morcos, A., Farhadi, A., Schmidt, L. (2023). *Stable and low-precision training for large-scale vision-language models*. NeurIPS. [arXiv:2304.13013](https://arxiv.org/abs/2304.13013)
+
+Also cited on this page and listed elsewhere: Micikevicius et al. (2017) under *Systems*; DeepSeek-AI (2024) under *Systems* and *Mixture of experts*; Blake et al. (2024) under *Deep learning architectures*; Prieto et al. (2025) under *Grokking and delayed generalization*.
 
 ## Alignment, safety and interpretability
 

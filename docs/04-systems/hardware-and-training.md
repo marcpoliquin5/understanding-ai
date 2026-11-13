@@ -25,7 +25,7 @@ Large matrix multiplications have high intensity and are compute-bound. Many oth
 | FP8 | 8 | Training and inference on recent accelerators |
 | INT8 / INT4 | 8 / 4 | Quantized inference |
 
-**Mixed-precision training** (Micikevicius et al. 2017) computes in 16-bit while keeping an FP32 master copy of the weights and using loss scaling to avoid gradient underflow.
+**Mixed-precision training** (Micikevicius et al. 2017) computes in 16-bit while keeping an FP32 master copy of the weights and using loss scaling to avoid gradient underflow. For FP8, block-scaled formats and 4-bit pretraining, see [low-precision training](low-precision-training.md).
 
 ## Parallelism
 

@@ -5,6 +5,7 @@ Intelligence at scale is an engineering achievement. Frontier models are trained
 | Page | What you will learn |
 |---|---|
 | [Hardware and training at scale](hardware-and-training.md) | GPUs and TPUs, the roofline model, mixed precision, data/tensor/pipeline parallelism, ZeRO |
+| [Low-precision training: FP8, microscaling and 4-bit pretraining](low-precision-training.md) | Float formats and where the bits go, per-tile and block scaling (MX, NVFP4), stochastic rounding, swamping and accumulator width, the FP4 recipes and their 2026 disagreements, precision-aware scaling laws, long-run stability (tested code) |
 | [Inference and efficiency](inference-and-efficiency.md) | KV caching, batching, quantization, distillation, mixture-of-experts, speculative decoding |
 | [The KV cache: paging, sharing and compression](kv-cache.md) | How big the cache gets and why decoding is memory-bound, paging and prefix sharing (tested code), prefill/decode disaggregation, MQA, GQA and latent caches, token eviction versus query-aware selection, 2- and 3-bit quantization, and what compression costs in multi-turn use |
 | [Speculative decoding](speculative-decoding.md) | The draft-and-verify acceptance rule and its exactness proof, the speed-up formula and best draft length (tested code), drafters from small models to Medusa and EAGLE-3, token trees and optimal transport, when batching, long contexts and mixture-of-experts change the answer |
